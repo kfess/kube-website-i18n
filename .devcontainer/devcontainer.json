@@ -1,0 +1,29 @@
+{
+  "name": "kube-website-i18n Dev Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "web",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscode-icons-team.vscode-icons",
+        "eamodio.gitlens",
+        "golang.go",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next",
+        "github.copilot"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "remoteUser": "node"
+  //   "features": {
+  //     "ghcr.io/devcontainers/features/node:1": {
+  //       "version": "22"
+  //     }
+  //   },
+  //   "otherPortsAttributes": {
+  //     "onAutoForward": "notify"
+  //   }
+}
