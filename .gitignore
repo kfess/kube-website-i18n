@@ -1,5 +1,6 @@
 # target k8s directory
 k8s-repo
+data/temp
 
 # web
 # Logs

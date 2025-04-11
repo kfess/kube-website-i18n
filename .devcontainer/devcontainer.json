@@ -8,11 +8,12 @@
       "extensions": [
         "vscode-icons-team.vscode-icons",
         "eamodio.gitlens",
-        "golang.go",
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "ms-vscode.vscode-typescript-next",
-        "github.copilot"
+        "github.copilot",
+        "mechatroner.rainbow-csv",
+        "timonwong.shellcheck"
       ]
     }
   },
