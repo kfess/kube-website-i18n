@@ -78,7 +78,7 @@ export const TranslationMatrix = (props: Props) => {
   const [translations, setTranslations] = useState<TranslationState>({});
 
   const [activePage, setActivePage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState('20');
+  const [itemsPerPage, setItemsPerPage] = useState('50');
   const { colorScheme } = useMantineColorScheme();
   const isDark = colorScheme === 'dark';
 
@@ -121,7 +121,7 @@ export const TranslationMatrix = (props: Props) => {
             size="xs"
             value={itemsPerPage}
             onChange={(value) => {
-              setItemsPerPage(value || '20');
+              setItemsPerPage(value || '50');
               setActivePage(1);
             }}
             data={[

@@ -35,7 +35,7 @@ export const contentTypes = [
   'Case-study',
   'Example',
   'Include',
-  'Partner',
+  // 'Partner', // For now, we don't have any partner content in markdown
   'Release',
   'Training',
 ] as const;
