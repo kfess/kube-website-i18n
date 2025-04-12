@@ -35,9 +35,9 @@ export const contentTypes = [
   'Case-study',
   'Example',
   'Include',
-  // 'Partner', // For now, we don't have any partner content in markdown
   'Release',
-  'Training',
+  // 'Partner', // For now, we don't have any partner content in markdown
+  // 'Training', // For now, we don't have any training content in markdown
 ] as const;
 export type ContentType = (typeof contentTypes)[number];
 

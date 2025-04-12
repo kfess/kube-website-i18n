@@ -9,7 +9,8 @@ import {
   Text,
   useMantineColorScheme,
 } from '@mantine/core';
-import { LANGUAGES } from './languages';
+import { useLocalStorage } from '@mantine/hooks';
+import { Language, LANGUAGES } from './languages';
 import { ContentType, DocsSubContentType, TranslationState } from './translation';
 
 const getTranslationData = async (
@@ -76,6 +77,9 @@ type Props = BaseProps | DocsProps;
 
 export const TranslationMatrix = (props: Props) => {
   const [translations, setTranslations] = useState<TranslationState>({});
+  const [preferredLanguage, _setPreferredLanguage] = useLocalStorage<Language>({
+    key: 'preferred-language',
+  });
 
   const [activePage, setActivePage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState('50');
@@ -83,6 +87,11 @@ export const TranslationMatrix = (props: Props) => {
   const isDark = colorScheme === 'dark';
 
   const languages = Object.keys(LANGUAGES) as Array<keyof typeof LANGUAGES>;
+  const sortedLanguages = [
+    'en' as Language,
+    ...(preferredLanguage && preferredLanguage !== 'en' ? [preferredLanguage] : []),
+    ...languages.filter((lang) => lang !== preferredLanguage && lang !== 'en'),
+  ];
 
   const translationEntries = Object.entries(translations);
   const totalItems = translationEntries.length;
@@ -147,10 +156,16 @@ export const TranslationMatrix = (props: Props) => {
           <Table.Thead>
             <Table.Tr>
               <Table.Th style={{ whiteSpace: 'nowrap', textAlign: 'center' }}>File Path</Table.Th>
-              {languages.map((lang) => (
+              {sortedLanguages.map((lang) => (
                 <Table.Th key={lang} style={{ whiteSpace: 'nowrap' }}>
                   <Text size="sm" fw={500}>
                     {LANGUAGES[lang]}
+                    {lang === preferredLanguage && (
+                      <Text component="span" c="red">
+                        {' '}
+                        *
+                      </Text>
+                    )}
                   </Text>
                 </Table.Th>
               ))}
@@ -164,7 +179,7 @@ export const TranslationMatrix = (props: Props) => {
                     {filePath}
                   </Text>
                 </Table.Td>
-                {languages.map((lang) => {
+                {sortedLanguages.map((lang) => {
                   const exists = fileData.translations[lang]?.exists;
 
                   const bgColor = exists
