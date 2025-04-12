@@ -28,15 +28,25 @@ export type TranslationState = {
   };
 };
 
-export const documentTypes = [
-  'docs',
-  'blog',
-  'community',
-  'case-study',
-  'example',
-  'include',
-  'partner',
-  'release',
-  'training',
-];
-export type DocumentType = (typeof documentTypes)[number];
+export const contentTypes = [
+  'Docs',
+  'Blog',
+  'Community',
+  'Case-study',
+  'Example',
+  'Include',
+  'Partner',
+  'Release',
+  'Training',
+] as const;
+export type ContentType = (typeof contentTypes)[number];
+
+export const docsSubContentTypes = [
+  'Getting Started',
+  'Concepts',
+  'Tasks',
+  'Tutorials',
+  'Reference',
+  'Contribute',
+] as const;
+export type DocsSubContentType = (typeof docsSubContentTypes)[number];

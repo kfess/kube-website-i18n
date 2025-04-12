@@ -1,13 +1,15 @@
 import { useState } from 'react';
 import { Container } from '@mantine/core';
 import { Welcome } from '@/components/Welcome/Welcome';
-import { DocumentTypeSelector } from '@/features/ClassificationSelector';
+import { DocumentTypeSelector } from '@/features/ContentTypeSelector';
 import { NavigationBar } from '@/features/NavigationBar';
-import { DocumentType } from '@/features/translation';
+import { ContentType, DocsSubContentType } from '@/features/translation';
 import { TranslationMatrix } from '@/features/TranslationMatrix';
 
 export function HomePage() {
-  const [selectedDocumentType, setSelectedDocumentType] = useState<DocumentType>('blog');
+  const [selectedContentType, setSelectedContentType] = useState<ContentType>('Blog');
+  const [selectedDocsSubType, setSelectedDocsSubType] =
+    useState<DocsSubContentType>('Getting Started');
 
   return (
     <>
@@ -15,10 +17,14 @@ export function HomePage() {
         <Welcome />
         <Container size="xl" py="xl">
           <DocumentTypeSelector
-            documentType={selectedDocumentType}
-            setDocumentType={setSelectedDocumentType}
+            contentType={selectedContentType}
+            setContentType={setSelectedContentType}
+            setDocsSubType={setSelectedDocsSubType}
           />
-          <TranslationMatrix documentType="blog" />
+          <TranslationMatrix
+            contentType={selectedContentType}
+            docsSubContentType={selectedDocsSubType}
+          />
         </Container>
       </NavigationBar>
     </>

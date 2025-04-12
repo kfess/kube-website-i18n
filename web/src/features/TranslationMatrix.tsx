@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Box,
   Group,
@@ -9,16 +9,74 @@ import {
   Text,
   useMantineColorScheme,
 } from '@mantine/core';
-import translationsData from '../../../data/output/content_type/blog.json';
 import { LANGUAGES } from './languages';
-import { DocumentType, TranslationState } from './translation';
+import { ContentType, DocsSubContentType, TranslationState } from './translation';
 
-interface Props {
-  documentType: DocumentType;
-}
+const getTranslationData = async (
+  contentType: ContentType,
+  docsSubContentType?: DocsSubContentType
+): Promise<TranslationState> => {
+  if (contentType === 'Docs') {
+    if (docsSubContentType === 'Concepts') {
+      const data = await import(`../../../data/output/content_type/docs/concepts.json`);
+      return data.default;
+    } else if (docsSubContentType === 'Getting Started') {
+      const data = await import(
+        `../../../data/output/content_type/docs/getting-started-guides.json`
+      );
+      return data.default;
+    } else if (docsSubContentType === 'Reference') {
+      const data = await import(`../../../data/output/content_type/docs/reference.json`);
+      return data.default;
+    } else if (docsSubContentType === 'Tutorials') {
+      const data = await import(`../../../data/output/content_type/docs/tutorials.json`);
+      return data.default;
+    } else if (docsSubContentType === 'Tasks') {
+      const data = await import(`../../../data/output/content_type/docs/tasks.json`);
+      return data.default;
+    } else if (docsSubContentType === 'Contribute') {
+      const data = await import(`../../../data/output/content_type/docs/contribute.json`);
+      return data.default;
+    }
+  } else if (contentType === 'Blog') {
+    const data = await import(`../../../data/output/content_type/blog.json`);
+    return data.default;
+  } else if (contentType === 'Release') {
+    const data = await import(`../../../data/output/content_type/releases.json`);
+    return data.default;
+  } else if (contentType === 'Community') {
+    const data = await import(`../../../data/output/content_type/community.json`);
+    return data.default;
+  } else if (contentType === 'Example') {
+    const data = await import(`../../../data/output/content_type/examples.json`);
+    return data.default;
+  } else if (contentType === 'Include') {
+    const data = await import(`../../../data/output/content_type/includes.json`);
+    return data.default;
+  } else if (contentType === 'Case-study') {
+    const data = await import(`../../../data/output/content_type/case-studies.json`);
+    return data.default;
+  }
 
-export const TranslationMatrix = ({ documentType }: Props) => {
-  const [translations, _setTranslations] = useState<TranslationState>(translationsData);
+  throw new Error(`Unknown content type: ${contentType}`);
+};
+
+// Other types
+type BaseProps = {
+  contentType: Exclude<ContentType, 'Docs'>;
+};
+
+// Docs-specific props
+type DocsProps = {
+  contentType: 'Docs';
+  docsSubContentType: DocsSubContentType;
+};
+
+type Props = BaseProps | DocsProps;
+
+export const TranslationMatrix = (props: Props) => {
+  const [translations, setTranslations] = useState<TranslationState>({});
+
   const [activePage, setActivePage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState('20');
   const { colorScheme } = useMantineColorScheme();
@@ -33,6 +91,24 @@ export const TranslationMatrix = ({ documentType }: Props) => {
   const startIndex = (activePage - 1) * parseInt(itemsPerPage, 10);
   const endIndex = Math.min(startIndex + parseInt(itemsPerPage, 10), totalItems);
   const currentPageData = translationEntries.slice(startIndex, endIndex);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        if (props.contentType === 'Docs') {
+          const data = await getTranslationData(props.contentType, props.docsSubContentType);
+          setTranslations(data);
+        } else {
+          const data = await getTranslationData(props.contentType);
+          setTranslations(data);
+        }
+      } catch (error) {
+        console.error('Error fetching translation data:', error);
+      }
+    };
+
+    fetchData();
+  }, [props.contentType, props.contentType === 'Docs' ? props.docsSubContentType : undefined]);
 
   return (
     <Stack>
@@ -62,6 +138,7 @@ export const TranslationMatrix = ({ documentType }: Props) => {
             total={totalPages}
             size="sm"
             withEdges
+            siblings={1}
           />
         </Group>
       </Group>
@@ -95,16 +172,16 @@ export const TranslationMatrix = ({ documentType }: Props) => {
                       ? 'rgba(34, 139, 34, 0.15)'
                       : '#edf7ed'
                     : isDark
-                      ? 'rgba(220, 20, 60, 0.1)'
-                      : '#ffebee';
+                      ? 'rgba(120, 120, 120, 0.1)' // 暗いモードでの灰色背景
+                      : '#f5f5f5'; // 明るいモードでの灰色背景
 
                   const textColor = exists
                     ? isDark
                       ? '#4caf50'
                       : '#2e7d32'
                     : isDark
-                      ? '#f44336'
-                      : '#c62828';
+                      ? '#9e9e9e' // 暗いモードでの灰色テキスト
+                      : '#757575'; // 明るいモードでの灰色テキスト
 
                   return (
                     <Table.Td
@@ -115,7 +192,7 @@ export const TranslationMatrix = ({ documentType }: Props) => {
                       }}
                     >
                       <Text c={textColor} fw={600}>
-                        {exists ? '✓' : '-'}
+                        {exists ? '✅' : '–'}
                       </Text>
                     </Table.Td>
                   );
