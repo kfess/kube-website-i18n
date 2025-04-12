@@ -1,0 +1,773 @@
+{
+  "content/en/docs/user-journeys/users/application-developer/advanced.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/application-developer/advanced.md",
+        "commits": [
+          {
+            "hash": "649c3d3f3beb5ccf3352fa194be27c19c68511cd",
+            "date": "Wed Jan 22 09:56:35 2020 +0530",
+            "message": "Remove user-journeys legacy content #18615 (#18779)",
+            "author": "Shivang Goswami"
+          },
+          {
+            "hash": "127b52afaf54f2fc9634d0da5b21d037d671a4e8",
+            "date": "Sat Jun 2 04:58:57 2018 +0900",
+            "message": "[mod] Client library link is dead (#8734)",
+            "author": "Masaya Aoyama (@amsy810)"
+          },
+          {
+            "hash": "46cde58bd2c01a8a839c4b9c025835fbb0baf2d7",
+            "date": "Fri May 11 00:37:55 2018 +0200",
+            "message": "Fix lists in application-developer/advanced (#8472)",
+            "author": "Andreas Jaeger"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/application-developer/foundational.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/application-developer/foundational.md",
+        "commits": [
+          {
+            "hash": "649c3d3f3beb5ccf3352fa194be27c19c68511cd",
+            "date": "Wed Jan 22 09:56:35 2020 +0530",
+            "message": "Remove user-journeys legacy content #18615 (#18779)",
+            "author": "Shivang Goswami"
+          },
+          {
+            "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+            "date": "Wed Jun 12 17:27:29 2019 +0530",
+            "message": "Restructure the left navigation pane of setup (#14826)",
+            "author": "Rajakavitha1"
+          },
+          {
+            "hash": "97630241293109e99543d54a93dadeadb3e6e0fe",
+            "date": "Sun May 5 09:09:37 2019 +0800",
+            "message": "Fix docker installation links (#14154)",
+            "author": "Quan Tian"
+          },
+          {
+            "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+            "date": "Wed Mar 20 19:05:05 2019 -0400",
+            "message": "Fix relative links issue in English content (#13307)",
+            "author": "chenrui"
+          },
+          {
+            "hash": "87f0a72ddad8075a82a9768ea892e1e1b4970e7c",
+            "date": "Thu Jan 17 01:27:45 2019 +0000",
+            "message": "Add correct styling for MicroK8s in docs (#12248)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "9e9eb8108fee8a71bd3aa3ff9f5244d4134c92eb",
+            "date": "Tue Jan 8 17:58:29 2019 +0530",
+            "message": "Updated a link (#12027)",
+            "author": "shavidissa"
+          },
+          {
+            "hash": "e91aba3b45bb133467d3babcdbd9f73d21691083",
+            "date": "Thu Nov 15 21:33:54 2018 +0800",
+            "message": "cleanup k8s101/201 resource left (#11008)",
+            "author": "Chao Wang"
+          },
+          {
+            "hash": "0478f4e565f85c0a3cc7c7fd690be761b1b73333",
+            "date": "Mon Oct 8 18:06:58 2018 -0700",
+            "message": "Add microk8s to foundational.md (#10543)",
+            "author": "Stephan Fabel"
+          },
+          {
+            "hash": "0ac89106cfde915aa4586b717617bfc24c7a4678",
+            "date": "Sun May 6 14:00:50 2018 -0700",
+            "message": "#8346 HTML syntax instead of MD in HTML blocks (#8352)",
+            "author": "Claire Lundeby"
+          },
+          {
+            "hash": "17c98dcc9085158cbdc2fcc659f513e3b2eda1eb",
+            "date": "Sun May 6 10:28:50 2018 -0700",
+            "message": "Fix markdown issues (#8335)",
+            "author": "Beth Aitman"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/application-developer/intermediate.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/application-developer/intermediate.md",
+        "commits": [
+          {
+            "hash": "649c3d3f3beb5ccf3352fa194be27c19c68511cd",
+            "date": "Wed Jan 22 09:56:35 2020 +0530",
+            "message": "Remove user-journeys legacy content #18615 (#18779)",
+            "author": "Shivang Goswami"
+          },
+          {
+            "hash": "b5b8539a8efaba4fcc278d2e536606bb16cee74a",
+            "date": "Tue Nov 20 23:10:46 2018 +0800",
+            "message": "Remove excess Spaces (#11106)",
+            "author": "Liuduii"
+          },
+          {
+            "hash": "09e5db0724c11587f3c5870a8a774578df25487b",
+            "date": "Wed Jul 11 16:43:26 2018 -0400",
+            "message": "Update authentication links (#9452)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "3ed3ae82de89b9bd960b77955a24925183aa879b",
+            "date": "Sat Jun 16 02:19:29 2018 +0900",
+            "message": "Update Kuberbetes Blog URLs (#8612)",
+            "author": "Takuya N"
+          },
+          {
+            "hash": "e3116d39132d0bc08529aab72ee1fd6922336542",
+            "date": "Fri May 11 22:10:28 2018 +0200",
+            "message": "Fix application-developer/intermediate issues (#8474)",
+            "author": "Andreas Jaeger"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/cluster-operator/foundational.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/cluster-operator/foundational.md",
+        "commits": [
+          {
+            "hash": "649c3d3f3beb5ccf3352fa194be27c19c68511cd",
+            "date": "Wed Jan 22 09:56:35 2020 +0530",
+            "message": "Remove user-journeys legacy content #18615 (#18779)",
+            "author": "Shivang Goswami"
+          },
+          {
+            "hash": "55ac801bc447ae185b6d0dd22ac5793e91f329fe",
+            "date": "Wed Jun 12 17:27:29 2019 +0530",
+            "message": "Restructure the left navigation pane of setup (#14826)",
+            "author": "Rajakavitha1"
+          },
+          {
+            "hash": "851ef58fa8413e47bb18a15de53d9556be8c53dd",
+            "date": "Mon Mar 25 17:06:16 2019 -0500",
+            "message": "Official 1.14 Release Docs (#13174)",
+            "author": "Jim Angel"
+          },
+          {
+            "hash": "75ed07f7169f1b5e96e0684c86e6f4699eefd779",
+            "date": "Fri Dec 7 19:06:31 2018 -0500",
+            "message": "Add information on supported version skew and upgrade order (#11060)",
+            "author": "Jordan Liggitt"
+          },
+          {
+            "hash": "e91aba3b45bb133467d3babcdbd9f73d21691083",
+            "date": "Thu Nov 15 21:33:54 2018 +0800",
+            "message": "cleanup k8s101/201 resource left (#11008)",
+            "author": "Chao Wang"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/cluster-operator/intermediate.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/cluster-operator/intermediate.md",
+        "commits": [
+          {
+            "hash": "649c3d3f3beb5ccf3352fa194be27c19c68511cd",
+            "date": "Wed Jan 22 09:56:35 2020 +0530",
+            "message": "Remove user-journeys legacy content #18615 (#18779)",
+            "author": "Shivang Goswami"
+          },
+          {
+            "hash": "3ca1955a1372b60ef3483ab4c7ce08fe09e0d637",
+            "date": "Fri Jul 12 02:03:07 2019 +0100",
+            "message": "Add “CNCF” to glossary (#14537)",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "851ef58fa8413e47bb18a15de53d9556be8c53dd",
+            "date": "Mon Mar 25 17:06:16 2019 -0500",
+            "message": "Official 1.14 Release Docs (#13174)",
+            "author": "Jim Angel"
+          },
+          {
+            "hash": "2c50177af5a6b3eec3e7e9e60b8f82a6a461c2b6",
+            "date": "Wed Jul 18 18:54:21 2018 -0400",
+            "message": "Update admission controller links (#9386)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "2ee2e9d5bb4a9076581b83d95e7a17d31a429f99",
+            "date": "Wed Jul 18 18:32:04 2018 -0400",
+            "message": "Update authorization-rbac links (#9463)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "bf109b4dfa294647b553aefaab3a22e929c0db25",
+            "date": "Wed Jul 18 18:07:24 2018 -0400",
+            "message": "Update authorization links (#9465)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "42decf8cf753f234067f8242e0bd20201f1d0ea3",
+            "date": "Thu Jul 12 00:45:25 2018 -0400",
+            "message": "Update accessing-the-api links (#9441)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "09e5db0724c11587f3c5870a8a774578df25487b",
+            "date": "Wed Jul 11 16:43:26 2018 -0400",
+            "message": "Update authentication links (#9452)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "5f30e7d4c37cbd5649618b7f95b52197eadffb81",
+            "date": "Wed Jun 27 15:26:18 2018 -0700",
+            "message": "Release docs for Kubernetes 1.11 (#9171)",
+            "author": "Misty Linville"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/cluster-operator/_advanced.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/cluster-operator/_advanced.md",
+        "commits": [
+          {
+            "hash": "5c0afee773979008b289b9fef84d6d01e12e339f",
+            "date": "Mon Jun 24 15:29:55 2019 +0900",
+            "message": "Remove unused user-journeys/users/cluster-operator/_advanced.md (#15068)",
+            "author": "Takuya N"
+          },
+          {
+            "hash": "df77bb68007e53b6a6c2187151b4abeaecc81f79",
+            "date": "Sat May 19 09:17:50 2018 +1000",
+            "message": "Added toc_hide=true flag to file frontmatter (#8633)",
+            "author": "aburdenthehand"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/_index.md",
+        "commits": [
+          {
+            "hash": "e091e29a5d6e1c96ce8c8ea467305c4d0f20cb51",
+            "date": "Wed Jun 27 11:24:19 2018 -0700",
+            "message": "Remove unused index pages (#9230)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/application-developer/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/application-developer/_index.md",
+        "commits": [
+          {
+            "hash": "e091e29a5d6e1c96ce8c8ea467305c4d0f20cb51",
+            "date": "Wed Jun 27 11:24:19 2018 -0700",
+            "message": "Remove unused index pages (#9230)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-journeys/users/cluster-operator/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-journeys/users/cluster-operator/_index.md",
+        "commits": [
+          {
+            "hash": "e091e29a5d6e1c96ce8c8ea467305c4d0f20cb51",
+            "date": "Wed Jun 27 11:24:19 2018 -0700",
+            "message": "Remove unused index pages (#9230)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  }
+}

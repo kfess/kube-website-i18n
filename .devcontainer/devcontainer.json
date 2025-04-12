@@ -1,8 +1,11 @@
 {
   "name": "kube-website-i18n Dev Environment",
-  "dockerComposeFile": "docker-compose.yml",
+  "dockerComposeFile": "../docker-compose.yml",
   "service": "web",
   "workspaceFolder": "/workspace",
+  "features": {
+    "ghcr.io/dhoeric/features/hadolint:1": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -13,18 +16,19 @@
         "ms-vscode.vscode-typescript-next",
         "github.copilot",
         "mechatroner.rainbow-csv",
-        "timonwong.shellcheck"
-      ]
+        "timonwong.shellcheck",
+        "charliermarsh.ruff"
+      ],
+      "settings": {
+        "[python]": {
+          "editor.formatOnSave": true,
+          "editor.defaultFormatter": "charliermarsh.ruff"
+        },
+        "ruff.lint.enable": true,
+        "ruff.format.enable": true
+      }
     }
   },
   "forwardPorts": [3000],
   "remoteUser": "node"
-  //   "features": {
-  //     "ghcr.io/devcontainers/features/node:1": {
-  //       "version": "22"
-  //     }
-  //   },
-  //   "otherPortsAttributes": {
-  //     "onAutoForward": "notify"
-  //   }
 }

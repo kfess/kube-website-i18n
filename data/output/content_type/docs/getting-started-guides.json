@@ -1,0 +1,2800 @@
+{
+  "content/en/docs/getting-started-guides/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/_index.md",
+        "commits": [
+          {
+            "hash": "751ae6df0c64a9ed7984b4748cfe0372546ae955",
+            "date": "Mon Aug 26 17:00:20 2019 +1000",
+            "message": "Remove deprecated getting started guides (#16012)",
+            "author": "Praveen Sastry"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": true,
+        "path": "content/es/docs/getting-started-guides/_index.md",
+        "commits": [
+          {
+            "hash": "b7feff121c6230089ea2fa268f3fa404429b2c8d",
+            "date": "Thu Apr 6 05:11:48 2023 -0700",
+            "message": "Merge pull request #40536 from asa3311/sync-garbage-collection",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f36d23010104cf166b61e11297f9b177b90e1654",
+            "date": "Tue Jun 22 18:14:52 2021 +0900",
+            "message": "[es] Remove exec permission on markdown files",
+            "author": "Jihoon Seo"
+          },
+          {
+            "hash": "cb49ff1005274afecb8087cd2d5aafbf7430c450",
+            "date": "Tue Apr 16 13:13:05 2019 +0200",
+            "message": "Add es/docs index tree (#13809)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "fr": {
+        "exists": true,
+        "path": "content/fr/docs/getting-started-guides/_index.md",
+        "commits": [
+          {
+            "hash": "178444f0270e5a50a360855513f98f246e2d9110",
+            "date": "Mon Mar 27 10:16:55 2023 +0100",
+            "message": "remove deprecated getting started guides",
+            "author": "MILLWOOD"
+          },
+          {
+            "hash": "d028d87b8e86829d16d7cb34c8d652cd8de1c28c",
+            "date": "Tue Jun 11 19:06:20 2019 +0200",
+            "message": "Add all the _index files for the French translation (#14744)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/fedora/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/fedora/_index.md",
+        "commits": [
+          {
+            "hash": "751ae6df0c64a9ed7984b4748cfe0372546ae955",
+            "date": "Mon Aug 26 17:00:20 2019 +1000",
+            "message": "Remove deprecated getting started guides (#16012)",
+            "author": "Praveen Sastry"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": true,
+        "path": "content/es/docs/getting-started-guides/fedora/_index.md",
+        "commits": [
+          {
+            "hash": "b7feff121c6230089ea2fa268f3fa404429b2c8d",
+            "date": "Thu Apr 6 05:11:48 2023 -0700",
+            "message": "Merge pull request #40536 from asa3311/sync-garbage-collection",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f36d23010104cf166b61e11297f9b177b90e1654",
+            "date": "Tue Jun 22 18:14:52 2021 +0900",
+            "message": "[es] Remove exec permission on markdown files",
+            "author": "Jihoon Seo"
+          },
+          {
+            "hash": "cb49ff1005274afecb8087cd2d5aafbf7430c450",
+            "date": "Tue Apr 16 13:13:05 2019 +0200",
+            "message": "Add es/docs index tree (#13809)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "fr": {
+        "exists": true,
+        "path": "content/fr/docs/getting-started-guides/fedora/_index.md",
+        "commits": [
+          {
+            "hash": "178444f0270e5a50a360855513f98f246e2d9110",
+            "date": "Mon Mar 27 10:16:55 2023 +0100",
+            "message": "remove deprecated getting started guides",
+            "author": "MILLWOOD"
+          },
+          {
+            "hash": "d028d87b8e86829d16d7cb34c8d652cd8de1c28c",
+            "date": "Tue Jun 11 19:06:20 2019 +0200",
+            "message": "Add all the _index files for the French translation (#14744)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/alternatives.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/alternatives.md",
+        "commits": [
+          {
+            "hash": "751ae6df0c64a9ed7984b4748cfe0372546ae955",
+            "date": "Mon Aug 26 17:00:20 2019 +1000",
+            "message": "Remove deprecated getting started guides (#16012)",
+            "author": "Praveen Sastry"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/fedora/fedora_manual_config.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/fedora/fedora_manual_config.md",
+        "commits": [
+          {
+            "hash": "751ae6df0c64a9ed7984b4748cfe0372546ae955",
+            "date": "Mon Aug 26 17:00:20 2019 +1000",
+            "message": "Remove deprecated getting started guides (#16012)",
+            "author": "Praveen Sastry"
+          },
+          {
+            "hash": "625bf369a91a9b58fb9315fadd4b141836aaec4d",
+            "date": "Tue May 21 21:20:49 2019 +0530",
+            "message": "setup page replaces picking the right solutions (#14442)",
+            "author": "Rajakavitha1"
+          },
+          {
+            "hash": "a0cf7ebf133a654d87c8faeed02dea0aa0edd776",
+            "date": "Tue Jan 29 02:18:36 2019 +0530",
+            "message": "Update systemctl en/disable to start/stop service (#12100)",
+            "author": "Suraj Deshmukh"
+          },
+          {
+            "hash": "1749327bf19eda5c058b62605e7f4d44a3afdb17",
+            "date": "Fri Nov 2 18:44:37 2018 +0100",
+            "message": "Describe what file to edit (#10790)",
+            "author": "Robert de Bock"
+          },
+          {
+            "hash": "700446d3da95bb5280feb90850809b9dbd76f8ee",
+            "date": "Thu Jul 19 00:41:54 2018 +0100",
+            "message": "Update fedora_manual_config.md (#9416)",
+            "author": "jw-networking"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/fedora/flannel_multi_node_cluster.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/fedora/flannel_multi_node_cluster.md",
+        "commits": [
+          {
+            "hash": "751ae6df0c64a9ed7984b4748cfe0372546ae955",
+            "date": "Mon Aug 26 17:00:20 2019 +1000",
+            "message": "Remove deprecated getting started guides (#16012)",
+            "author": "Praveen Sastry"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "aaa8d7e3f35d6ac11751efea32c8d3fe0b88db02",
+            "date": "Tue Aug 21 23:58:13 2018 +0200",
+            "message": "Removed spurious <strong> tag in one Title (#10032)",
+            "author": "Lele"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu.md",
+        "commits": [
+          {
+            "hash": "751ae6df0c64a9ed7984b4748cfe0372546ae955",
+            "date": "Mon Aug 26 17:00:20 2019 +1000",
+            "message": "Remove deprecated getting started guides (#16012)",
+            "author": "Praveen Sastry"
+          },
+          {
+            "hash": "798c6c748c1c0c46802323794acf68645ba4c90d",
+            "date": "Wed Apr 17 05:12:02 2019 +0530",
+            "message": "fixed the broken link (#13839)",
+            "author": "Vageesha17"
+          },
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/_index.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "1bfe9725f9b920f285936444e79203d22a556db6",
+            "date": "Wed Feb 13 10:06:56 2019 +0000",
+            "message": "Adds link to official docs for LDAP support (#12581)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/backups.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/backups.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "078fb57fe9df6ea72acf8baa2f2e35de8f12c5c2",
+            "date": "Mon Oct 15 21:37:14 2018 -0400",
+            "message": "Fixing a small issue (#10392)",
+            "author": "Mike Wilson"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/decommissioning.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/decommissioning.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/glossary.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/glossary.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/installation.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/installation.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+            "date": "Wed Mar 20 19:05:05 2019 -0400",
+            "message": "Fix relative links issue in English content (#13307)",
+            "author": "chenrui"
+          },
+          {
+            "hash": "bb818a9b41c274217542f61710ef973e7a98a5c3",
+            "date": "Wed Jul 18 15:12:16 2018 -0700",
+            "message": "Make macOS standard usage (#9422)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/local.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/local.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "6285545a2448a21a29951b1885f62e5d88bfe5f9",
+            "date": "Thu Dec 20 21:46:01 2018 -0800",
+            "message": "Add note about need for lxd init (#11822)",
+            "author": "Philip Brown"
+          },
+          {
+            "hash": "09c4ae5f1d63352604fe0cedff35e07b633454ba",
+            "date": "Wed Oct 3 21:34:07 2018 +0200",
+            "message": "Warn LXD users with an IPv6-enabed bridge (#10206)",
+            "author": "Stanislas"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/logging.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/logging.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/monitoring.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/monitoring.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/networking.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/networking.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "d3cca48e3f342fb3dcb93cf60a59e0f301185f13",
+            "date": "Thu Mar 7 15:01:05 2019 +0530",
+            "message": "Code snippents shouldn't include the command prompt (#12779)",
+            "author": "Neha Yadav"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/operational-considerations.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/operational-considerations.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "aa0da8f34a156ec5b2fb297f9b17678bdbb85f0d",
+            "date": "Mon Jan 14 03:26:49 2019 +0100",
+            "message": "Improved openshift, docker, ansible references (#12201)",
+            "author": "Roy Lenferink"
+          },
+          {
+            "hash": "2e24a0e5c24872eaa8276c08d9c5a5df9951c6c8",
+            "date": "Thu Aug 9 07:14:51 2018 +0900",
+            "message": "Remove linefeed so that the page does not break (#9776)",
+            "author": "Junichi Yoshise"
+          },
+          {
+            "hash": "200857de807db112029385115944a4fb417f41f0",
+            "date": "Mon Jun 4 23:06:53 2018 +0800",
+            "message": "Typo fix: contraints -> constraints (#8884)",
+            "author": "Rui Cao"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/rancher.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/rancher.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+            "date": "Wed Mar 20 19:05:05 2019 -0400",
+            "message": "Fix relative links issue in English content (#13307)",
+            "author": "chenrui"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/scaling.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/scaling.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "9908cb8561476a99c9f5259c0f990f1ebd6312ec",
+            "date": "Wed Feb 6 12:25:25 2019 +0530",
+            "message": "Fixes #12515 - Update latest hyperlink for JUJU controllers ha (#12516)",
+            "author": "Damini Satya"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/security.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/security.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/storage.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/storage.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/troubleshooting.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/troubleshooting.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+            "date": "Wed Mar 20 19:05:05 2019 -0400",
+            "message": "Fix relative links issue in English content (#13307)",
+            "author": "chenrui"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/upgrades.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/upgrades.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "8d55b797a0a17d055f004363388555450ee92549",
+            "date": "Fri Mar 8 20:47:30 2019 -0600",
+            "message": "Clarify the blue/green upgrade example. (#13009)",
+            "author": "Michael Iatrou"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "6632f380f1f3ed5c4e4fd66ddd7f4919a905a92d",
+            "date": "Tue Jul 10 18:09:25 2018 -0700",
+            "message": "Fix typo in upgrade guide (#9460)",
+            "author": "Misty Linville"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ubuntu/validation.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ubuntu/validation.md",
+        "commits": [
+          {
+            "hash": "a1b0c2e816714c51e81685a9b0d1b00be183511c",
+            "date": "Tue Apr 9 03:31:03 2019 +0100",
+            "message": "Update Ubuntu docs  (#13594)",
+            "author": "Nick Veitch"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "e0dd309c4ec68974aad1ee99412afc765af8c8ac",
+            "date": "Fri Jun 29 20:57:20 2018 -0400",
+            "message": "correct capitalization across docs (#9327)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/windows/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/windows/_index.md",
+        "commits": [
+          {
+            "hash": "851ef58fa8413e47bb18a15de53d9556be8c53dd",
+            "date": "Mon Mar 25 17:06:16 2019 -0500",
+            "message": "Official 1.14 Release Docs (#13174)",
+            "author": "Jim Angel"
+          },
+          {
+            "hash": "5a5f77db64f11a2935bb9a88fb32c3e1661335b9",
+            "date": "Wed Mar 20 19:05:05 2019 -0400",
+            "message": "Fix relative links issue in English content (#13307)",
+            "author": "chenrui"
+          },
+          {
+            "hash": "a8b7c759df68e43a6038260c474fbb9115d15924",
+            "date": "Fri Feb 8 17:33:01 2019 +0100",
+            "message": "windows: Add windows prefix for windows services (#12377)",
+            "author": "Steffen Butzer"
+          },
+          {
+            "hash": "27b7b453a9871bb3f1432cff0db365accafcbfbb",
+            "date": "Mon Dec 3 19:21:11 2018 -0600",
+            "message": "Official 1.13 Release Docs (#11401)",
+            "author": "Jim Angel"
+          },
+          {
+            "hash": "e992177e2c210ce3540ca990f28849350d6decfd",
+            "date": "Mon Nov 12 09:21:29 2018 +0800",
+            "message": "Remove some extra Spaces (#10949)",
+            "author": "Liuduii"
+          },
+          {
+            "hash": "d65e1790ffc020129db5f5a583060d6fe318316a",
+            "date": "Tue Nov 6 11:33:04 2018 -0800",
+            "message": "Add admonition type to shortcode (#9482)",
+            "author": "Luc Perkins"
+          },
+          {
+            "hash": "3dd65e4e953842ff8be11a7b33d7698c952e9675",
+            "date": "Wed Jul 4 14:58:20 2018 +0800",
+            "message": "Consolidate YAML files [part-14] (#9379)",
+            "author": "Qiming"
+          },
+          {
+            "hash": "e0dd309c4ec68974aad1ee99412afc765af8c8ac",
+            "date": "Fri Jun 29 20:57:20 2018 -0400",
+            "message": "correct capitalization across docs (#9327)",
+            "author": "Bob Killen"
+          },
+          {
+            "hash": "4cfaa14ddaeae7f630c48fb3aabf078d1adf335a",
+            "date": "Tue Jun 26 00:25:23 2018 +0200",
+            "message": "Update Windows documentation for OVN/OVS CNI plugin (#8482)",
+            "author": "Alin Balutoiu"
+          },
+          {
+            "hash": "cfe4ac425153d9825c05d7e4a6995db76623f521",
+            "date": "Fri Jun 8 03:47:23 2018 +0900",
+            "message": "fix id about joining-your-nodes in create-cluster-kubeadm page (#8966)",
+            "author": "Takuya Tokuda"
+          },
+          {
+            "hash": "6ca9f364acaf9bbe9bb050ee9228a46915abc321",
+            "date": "Thu May 31 22:24:57 2018 +0200",
+            "message": "Update documentation for Windows with new service feature (#8454)",
+            "author": "Alin Balutoiu"
+          },
+          {
+            "hash": "39632504d9dd276121ba5f0fb915e411874fb627",
+            "date": "Fri May 18 19:25:51 2018 +0200",
+            "message": "Hugo: Fix broken lists in windows start guide (#8490)",
+            "author": "Andreas Jaeger"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/scratch.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/scratch.md",
+        "commits": [
+          {
+            "hash": "25d566650b6f37eaae8dd791712e92fc9f84fff1",
+            "date": "Mon Jun 4 23:20:56 2018 +0200",
+            "message": "Hugo: Fix getting-started-guides/scratch.md (#8899)",
+            "author": "Andreas Jaeger"
+          },
+          {
+            "hash": "e9c4637d92227f9017d60c10ba196f6b48f04bdf",
+            "date": "Thu May 17 15:53:50 2018 -0700",
+            "message": "Remove Photon references (#8411)",
+            "author": "Doug MacEachern"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/minikube.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/minikube.md",
+        "commits": [
+          {
+            "hash": "7d0e6bc49e20f1e2e5bc0e14d835dc17e80e8e0c",
+            "date": "Sat Jun 2 04:16:57 2018 +0800",
+            "message": "Update the version of echoserver (#8771)",
+            "author": "Xianglin Gao"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/clc.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/clc.md",
+        "commits": [
+          {
+            "hash": "127b52afaf54f2fc9634d0da5b21d037d671a4e8",
+            "date": "Sat Jun 2 04:58:57 2018 +0900",
+            "message": "[mod] Client library link is dead (#8734)",
+            "author": "Masaya Aoyama (@amsy810)"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/alibaba-cloud.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/alibaba-cloud.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/aws.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/aws.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/azure.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/azure.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/cloudstack.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/cloudstack.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/coreos/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/coreos/_index.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/dcos.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/dcos.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/gce.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/gce.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/kops.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/kops.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/kubespray.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/kubespray.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/ovirt.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/ovirt.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/getting-started-guides/stackpoint.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/getting-started-guides/stackpoint.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  }
+}

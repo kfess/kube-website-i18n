@@ -1,0 +1,242 @@
+{
+  "content/en/docs/doc-contributor-tools/linkchecker/README.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/doc-contributor-tools/linkchecker/README.md",
+        "commits": [
+          {
+            "hash": "99d420a5e4917d3bad10850a6251633f374d0a30",
+            "date": "Tue Oct 1 10:50:30 2024 +0800",
+            "message": "Tweak and clean up pr-wranglers and linkchecke readme",
+            "author": "Michael"
+          },
+          {
+            "hash": "e832559fa0e4452c1340c2cc194c914a4084d0ed",
+            "date": "Fri Apr 29 12:11:43 2022 +0800",
+            "message": "[en] Update docs/doc-contributor-tools/linkchecker",
+            "author": "xin.li"
+          },
+          {
+            "hash": "2eb6ab1ad349778878c90e0902c079b0b04025ba",
+            "date": "Mon May 25 18:14:44 2020 +0100",
+            "message": "Add a link checker",
+            "author": "Tim Bannister"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": true,
+        "path": "content/zh-cn/docs/doc-contributor-tools/linkchecker/README.md",
+        "commits": [
+          {
+            "hash": "be29c56506bd9a887311e98bc65c055bf97146cf",
+            "date": "Thu Oct 3 16:50:39 2024 +0800",
+            "message": "[zh-cn]sync pr-wranglers linkchecker/README",
+            "author": "xin.li"
+          },
+          {
+            "hash": "110485b0082718a9b18c0ccb546c5a24c431e77d",
+            "date": "Wed Jun 14 09:52:21 2023 +0800",
+            "message": "[zh] sync linkchecker/README.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      }
+    }
+  },
+  "content/en/docs/doc-contributor-tools/README.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/doc-contributor-tools/README.md",
+        "commits": [
+          {
+            "hash": "bb200488fd4467d95b51fcfb35b3f7492aedb445",
+            "date": "Tue Sep 15 17:35:19 2020 -0700",
+            "message": "Merge pull request #23802 from supirman/id-tutorial-expose",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "0e327ce9a083f1bbd7868a1aca06105f08e06861",
+            "date": "Thu Jul 12 15:01:26 2018 -0700",
+            "message": "Add Atom snippets file (#9158)",
+            "author": "Misty Linville"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/doc-contributor-tools/snippets/README.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/doc-contributor-tools/snippets/README.md",
+        "commits": [
+          {
+            "hash": "bb200488fd4467d95b51fcfb35b3f7492aedb445",
+            "date": "Tue Sep 15 17:35:19 2020 -0700",
+            "message": "Merge pull request #23802 from supirman/id-tutorial-expose",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "4029a7ab5ebcc939c99980128805c9b1ef2a08ee",
+            "date": "Thu Apr 25 16:40:47 2019 +0000",
+            "message": "Normalize case: Github -> GitHub (#13828)",
+            "author": "Danny Berger"
+          },
+          {
+            "hash": "5ae0d0dd8d4056360e7d66efc8d8d40b6a545629",
+            "date": "Mon Aug 6 16:15:57 2018 -0700",
+            "message": "Reorganize docs contrib guide (#9510)",
+            "author": "Misty Linville"
+          },
+          {
+            "hash": "0e327ce9a083f1bbd7868a1aca06105f08e06861",
+            "date": "Thu Jul 12 15:01:26 2018 -0700",
+            "message": "Add Atom snippets file (#9158)",
+            "author": "Misty Linville"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  }
+}

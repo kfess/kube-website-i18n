@@ -1,0 +1,1257 @@
+{
+  "content/en/community/code-of-conduct.md": {
+    "translations": {
+      "bn": {
+        "exists": true,
+        "path": "content/bn/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "1fffdde67af0bf3f4154f8013decb494fa293139",
+            "date": "Wed May 1 23:46:46 2024 +0600",
+            "message": "Linked with code-of-conduct-languages/bn.md commit no",
+            "author": "Asem Hamid"
+          },
+          {
+            "hash": "6193b816967d8638edcbb042a86f35067c9a85a3",
+            "date": "Wed May 1 23:44:43 2024 +0600",
+            "message": "Update code-of-conduct.md",
+            "author": "Asem Hamid"
+          },
+          {
+            "hash": "3450b7976009d20e2b8e741c7ce98b7eee9f0f0f",
+            "date": "Sun Apr 28 18:55:38 2024 +0600",
+            "message": "Update code-of-conduct.md",
+            "author": "Asem Hamid"
+          },
+          {
+            "hash": "5cb20bb21041bfa44076c6416c71bc321ddaad94",
+            "date": "Sun Apr 28 18:36:48 2024 +0600",
+            "message": "Create code-of-conduct.md",
+            "author": "Asem Hamid"
+          }
+        ]
+      },
+      "de": {
+        "exists": true,
+        "path": "content/de/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "347fc4ca4adc84400eb10a5608316853db4ab2cc",
+            "date": "Tue Feb 4 22:40:35 2020 +0100",
+            "message": "Added a translated code of conduct (#18981)",
+            "author": "Alexander Zimmermann"
+          }
+        ]
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "e1ca4c8a46b84260b6f92c2a98f508596c533439",
+            "date": "Sun Apr 28 20:11:19 2024 -0700",
+            "message": "Merge pull request #45919 from sftim/20240418_drop_federation_id",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "df7c09f3750b6874f5291e9839d19138c79733e8",
+            "date": "Tue Apr 23 08:41:08 2024 -0700",
+            "message": "Merge pull request #45749 from b1gb4by/doc/issue-45521",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f5436ba8838f0bc4db88466b0be969687d372fae",
+            "date": "Sat Aug 5 21:41:55 2023 +0800",
+            "message": "Update CNCF Community Code of Conduct v1.3",
+            "author": "ydFu"
+          },
+          {
+            "hash": "6897c0e5faf3ed49cdfe70d5a3d91759dc7056fb",
+            "date": "Sun Sep 18 23:44:30 2022 -0700",
+            "message": "Merge pull request #36890 from windsonsea/nslvl",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "555419f584591f526f555e89ac38328984c35742",
+            "date": "Thu Aug 25 17:53:00 2022 +0800",
+            "message": "Update code of conduct based on upstream changes",
+            "author": "ydFu"
+          },
+          {
+            "hash": "34311def9fe4e8df5d55c50e43acbbb1b28aa236",
+            "date": "Thu Jun 16 02:00:00 2022 +0800",
+            "message": "Sync code of conduct from cncf upstream",
+            "author": "Sean Wei"
+          },
+          {
+            "hash": "a520a7bb2d51fb22b2ebe0f4808eb2a987852b92",
+            "date": "Sun Feb 13 13:28:56 2022 +0000",
+            "message": "Update code-of-conduct page to use new styles",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "92760f80dc79e8750e88f221b4776f798cd3c7c0",
+            "date": "Thu May 30 03:32:20 2019 +0100",
+            "message": "Update code of conduct based on upstream changes (#14612)",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "d0861dc7ab360ed7f8eddd231264cb79c14c8c7c",
+            "date": "Wed Dec 5 17:35:21 2018 -0600",
+            "message": "Fix link to k8s CoCC (#11548)",
+            "author": "Carolyn Van Slyck"
+          },
+          {
+            "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
+            "date": "Mon Oct 15 16:33:34 2018 -0700",
+            "message": "Use CoCC email for reporting CoC violations (#10621)",
+            "author": "Carolyn Van Slyck"
+          },
+          {
+            "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+            "date": "Mon Jul 9 12:12:17 2018 -0700",
+            "message": "Use static content for code of conduct (#9355)",
+            "author": "Misty Linville"
+          }
+        ]
+      },
+      "es": {
+        "exists": true,
+        "path": "content/es/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "86e0bef076c03a091ea18a5d2c4043aee9bfd3f8",
+            "date": "Thu Jun 6 07:20:13 2019 +0100",
+            "message": "New upstream commit for code of conduct (Spanish) (#14631)",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
+            "date": "Thu Apr 4 21:11:20 2019 +0100",
+            "message": "Init Spanish translation (#13543)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "fr": {
+        "exists": true,
+        "path": "content/fr/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "2a120450ebc0c2a20f975426313e926ea04a1f1b",
+            "date": "Thu Oct 10 18:02:53 2019 +0900",
+            "message": "Remove trailing spaces from FR documents(#16742) (#16788)",
+            "author": "Yushiro FURUKAWA"
+          },
+          {
+            "hash": "e9d35f21b719976d17f8e5a5bfba97bef48be340",
+            "date": "Thu Aug 29 09:31:56 2019 +0200",
+            "message": "docs-fr | community | _index.html (#15978)",
+            "author": "aimbot31"
+          }
+        ]
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": true,
+        "path": "content/id/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "b57586c7a012b3f71083fd5be4e4181cd89b095a",
+            "date": "Fri Jan 24 14:06:31 2020 +0700",
+            "message": "Add Community and Code of Conduct for ID (#18828)",
+            "author": "Danni Setiawan"
+          }
+        ]
+      },
+      "it": {
+        "exists": true,
+        "path": "content/it/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "aec8c4bcf5cdd9ce315fbb860705d9d6631d5bc5",
+            "date": "Fri Feb 14 04:58:36 2020 +0900",
+            "message": "Remove trailing spaces from it documents (#16790)",
+            "author": "Yushiro FURUKAWA"
+          },
+          {
+            "hash": "3d6f72ffc4ec4b745e7b149e2bafa2e7244f98d7",
+            "date": "Sat Feb 1 16:17:20 2020 +0000",
+            "message": "Revise Italian code of conduct localization (#18400)",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "e8af96dbeb7615384b720fa6ed104911ea23dc3b",
+            "date": "Tue Feb 19 19:04:14 2019 -0800",
+            "message": "translate tutorials/kubernetes-basics/update/update-intro/ in Italian (#12425)",
+            "author": "Michele Berardi"
+          }
+        ]
+      },
+      "ja": {
+        "exists": true,
+        "path": "content/ja/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "de93c00967f4323411c31fcc8d2b0c2434be8e09",
+            "date": "Fri Apr 12 06:59:44 2024 -0700",
+            "message": "Merge pull request #45044 from tamilselvan1102/k8s-web-proxy",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "d9f56dabc4c19880d75c097ff9312e07f0780116",
+            "date": "Fri Aug 14 14:25:41 2020 +0900",
+            "message": "Translate alt attributes and fix the commit hash of the CoC.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "c83c99c04f3f0f77d765d37e554f322f5ed11741",
+            "date": "Thu Aug 13 23:28:13 2020 +0900",
+            "message": "Translate community pages into Japanese.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "5dbc8d9f8583e655c16f3b02bf622324bf5d943a",
+            "date": "Thu Aug 13 16:10:19 2020 +0900",
+            "message": "Copy community directory from en/.",
+            "author": "TAKAHASHI Shuuji"
+          }
+        ]
+      },
+      "ko": {
+        "exists": true,
+        "path": "content/ko/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "0b9d4c324ee5099ef74fe4e2108b71ff6980487d",
+            "date": "Tue Feb 14 00:56:53 2023 +0900",
+            "message": "[ko] Update outdated files in dev-1.26-ko.1 (M1)",
+            "author": "jongwooo"
+          },
+          {
+            "hash": "6f0684fc94940c761b2bac8c209c523554f60081",
+            "date": "Fri Jul 29 11:01:12 2022 -0700",
+            "message": "Merge pull request #34415 from Arhell/upd-content",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "3928253710182dff221a3d69e9422318d4fb7f6b",
+            "date": "Thu May 19 10:46:36 2022 +0900",
+            "message": "[ko] Update outdated files in dev-1.24-ko.1 M1-M16",
+            "author": "Jihoon Seo"
+          },
+          {
+            "hash": "48dad3d71efaa24fea974a53d2266a56a3ad47b9",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          },
+          {
+            "hash": "c74ce882ecf462e0ac31c5f997a14f4fb397f588",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          }
+        ]
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": true,
+        "path": "content/pt-br/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "8149cf90b6f9cfc3dafa6462232f26c2b8c58fcb",
+            "date": "Sat Dec 17 21:33:42 2022 -0300",
+            "message": "[pt-br] Update community/code-of-conduct (#38407)",
+            "author": "Fernanda Leite"
+          },
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "ru": {
+        "exists": true,
+        "path": "content/ru/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "c4b2c82254ed635e4eca4abac3858209d6768b3e",
+            "date": "Thu Sep 24 23:19:20 2020 +0300",
+            "message": "docs: add russian version community and CoC pages",
+            "author": "madetara"
+          }
+        ]
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": true,
+        "path": "content/vi/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "933975324ce6836c61c1263ad76a5dec89c447ca",
+            "date": "Mon Mar 16 13:22:35 2020 +0700",
+            "message": "Add Vietnamese code of conduct (#19020)",
+            "author": "Nguyen Quang Huy"
+          }
+        ]
+      },
+      "zh-cn": {
+        "exists": true,
+        "path": "content/zh-cn/community/code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "c288f61c91ec241aa726ccb65e2a360f165a780c",
+            "date": "Mon Dec 23 20:52:49 2024 +0800",
+            "message": "[zh] Sync community files",
+            "author": "Michael"
+          },
+          {
+            "hash": "aad0551a0eaf0f18707411ff8574c31647e11b92",
+            "date": "Mon Sep 4 06:21:48 2023 -0700",
+            "message": "Merge pull request #42859 from windsonsea/cocyh",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b0f65dd2f04815ffe1e01aa874c63d3845d93868",
+            "date": "Mon Nov 7 17:25:09 2022 +0800",
+            "message": "[zh] sync /community/code-of-conduct.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "ab1c0cc599f98b23f2ab4b6a5bda7bd039911da9",
+            "date": "Sat Nov 5 08:18:37 2022 +0800",
+            "message": "fix: zh-cn code of conduct css",
+            "author": "Chris Wan"
+          },
+          {
+            "hash": "ec447d6b07cd32b20a50ce2c32a2ecbc5cc5e72f",
+            "date": "Thu Jun 23 22:02:51 2022 +0800",
+            "message": "Update create-cluster-kubeadm.md",
+            "author": "yanrong.shi"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      }
+    }
+  },
+  "content/en/community/static/community-values.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/static/community-values.md",
+        "commits": [
+          {
+            "hash": "df7c09f3750b6874f5291e9839d19138c79733e8",
+            "date": "Tue Apr 23 08:41:08 2024 -0700",
+            "message": "Merge pull request #45749 from b1gb4by/doc/issue-45521",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "34311fed5f219c621a4f702f5b3897128a2fee5f",
+            "date": "Thu Jun 16 13:02:00 2022 +0800",
+            "message": "Sync community-values.md from k/community",
+            "author": "Sean Wei"
+          },
+          {
+            "hash": "29963327b61a90db70142d64e35084d2e5f5e274",
+            "date": "Thu Jan 14 19:45:52 2021 -0800",
+            "message": "Merge pull request #26089 from kubernetes/dev-1.20-ko.2",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": true,
+        "path": "content/ru/community/static/community-values.md",
+        "commits": [
+          {
+            "hash": "accbd5ef66f9430b4812aff82c387f67bc6b6cba",
+            "date": "Sat Mar 26 19:45:18 2022 +0400",
+            "message": "translated_quote",
+            "author": "Ilya Z"
+          },
+          {
+            "hash": "1564cafee6b90173455616c1ce11943213371210",
+            "date": "Thu Jun 3 04:05:38 2021 -0700",
+            "message": "Merge pull request #28241 from HongjiangHuang/fix/init-container-zh",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": true,
+        "path": "content/zh-cn/community/static/community-values.md",
+        "commits": [
+          {
+            "hash": "c288f61c91ec241aa726ccb65e2a360f165a780c",
+            "date": "Mon Dec 23 20:52:49 2024 +0800",
+            "message": "[zh] Sync community files",
+            "author": "Michael"
+          },
+          {
+            "hash": "4879291e25a8a4cc8bff515170438b6c98ad5c5c",
+            "date": "Tue Aug 23 21:59:27 2022 +0800",
+            "message": "translate content/zh-cn/community/static/community-values.md",
+            "author": "michelle951"
+          }
+        ]
+      }
+    }
+  },
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "translations": {
+      "bn": {
+        "exists": true,
+        "path": "content/bn/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "fcf0d907315388d4acc02a992a0534817acdf9b2",
+            "date": "Thu Oct 31 00:06:32 2024 +0200",
+            "message": "[bn] update contributor covenant links",
+            "author": "Arhell"
+          },
+          {
+            "hash": "3dc8aa5ee0a458b297fc6412184f697ac2ad2bb9",
+            "date": "Mon Apr 29 08:18:21 2024 +0000",
+            "message": "[bn] Localize cncf-code-of-conduct",
+            "author": "Sajib Adhikary"
+          }
+        ]
+      },
+      "de": {
+        "exists": true,
+        "path": "content/de/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "7cdf04a1437ab8c92391f2515a3e27ac5536e51f",
+            "date": "Wed Dec 30 00:57:49 2020 -0800",
+            "message": "Merge pull request #25865 from npu21/conduct_de",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "925496f7b69341dcf82d03c454be6849b9c312eb",
+            "date": "Thu Feb 6 09:39:33 2020 +0000",
+            "message": "Fix code of conduct title (#19006)",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "347fc4ca4adc84400eb10a5608316853db4ab2cc",
+            "date": "Tue Feb 4 22:40:35 2020 +0100",
+            "message": "Added a translated code of conduct (#18981)",
+            "author": "Alexander Zimmermann"
+          }
+        ]
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "ead42dc1576432b59dc7701ce563b8f34ef64a75",
+            "date": "Tue Oct 29 00:32:54 2024 +0000",
+            "message": "Merge pull request #48574 from my-git9/pp-10081",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "06b1ec220b765556677e984487905f5d05103b89",
+            "date": "Mon Apr 29 10:19:14 2024 +0800",
+            "message": "Sync from https://raw.githubusercontent.com/cncf/foundation/main/code-of-conduct.md",
+            "author": "tuesdayinsighter"
+          },
+          {
+            "hash": "5f184802ec6f028039c920720088af6fda1bea3c",
+            "date": "Sun Apr 28 00:44:24 2024 -0700",
+            "message": "Merge pull request #46019 from niranjandarshann/training",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f5436ba8838f0bc4db88466b0be969687d372fae",
+            "date": "Sat Aug 5 21:41:55 2023 +0800",
+            "message": "Update CNCF Community Code of Conduct v1.3",
+            "author": "ydFu"
+          },
+          {
+            "hash": "6897c0e5faf3ed49cdfe70d5a3d91759dc7056fb",
+            "date": "Sun Sep 18 23:44:30 2022 -0700",
+            "message": "Merge pull request #36890 from windsonsea/nslvl",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "555419f584591f526f555e89ac38328984c35742",
+            "date": "Thu Aug 25 17:53:00 2022 +0800",
+            "message": "Update code of conduct based on upstream changes",
+            "author": "ydFu"
+          },
+          {
+            "hash": "1c9c2f049227b8bd47da46c04dcd44c18ec0ac84",
+            "date": "Mon Jun 20 23:45:43 2022 -0700",
+            "message": "Merge pull request #34407 from yanrongshi/zh]-update/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes.md",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "34311def9fe4e8df5d55c50e43acbbb1b28aa236",
+            "date": "Thu Jun 16 02:00:00 2022 +0800",
+            "message": "Sync code of conduct from cncf upstream",
+            "author": "Sean Wei"
+          },
+          {
+            "hash": "8f9e08b8777b003c1f690081b7c17fcc5bd90396",
+            "date": "Mon Dec 28 10:24:28 2020 -0800",
+            "message": "Merge pull request #25836 from Arhell/upd",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "92760f80dc79e8750e88f221b4776f798cd3c7c0",
+            "date": "Thu May 30 03:32:20 2019 +0100",
+            "message": "Update code of conduct based on upstream changes (#14612)",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
+            "date": "Mon Oct 15 16:33:34 2018 -0700",
+            "message": "Use CoCC email for reporting CoC violations (#10621)",
+            "author": "Carolyn Van Slyck"
+          },
+          {
+            "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+            "date": "Mon Jul 9 12:12:17 2018 -0700",
+            "message": "Use static content for code of conduct (#9355)",
+            "author": "Misty Linville"
+          }
+        ]
+      },
+      "es": {
+        "exists": true,
+        "path": "content/es/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "fcf60300657158e7ebadc836322a86a58ed6b102",
+            "date": "Wed Dec 30 14:22:01 2020 +0800",
+            "message": "Use https for link to contributor covenant",
+            "author": "Zhang Yong"
+          },
+          {
+            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
+            "date": "Thu Apr 4 21:11:20 2019 +0100",
+            "message": "Init Spanish translation (#13543)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "fr": {
+        "exists": true,
+        "path": "content/fr/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "bb808687d05b0ecae82867f81b9c89b8a41d3dfe",
+            "date": "Thu Jan 28 11:23:13 2021 +0800",
+            "message": "Use https for link to contributor covenant",
+            "author": "Zhang Yong"
+          },
+          {
+            "hash": "2a120450ebc0c2a20f975426313e926ea04a1f1b",
+            "date": "Thu Oct 10 18:02:53 2019 +0900",
+            "message": "Remove trailing spaces from FR documents(#16742) (#16788)",
+            "author": "Yushiro FURUKAWA"
+          },
+          {
+            "hash": "e9d35f21b719976d17f8e5a5bfba97bef48be340",
+            "date": "Thu Aug 29 09:31:56 2019 +0200",
+            "message": "docs-fr | community | _index.html (#15978)",
+            "author": "aimbot31"
+          }
+        ]
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": true,
+        "path": "content/id/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "904a20b82db0c5de3f72e1983cc2ab9992a30ede",
+            "date": "Wed Oct 30 00:16:36 2024 +0200",
+            "message": "[id] update contributor covenant links",
+            "author": "Arhell"
+          },
+          {
+            "hash": "3e1a0eb1e6ba7e3836d702bbebf7710693e8dc99",
+            "date": "Wed Jun 30 16:11:58 2021 +0800",
+            "message": "upgrade http link to https",
+            "author": "yaohaoyun"
+          },
+          {
+            "hash": "b57586c7a012b3f71083fd5be4e4181cd89b095a",
+            "date": "Fri Jan 24 14:06:31 2020 +0700",
+            "message": "Add Community and Code of Conduct for ID (#18828)",
+            "author": "Danni Setiawan"
+          }
+        ]
+      },
+      "it": {
+        "exists": true,
+        "path": "content/it/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "b7997b4a6d6e06149a02a6d26d9e527be8ef5ebe",
+            "date": "Thu Jan 28 11:39:43 2021 +0800",
+            "message": "Use https for link to contributor covenant",
+            "author": "Zhang Yong"
+          },
+          {
+            "hash": "04aa3aade6dba32ae1f3768d3c836f46cb0b040c",
+            "date": "Sun Apr 5 10:51:58 2020 +0200",
+            "message": "reimport from https://raw.githubusercontent.com/cncf/foundation/master/code-of-conduct-languages/it.md",
+            "author": "Fabio Alessandro Locati"
+          },
+          {
+            "hash": "e8af96dbeb7615384b720fa6ed104911ea23dc3b",
+            "date": "Tue Feb 19 19:04:14 2019 -0800",
+            "message": "translate tutorials/kubernetes-basics/update/update-intro/ in Italian (#12425)",
+            "author": "Michele Berardi"
+          }
+        ]
+      },
+      "ja": {
+        "exists": true,
+        "path": "content/ja/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "17119b9b6a19ff10d5e544403a5a8ce34fd3c850",
+            "date": "Fri Nov 1 03:03:26 2024 +0000",
+            "message": "Merge pull request #48401 from windsonsea/nodefor",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "de93c00967f4323411c31fcc8d2b0c2434be8e09",
+            "date": "Fri Apr 12 06:59:44 2024 -0700",
+            "message": "Merge pull request #45044 from tamilselvan1102/k8s-web-proxy",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "7ba4f09b2260534a6b9e334ac180980074d94379",
+            "date": "Thu Jan 28 11:17:58 2021 +0800",
+            "message": "Use https for link to contributor covenant",
+            "author": "Zhang Yong"
+          },
+          {
+            "hash": "c83c99c04f3f0f77d765d37e554f322f5ed11741",
+            "date": "Thu Aug 13 23:28:13 2020 +0900",
+            "message": "Translate community pages into Japanese.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "5dbc8d9f8583e655c16f3b02bf622324bf5d943a",
+            "date": "Thu Aug 13 16:10:19 2020 +0900",
+            "message": "Copy community directory from en/.",
+            "author": "TAKAHASHI Shuuji"
+          }
+        ]
+      },
+      "ko": {
+        "exists": true,
+        "path": "content/ko/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "dae2d98e15ebbbe9931103f345f064253d27bc7a",
+            "date": "Sun Nov 3 00:18:18 2024 +0200",
+            "message": "[ko] update contributor covenant links",
+            "author": "Arhell"
+          },
+          {
+            "hash": "783d36738115646c161d535593ea72817c18f906",
+            "date": "Thu Sep 22 04:08:21 2022 +0900",
+            "message": "[ko] Update outdated files dev-1.25-ko.1 (M1-M10)",
+            "author": "having-dlrow"
+          },
+          {
+            "hash": "6f0684fc94940c761b2bac8c209c523554f60081",
+            "date": "Fri Jul 29 11:01:12 2022 -0700",
+            "message": "Merge pull request #34415 from Arhell/upd-content",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "bfd90bff5f3ba78e8f545ec860f5c5717e6ae6af",
+            "date": "Sat Jan 2 23:07:59 2021 +0900",
+            "message": "Ko: Second Korean l10n work for release-1.20",
+            "author": "seokho-son"
+          },
+          {
+            "hash": "48dad3d71efaa24fea974a53d2266a56a3ad47b9",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          },
+          {
+            "hash": "c74ce882ecf462e0ac31c5f997a14f4fb397f588",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          }
+        ]
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": true,
+        "path": "content/pt-br/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "5c87028b7ec575716799b5c10719d665cff94c4d",
+            "date": "Sat Nov 2 09:06:05 2024 +0200",
+            "message": "[pt] update contributor covenant links",
+            "author": "Arhell"
+          },
+          {
+            "hash": "8149cf90b6f9cfc3dafa6462232f26c2b8c58fcb",
+            "date": "Sat Dec 17 21:33:42 2022 -0300",
+            "message": "[pt-br] Update community/code-of-conduct (#38407)",
+            "author": "Fernanda Leite"
+          },
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "ru": {
+        "exists": true,
+        "path": "content/ru/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "c4b2c82254ed635e4eca4abac3858209d6768b3e",
+            "date": "Thu Sep 24 23:19:20 2020 +0300",
+            "message": "docs: add russian version community and CoC pages",
+            "author": "madetara"
+          }
+        ]
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": true,
+        "path": "content/vi/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "dd7da56bf62a587d1d7df89535692b5aeacbadbc",
+            "date": "Wed Jan 27 19:35:07 2021 -0800",
+            "message": "Merge pull request #26243 from Arhell/add",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "933975324ce6836c61c1263ad76a5dec89c447ca",
+            "date": "Mon Mar 16 13:22:35 2020 +0700",
+            "message": "Add Vietnamese code of conduct (#19020)",
+            "author": "Nguyen Quang Huy"
+          }
+        ]
+      },
+      "zh-cn": {
+        "exists": true,
+        "path": "content/zh-cn/community/static/cncf-code-of-conduct.md",
+        "commits": [
+          {
+            "hash": "e20fb8560c94c65dbb6f7a089fe29d4816a8562a",
+            "date": "Tue Oct 29 07:14:54 2024 +0000",
+            "message": "Merge pull request #48581 from dipesh-rawat/fix-link",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "bd04c5114fa9c52f2bc0d7f0ee41ce1c190072ae",
+            "date": "Sun Apr 28 22:48:16 2024 +0800",
+            "message": "Update cncf-code-of-conduct.md",
+            "author": "THAT ONE GUY"
+          },
+          {
+            "hash": "aad0551a0eaf0f18707411ff8574c31647e11b92",
+            "date": "Mon Sep 4 06:21:48 2023 -0700",
+            "message": "Merge pull request #42859 from windsonsea/cocyh",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "256c1c9e4fcb012aa5b173b91547d31529f6f44b",
+            "date": "Thu Nov 24 01:50:03 2022 -0800",
+            "message": "Merge pull request #38024 from tamilselvan1102/k8s-doc-web",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      }
+    }
+  },
+  "content/en/community/special/kubernetes-10th-birthday.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/special/kubernetes-10th-birthday.md",
+        "commits": [
+          {
+            "hash": "46196821ae420230ec6fa08862c2f6aa03f097e4",
+            "date": "Sun Jun 30 18:20:17 2024 +0100",
+            "message": "Clean up after the 10th birthday",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "a02b447adcf127969e114a049d3987a179860c1f",
+            "date": "Thu Jun 6 08:13:02 2024 -0700",
+            "message": "Merge pull request #46700 from windsonsea/crens",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/community/static/README.md": {
+    "translations": {
+      "bn": {
+        "exists": true,
+        "path": "content/bn/community/static/README.md",
+        "commits": [
+          {
+            "hash": "7e8026e5e2576774e87cd650d266a2206773ea70",
+            "date": "Sun Apr 28 19:33:13 2024 +0600",
+            "message": "Update and rename README.md to README.md",
+            "author": "Asem Hamid"
+          }
+        ]
+      },
+      "de": {
+        "exists": true,
+        "path": "content/de/community/static/README.md",
+        "commits": [
+          {
+            "hash": "347fc4ca4adc84400eb10a5608316853db4ab2cc",
+            "date": "Tue Feb 4 22:40:35 2020 +0100",
+            "message": "Added a translated code of conduct (#18981)",
+            "author": "Alexander Zimmermann"
+          }
+        ]
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/static/README.md",
+        "commits": [
+          {
+            "hash": "afc338c0bf350a27104389438d4634baeb5603a9",
+            "date": "Tue Feb 8 11:26:12 2022 +0000",
+            "message": "Update and restyle community page",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+            "date": "Mon Jul 9 12:12:17 2018 -0700",
+            "message": "Use static content for code of conduct (#9355)",
+            "author": "Misty Linville"
+          }
+        ]
+      },
+      "es": {
+        "exists": true,
+        "path": "content/es/community/static/README.md",
+        "commits": [
+          {
+            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
+            "date": "Thu Apr 4 21:11:20 2019 +0100",
+            "message": "Init Spanish translation (#13543)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "fr": {
+        "exists": true,
+        "path": "content/fr/community/static/README.md",
+        "commits": [
+          {
+            "hash": "e9d35f21b719976d17f8e5a5bfba97bef48be340",
+            "date": "Thu Aug 29 09:31:56 2019 +0200",
+            "message": "docs-fr | community | _index.html (#15978)",
+            "author": "aimbot31"
+          }
+        ]
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": true,
+        "path": "content/it/community/static/README.md",
+        "commits": [
+          {
+            "hash": "e8af96dbeb7615384b720fa6ed104911ea23dc3b",
+            "date": "Tue Feb 19 19:04:14 2019 -0800",
+            "message": "translate tutorials/kubernetes-basics/update/update-intro/ in Italian (#12425)",
+            "author": "Michele Berardi"
+          }
+        ]
+      },
+      "ja": {
+        "exists": true,
+        "path": "content/ja/community/static/README.md",
+        "commits": [
+          {
+            "hash": "c83c99c04f3f0f77d765d37e554f322f5ed11741",
+            "date": "Thu Aug 13 23:28:13 2020 +0900",
+            "message": "Translate community pages into Japanese.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "5dbc8d9f8583e655c16f3b02bf622324bf5d943a",
+            "date": "Thu Aug 13 16:10:19 2020 +0900",
+            "message": "Copy community directory from en/.",
+            "author": "TAKAHASHI Shuuji"
+          }
+        ]
+      },
+      "ko": {
+        "exists": true,
+        "path": "content/ko/community/static/README.md",
+        "commits": [
+          {
+            "hash": "3928253710182dff221a3d69e9422318d4fb7f6b",
+            "date": "Thu May 19 10:46:36 2022 +0900",
+            "message": "[ko] Update outdated files in dev-1.24-ko.1 M1-M16",
+            "author": "Jihoon Seo"
+          },
+          {
+            "hash": "48dad3d71efaa24fea974a53d2266a56a3ad47b9",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          },
+          {
+            "hash": "c74ce882ecf462e0ac31c5f997a14f4fb397f588",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          }
+        ]
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": true,
+        "path": "content/pt-br/community/static/README.md",
+        "commits": [
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "ru": {
+        "exists": true,
+        "path": "content/ru/community/static/README.md",
+        "commits": [
+          {
+            "hash": "b33b54b44766a035e787a8bb7240027adbae6740",
+            "date": "Sat Mar 26 19:04:14 2022 +0400",
+            "message": "fix_little_typo",
+            "author": "Ilya Z"
+          },
+          {
+            "hash": "1564cafee6b90173455616c1ce11943213371210",
+            "date": "Thu Jun 3 04:05:38 2021 -0700",
+            "message": "Merge pull request #28241 from HongjiangHuang/fix/init-container-zh",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c4b2c82254ed635e4eca4abac3858209d6768b3e",
+            "date": "Thu Sep 24 23:19:20 2020 +0300",
+            "message": "docs: add russian version community and CoC pages",
+            "author": "madetara"
+          }
+        ]
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": true,
+        "path": "content/vi/community/static/README.md",
+        "commits": [
+          {
+            "hash": "933975324ce6836c61c1263ad76a5dec89c447ca",
+            "date": "Mon Mar 16 13:22:35 2020 +0700",
+            "message": "Add Vietnamese code of conduct (#19020)",
+            "author": "Nguyen Quang Huy"
+          }
+        ]
+      },
+      "zh-cn": {
+        "exists": true,
+        "path": "content/zh-cn/community/static/README.md",
+        "commits": [
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      }
+    }
+  },
+  "content/en/community/static /README.md": {
+    "translations": {
+      "bn": {
+        "exists": true,
+        "path": "content/bn/community/static /README.md",
+        "commits": [
+          {
+            "hash": "114744ad93479081dbb6072c863bbf67fc95d3cb",
+            "date": "Sun Apr 28 19:06:15 2024 +0600",
+            "message": "Create README.md",
+            "author": "Asem Hamid"
+          }
+        ]
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": false
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/community/values.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/values.md",
+        "commits": [
+          {
+            "hash": "df7c09f3750b6874f5291e9839d19138c79733e8",
+            "date": "Tue Apr 23 08:41:08 2024 -0700",
+            "message": "Merge pull request #45749 from b1gb4by/doc/issue-45521",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "34311fed5f219c621a4f702f5b3897128a2fee5f",
+            "date": "Thu Jun 16 13:02:00 2022 +0800",
+            "message": "Sync community-values.md from k/community",
+            "author": "Sean Wei"
+          },
+          {
+            "hash": "d6a755b4741372a4a8ad5011a46158ce1af75eec",
+            "date": "Tue Feb 8 11:35:27 2022 +0000",
+            "message": "Revise community values page",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "29963327b61a90db70142d64e35084d2e5f5e274",
+            "date": "Thu Jan 14 19:45:52 2021 -0800",
+            "message": "Merge pull request #26089 from kubernetes/dev-1.20-ko.2",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": true,
+        "path": "content/ru/community/values.md",
+        "commits": [
+          {
+            "hash": "1564cafee6b90173455616c1ce11943213371210",
+            "date": "Thu Jun 3 04:05:38 2021 -0700",
+            "message": "Merge pull request #28241 from HongjiangHuang/fix/init-container-zh",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  }
+}

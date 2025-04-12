@@ -9,7 +9,7 @@ import {
   Text,
   useMantineColorScheme,
 } from '@mantine/core';
-import translationsData from '../../../data/derived/classification/blog.json';
+import translationsData from '../../../data/output/content_type/blog.json';
 import { LANGUAGES } from './languages';
 import { DocumentType, TranslationState } from './translation';
 

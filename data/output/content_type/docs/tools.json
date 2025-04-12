@@ -1,0 +1,197 @@
+{
+  "content/en/docs/tools/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/tools/_index.md",
+        "commits": [
+          {
+            "hash": "314084404d7abba3ec9aa855e845e37e5df017dc",
+            "date": "Mon May 21 23:55:51 2018 +0800",
+            "message": "Last batch change approvers to reviewers (#8644)",
+            "author": "Qiming"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/tools/kompose/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/tools/kompose/_index.md",
+        "commits": [
+          {
+            "hash": "4207de7d636ebff8b93556b395ebf6222b2451b5",
+            "date": "Sat May 19 21:43:52 2018 -0700",
+            "message": "Improve left nav for Tasks. (#8582)",
+            "author": "Steve Perry"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/tools/kompose/user-guide.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/tools/kompose/user-guide.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  }
+}

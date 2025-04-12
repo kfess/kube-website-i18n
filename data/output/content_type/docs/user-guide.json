@@ -1,0 +1,215 @@
+{
+  "content/en/docs/user-guide/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-guide/_index.md",
+        "commits": [
+          {
+            "hash": "70fd7dca04be6ea316d8346f0af23a7cc2d62a05",
+            "date": "Wed Jun 6 12:36:25 2018 -0700",
+            "message": "Move walkthroughs from user-guide to tutorials. (#8933)",
+            "author": "Steve Perry"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-guide/walkthrough/_index.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-guide/walkthrough/_index.md",
+        "commits": [
+          {
+            "hash": "b6d890b929169d730e92830638d17be7727d5c20",
+            "date": "Mon Jun 4 23:05:54 2018 +0800",
+            "message": "remove kubectl overview link repeat (#8887)",
+            "author": "chenyb4"
+          },
+          {
+            "hash": "2b3291ac31c1dd10036759adc50951df1a68b4cd",
+            "date": "Sun May 6 14:04:51 2018 -0700",
+            "message": "Style guide updates (#8360)",
+            "author": "Claire Lundeby"
+          },
+          {
+            "hash": "294c670495a104b0b4efefb447a0a11da9115b5a",
+            "date": "Sun May 6 12:29:50 2018 -0700",
+            "message": "FIxing broken link (#8347)",
+            "author": "Sandra"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  },
+  "content/en/docs/user-guide/walkthrough/k8s201.md": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/docs/user-guide/walkthrough/k8s201.md",
+        "commits": [
+          {
+            "hash": "0371eb560fed07f003b1c4f3fcfa9528a2c8d61d",
+            "date": "Fri May 11 22:11:25 2018 +0200",
+            "message": "Fix toc in user-guide/walkthrough/k8s201.md (#8471)",
+            "author": "Andreas Jaeger"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
+      }
+    }
+  }
+}
