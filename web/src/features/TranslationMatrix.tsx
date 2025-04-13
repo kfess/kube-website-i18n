@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import {
+  Anchor,
   Box,
   Group,
   Pagination,
@@ -54,9 +55,15 @@ const getTranslationData = async (
   } else if (contentType === 'Include') {
     const data = await import(`../../../data/output/content_type/includes.json`);
     return data.default;
-  } else if (contentType === 'Case-study') {
+  } else if (contentType === 'Case Study') {
     const data = await import(`../../../data/output/content_type/case-studies.json`);
     return data.default;
+  }else if (contentType === "Partner") {
+    const data = await import(`../../../data/output/content_type/partners.json`);
+    return data.default;
+  } else if (contentType === "Training"){
+    const data = await import(`../../../data/output/content_type/training.json`);
+    return data.default;  
   }
 
   throw new Error(`Unknown content type: ${contentType}`);
@@ -158,7 +165,7 @@ export const TranslationMatrix = (props: Props) => {
               <Table.Th style={{ whiteSpace: 'nowrap', textAlign: 'center' }}>File Path</Table.Th>
               {sortedLanguages.map((lang) => (
                 <Table.Th key={lang} style={{ whiteSpace: 'nowrap' }}>
-                  <Text size="sm" fw={500}>
+                  <Text size="sm" fw={700}>
                     {LANGUAGES[lang]}
                     {lang === preferredLanguage && (
                       <Text component="span" c="red">
@@ -175,9 +182,19 @@ export const TranslationMatrix = (props: Props) => {
             {currentPageData.map(([filePath, fileData]) => (
               <Table.Tr key={filePath}>
                 <Table.Td>
-                  <Text size="sm" fw={500}>
-                    {filePath}
-                  </Text>
+                  <Anchor
+                    href={`https://github.com/kubernetes/website/blob/main/${filePath}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    c="inherit"
+                    underline="hover"
+                    // display="inline-flex"
+                    // align="center"
+                  >
+                    <Text size="sm" fw={500} title={filePath}>
+                      {filePath}
+                    </Text>
+                  </Anchor>
                 </Table.Td>
                 {sortedLanguages.map((lang) => {
                   const exists = fileData.translations[lang]?.exists;
@@ -187,16 +204,16 @@ export const TranslationMatrix = (props: Props) => {
                       ? 'rgba(34, 139, 34, 0.15)'
                       : '#edf7ed'
                     : isDark
-                      ? 'rgba(120, 120, 120, 0.1)' // 暗いモードでの灰色背景
-                      : '#f5f5f5'; // 明るいモードでの灰色背景
+                      ? 'rgba(120, 120, 120, 0.1)'
+                      : '#f5f5f5';
 
                   const textColor = exists
                     ? isDark
                       ? '#4caf50'
                       : '#2e7d32'
                     : isDark
-                      ? '#9e9e9e' // 暗いモードでの灰色テキスト
-                      : '#757575'; // 明るいモードでの灰色テキスト
+                      ? '#9e9e9e'
+                      : '#757575';
 
                   return (
                     <Table.Td

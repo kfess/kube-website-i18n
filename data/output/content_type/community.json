@@ -1,4 +1,551 @@
 {
+  "content/en/community/_index.html": {
+    "translations": {
+      "bn": {
+        "exists": true,
+        "path": "content/bn/community/_index.html",
+        "commits": [
+          {
+            "hash": "3242db1b89b4d044c2a89c32f291c5e55a3af27e",
+            "date": "Sun Apr 28 18:00:48 2024 +0600",
+            "message": "Create _index.html",
+            "author": "Asem Hamid"
+          }
+        ]
+      },
+      "de": {
+        "exists": true,
+        "path": "content/de/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "d9db5520afd401e1b167de69a47ebdbdb5d972d7",
+            "date": "Thu Oct 21 15:07:18 2021 +0200",
+            "message": "fixed some translations",
+            "author": "Benedikt Rollik"
+          },
+          {
+            "hash": "569b037a130a99b9bbba8f80444ee7aea6534e3a",
+            "date": "Wed Oct 20 20:36:02 2021 +0200",
+            "message": "fix typo",
+            "author": "Benedikt Rollik"
+          },
+          {
+            "hash": "a12ab9693ffc3bb48562ab96c21c0b632065ce6b",
+            "date": "Wed Oct 20 17:41:21 2021 +0200",
+            "message": "de-feat-community-20211020",
+            "author": "Benedikt Rollik"
+          },
+          {
+            "hash": "2db6f8673789d07cb4cb8aa98973a84d06ccdddb",
+            "date": "Thu Dec 17 09:31:45 2020 +0800",
+            "message": "Update _index.html",
+            "author": "wangxy518"
+          },
+          {
+            "hash": "99619d34140cbefc6b6f6b768c49aa17e2515c22",
+            "date": "Thu Oct 10 13:32:52 2019 +0900",
+            "message": "Remove trailing spaces from DE documents(#16742) (#16786)",
+            "author": "Yushiro FURUKAWA"
+          },
+          {
+            "hash": "7ea9931eeefde494652f4238eae0d77adff49cc5",
+            "date": "Thu Apr 18 22:15:18 2019 +0200",
+            "message": "[DOCS-DE] doc headlines / community / contribute (#13845)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/_index.html",
+        "commits": [
+          {
+            "hash": "df7c09f3750b6874f5291e9839d19138c79733e8",
+            "date": "Tue Apr 23 08:41:08 2024 -0700",
+            "message": "Merge pull request #45749 from b1gb4by/doc/issue-45521",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "2ceb4a43944c18258782caa48b2173f60ce6260b",
+            "date": "Sun Dec 10 03:53:19 2023 +0530",
+            "message": "Modified community index and added x-org image",
+            "author": "Manish-hr14"
+          },
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "afc338c0bf350a27104389438d4634baeb5603a9",
+            "date": "Tue Feb 8 11:26:12 2022 +0000",
+            "message": "Update and restyle community page",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "cd7f704703f8b124fd3aee4ad5330185a0434ff0",
+            "date": "Tue Nov 16 23:43:53 2021 -0800",
+            "message": "Add k8s.dev url to Community page",
+            "author": "Oline Case"
+          },
+          {
+            "hash": "0e06c4f6cd34a44e59466ade0141a47a5736194a",
+            "date": "Thu Jul 15 19:13:34 2021 +0530",
+            "message": "Update _index.html",
+            "author": "Anubhav Vardhan"
+          },
+          {
+            "hash": "45f36649ab9dd8c077b90edd600dfe30b3026abd",
+            "date": "Tue May 11 16:03:38 2021 -0700",
+            "message": "Merge pull request #27884 from jingxu97/nodename",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "29963327b61a90db70142d64e35084d2e5f5e274",
+            "date": "Thu Jan 14 19:45:52 2021 -0800",
+            "message": "Merge pull request #26089 from kubernetes/dev-1.20-ko.2",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b5645beee0c92afc0a05d7ab195105d85df6e11b",
+            "date": "Mon Jun 15 12:45:57 2020 -0700",
+            "message": "Merge pull request #21764 from zacharysarah/docsy-blog",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "1c5166f6c55af593fccd53f0ef2168fe16f5d43f",
+            "date": "Tue Mar 31 17:28:13 2020 -0400",
+            "message": "fix community banner so it fills the whole space",
+            "author": "Alex Contini"
+          },
+          {
+            "hash": "c37ab78b0fc9c5209555eb3b6698c856145f1904",
+            "date": "Tue Mar 31 17:28:13 2020 -0400",
+            "message": "fix community banner so it fills the whole space",
+            "author": "Alex Contini"
+          },
+          {
+            "hash": "920d14f4fcd4eb5d76665477d88d0ebdfc475a24",
+            "date": "Sun Oct 6 10:53:09 2019 +0530",
+            "message": "Accessibility Updates (#16633)",
+            "author": "Chaitanya"
+          },
+          {
+            "hash": "4e35312a7f1283be90631a3498eb3833992d78a8",
+            "date": "Sat Apr 27 02:40:05 2019 +0700",
+            "message": "New Community page, as designed by @alexcontini (#13046)",
+            "author": "Chris Abraham"
+          },
+          {
+            "hash": "4029a7ab5ebcc939c99980128805c9b1ef2a08ee",
+            "date": "Thu Apr 25 16:40:47 2019 +0000",
+            "message": "Normalize case: Github -> GitHub (#13828)",
+            "author": "Danny Berger"
+          },
+          {
+            "hash": "95cff3894fbfc9e71b01b611f88b449a53e11fb5",
+            "date": "Mon Nov 26 10:56:31 2018 +0800",
+            "message": "Remove comment-out lines and fix closing tag (#11281)",
+            "author": "chenrui"
+          },
+          {
+            "hash": "612f9c2aa42ee0e1ce6c29e403c3863d05552486",
+            "date": "Mon Oct 15 16:33:34 2018 -0700",
+            "message": "Use CoCC email for reporting CoC violations (#10621)",
+            "author": "Carolyn Van Slyck"
+          },
+          {
+            "hash": "85e3040dfac3ab110290a1abb50d90650e9b0bcd",
+            "date": "Mon Jul 9 12:12:17 2018 -0700",
+            "message": "Use static content for code of conduct (#9355)",
+            "author": "Misty Linville"
+          },
+          {
+            "hash": "aed6732b4e3d539be85042ba3ba2ddcbdb4b012b",
+            "date": "Tue Jul 3 16:46:20 2018 -0500",
+            "message": "adding discuss kubernetes link to community page (#9133)",
+            "author": "Jim Angel"
+          },
+          {
+            "hash": "38e51977f26ba735ef410749cbd7c835b28c3f3d",
+            "date": "Tue Jun 19 14:01:31 2018 -0700",
+            "message": "Update _index.html (#9092)",
+            "author": "Paris"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "es": {
+        "exists": true,
+        "path": "content/es/community/_index.html",
+        "commits": [
+          {
+            "hash": "7811f2596147b2550fca2df25b4713c5e8f5fcba",
+            "date": "Mon May 20 23:15:33 2024 -0700",
+            "message": "Merge pull request #46196 from rchaganti/patch-1",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "8d4e3e7015169296ac257a5cb46bb95382cc92b7",
+            "date": "Sat Dec 19 04:44:24 2020 -0800",
+            "message": "Merge pull request #25701 from Sophy417/patch-43",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "4029a7ab5ebcc939c99980128805c9b1ef2a08ee",
+            "date": "Thu Apr 25 16:40:47 2019 +0000",
+            "message": "Normalize case: Github -> GitHub (#13828)",
+            "author": "Danny Berger"
+          },
+          {
+            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
+            "date": "Thu Apr 4 21:11:20 2019 +0100",
+            "message": "Init Spanish translation (#13543)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "fr": {
+        "exists": true,
+        "path": "content/fr/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b5645beee0c92afc0a05d7ab195105d85df6e11b",
+            "date": "Mon Jun 15 12:45:57 2020 -0700",
+            "message": "Merge pull request #21764 from zacharysarah/docsy-blog",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "e9d35f21b719976d17f8e5a5bfba97bef48be340",
+            "date": "Thu Aug 29 09:31:56 2019 +0200",
+            "message": "docs-fr | community | _index.html (#15978)",
+            "author": "aimbot31"
+          }
+        ]
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": true,
+        "path": "content/id/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b5645beee0c92afc0a05d7ab195105d85df6e11b",
+            "date": "Mon Jun 15 12:45:57 2020 -0700",
+            "message": "Merge pull request #21764 from zacharysarah/docsy-blog",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b57586c7a012b3f71083fd5be4e4181cd89b095a",
+            "date": "Fri Jan 24 14:06:31 2020 +0700",
+            "message": "Add Community and Code of Conduct for ID (#18828)",
+            "author": "Danni Setiawan"
+          }
+        ]
+      },
+      "it": {
+        "exists": true,
+        "path": "content/it/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b5645beee0c92afc0a05d7ab195105d85df6e11b",
+            "date": "Mon Jun 15 12:45:57 2020 -0700",
+            "message": "Merge pull request #21764 from zacharysarah/docsy-blog",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "8a3bbf8c57477a8a5541b896ade13413a8e4a179",
+            "date": "Fri May 1 16:28:20 2020 +0200",
+            "message": "Improve Italian translation",
+            "author": "Fabio Alessandro Locati"
+          },
+          {
+            "hash": "0cdf468e5fd88be7f022f4ebdfc25714a22af48d",
+            "date": "Sat Apr 11 15:49:58 2020 +0200",
+            "message": "align community with branched English version",
+            "author": "Fabio Alessandro Locati"
+          },
+          {
+            "hash": "a6d784b2e1c1877d6458db453d68efe4f380655f",
+            "date": "Sat Apr 4 18:19:32 2020 +0200",
+            "message": "Align community page with English version",
+            "author": "Fabio Alessandro Locati"
+          },
+          {
+            "hash": "4029a7ab5ebcc939c99980128805c9b1ef2a08ee",
+            "date": "Thu Apr 25 16:40:47 2019 +0000",
+            "message": "Normalize case: Github -> GitHub (#13828)",
+            "author": "Danny Berger"
+          },
+          {
+            "hash": "e8af96dbeb7615384b720fa6ed104911ea23dc3b",
+            "date": "Tue Feb 19 19:04:14 2019 -0800",
+            "message": "translate tutorials/kubernetes-basics/update/update-intro/ in Italian (#12425)",
+            "author": "Michele Berardi"
+          }
+        ]
+      },
+      "ja": {
+        "exists": true,
+        "path": "content/ja/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "d9f56dabc4c19880d75c097ff9312e07f0780116",
+            "date": "Fri Aug 14 14:25:41 2020 +0900",
+            "message": "Translate alt attributes and fix the commit hash of the CoC.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "c83c99c04f3f0f77d765d37e554f322f5ed11741",
+            "date": "Thu Aug 13 23:28:13 2020 +0900",
+            "message": "Translate community pages into Japanese.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "5dbc8d9f8583e655c16f3b02bf622324bf5d943a",
+            "date": "Thu Aug 13 16:10:19 2020 +0900",
+            "message": "Copy community directory from en/.",
+            "author": "TAKAHASHI Shuuji"
+          }
+        ]
+      },
+      "ko": {
+        "exists": true,
+        "path": "content/ko/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "0e256c531c1db8f6f2b76ea4ba85bddec05c2e66",
+            "date": "Fri Feb 24 04:36:55 2023 +0000",
+            "message": "Simplify Korean localization for main page",
+            "author": "Seokho Son"
+          },
+          {
+            "hash": "3928253710182dff221a3d69e9422318d4fb7f6b",
+            "date": "Thu May 19 10:46:36 2022 +0900",
+            "message": "[ko] Update outdated files in dev-1.24-ko.1 M1-M16",
+            "author": "Jihoon Seo"
+          },
+          {
+            "hash": "78043d78f30cf6e82797dce97ce74ddb9633b10a",
+            "date": "Wed Dec 29 18:38:50 2021 -0800",
+            "message": "Merge pull request #30968 from tengqm/zh-client-auth",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "1904c435c1cae450f4b6275d18fc35212148774f",
+            "date": "Tue Oct 5 09:19:12 2021 -0700",
+            "message": "Merge pull request #29835 from ClaudiaJKang/outdated-ko-1-22-p5",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "a9fb2d35d0da6a522656d3c3b96c5228c77e5a81",
+            "date": "Fri May 28 22:16:18 2021 +0900",
+            "message": "[ko] Update outdated files in dev-1.21-ko.3 (p2)",
+            "author": "Jihoon Seo"
+          },
+          {
+            "hash": "6c6a9a73763f2c4332aa69a3a22677e234e66763",
+            "date": "Wed Mar 3 22:58:00 2021 -0800",
+            "message": "Merge pull request #26670 from rura6502/patch-1",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b5645beee0c92afc0a05d7ab195105d85df6e11b",
+            "date": "Mon Jun 15 12:45:57 2020 -0700",
+            "message": "Merge pull request #21764 from zacharysarah/docsy-blog",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "48dad3d71efaa24fea974a53d2266a56a3ad47b9",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          },
+          {
+            "hash": "c74ce882ecf462e0ac31c5f997a14f4fb397f588",
+            "date": "Fri Apr 24 00:07:32 2020 +0900",
+            "message": "Second Korean l10n work for release 1.18",
+            "author": "June Yi"
+          }
+        ]
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": true,
+        "path": "content/pt-br/community/_index.html",
+        "commits": [
+          {
+            "hash": "c4b11bbea91bf6b52979d3b0baa5ca4dac9ab3a5",
+            "date": "Thu Nov 28 15:58:11 2024 -0500",
+            "message": "[pt-br] Sync pt-br l18n strings with the English version.",
+            "author": "Mauren Berti"
+          },
+          {
+            "hash": "bb16b85bd4881d236e1e8e5a61f3520163e18fdf",
+            "date": "Tue May 21 19:37:05 2024 -0400",
+            "message": "[pt-br] Update navbar items for vanilla Docsy",
+            "author": "Mauren Berti"
+          },
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f210df5f627c64d69bd5e95cb9d47d4526bd34e3",
+            "date": "Wed Jan 11 08:59:45 2023 -0500",
+            "message": "[pt-br] Update pt-br/community/_index.html (#38406)",
+            "author": "Mauren Berti"
+          },
+          {
+            "hash": "b85a7df5a8ecf10630f9fa8c741efc680c54c5cb",
+            "date": "Thu Jan 13 17:44:14 2022 -0800",
+            "message": "Fix link to dev@kubernetes mailing list",
+            "author": "Josh Berkus"
+          },
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "ru": {
+        "exists": true,
+        "path": "content/ru/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "1564cafee6b90173455616c1ce11943213371210",
+            "date": "Thu Jun 3 04:05:38 2021 -0700",
+            "message": "Merge pull request #28241 from HongjiangHuang/fix/init-container-zh",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c4b2c82254ed635e4eca4abac3858209d6768b3e",
+            "date": "Thu Sep 24 23:19:20 2020 +0300",
+            "message": "docs: add russian version community and CoC pages",
+            "author": "madetara"
+          }
+        ]
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": true,
+        "path": "content/vi/community/_index.html",
+        "commits": [
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b5645beee0c92afc0a05d7ab195105d85df6e11b",
+            "date": "Mon Jun 15 12:45:57 2020 -0700",
+            "message": "Merge pull request #21764 from zacharysarah/docsy-blog",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "933975324ce6836c61c1263ad76a5dec89c447ca",
+            "date": "Mon Mar 16 13:22:35 2020 +0700",
+            "message": "Add Vietnamese code of conduct (#19020)",
+            "author": "Nguyen Quang Huy"
+          }
+        ]
+      },
+      "zh-cn": {
+        "exists": true,
+        "path": "content/zh-cn/community/_index.html",
+        "commits": [
+          {
+            "hash": "c288f61c91ec241aa726ccb65e2a360f165a780c",
+            "date": "Mon Dec 23 20:52:49 2024 +0800",
+            "message": "[zh] Sync community files",
+            "author": "Michael"
+          },
+          {
+            "hash": "e57cf329a60d9a2e3df246dc6d7ecb88d0a6d880",
+            "date": "Mon Dec 11 17:09:06 2023 +0000",
+            "message": "Merge 'dev-1.29' with main",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "2d2f883b06bebfd20d3d767baeb061f8dd552398",
+            "date": "Wed Nov 1 04:25:06 2023 +0100",
+            "message": "Merge pull request #43758 from my-git9/patch-10317",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c5d69dcd9c2f16e72c9560c6cbd1cf891c718dbf",
+            "date": "Mon Oct 30 21:27:46 2023 +0800",
+            "message": "[zh] Sync outdated style and structure of /community page",
+            "author": "Neko Ayaka"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      }
+    }
+  },
   "content/en/community/code-of-conduct.md": {
     "translations": {
       "bn": {
@@ -839,6 +1386,73 @@
             "author": "Qiming Teng"
           }
         ]
+      }
+    }
+  },
+  "content/en/community/code-of-conduct.html": {
+    "translations": {
+      "bn": {
+        "exists": false
+      },
+      "de": {
+        "exists": false
+      },
+      "en": {
+        "exists": true,
+        "path": "content/en/community/code-of-conduct.html",
+        "commits": [
+          {
+            "hash": "eb75fd299bf60a24cb99faaffaf1a51d4ea1dff6",
+            "date": "Sat Sep 7 13:45:30 2024 +0100",
+            "message": "Drop vestigial page for code of conduct",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "2993435e74c1ddd70bb06d02dfc807962bae235e",
+            "date": "Thu Sep 5 00:37:02 2024 +0100",
+            "message": "Merge pull request #47796 from cdesiniotis/dra-typo",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "es": {
+        "exists": false
+      },
+      "fr": {
+        "exists": false
+      },
+      "hi": {
+        "exists": false
+      },
+      "id": {
+        "exists": false
+      },
+      "it": {
+        "exists": false
+      },
+      "ja": {
+        "exists": false
+      },
+      "ko": {
+        "exists": false
+      },
+      "pl": {
+        "exists": false
+      },
+      "pt-br": {
+        "exists": false
+      },
+      "ru": {
+        "exists": false
+      },
+      "uk": {
+        "exists": false
+      },
+      "vi": {
+        "exists": false
+      },
+      "zh-cn": {
+        "exists": false
       }
     }
   },

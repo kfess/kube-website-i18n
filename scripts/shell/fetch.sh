@@ -87,20 +87,19 @@ CURRENT_HEAD=$(git rev-parse HEAD)
 
 if [ -f "$LAST_COMMIT_FILE" ]; then
   LAST_COMMIT=$(cat "$LAST_COMMIT_FILE")
-  echo "Fetching new commits since last processed commit: ${LAST_COMMIT} → ${CURRENT_HEAD}"
+  log_info "Fetching new commits since last processed commit: ${LAST_COMMIT} → ${CURRENT_HEAD}"
 
   if git merge-base --is-ancestor "$LAST_COMMIT" "$CURRENT_HEAD"; then
     fetch_history "$LAST_COMMIT" "$CURRENT_HEAD" "$OUTPUT_FILE" "true"
   else
-    echo "Previous commit not found in history. Fetching full history."
+    log_warn "Previous commit not found in history. Fetching full history."
     fetch_history "" "" "$OUTPUT_FILE" "false"
   fi
 else
-  echo "First run or no previous commit information. Fetching full history."
+  log_info "First run or no previous commit information. Fetching full history."
   fetch_history "" "" "$OUTPUT_FILE" "false"
 fi
 
-echo "$CURRENT_HEAD" > "$LAST_COMMIT_FILE"
-
-echo "CSV file created/updated: $OUTPUT_FILE"
-echo "Last processed commit hash: $CURRENT_HEAD"
+log_success "$CURRENT_HEAD" > "$LAST_COMMIT_FILE"
+log_success "CSV file created/updated: $OUTPUT_FILE"
+log_success "Last processed commit hash: $CURRENT_HEAD"

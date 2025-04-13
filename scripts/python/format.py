@@ -34,6 +34,8 @@ DEPRECATED_LANGUAGE_CODES = [
 ALL_LANGUAGE_CODES = LANGUAGE_CODES + DEPRECATED_LANGUAGE_CODES
 
 
+ALLOWED_FILE_EXTENSIONS = ["md", "html"]
+
 def extract_extension(filepath: str) -> str:
     """Extract the file extension from a given filepath."""
     return filepath.split(".")[-1] if "." in filepath else None
@@ -152,7 +154,7 @@ def format_df(df: pd.DataFrame) -> pd.DataFrame:
 
     return df[
         ~df["language"].isin(DEPRECATED_LANGUAGE_CODES)
-        & df["extension"].isin(["md"])
+        & df["extension"].isin(ALLOWED_FILE_EXTENSIONS)
         & df["content_type"].notna()  # content/en/README.md has no content type
     ]
 
@@ -169,8 +171,6 @@ def map_translations(df: pd.DataFrame) -> dict:
         Dict: Nested dictionary of translations
 
     """
-    all_languages = df["language"].unique()
-
     grouped = {}
 
     for english_path in df["english_path"].unique():

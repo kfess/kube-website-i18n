@@ -1,5 +1,6 @@
 export const LANGUAGES = {
   en: 'English',
+  'zh-cn': 'Chinese(CN)',
   bn: 'Bengali',
   de: 'German',
   es: 'Spanish',
@@ -14,7 +15,6 @@ export const LANGUAGES = {
   ru: 'Russian',
   uk: 'Ukrainian',
   vi: 'Vietnamese',
-  'zh-cn': 'Chinese(CN)',
 } as const;
 
 export type Language = keyof typeof LANGUAGES;

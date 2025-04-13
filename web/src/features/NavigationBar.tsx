@@ -1,7 +1,9 @@
 import { IconBrandGithubFilled, IconMoon, IconSun } from '@tabler/icons-react';
 import {
   ActionIcon,
+  Anchor,
   AppShell,
+  Flex,
   Group,
   Image,
   Text,
@@ -21,12 +23,14 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
         <AppShell.Header>
           <Group h="100%" px="md" justify="space-between">
             <Group>
-              <Group>
-                <Image src={kubernetesLogo} h={30} w="auto" alt="Kubernetes logo" />
-                <Text fw={700} size="lg">
-                  Kubernetes Website Translation
-                </Text>
-              </Group>
+              <Anchor href="/" component="a" size="lg" underline="never" c="dark">
+                <Flex direction="row" gap={8}>
+                  <Image src={kubernetesLogo} h={30} w="auto" alt="Kubernetes logo" />
+                  <Text fw={700} size="lg">
+                    Kubernetes Website Translation
+                  </Text>
+                </Flex>
+              </Anchor>
             </Group>
             <Group gap={8}>
               <ActionIcon
