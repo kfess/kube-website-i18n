@@ -4,11 +4,15 @@ import { ContentType, contentTypes, DocsSubContentType } from './translation';
 
 interface Props {
   contentType: ContentType;
-  setContentType: (type: ContentType) => void;
-  setDocsSubType: (type: DocsSubContentType) => void;
+  handleContentTypeChange: (type: ContentType) => void;
+  handleDocsSubTypeChange: (type: DocsSubContentType) => void;
 }
 
-export const DocumentTypeSelector = ({ contentType, setContentType, setDocsSubType }: Props) => {
+export const ContentTypeSelector = ({
+  contentType,
+  handleContentTypeChange,
+  handleDocsSubTypeChange,
+}: Props) => {
   return (
     <Box mb="md">
       <SegmentedControl
@@ -19,12 +23,14 @@ export const DocumentTypeSelector = ({ contentType, setContentType, setDocsSubTy
         }))}
         value={contentType}
         onChange={(value) => {
-          setContentType(value as ContentType);
+          handleContentTypeChange(value as ContentType);
         }}
         defaultValue="Docs"
         transitionDuration={200}
       />
-      {contentType === 'Docs' && <DocsSubContentTypeSelector setDocsSubType={setDocsSubType} />}
+      {contentType === 'Docs' && (
+        <DocsSubContentTypeSelector handleDocsSubTypeChange={handleDocsSubTypeChange} />
+      )}
     </Box>
   );
 };

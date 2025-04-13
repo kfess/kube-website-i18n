@@ -2,10 +2,10 @@ import { Group, Radio } from '@mantine/core';
 import { DocsSubContentType, docsSubContentTypes } from './translation';
 
 interface Props {
-  setDocsSubType: (type: DocsSubContentType) => void;
+  handleDocsSubTypeChange: (type: DocsSubContentType) => void;
 }
 
-export const DocsSubContentTypeSelector = ({ setDocsSubType }: Props) => {
+export const DocsSubContentTypeSelector = ({ handleDocsSubTypeChange }: Props) => {
   return (
     <Radio.Group name="docs-sub-content-types" my={20} defaultValue={docsSubContentTypes[0]}>
       <Group mt="xs">
@@ -15,7 +15,7 @@ export const DocsSubContentTypeSelector = ({ setDocsSubType }: Props) => {
             value={type}
             label={type}
             onChange={(event) => {
-              setDocsSubType(event.currentTarget.value as DocsSubContentType);
+              handleDocsSubTypeChange(event.currentTarget.value as DocsSubContentType);
             }}
           />
         ))}

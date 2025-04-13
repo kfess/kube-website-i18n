@@ -75,7 +75,10 @@ type DocsProps = {
   docsSubContentType: DocsSubContentType;
 };
 
-type Props = BaseProps | DocsProps;
+type Props = (BaseProps | DocsProps) & {
+  activePage: number;
+  setActivePage: (page: number) => void;
+};
 
 export const TranslationMatrix = (props: Props) => {
   const [translations, setTranslations] = useState<TranslationState>({});
@@ -83,7 +86,6 @@ export const TranslationMatrix = (props: Props) => {
     key: 'preferred-language',
   });
 
-  const [activePage, setActivePage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState('50');
   const { colorScheme } = useMantineColorScheme();
   const isDark = colorScheme === 'dark';
@@ -99,7 +101,7 @@ export const TranslationMatrix = (props: Props) => {
   const totalItems = translationEntries.length;
   const totalPages = Math.ceil(totalItems / parseInt(itemsPerPage, 10));
 
-  const startIndex = (activePage - 1) * parseInt(itemsPerPage, 10);
+  const startIndex = (props.activePage - 1) * parseInt(itemsPerPage, 10);
   const endIndex = Math.min(startIndex + parseInt(itemsPerPage, 10), totalItems);
   const currentPageData = translationEntries.slice(startIndex, endIndex);
 
@@ -133,7 +135,7 @@ export const TranslationMatrix = (props: Props) => {
             value={itemsPerPage}
             onChange={(value) => {
               setItemsPerPage(value || '50');
-              setActivePage(1);
+              props.setActivePage(1);
             }}
             data={[
               { value: '20', label: '20' },
@@ -144,8 +146,8 @@ export const TranslationMatrix = (props: Props) => {
             style={{ width: 80 }}
           />
           <Pagination
-            value={activePage}
-            onChange={setActivePage}
+            value={props.activePage}
+            onChange={props.setActivePage}
             total={totalPages}
             size="sm"
             withEdges
