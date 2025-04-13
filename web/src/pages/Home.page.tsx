@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Container } from '@mantine/core';
+import { Container, Divider } from '@mantine/core';
 import { Welcome } from '@/components/Welcome/Welcome';
 import { ContentTypeSelector } from '@/features/ContentTypeSelector';
 import { ContentType, DocsSubContentType } from '@/features/translation';
@@ -30,6 +30,7 @@ export function HomePage() {
           handleContentTypeChange={handleContentTypeChange}
           handleDocsSubTypeChange={handleDocsSubTypeChange}
         />
+        <Divider my="lg" />
         <TranslationMatrix
           contentType={selectedContentType}
           docsSubContentType={selectedDocsSubType}

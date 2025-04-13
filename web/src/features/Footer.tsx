@@ -31,12 +31,6 @@ export const Footer = () => {
           <Text c="dimmed" size="xs">
             •
           </Text>
-          <Anchor href="#" c="dimmed" size="xs">
-            Privacy
-          </Anchor>
-          <Text c="dimmed" size="xs">
-            •
-          </Text>
           <Anchor
             href="https://github.com/kfess/kube-website-i18n/issues"
             target="_blank"

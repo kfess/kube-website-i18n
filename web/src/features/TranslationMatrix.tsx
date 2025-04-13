@@ -13,6 +13,7 @@ import {
 import { useLocalStorage } from '@mantine/hooks';
 import { Language, LANGUAGES } from './languages';
 import { ContentType, DocsSubContentType, TranslationState } from './translation';
+import { TranslationFilter, type TranslationStatus } from './TranslationFilter';
 
 const getTranslationData = async (
   contentType: ContentType,
@@ -86,6 +87,79 @@ export const TranslationMatrix = (props: Props) => {
     key: 'preferred-language',
   });
 
+  // フィルター状態
+  const [selectedLanguage, setSelectedLanguage] = useState<Language | null>('en');
+  const [translationStatus, setTranslationStatus] = useState<TranslationStatus>('all');
+  const [filteredTranslations, setFilteredTranslations] = useState<TranslationState>({});
+
+  const applyFilter = (
+    data: TranslationState,
+    filteredLanguage: Language | null,
+    filteredStatus: TranslationStatus
+  ): TranslationState => {
+    // フィルター条件がなければ元のデータをそのまま返す
+    if (!filteredLanguage && filteredStatus === 'all') {
+      return data;
+    }
+
+    // フィルター処理
+    const filteredData = Object.entries(data).reduce((acc, [filePath, fileData]) => {
+      // 言語フィルターが指定されていない場合は、ファイルをそのまま追加（ステータスフィルターは後で処理）
+      if (!filteredLanguage) {
+        if (filteredStatus === 'all') {
+          acc[filePath] = fileData;
+          return acc;
+        }
+
+        // ステータスによるフィルタリング（全言語対象）
+        const hasMatchingStatus = Object.values(fileData.translations).some(
+          (langData) =>
+            (filteredStatus === 'untranslated' && !langData.exists) ||
+            (filteredStatus === 'translated' && langData.exists)
+        );
+
+        if (hasMatchingStatus) {
+          acc[filePath] = fileData;
+        }
+        return acc;
+      }
+
+      // 指定した言語が存在するか確認
+      const langData = fileData.translations[filteredLanguage];
+      if (!langData) {
+        return acc;
+      }
+
+      // ステータスフィルター
+      if (
+        filteredStatus === 'all' ||
+        (filteredStatus === 'untranslated' && !langData.exists) ||
+        (filteredStatus === 'translated' && langData.exists)
+      ) {
+        acc[filePath] = fileData;
+      }
+
+      return acc;
+    }, {} as TranslationState);
+
+    return filteredData;
+  };
+
+  // 言語またはステータスが変更されたときにフィルタリングを実行
+  useEffect(() => {
+    if (Object.keys(translations).length > 0) {
+      const filtered = applyFilter(translations, selectedLanguage, translationStatus);
+      setFilteredTranslations(filtered);
+
+      // フィルター後にページネーションを調整
+      const filteredTotalItems = Object.keys(filtered).length;
+      const filteredTotalPages = Math.ceil(filteredTotalItems / parseInt(itemsPerPage, 10));
+      if (props.activePage > filteredTotalPages && filteredTotalPages > 0) {
+        props.setActivePage(1);
+      }
+    }
+  }, [selectedLanguage, translationStatus]);
+
   const [itemsPerPage, setItemsPerPage] = useState('50');
   const { colorScheme } = useMantineColorScheme();
   const isDark = colorScheme === 'dark';
@@ -97,7 +171,7 @@ export const TranslationMatrix = (props: Props) => {
     ...languages.filter((lang) => lang !== preferredLanguage && lang !== 'en'),
   ];
 
-  const translationEntries = Object.entries(translations);
+  const translationEntries = Object.entries(filteredTranslations);
   const totalItems = translationEntries.length;
   const totalPages = Math.ceil(totalItems / parseInt(itemsPerPage, 10));
 
@@ -105,16 +179,20 @@ export const TranslationMatrix = (props: Props) => {
   const endIndex = Math.min(startIndex + parseInt(itemsPerPage, 10), totalItems);
   const currentPageData = translationEntries.slice(startIndex, endIndex);
 
+  // データ取得時の処理
   useEffect(() => {
     const fetchData = async () => {
       try {
+        let data: TranslationState;
         if (props.contentType === 'Docs') {
-          const data = await getTranslationData(props.contentType, props.docsSubContentType);
-          setTranslations(data);
+          data = await getTranslationData(props.contentType, props.docsSubContentType);
         } else {
-          const data = await getTranslationData(props.contentType);
-          setTranslations(data);
+          data = await getTranslationData(props.contentType);
         }
+
+        setTranslations(data);
+        // 初期表示時も現在のフィルターを適用
+        setFilteredTranslations(applyFilter(data, selectedLanguage, translationStatus));
       } catch (error) {
         console.error('Error fetching translation data:', error);
       }
@@ -126,9 +204,12 @@ export const TranslationMatrix = (props: Props) => {
   return (
     <Stack>
       <Group justify="space-between" align="center">
-        <Text size="sm">
-          Showing {startIndex + 1} - {endIndex} of {totalItems} items
-        </Text>
+        <TranslationFilter
+          selectedLanguage={selectedLanguage}
+          onLanguageChange={setSelectedLanguage}
+          translationStatus={translationStatus}
+          onStatusChange={setTranslationStatus}
+        />
         <Group>
           <Select
             size="xs"
@@ -175,72 +256,93 @@ export const TranslationMatrix = (props: Props) => {
               ))}
             </Table.Tr>
           </Table.Thead>
-          <Table.Tbody>
-            {currentPageData.map(([filePath, fileData]) => (
-              <Table.Tr key={filePath}>
-                <Table.Td>
-                  <Anchor
-                    href={`https://github.com/kubernetes/website/blob/main/${filePath}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    c="inherit"
-                    underline="hover"
-                  >
-                    <Text size="sm" fw={500} title={filePath}>
-                      {filePath}
-                    </Text>
-                  </Anchor>
-                </Table.Td>
-                {sortedLanguages.map((lang) => {
-                  const exists = fileData.translations[lang]?.exists;
-
-                  const bgColor = exists
-                    ? isDark
-                      ? 'rgba(34, 139, 34, 0.15)'
-                      : '#edf7ed'
-                    : isDark
-                      ? 'rgba(120, 120, 120, 0.1)'
-                      : '#f5f5f5';
-
-                  const textColor = exists
-                    ? isDark
-                      ? '#4caf50'
-                      : '#2e7d32'
-                    : isDark
-                      ? '#9e9e9e'
-                      : '#757575';
-
-                  return (
-                    <Table.Td
-                      key={lang}
-                      style={{
-                        backgroundColor: bgColor,
-                        textAlign: 'center',
-                      }}
+          {translationEntries.length > 0 ? (
+            <Table.Tbody>
+              {currentPageData.map(([filePath, fileData]) => (
+                <Table.Tr key={filePath}>
+                  <Table.Td>
+                    <Anchor
+                      href={`https://github.com/kubernetes/website/blob/main/${filePath}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      c="inherit"
+                      underline="hover"
                     >
-                      <Text c={textColor} fw={600}>
-                        {exists ? (
-                          <Anchor
-                            href={`https://github.com/kubernetes/website/blob/main/${fileData.translations[lang].path}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            c="inherit"
-                            underline="never"
-                          >
-                            ✅
-                          </Anchor>
-                        ) : (
-                          '-'
-                        )}
+                      <Text size="sm" fw={500} title={filePath}>
+                        {filePath}
                       </Text>
-                    </Table.Td>
-                  );
-                })}
+                    </Anchor>
+                  </Table.Td>
+                  {sortedLanguages.map((lang) => {
+                    const exists = fileData.translations[lang]?.exists;
+
+                    const bgColor = exists
+                      ? isDark
+                        ? 'rgba(34, 139, 34, 0.15)'
+                        : '#edf7ed'
+                      : isDark
+                        ? 'rgba(120, 120, 120, 0.1)'
+                        : '#f5f5f5';
+
+                    const textColor = exists
+                      ? isDark
+                        ? '#4caf50'
+                        : '#2e7d32'
+                      : isDark
+                        ? '#9e9e9e'
+                        : '#757575';
+
+                    return (
+                      <Table.Td
+                        key={lang}
+                        style={{
+                          backgroundColor: bgColor,
+                          textAlign: 'center',
+                        }}
+                      >
+                        <Text c={textColor} fw={600}>
+                          {exists ? (
+                            <Anchor
+                              href={`https://github.com/kubernetes/website/blob/main/${fileData.translations[lang].path}`}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              c="inherit"
+                              underline="never"
+                            >
+                              ✅
+                            </Anchor>
+                          ) : (
+                            '-'
+                          )}
+                        </Text>
+                      </Table.Td>
+                    );
+                  })}
+                </Table.Tr>
+              ))}
+            </Table.Tbody>
+          ) : (
+            <Table.Tbody>
+              <Table.Tr>
+                <Table.Td
+                  colSpan={sortedLanguages.length + 1}
+                  style={{ textAlign: 'center' }}
+                  py="xl"
+                >
+                  <Text size="md" c="dimmed">
+                    No data available
+                  </Text>
+                </Table.Td>
               </Table.Tr>
-            ))}
-          </Table.Tbody>
+            </Table.Tbody>
+          )}
         </Table>
       </Box>
+      <Group justify="right" mt="md">
+        <Text size="sm">
+          Showing {startIndex + 1} - {endIndex} of {totalItems} items
+        </Text>
+      </Group>
     </Stack>
   );
 };
