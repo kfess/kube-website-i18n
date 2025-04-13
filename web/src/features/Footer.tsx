@@ -13,7 +13,13 @@ export const Footer = () => {
           <Text c="dimmed" size="xs">
             •
           </Text>
-          <Anchor href="#" c="dimmed" size="xs">
+          <Anchor
+            href="https://github.com/kfess/kube-website-i18n"
+            target="_blank"
+            rel="noopener noreferrer"
+            c="dimmed"
+            size="xs"
+          >
             GitHub
           </Anchor>
           <Text c="dimmed" size="xs">
@@ -31,7 +37,13 @@ export const Footer = () => {
           <Text c="dimmed" size="xs">
             •
           </Text>
-          <Anchor href="#" c="dimmed" size="xs">
+          <Anchor
+            href="https://github.com/kfess/kube-website-i18n/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            c="dimmed"
+            size="xs"
+          >
             Contact
           </Anchor>
         </Group>

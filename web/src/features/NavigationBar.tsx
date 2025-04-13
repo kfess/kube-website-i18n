@@ -1,4 +1,4 @@
-import { IconBrandGithubFilled, IconMoon, IconSun } from '@tabler/icons-react';
+import { IconBrandGithubFilled, IconHeartFilled, IconMoon, IconSun } from '@tabler/icons-react';
 import {
   ActionIcon,
   Anchor,
@@ -44,6 +44,25 @@ export const NavigationBar = ({ children }: { children: React.ReactNode }) => {
               >
                 <Tooltip label="Source Code" position="bottom" withArrow offset={10}>
                   <IconBrandGithubFilled size={20} />
+                </Tooltip>
+              </ActionIcon>
+              <ActionIcon
+                component="a"
+                href="https://github.com/kubernetes/website"
+                target="_blank"
+                variant="default"
+                radius="md"
+                size="lg"
+                c="pink"
+                aria-label="contribute-to-the-translation"
+              >
+                <Tooltip
+                  label="Contribute to the translation"
+                  position="bottom"
+                  withArrow
+                  offset={10}
+                >
+                  <IconHeartFilled size={20} />
                 </Tooltip>
               </ActionIcon>
               <ActionIcon

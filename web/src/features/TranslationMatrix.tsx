@@ -22,11 +22,6 @@ const getTranslationData = async (
     if (docsSubContentType === 'Concepts') {
       const data = await import(`../../../data/output/content_type/docs/concepts.json`);
       return data.default;
-    } else if (docsSubContentType === 'Getting Started') {
-      const data = await import(
-        `../../../data/output/content_type/docs/getting-started-guides.json`
-      );
-      return data.default;
     } else if (docsSubContentType === 'Reference') {
       const data = await import(`../../../data/output/content_type/docs/reference.json`);
       return data.default;
@@ -58,12 +53,12 @@ const getTranslationData = async (
   } else if (contentType === 'Case Study') {
     const data = await import(`../../../data/output/content_type/case-studies.json`);
     return data.default;
-  }else if (contentType === "Partner") {
+  } else if (contentType === 'Partner') {
     const data = await import(`../../../data/output/content_type/partners.json`);
     return data.default;
-  } else if (contentType === "Training"){
+  } else if (contentType === 'Training') {
     const data = await import(`../../../data/output/content_type/training.json`);
-    return data.default;  
+    return data.default;
   }
 
   throw new Error(`Unknown content type: ${contentType}`);
@@ -188,8 +183,6 @@ export const TranslationMatrix = (props: Props) => {
                     rel="noopener noreferrer"
                     c="inherit"
                     underline="hover"
-                    // display="inline-flex"
-                    // align="center"
                   >
                     <Text size="sm" fw={500} title={filePath}>
                       {filePath}
@@ -224,7 +217,19 @@ export const TranslationMatrix = (props: Props) => {
                       }}
                     >
                       <Text c={textColor} fw={600}>
-                        {exists ? '✅' : '–'}
+                        {exists ? (
+                          <Anchor
+                            href={`https://github.com/kubernetes/website/blob/main/${fileData.translations[lang].path}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            c="inherit"
+                            underline="never"
+                          >
+                            ✅
+                          </Anchor>
+                        ) : (
+                          '-'
+                        )}
                       </Text>
                     </Table.Td>
                   );

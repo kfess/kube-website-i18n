@@ -31,7 +31,9 @@ export function LanguageSelector() {
             rightSection={preferredLanguage === code ? <IconCheck size={16} /> : null}
           >
             <Group>
-              <Text size="sm">{name}</Text>
+              <Text size="sm" fw={600}>
+                {name}
+              </Text>
               {code === 'en' && (
                 <Text size="xs" c="dimmed">
                   (Default)

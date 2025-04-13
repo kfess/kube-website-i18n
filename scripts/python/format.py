@@ -36,6 +36,7 @@ ALL_LANGUAGE_CODES = LANGUAGE_CODES + DEPRECATED_LANGUAGE_CODES
 
 ALLOWED_FILE_EXTENSIONS = ["md", "html"]
 
+
 def extract_extension(filepath: str) -> str:
     """Extract the file extension from a given filepath."""
     return filepath.split(".")[-1] if "." in filepath else None
@@ -95,6 +96,27 @@ def extract_content_type(en_path: str) -> str | None:
     return match.group(2) if match else None
 
 
+def get_all_existing_paths() -> set:
+    """Get all existing paths from the language directories.
+
+    Returns
+    -------
+        set[str]: A set of all existing file paths.
+
+    """
+    all_paths = set()
+
+    target_dir = Path("../../data/master/languages")
+    for lang in ALL_LANGUAGE_CODES:
+        target_path = target_dir / lang / "all_files.csv"
+        if target_path.exists():
+            all_paths.update(
+                pd.read_csv(target_path, encoding="utf-8", header=None)[0].tolist()
+            )
+
+    return all_paths
+
+
 def extract_blog_date_from_en_path(en_path: str) -> str:
     """Extract date from blog post path.
 
@@ -134,12 +156,13 @@ def extract_docs_sub_content_type(en_path: str) -> str | None:
     return match.group(1) if match else None
 
 
-def format_df(df: pd.DataFrame) -> pd.DataFrame:
+def format_df(df: pd.DataFrame, all_existing_paths: set[str]) -> pd.DataFrame:
     """Format the DataFrame by extracting extensions and language codes.
 
     Args:
     ----
         df (pd.DataFrame): The DataFrame containing file paths.
+        all_existing_paths (set[str]): A set of all existing file paths.
 
     Returns:
     -------
@@ -152,11 +175,14 @@ def format_df(df: pd.DataFrame) -> pd.DataFrame:
     df["english_path"] = df["filepath"].apply(normalize_path)
     df["content_type"] = df["english_path"].apply(extract_content_type)
 
-    return df[
+    mask = (
         ~df["language"].isin(DEPRECATED_LANGUAGE_CODES)
         & df["extension"].isin(ALLOWED_FILE_EXTENSIONS)
-        & df["content_type"].notna()  # content/en/README.md has no content type
-    ]
+        & df["content_type"].notna()
+        & df["english_path"].isin(all_existing_paths)
+    )
+
+    return df[mask]
 
 
 def map_translations(df: pd.DataFrame) -> dict:
@@ -305,8 +331,10 @@ def save_as_json(file_data: tuple, output_dir: Path) -> None:
 def main() -> None:
     """Process and save git history data as JSON files."""
     input_file = Path("../../data/master/git_history.csv")
+    all_existing_paths = get_all_existing_paths()
+
     git_df = pd.read_csv(input_file, encoding="utf-8")
-    git_df = format_df(git_df)
+    git_df = format_df(git_df, all_existing_paths)
 
     output_dir = Path("../../data/output/content_type/")
     output_dir.mkdir(parents=True, exist_ok=True)

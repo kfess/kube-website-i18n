@@ -42,7 +42,6 @@ export const contentTypes = [
 export type ContentType = (typeof contentTypes)[number];
 
 export const docsSubContentTypes = [
-  'Getting Started',
   'Concepts',
   'Tasks',
   'Tutorials',
