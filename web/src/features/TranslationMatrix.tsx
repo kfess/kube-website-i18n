@@ -338,7 +338,7 @@ export const TranslationMatrix = (props: Props) => {
           )}
         </Table>
       </Box>
-      <Group justify="right" mt="md">
+      <Group justify="right">
         <Text size="sm">
           Showing {startIndex + 1} - {endIndex} of {totalItems} items
         </Text>

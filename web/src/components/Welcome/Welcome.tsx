@@ -11,7 +11,7 @@ export function Welcome() {
           component="span"
           gradient={{ from: '#326ce5', to: '#94c6ff' }}
         >
-          Kubernetes Website Translation Status
+          Kubernetes Localization Status
         </Text>
       </Title>
     </>
