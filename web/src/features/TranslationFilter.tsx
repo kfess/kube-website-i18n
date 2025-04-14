@@ -32,6 +32,11 @@ export const TranslationFilter = ({
     onStatusChange(status);
   };
 
+  const handleReset = () => {
+    onLanguageChange('en');
+    onStatusChange('all');
+  };
+
   const renderFilterBadges = () => {
     const statusLabels = {
       all: 'All',
@@ -46,13 +51,17 @@ export const TranslationFilter = ({
     }
 
     if (translationStatus !== 'all') {
-      badgeText += ` (${statusLabels[translationStatus]})`;
+      badgeText += ` / ${statusLabels[translationStatus]}`;
     } else {
-      badgeText += ` (${statusLabels.all})`;
+      badgeText += ` / ${statusLabels.all}`;
+    }
+
+    if (selectedLanguage === 'en' && translationStatus === 'all') {
+      return <></>;
     }
 
     return [
-      <Badge key="filter" color="blue" variant="light">
+      <Badge key="filter" color="grape" variant="light" size="lg" style={{ textTransform: 'none' }}>
         {badgeText}
       </Badge>,
     ];
@@ -109,6 +118,10 @@ export const TranslationFilter = ({
               checked={translationStatus === 'translated'}
               onChange={() => handleStatusChange('translated')}
             />
+          </Menu.Item>
+          <Menu.Divider />
+          <Menu.Item color="red" onClick={handleReset}>
+            Reset
           </Menu.Item>
         </Menu.Dropdown>
       </Menu>
