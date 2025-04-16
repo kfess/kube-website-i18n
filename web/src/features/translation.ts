@@ -8,23 +8,14 @@ type Commit = {
   author: string;
 };
 
-type NonExistentTranslation = {
-  exists: false;
+type TranslationInfo = {
+  path: string;
+  commits: Commit[];
 };
-
-type ExistentTranslation = {
-  exists: true;
-  path?: string;
-  commits?: Commit[];
-};
-
-type TranslationInfo = NonExistentTranslation | ExistentTranslation;
 
 export type TranslationState = {
   [key: string]: {
-    translations: {
-      [lang in Language]: TranslationInfo;
-    };
+    translations: Partial<Record<Language, TranslationInfo>>;
   };
 };
 

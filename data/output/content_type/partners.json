@@ -1,8 +1,182 @@
 {
   "content/en/partners/_index.html": {
     "translations": {
+      "pt-br": {
+        "path": "content/pt-br/partners/_index.html",
+        "commits": [
+          {
+            "hash": "bb16b85bd4881d236e1e8e5a61f3520163e18fdf",
+            "date": "Tue May 21 19:37:05 2024 -0400",
+            "message": "[pt-br] Update navbar items for vanilla Docsy",
+            "author": "Mauren Berti"
+          },
+          {
+            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
+            "date": "Thu Jan 18 10:32:21 2024 +0100",
+            "message": "Update references to CNCF landscape (v2)",
+            "author": "Cintia Sanchez Garcia"
+          },
+          {
+            "hash": "bb7f441b162b692e31118ac113e1d2ca5c5bee98",
+            "date": "Tue Jul 12 22:22:59 2022 +0800",
+            "message": "[pt-br] resync /partners/_index.html",
+            "author": "Michael"
+          },
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "es": {
+        "path": "content/es/partners/_index.html",
+        "commits": [
+          {
+            "hash": "7811f2596147b2550fca2df25b4713c5e8f5fcba",
+            "date": "Mon May 20 23:15:33 2024 -0700",
+            "message": "Merge pull request #46196 from rchaganti/patch-1",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
+            "date": "Thu Jan 18 10:32:21 2024 +0100",
+            "message": "Update references to CNCF landscape (v2)",
+            "author": "Cintia Sanchez Garcia"
+          },
+          {
+            "hash": "4b945872abab983bb21417fc7ccefd4c234ef445",
+            "date": "Tue Jul 12 21:49:22 2022 +0800",
+            "message": "[es] resync /partners/_index.html",
+            "author": "Michael"
+          },
+          {
+            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
+            "date": "Thu Apr 4 21:11:20 2019 +0100",
+            "message": "Init Spanish translation (#13543)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "zh-cn": {
+        "path": "content/zh-cn/partners/_index.html",
+        "commits": [
+          {
+            "hash": "1ca07c3df4161978b34513ad0a9abd1b947d5b7d",
+            "date": "Mon May 20 16:19:46 2024 +0800",
+            "message": "[zh-cn] Sync the blog page and partners page for vanilla Docsy",
+            "author": "Mengjiao Liu"
+          },
+          {
+            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
+            "date": "Thu Jan 18 10:32:21 2024 +0100",
+            "message": "Update references to CNCF landscape (v2)",
+            "author": "Cintia Sanchez Garcia"
+          },
+          {
+            "hash": "7cb4e2f72255fabcd63b718afa38afc14917dadf",
+            "date": "Sun Jul 10 10:05:32 2022 +0800",
+            "message": "[zh-cn] resync /partners/_index.html",
+            "author": "Michael"
+          },
+          {
+            "hash": "1276713bb9377cec1d1f5b4d86db5663e8d025cf",
+            "date": "Fri Jul 1 22:24:48 2022 +0800",
+            "message": "[zh-cn] resync comments in code",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      },
+      "ja": {
+        "path": "content/ja/partners/_index.html",
+        "commits": [
+          {
+            "hash": "b36c8a07af265491eacc6b7cad4dfbb253380ed8",
+            "date": "Wed May 15 03:32:32 2024 -0700",
+            "message": "Merge pull request #46377 from my-git9/pt-25922",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
+            "date": "Thu Jan 18 10:32:21 2024 +0100",
+            "message": "Update references to CNCF landscape (v2)",
+            "author": "Cintia Sanchez Garcia"
+          },
+          {
+            "hash": "772eab011c26d39743be479772a4768e6ec246b8",
+            "date": "Tue Jul 12 21:55:29 2022 +0800",
+            "message": "[ja] resync /partners/_index.html",
+            "author": "Michael"
+          },
+          {
+            "hash": "f76e5d63ac1320cae210c96093a2631c948b37fc",
+            "date": "Wed Jun 10 19:02:57 2020 -0700",
+            "message": "Merge pull request #21647 from inductor/feature/partners",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "350059fc9d5c8ac657810459ec53ea13764b7dc9",
+            "date": "Thu Jun 11 08:48:01 2020 +0900",
+            "message": "Translate partners",
+            "author": "inductor"
+          },
+          {
+            "hash": "32591fddab06f6d42f40a60e362b6afe85e39bd1",
+            "date": "Thu Jun 11 08:45:46 2020 +0900",
+            "message": "transalte partners",
+            "author": "inductor"
+          }
+        ]
+      },
+      "ko": {
+        "path": "content/ko/partners/_index.html",
+        "commits": [
+          {
+            "hash": "b36c8a07af265491eacc6b7cad4dfbb253380ed8",
+            "date": "Wed May 15 03:32:32 2024 -0700",
+            "message": "Merge pull request #46377 from my-git9/pt-25922",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
+            "date": "Thu Jan 18 10:32:21 2024 +0100",
+            "message": "Update references to CNCF landscape (v2)",
+            "author": "Cintia Sanchez Garcia"
+          },
+          {
+            "hash": "6d050e326b61ddd0adf96b48027bb9f201b588fe",
+            "date": "Fri Oct 16 00:55:25 2020 -0700",
+            "message": "Merge pull request #24592 from kubernetes/dev-1.19-ko.3",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "6bf2feba74b59ce7a004de67749647c83d5aa622",
+            "date": "Thu Jul 9 21:28:48 2020 -0700",
+            "message": "Merge pull request #22449 from kubernetes/dev-1.18-ko.7",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "583c90add9dfcda46f080558014b9736f2bfe81d",
+            "date": "Tue Mar 31 09:24:40 2020 +0900",
+            "message": "First Korean l10n Work For Release 1.18",
+            "author": "Yuk, Yongsu"
+          },
+          {
+            "hash": "92c910f5be0d99ab850a6173d8496c8e2d37baae",
+            "date": "Thu Apr 9 09:55:44 2020 -0700",
+            "message": "Merge pull request #20190 from ydcool/ydcool-patch-20200409",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/partners/_index.html",
         "commits": [
           {
@@ -25,44 +199,7 @@
           }
         ]
       },
-      "de": {
-        "exists": true,
-        "path": "content/de/partners/_index.html",
-        "commits": [
-          {
-            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
-            "date": "Thu Jan 18 10:32:21 2024 +0100",
-            "message": "Update references to CNCF landscape (v2)",
-            "author": "Cintia Sanchez Garcia"
-          },
-          {
-            "hash": "d31a7ebcfcc24d72c6f08f959656d2bce0f713db",
-            "date": "Wed Oct 20 20:33:57 2021 +0200",
-            "message": "fix typo",
-            "author": "Benedikt Rollik"
-          },
-          {
-            "hash": "897969944d1c39456354adc9e28c193c68676cbd",
-            "date": "Wed Oct 20 17:13:18 2021 +0200",
-            "message": "de-fix-kubernetes-partners",
-            "author": "Benedikt Rollik"
-          },
-          {
-            "hash": "260f0231f576fd7d091a235ee86e2889d3bf4134",
-            "date": "Wed Oct 20 17:12:19 2021 +0200",
-            "message": "de-fix-kubernetes-partners",
-            "author": "Benedikt Rollik"
-          },
-          {
-            "hash": "f63f1c1ca72b3581a04f86ae83f79cf0d668e452",
-            "date": "Wed Apr 17 20:00:06 2019 +0200",
-            "message": "[DOCS-DE] Translation Partners (#13842)",
-            "author": "Benedikt Rollik"
-          }
-        ]
-      },
       "en": {
-        "exists": true,
         "path": "content/en/partners/_index.html",
         "commits": [
           {
@@ -169,16 +306,9 @@
           }
         ]
       },
-      "es": {
-        "exists": true,
-        "path": "content/es/partners/_index.html",
+      "de": {
+        "path": "content/de/partners/_index.html",
         "commits": [
-          {
-            "hash": "7811f2596147b2550fca2df25b4713c5e8f5fcba",
-            "date": "Mon May 20 23:15:33 2024 -0700",
-            "message": "Merge pull request #46196 from rchaganti/patch-1",
-            "author": "Kubernetes Prow Robot"
-          },
           {
             "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
             "date": "Thu Jan 18 10:32:21 2024 +0100",
@@ -186,21 +316,32 @@
             "author": "Cintia Sanchez Garcia"
           },
           {
-            "hash": "4b945872abab983bb21417fc7ccefd4c234ef445",
-            "date": "Tue Jul 12 21:49:22 2022 +0800",
-            "message": "[es] resync /partners/_index.html",
-            "author": "Michael"
+            "hash": "d31a7ebcfcc24d72c6f08f959656d2bce0f713db",
+            "date": "Wed Oct 20 20:33:57 2021 +0200",
+            "message": "fix typo",
+            "author": "Benedikt Rollik"
           },
           {
-            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
-            "date": "Thu Apr 4 21:11:20 2019 +0100",
-            "message": "Init Spanish translation (#13543)",
-            "author": "Rael Garcia"
+            "hash": "897969944d1c39456354adc9e28c193c68676cbd",
+            "date": "Wed Oct 20 17:13:18 2021 +0200",
+            "message": "de-fix-kubernetes-partners",
+            "author": "Benedikt Rollik"
+          },
+          {
+            "hash": "260f0231f576fd7d091a235ee86e2889d3bf4134",
+            "date": "Wed Oct 20 17:12:19 2021 +0200",
+            "message": "de-fix-kubernetes-partners",
+            "author": "Benedikt Rollik"
+          },
+          {
+            "hash": "f63f1c1ca72b3581a04f86ae83f79cf0d668e452",
+            "date": "Wed Apr 17 20:00:06 2019 +0200",
+            "message": "[DOCS-DE] Translation Partners (#13842)",
+            "author": "Benedikt Rollik"
           }
         ]
       },
       "fr": {
-        "exists": true,
         "path": "content/fr/partners/_index.html",
         "commits": [
           {
@@ -229,14 +370,7 @@
           }
         ]
       },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
       "it": {
-        "exists": true,
         "path": "content/it/partners/_index.html",
         "commits": [
           {
@@ -283,131 +417,7 @@
           }
         ]
       },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/partners/_index.html",
-        "commits": [
-          {
-            "hash": "b36c8a07af265491eacc6b7cad4dfbb253380ed8",
-            "date": "Wed May 15 03:32:32 2024 -0700",
-            "message": "Merge pull request #46377 from my-git9/pt-25922",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
-            "date": "Thu Jan 18 10:32:21 2024 +0100",
-            "message": "Update references to CNCF landscape (v2)",
-            "author": "Cintia Sanchez Garcia"
-          },
-          {
-            "hash": "772eab011c26d39743be479772a4768e6ec246b8",
-            "date": "Tue Jul 12 21:55:29 2022 +0800",
-            "message": "[ja] resync /partners/_index.html",
-            "author": "Michael"
-          },
-          {
-            "hash": "f76e5d63ac1320cae210c96093a2631c948b37fc",
-            "date": "Wed Jun 10 19:02:57 2020 -0700",
-            "message": "Merge pull request #21647 from inductor/feature/partners",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "350059fc9d5c8ac657810459ec53ea13764b7dc9",
-            "date": "Thu Jun 11 08:48:01 2020 +0900",
-            "message": "Translate partners",
-            "author": "inductor"
-          },
-          {
-            "hash": "32591fddab06f6d42f40a60e362b6afe85e39bd1",
-            "date": "Thu Jun 11 08:45:46 2020 +0900",
-            "message": "transalte partners",
-            "author": "inductor"
-          }
-        ]
-      },
-      "ko": {
-        "exists": true,
-        "path": "content/ko/partners/_index.html",
-        "commits": [
-          {
-            "hash": "b36c8a07af265491eacc6b7cad4dfbb253380ed8",
-            "date": "Wed May 15 03:32:32 2024 -0700",
-            "message": "Merge pull request #46377 from my-git9/pt-25922",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
-            "date": "Thu Jan 18 10:32:21 2024 +0100",
-            "message": "Update references to CNCF landscape (v2)",
-            "author": "Cintia Sanchez Garcia"
-          },
-          {
-            "hash": "6d050e326b61ddd0adf96b48027bb9f201b588fe",
-            "date": "Fri Oct 16 00:55:25 2020 -0700",
-            "message": "Merge pull request #24592 from kubernetes/dev-1.19-ko.3",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "6bf2feba74b59ce7a004de67749647c83d5aa622",
-            "date": "Thu Jul 9 21:28:48 2020 -0700",
-            "message": "Merge pull request #22449 from kubernetes/dev-1.18-ko.7",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "583c90add9dfcda46f080558014b9736f2bfe81d",
-            "date": "Tue Mar 31 09:24:40 2020 +0900",
-            "message": "First Korean l10n Work For Release 1.18",
-            "author": "Yuk, Yongsu"
-          },
-          {
-            "hash": "92c910f5be0d99ab850a6173d8496c8e2d37baae",
-            "date": "Thu Apr 9 09:55:44 2020 -0700",
-            "message": "Merge pull request #20190 from ydcool/ydcool-patch-20200409",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": true,
-        "path": "content/pt-br/partners/_index.html",
-        "commits": [
-          {
-            "hash": "bb16b85bd4881d236e1e8e5a61f3520163e18fdf",
-            "date": "Tue May 21 19:37:05 2024 -0400",
-            "message": "[pt-br] Update navbar items for vanilla Docsy",
-            "author": "Mauren Berti"
-          },
-          {
-            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
-            "date": "Thu Jan 18 10:32:21 2024 +0100",
-            "message": "Update references to CNCF landscape (v2)",
-            "author": "Cintia Sanchez Garcia"
-          },
-          {
-            "hash": "bb7f441b162b692e31118ac113e1d2ca5c5bee98",
-            "date": "Tue Jul 12 22:22:59 2022 +0800",
-            "message": "[pt-br] resync /partners/_index.html",
-            "author": "Michael"
-          },
-          {
-            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
-            "date": "Mon Apr 19 17:30:33 2021 -0700",
-            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
       "vi": {
-        "exists": true,
         "path": "content/vi/partners/_index.html",
         "commits": [
           {
@@ -427,42 +437,6 @@
             "date": "Mon Mar 16 13:30:35 2020 +0700",
             "message": "Adds doc vi/partners (#18203)",
             "author": "tiendc"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/partners/_index.html",
-        "commits": [
-          {
-            "hash": "1ca07c3df4161978b34513ad0a9abd1b947d5b7d",
-            "date": "Mon May 20 16:19:46 2024 +0800",
-            "message": "[zh-cn] Sync the blog page and partners page for vanilla Docsy",
-            "author": "Mengjiao Liu"
-          },
-          {
-            "hash": "26e760da6e76da033d69051a240b58bad9a5fa8f",
-            "date": "Thu Jan 18 10:32:21 2024 +0100",
-            "message": "Update references to CNCF landscape (v2)",
-            "author": "Cintia Sanchez Garcia"
-          },
-          {
-            "hash": "7cb4e2f72255fabcd63b718afa38afc14917dadf",
-            "date": "Sun Jul 10 10:05:32 2022 +0800",
-            "message": "[zh-cn] resync /partners/_index.html",
-            "author": "Michael"
-          },
-          {
-            "hash": "1276713bb9377cec1d1f5b4d86db5663e8d025cf",
-            "date": "Fri Jul 1 22:24:48 2022 +0800",
-            "message": "[zh-cn] resync comments in code",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
           }
         ]
       }

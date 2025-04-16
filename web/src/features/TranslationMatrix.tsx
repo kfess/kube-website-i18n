@@ -114,8 +114,8 @@ export const TranslationMatrix = (props: Props) => {
         // ステータスによるフィルタリング（全言語対象）
         const hasMatchingStatus = Object.values(fileData.translations).some(
           (langData) =>
-            (filteredStatus === 'untranslated' && !langData.exists) ||
-            (filteredStatus === 'translated' && langData.exists)
+            (filteredStatus === 'untranslated' && !langData.path) ||
+            (filteredStatus === 'translated' && langData.path)
         );
 
         if (hasMatchingStatus) {
@@ -133,8 +133,8 @@ export const TranslationMatrix = (props: Props) => {
       // ステータスフィルター
       if (
         filteredStatus === 'all' ||
-        (filteredStatus === 'untranslated' && !langData.exists) ||
-        (filteredStatus === 'translated' && langData.exists)
+        (filteredStatus === 'untranslated' && !langData.path) ||
+        (filteredStatus === 'translated' && langData.path)
       ) {
         acc[filePath] = fileData;
       }
@@ -274,7 +274,7 @@ export const TranslationMatrix = (props: Props) => {
                     </Anchor>
                   </Table.Td>
                   {sortedLanguages.map((lang) => {
-                    const exists = fileData.translations[lang]?.exists;
+                    const exists = fileData.translations[lang]?.path !== undefined;
 
                     const bgColor = exists
                       ? isDark
@@ -303,7 +303,9 @@ export const TranslationMatrix = (props: Props) => {
                         <Text c={textColor} fw={600}>
                           {exists ? (
                             <Anchor
-                              href={`https://github.com/kubernetes/website/blob/main/${fileData.translations[lang].path}`}
+                              // We can safely assume that the path is valid because exists is true
+                              // So we can use the non-null assertion operator (!)
+                              href={`https://github.com/kubernetes/website/blob/main/${fileData!.translations[lang]!.path}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               c="inherit"

@@ -1,8 +1,135 @@
 {
   "content/en/releases/_index.md": {
     "translations": {
+      "pl": {
+        "path": "content/pl/releases/_index.md",
+        "commits": [
+          {
+            "hash": "f9be9a248c3165aa655eaff04b97bb89fb233713",
+            "date": "Sun Mar 30 10:24:35 2025 -0700",
+            "message": "Merge pull request #50145 from tengqm/kubelet-authz",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "676b010e6176a26d96477194507cb14b26846b9e",
+            "date": "Mon Oct 23 21:16:23 2023 +0200",
+            "message": "Synchronize Polish localization for ver 1.28, part 2",
+            "author": "Maciej Filocha"
+          },
+          {
+            "hash": "6912a83ac8ee135e265397853ca30592710dac9a",
+            "date": "Thu Jan 12 14:14:55 2023 -0800",
+            "message": "Merge pull request #38386 from MrErlison/pt-br/member",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "39e1a03730704dbaabb71cdb8672822d6c6a9585",
+            "date": "Mon May 16 14:00:26 2022 +0800",
+            "message": "[pl] Fix `Kubernetes` typo",
+            "author": "Sean"
+          },
+          {
+            "hash": "9314e3be286fa0fe99239c3fcae77cd86376b11d",
+            "date": "Fri Aug 13 09:36:31 2021 +0200",
+            "message": "Synchronize Polish localization for ver 1.22, part 2",
+            "author": "Maciej Filocha"
+          },
+          {
+            "hash": "54bebd3248f5d2fafaee5f5ee19431b4e02bb5ab",
+            "date": "Fri Jul 23 16:19:06 2021 -0700",
+            "message": "Merge pull request #28872 from tengqm/kubeadm-config-v1beta3",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "vi": {
+        "path": "content/vi/releases/_index.md",
+        "commits": [
+          {
+            "hash": "eaf339538204262a273d50207fd3207cfbeee97f",
+            "date": "Sun Mar 16 02:49:47 2025 +0900",
+            "message": "Add Version Skew Policy page in Vietnamese",
+            "author": "khanhtc1202"
+          },
+          {
+            "hash": "70c8f20d03fa131d5ae22d04c3b99a9ab6863681",
+            "date": "Thu Mar 13 02:37:48 2025 -0700",
+            "message": "Merge pull request #49932 from abhi-bhatra/feature-add-new-playground",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "ru": {
+        "path": "content/ru/releases/_index.md",
+        "commits": [
+          {
+            "hash": "0f49ecca354b83470a1b3efb117a7daa3d0c39a9",
+            "date": "Thu Aug 22 16:13:46 2024 +0700",
+            "message": "[ru] Translate Releases and Download pages (#47524)",
+            "author": "Dmitry Shurupov"
+          }
+        ]
+      },
+      "zh-cn": {
+        "path": "content/zh-cn/releases/_index.md",
+        "commits": [
+          {
+            "hash": "571aa04ca455f74c7e13be202c1e1f851ce3ede4",
+            "date": "Sat May 4 02:43:33 2024 +0800",
+            "message": "[zh-cn] sync releases/_index.md",
+            "author": "tico88612"
+          },
+          {
+            "hash": "7899eb09a331c1c20e4e20a8ea9d543a7920cfca",
+            "date": "Wed Nov 15 17:47:53 2023 +0100",
+            "message": "Merge pull request #43938 from katcosgrove/merged-main-dev-1.29",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
+            "date": "Tue Oct 10 23:38:05 2023 +0800",
+            "message": "[zh-cn] sync releases/* and training/*",
+            "author": "xin.li"
+          },
+          {
+            "hash": "812181539f3d15d4486b611b1a4eb4b587d51ae9",
+            "date": "Thu Aug 17 22:15:07 2023 +0800",
+            "message": "sync user-namespaces /tools/_index /releases/_index",
+            "author": "xin gu"
+          },
+          {
+            "hash": "3ffabe063974c1bd72e3690bafd7f928c86fc1cc",
+            "date": "Tue Aug 23 10:14:40 2022 +0800",
+            "message": "[zh] Update releases page and fix the 404 link",
+            "author": "ydFu"
+          },
+          {
+            "hash": "b52b99f45b78a9aeb35a308bc677094c09939a58",
+            "date": "Sun Aug 14 12:50:57 2022 +0800",
+            "message": "[zh-cn] resync: releases/_index.md & version-skew-policy.md",
+            "author": "Hu Shuai"
+          },
+          {
+            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
+            "date": "Thu Jun 23 20:07:06 2022 +0800",
+            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "92d4bbf03d870de03ff1926bab5dc5aa5ea39997",
+            "date": "Mon Jun 20 06:58:04 2022 -0700",
+            "message": "Merge pull request #34397 from Rishit-dagli/Rishit-dagli-jobs",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/_index.md",
         "commits": [
           {
@@ -43,11 +170,7 @@
           }
         ]
       },
-      "de": {
-        "exists": false
-      },
       "en": {
-        "exists": true,
         "path": "content/en/releases/_index.md",
         "commits": [
           {
@@ -112,11 +235,29 @@
           }
         ]
       },
-      "es": {
-        "exists": false
+      "ja": {
+        "path": "content/ja/releases/_index.md",
+        "commits": [
+          {
+            "hash": "d43a81331dd25353be4b679fbbca700a62aba790",
+            "date": "Wed Jan 31 05:13:08 2024 -0800",
+            "message": "Merge pull request #44883 from Okabe-Junya/fix-44882",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "pt-br": {
+        "path": "content/pt-br/releases/_index.md",
+        "commits": [
+          {
+            "hash": "2172ca7a70b8991e6853ecc57335e76c1199bcb1",
+            "date": "Thu Jun 8 07:22:13 2023 -0700",
+            "message": "Merge pull request #41541 from asa3311/sync-zh-5",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
       },
       "fr": {
-        "exists": true,
         "path": "content/fr/releases/_index.md",
         "commits": [
           {
@@ -128,7 +269,6 @@
         ]
       },
       "hi": {
-        "exists": true,
         "path": "content/hi/releases/_index.md",
         "commits": [
           {
@@ -157,26 +297,7 @@
           }
         ]
       },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/releases/_index.md",
-        "commits": [
-          {
-            "hash": "d43a81331dd25353be4b679fbbca700a62aba790",
-            "date": "Wed Jan 31 05:13:08 2024 -0800",
-            "message": "Merge pull request #44883 from Okabe-Junya/fix-44882",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
       "ko": {
-        "exists": true,
         "path": "content/ko/releases/_index.md",
         "commits": [
           {
@@ -198,160 +319,23 @@
             "author": "Kubernetes Prow Robot"
           }
         ]
-      },
-      "pl": {
-        "exists": true,
-        "path": "content/pl/releases/_index.md",
-        "commits": [
-          {
-            "hash": "f9be9a248c3165aa655eaff04b97bb89fb233713",
-            "date": "Sun Mar 30 10:24:35 2025 -0700",
-            "message": "Merge pull request #50145 from tengqm/kubelet-authz",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "676b010e6176a26d96477194507cb14b26846b9e",
-            "date": "Mon Oct 23 21:16:23 2023 +0200",
-            "message": "Synchronize Polish localization for ver 1.28, part 2",
-            "author": "Maciej Filocha"
-          },
-          {
-            "hash": "6912a83ac8ee135e265397853ca30592710dac9a",
-            "date": "Thu Jan 12 14:14:55 2023 -0800",
-            "message": "Merge pull request #38386 from MrErlison/pt-br/member",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "39e1a03730704dbaabb71cdb8672822d6c6a9585",
-            "date": "Mon May 16 14:00:26 2022 +0800",
-            "message": "[pl] Fix `Kubernetes` typo",
-            "author": "Sean"
-          },
-          {
-            "hash": "9314e3be286fa0fe99239c3fcae77cd86376b11d",
-            "date": "Fri Aug 13 09:36:31 2021 +0200",
-            "message": "Synchronize Polish localization for ver 1.22, part 2",
-            "author": "Maciej Filocha"
-          },
-          {
-            "hash": "54bebd3248f5d2fafaee5f5ee19431b4e02bb5ab",
-            "date": "Fri Jul 23 16:19:06 2021 -0700",
-            "message": "Merge pull request #28872 from tengqm/kubeadm-config-v1beta3",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "pt-br": {
-        "exists": true,
-        "path": "content/pt-br/releases/_index.md",
-        "commits": [
-          {
-            "hash": "2172ca7a70b8991e6853ecc57335e76c1199bcb1",
-            "date": "Thu Jun 8 07:22:13 2023 -0700",
-            "message": "Merge pull request #41541 from asa3311/sync-zh-5",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "ru": {
-        "exists": true,
-        "path": "content/ru/releases/_index.md",
-        "commits": [
-          {
-            "hash": "0f49ecca354b83470a1b3efb117a7daa3d0c39a9",
-            "date": "Thu Aug 22 16:13:46 2024 +0700",
-            "message": "[ru] Translate Releases and Download pages (#47524)",
-            "author": "Dmitry Shurupov"
-          }
-        ]
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/releases/_index.md",
-        "commits": [
-          {
-            "hash": "eaf339538204262a273d50207fd3207cfbeee97f",
-            "date": "Sun Mar 16 02:49:47 2025 +0900",
-            "message": "Add Version Skew Policy page in Vietnamese",
-            "author": "khanhtc1202"
-          },
-          {
-            "hash": "70c8f20d03fa131d5ae22d04c3b99a9ab6863681",
-            "date": "Thu Mar 13 02:37:48 2025 -0700",
-            "message": "Merge pull request #49932 from abhi-bhatra/feature-add-new-playground",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/_index.md",
-        "commits": [
-          {
-            "hash": "571aa04ca455f74c7e13be202c1e1f851ce3ede4",
-            "date": "Sat May 4 02:43:33 2024 +0800",
-            "message": "[zh-cn] sync releases/_index.md",
-            "author": "tico88612"
-          },
-          {
-            "hash": "7899eb09a331c1c20e4e20a8ea9d543a7920cfca",
-            "date": "Wed Nov 15 17:47:53 2023 +0100",
-            "message": "Merge pull request #43938 from katcosgrove/merged-main-dev-1.29",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
-            "date": "Tue Oct 10 23:38:05 2023 +0800",
-            "message": "[zh-cn] sync releases/* and training/*",
-            "author": "xin.li"
-          },
-          {
-            "hash": "812181539f3d15d4486b611b1a4eb4b587d51ae9",
-            "date": "Thu Aug 17 22:15:07 2023 +0800",
-            "message": "sync user-namespaces /tools/_index /releases/_index",
-            "author": "xin gu"
-          },
-          {
-            "hash": "3ffabe063974c1bd72e3690bafd7f928c86fc1cc",
-            "date": "Tue Aug 23 10:14:40 2022 +0800",
-            "message": "[zh] Update releases page and fix the 404 link",
-            "author": "ydFu"
-          },
-          {
-            "hash": "b52b99f45b78a9aeb35a308bc677094c09939a58",
-            "date": "Sun Aug 14 12:50:57 2022 +0800",
-            "message": "[zh-cn] resync: releases/_index.md & version-skew-policy.md",
-            "author": "Hu Shuai"
-          },
-          {
-            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
-            "date": "Thu Jun 23 20:07:06 2022 +0800",
-            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "92d4bbf03d870de03ff1926bab5dc5aa5ea39997",
-            "date": "Mon Jun 20 06:58:04 2022 -0700",
-            "message": "Merge pull request #34397 from Rishit-dagli/Rishit-dagli-jobs",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
       }
     }
   },
   "content/en/releases/release-managers.md": {
     "translations": {
+      "vi": {
+        "path": "content/vi/releases/release-managers.md",
+        "commits": [
+          {
+            "hash": "179ede7c60cc02c5591fe932b0a300551a5e11cf",
+            "date": "Wed Mar 19 19:45:13 2025 +0900",
+            "message": "Add release managers page in Vietnamese",
+            "author": "khanhtc1202"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/release-managers.md",
         "commits": [
           {
@@ -392,11 +376,84 @@
           }
         ]
       },
-      "de": {
-        "exists": false
+      "zh-cn": {
+        "path": "content/zh-cn/releases/release-managers.md",
+        "commits": [
+          {
+            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
+            "date": "Tue Oct 10 23:38:05 2023 +0800",
+            "message": "[zh-cn] sync releases/* and training/*",
+            "author": "xin.li"
+          },
+          {
+            "hash": "8dd85a67bd68e93790d94fce84fb790b8480f558",
+            "date": "Mon Apr 17 22:02:36 2023 +0800",
+            "message": "sync release-managers.md",
+            "author": "xin gu"
+          },
+          {
+            "hash": "aec5434153dc559159986440e7e391e4a99cbe9d",
+            "date": "Thu Dec 8 09:26:15 2022 +0800",
+            "message": "[zh] sync /release-managers.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "252d20ea0bd3fe84410e5caa7421868e1a55a89e",
+            "date": "Sat Oct 8 17:11:33 2022 +0800",
+            "message": "[zh] sync/release-manager.md",
+            "author": "liangyongzhenya"
+          },
+          {
+            "hash": "73856900a09a4e31878d42785f587448ac973797",
+            "date": "Sat Oct 1 16:03:17 2022 +0800",
+            "message": "[zh] sync list-all-running-container-images security-context release-managers",
+            "author": "xin.li"
+          },
+          {
+            "hash": "3ffabe063974c1bd72e3690bafd7f928c86fc1cc",
+            "date": "Tue Aug 23 10:14:40 2022 +0800",
+            "message": "[zh] Update releases page and fix the 404 link",
+            "author": "ydFu"
+          },
+          {
+            "hash": "6b8a4c7f2ad67aac9512d0389b175c65671b8cdb",
+            "date": "Thu Aug 4 00:55:34 2022 +0800",
+            "message": "[zh-cn]Update content/zh-cn/releases/release-managers.md",
+            "author": "Kinzhi"
+          },
+          {
+            "hash": "5684ff75b100fc55f73e8d8a63fddd2f43968880",
+            "date": "Sat Jul 23 17:31:54 2022 +0800",
+            "message": "[zh-cn]Update content/zh-cn/releases/release-managers.md",
+            "author": "Kinzhi"
+          },
+          {
+            "hash": "342d3bffc11f70d46f51814325ac5599ae73d311",
+            "date": "Wed Jul 20 00:09:32 2022 +0800",
+            "message": "[zh-cn]Update content/zh-cn/releases/release-managers.md",
+            "author": "Kinzhi"
+          },
+          {
+            "hash": "e373568b751b7cdcdd97f9a1fb0208fd918d7f7c",
+            "date": "Sat Jul 2 08:33:24 2022 -0700",
+            "message": "Merge pull request #34760 from Kwazimolo/typo-correction",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "fc45c356955842603522481058e049c9fca5a57d",
+            "date": "Sun Jun 26 20:34:58 2022 -0700",
+            "message": "Merge pull request #34595 from tengqm/zh-resync-debug-service",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/releases/release-managers.md",
         "commits": [
           {
@@ -574,136 +631,51 @@
             "author": "Stephen Augustus"
           }
         ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": false
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/releases/release-managers.md",
-        "commits": [
-          {
-            "hash": "179ede7c60cc02c5591fe932b0a300551a5e11cf",
-            "date": "Wed Mar 19 19:45:13 2025 +0900",
-            "message": "Add release managers page in Vietnamese",
-            "author": "khanhtc1202"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/release-managers.md",
-        "commits": [
-          {
-            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
-            "date": "Tue Oct 10 23:38:05 2023 +0800",
-            "message": "[zh-cn] sync releases/* and training/*",
-            "author": "xin.li"
-          },
-          {
-            "hash": "8dd85a67bd68e93790d94fce84fb790b8480f558",
-            "date": "Mon Apr 17 22:02:36 2023 +0800",
-            "message": "sync release-managers.md",
-            "author": "xin gu"
-          },
-          {
-            "hash": "aec5434153dc559159986440e7e391e4a99cbe9d",
-            "date": "Thu Dec 8 09:26:15 2022 +0800",
-            "message": "[zh] sync /release-managers.md",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "252d20ea0bd3fe84410e5caa7421868e1a55a89e",
-            "date": "Sat Oct 8 17:11:33 2022 +0800",
-            "message": "[zh] sync/release-manager.md",
-            "author": "liangyongzhenya"
-          },
-          {
-            "hash": "73856900a09a4e31878d42785f587448ac973797",
-            "date": "Sat Oct 1 16:03:17 2022 +0800",
-            "message": "[zh] sync list-all-running-container-images security-context release-managers",
-            "author": "xin.li"
-          },
-          {
-            "hash": "3ffabe063974c1bd72e3690bafd7f928c86fc1cc",
-            "date": "Tue Aug 23 10:14:40 2022 +0800",
-            "message": "[zh] Update releases page and fix the 404 link",
-            "author": "ydFu"
-          },
-          {
-            "hash": "6b8a4c7f2ad67aac9512d0389b175c65671b8cdb",
-            "date": "Thu Aug 4 00:55:34 2022 +0800",
-            "message": "[zh-cn]Update content/zh-cn/releases/release-managers.md",
-            "author": "Kinzhi"
-          },
-          {
-            "hash": "5684ff75b100fc55f73e8d8a63fddd2f43968880",
-            "date": "Sat Jul 23 17:31:54 2022 +0800",
-            "message": "[zh-cn]Update content/zh-cn/releases/release-managers.md",
-            "author": "Kinzhi"
-          },
-          {
-            "hash": "342d3bffc11f70d46f51814325ac5599ae73d311",
-            "date": "Wed Jul 20 00:09:32 2022 +0800",
-            "message": "[zh-cn]Update content/zh-cn/releases/release-managers.md",
-            "author": "Kinzhi"
-          },
-          {
-            "hash": "e373568b751b7cdcdd97f9a1fb0208fd918d7f7c",
-            "date": "Sat Jul 2 08:33:24 2022 -0700",
-            "message": "Merge pull request #34760 from Kwazimolo/typo-correction",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "fc45c356955842603522481058e049c9fca5a57d",
-            "date": "Sun Jun 26 20:34:58 2022 -0700",
-            "message": "Merge pull request #34595 from tengqm/zh-resync-debug-service",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
       }
     }
   },
   "content/en/releases/download.md": {
     "translations": {
+      "vi": {
+        "path": "content/vi/releases/download.md",
+        "commits": [
+          {
+            "hash": "8472f99bdea9ff8ed1378f954ad63cebd31c37f5",
+            "date": "Mon Mar 17 09:45:49 2025 -0700",
+            "message": "Merge pull request #49963 from aivantsov/patch-2",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "pl": {
+        "path": "content/pl/releases/download.md",
+        "commits": [
+          {
+            "hash": "a5731d2e7ccd53aa2b73e7bf3e8760e3f5f3bb2d",
+            "date": "Thu Feb 27 08:29:14 2025 +0100",
+            "message": "[pl] update: releases/download.md",
+            "author": "dkarczmarski"
+          },
+          {
+            "hash": "0331fec7fe218f6159b86936f077f870afc0c34c",
+            "date": "Sun Nov 12 21:04:29 2023 +0100",
+            "message": "Proposal for the Polish translation of the 'Download Kubernetes' section.",
+            "author": "Adam Puchejda"
+          }
+        ]
+      },
+      "ru": {
+        "path": "content/ru/releases/download.md",
+        "commits": [
+          {
+            "hash": "0f49ecca354b83470a1b3efb117a7daa3d0c39a9",
+            "date": "Thu Aug 22 16:13:46 2024 +0700",
+            "message": "[ru] Translate Releases and Download pages (#47524)",
+            "author": "Dmitry Shurupov"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/download.md",
         "commits": [
           {
@@ -726,11 +698,72 @@
           }
         ]
       },
-      "de": {
-        "exists": false
+      "zh-cn": {
+        "path": "content/zh-cn/releases/download.md",
+        "commits": [
+          {
+            "hash": "a4fd1da8d3fd690480bac08552079e13e3a03e18",
+            "date": "Sun Nov 26 19:01:46 2023 +0100",
+            "message": "Merge pull request #44069 from taniaduggal/merged-main-dev-1.29",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "7899eb09a331c1c20e4e20a8ea9d543a7920cfca",
+            "date": "Wed Nov 15 17:47:53 2023 +0100",
+            "message": "Merge pull request #43938 from katcosgrove/merged-main-dev-1.29",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
+            "date": "Tue Oct 10 23:38:05 2023 +0800",
+            "message": "[zh-cn] sync releases/* and training/*",
+            "author": "xin.li"
+          },
+          {
+            "hash": "6aa1f9dac8dd5a99ae732e981302160818c4cd8e",
+            "date": "Sat Jun 3 02:30:40 2023 -0700",
+            "message": "Merge pull request #41425 from tu1h/fix_service_doc",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "89d0d8d7aa1066ec5d36ec23502171c3c906cfe5",
+            "date": "Tue Feb 21 17:00:23 2023 +0800",
+            "message": "[zh] sync /releases/download.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "98b1e15ed1132df6be210171034bc247cadc7445",
+            "date": "Sun Jan 1 13:05:30 2023 +0800",
+            "message": "[zh] sync /releases/download.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "09707c0aefb940408e816cfa65e9db84b9c08689",
+            "date": "Fri Sep 2 09:14:06 2022 -0700",
+            "message": "Merge pull request #35908 from raesene/main",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "06b7c74a57a384801766bc204d2acdd86ca18f8b",
+            "date": "Wed Aug 10 23:08:57 2022 -0700",
+            "message": "Merge pull request #35831 from Sea-n/fix-hugo-table-zh",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
+            "date": "Thu Jun 23 20:07:06 2022 +0800",
+            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/releases/download.md",
         "commits": [
           {
@@ -848,148 +881,40 @@
             "author": "Kubernetes Prow Robot"
           }
         ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": false
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": true,
-        "path": "content/pl/releases/download.md",
-        "commits": [
-          {
-            "hash": "a5731d2e7ccd53aa2b73e7bf3e8760e3f5f3bb2d",
-            "date": "Thu Feb 27 08:29:14 2025 +0100",
-            "message": "[pl] update: releases/download.md",
-            "author": "dkarczmarski"
-          },
-          {
-            "hash": "0331fec7fe218f6159b86936f077f870afc0c34c",
-            "date": "Sun Nov 12 21:04:29 2023 +0100",
-            "message": "Proposal for the Polish translation of the 'Download Kubernetes' section.",
-            "author": "Adam Puchejda"
-          }
-        ]
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": true,
-        "path": "content/ru/releases/download.md",
-        "commits": [
-          {
-            "hash": "0f49ecca354b83470a1b3efb117a7daa3d0c39a9",
-            "date": "Thu Aug 22 16:13:46 2024 +0700",
-            "message": "[ru] Translate Releases and Download pages (#47524)",
-            "author": "Dmitry Shurupov"
-          }
-        ]
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/releases/download.md",
-        "commits": [
-          {
-            "hash": "8472f99bdea9ff8ed1378f954ad63cebd31c37f5",
-            "date": "Mon Mar 17 09:45:49 2025 -0700",
-            "message": "Merge pull request #49963 from aivantsov/patch-2",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/download.md",
-        "commits": [
-          {
-            "hash": "a4fd1da8d3fd690480bac08552079e13e3a03e18",
-            "date": "Sun Nov 26 19:01:46 2023 +0100",
-            "message": "Merge pull request #44069 from taniaduggal/merged-main-dev-1.29",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "7899eb09a331c1c20e4e20a8ea9d543a7920cfca",
-            "date": "Wed Nov 15 17:47:53 2023 +0100",
-            "message": "Merge pull request #43938 from katcosgrove/merged-main-dev-1.29",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
-            "date": "Tue Oct 10 23:38:05 2023 +0800",
-            "message": "[zh-cn] sync releases/* and training/*",
-            "author": "xin.li"
-          },
-          {
-            "hash": "6aa1f9dac8dd5a99ae732e981302160818c4cd8e",
-            "date": "Sat Jun 3 02:30:40 2023 -0700",
-            "message": "Merge pull request #41425 from tu1h/fix_service_doc",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "89d0d8d7aa1066ec5d36ec23502171c3c906cfe5",
-            "date": "Tue Feb 21 17:00:23 2023 +0800",
-            "message": "[zh] sync /releases/download.md",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "98b1e15ed1132df6be210171034bc247cadc7445",
-            "date": "Sun Jan 1 13:05:30 2023 +0800",
-            "message": "[zh] sync /releases/download.md",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "09707c0aefb940408e816cfa65e9db84b9c08689",
-            "date": "Fri Sep 2 09:14:06 2022 -0700",
-            "message": "Merge pull request #35908 from raesene/main",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "06b7c74a57a384801766bc204d2acdd86ca18f8b",
-            "date": "Wed Aug 10 23:08:57 2022 -0700",
-            "message": "Merge pull request #35831 from Sea-n/fix-hugo-table-zh",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
-            "date": "Thu Jun 23 20:07:06 2022 +0800",
-            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
       }
     }
   },
   "content/en/releases/version-skew-policy.md": {
     "translations": {
+      "vi": {
+        "path": "content/vi/releases/version-skew-policy.md",
+        "commits": [
+          {
+            "hash": "eaf339538204262a273d50207fd3207cfbeee97f",
+            "date": "Sun Mar 16 02:49:47 2025 +0900",
+            "message": "Add Version Skew Policy page in Vietnamese",
+            "author": "khanhtc1202"
+          }
+        ]
+      },
+      "ja": {
+        "path": "content/ja/releases/version-skew-policy.md",
+        "commits": [
+          {
+            "hash": "d52125a367321a616f747bb11cf74a60ed310184",
+            "date": "Fri Feb 7 15:07:38 2025 +0900",
+            "message": "Fix broken link",
+            "author": "YuikoTakada"
+          },
+          {
+            "hash": "2fd4fc58f25e2da891a87ae573c471a392139e39",
+            "date": "Sun Feb 18 16:42:12 2024 +0900",
+            "message": "[ja] move `version-skew-policy.md` from `content/ja/docs/setup/release/` to `content/ja/releases/` (#44995)",
+            "author": "Junya Okabe"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/version-skew-policy.md",
         "commits": [
           {
@@ -1024,11 +949,78 @@
           }
         ]
       },
-      "de": {
-        "exists": false
+      "zh-cn": {
+        "path": "content/zh-cn/releases/version-skew-policy.md",
+        "commits": [
+          {
+            "hash": "90b3d45eef5e2afd37fd44cf6850c7c277ca0f54",
+            "date": "Wed Oct 11 08:26:01 2023 +0200",
+            "message": "Merge pull request #43404 from windsonsea/appser",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "e016f86d75980a443c7c5804ceeaa49eb616880c",
+            "date": "Wed Aug 16 22:29:55 2023 +0800",
+            "message": "sync install-kubectl-macos install-kubectl-windows version-skew-policy",
+            "author": "xin gu"
+          },
+          {
+            "hash": "f074af8726a98e9f8afd8441b42712527ddb1442",
+            "date": "Wed May 10 22:35:38 2023 +0800",
+            "message": "sync version-skew-policy.md and configure-upgrade-etcd.md",
+            "author": "xin gu"
+          },
+          {
+            "hash": "be8c17c533a7afdacd899355bec1ad87feb6ff7c",
+            "date": "Fri Apr 14 23:21:08 2023 +0800",
+            "message": "sync 1.27 version-skew-policy.md",
+            "author": "xin gu"
+          },
+          {
+            "hash": "b52b99f45b78a9aeb35a308bc677094c09939a58",
+            "date": "Sun Aug 14 12:50:57 2022 +0800",
+            "message": "[zh-cn] resync: releases/_index.md & version-skew-policy.md",
+            "author": "Hu Shuai"
+          },
+          {
+            "hash": "9445fff850d9694707dad82575a2d06e0b7b3edf",
+            "date": "Wed Aug 3 18:17:29 2022 +0800",
+            "message": "[zh-cn] resync /version-skew-policy.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "fa9b18e701f64b2bc33be7e61c0b736ff0ea84cf",
+            "date": "Wed Jul 20 20:25:03 2022 +0800",
+            "message": "[zh-cn] updated /releases/version-skew-policy.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "4ad4797e980d22469517d414411a994d1a9307c7",
+            "date": "Sun Jun 26 23:18:58 2022 -0700",
+            "message": "Merge pull request #34594 from tengqm/zh-resync-pss",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
+            "date": "Thu Jun 23 20:07:06 2022 +0800",
+            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "1f9c0f0ceb90fd72fb8057e1da07e48b44c2d2b4",
+            "date": "Thu Jun 23 21:38:20 2022 +0800",
+            "message": "Update create-cluster-kubeadm.md",
+            "author": "yanrong.shi"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/releases/version-skew-policy.md",
         "commits": [
           {
@@ -1135,41 +1127,7 @@
           }
         ]
       },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/releases/version-skew-policy.md",
-        "commits": [
-          {
-            "hash": "d52125a367321a616f747bb11cf74a60ed310184",
-            "date": "Fri Feb 7 15:07:38 2025 +0900",
-            "message": "Fix broken link",
-            "author": "YuikoTakada"
-          },
-          {
-            "hash": "2fd4fc58f25e2da891a87ae573c471a392139e39",
-            "date": "Sun Feb 18 16:42:12 2024 +0900",
-            "message": "[ja] move `version-skew-policy.md` from `content/ja/docs/setup/release/` to `content/ja/releases/` (#44995)",
-            "author": "Junya Okabe"
-          }
-        ]
-      },
       "ko": {
-        "exists": true,
         "path": "content/ko/releases/version-skew-policy.md",
         "commits": [
           {
@@ -1209,109 +1167,23 @@
             "author": "Kubernetes Prow Robot"
           }
         ]
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/releases/version-skew-policy.md",
-        "commits": [
-          {
-            "hash": "eaf339538204262a273d50207fd3207cfbeee97f",
-            "date": "Sun Mar 16 02:49:47 2025 +0900",
-            "message": "Add Version Skew Policy page in Vietnamese",
-            "author": "khanhtc1202"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/version-skew-policy.md",
-        "commits": [
-          {
-            "hash": "90b3d45eef5e2afd37fd44cf6850c7c277ca0f54",
-            "date": "Wed Oct 11 08:26:01 2023 +0200",
-            "message": "Merge pull request #43404 from windsonsea/appser",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "e016f86d75980a443c7c5804ceeaa49eb616880c",
-            "date": "Wed Aug 16 22:29:55 2023 +0800",
-            "message": "sync install-kubectl-macos install-kubectl-windows version-skew-policy",
-            "author": "xin gu"
-          },
-          {
-            "hash": "f074af8726a98e9f8afd8441b42712527ddb1442",
-            "date": "Wed May 10 22:35:38 2023 +0800",
-            "message": "sync version-skew-policy.md and configure-upgrade-etcd.md",
-            "author": "xin gu"
-          },
-          {
-            "hash": "be8c17c533a7afdacd899355bec1ad87feb6ff7c",
-            "date": "Fri Apr 14 23:21:08 2023 +0800",
-            "message": "sync 1.27 version-skew-policy.md",
-            "author": "xin gu"
-          },
-          {
-            "hash": "b52b99f45b78a9aeb35a308bc677094c09939a58",
-            "date": "Sun Aug 14 12:50:57 2022 +0800",
-            "message": "[zh-cn] resync: releases/_index.md & version-skew-policy.md",
-            "author": "Hu Shuai"
-          },
-          {
-            "hash": "9445fff850d9694707dad82575a2d06e0b7b3edf",
-            "date": "Wed Aug 3 18:17:29 2022 +0800",
-            "message": "[zh-cn] resync /version-skew-policy.md",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "fa9b18e701f64b2bc33be7e61c0b736ff0ea84cf",
-            "date": "Wed Jul 20 20:25:03 2022 +0800",
-            "message": "[zh-cn] updated /releases/version-skew-policy.md",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "4ad4797e980d22469517d414411a994d1a9307c7",
-            "date": "Sun Jun 26 23:18:58 2022 -0700",
-            "message": "Merge pull request #34594 from tengqm/zh-resync-pss",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
-            "date": "Thu Jun 23 20:07:06 2022 +0800",
-            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "1f9c0f0ceb90fd72fb8057e1da07e48b44c2d2b4",
-            "date": "Thu Jun 23 21:38:20 2022 +0800",
-            "message": "Update create-cluster-kubeadm.md",
-            "author": "yanrong.shi"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
       }
     }
   },
   "content/en/releases/notes.md": {
     "translations": {
+      "vi": {
+        "path": "content/vi/releases/notes.md",
+        "commits": [
+          {
+            "hash": "e9394c0be91f9c98db3013456c919f5a1d66e6ef",
+            "date": "Sat Mar 15 18:44:28 2025 +0900",
+            "message": "Add release note page for vi docs",
+            "author": "khanhtc1202"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/notes.md",
         "commits": [
           {
@@ -1322,11 +1194,35 @@
           }
         ]
       },
-      "de": {
-        "exists": false
+      "ja": {
+        "path": "content/ja/releases/notes.md",
+        "commits": [
+          {
+            "hash": "07438fc7bf9f9e793e231820b2f36a856620f325",
+            "date": "Sat Feb 3 19:06:35 2024 +0900",
+            "message": "feat: translate content/ja/releases/notes.md",
+            "author": "Junya Okabe"
+          }
+        ]
+      },
+      "zh-cn": {
+        "path": "content/zh-cn/releases/notes.md",
+        "commits": [
+          {
+            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
+            "date": "Tue Oct 10 23:38:05 2023 +0800",
+            "message": "[zh-cn] sync releases/* and training/*",
+            "author": "xin.li"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/releases/notes.md",
         "commits": [
           {
@@ -1355,44 +1251,7 @@
           }
         ]
       },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/releases/notes.md",
-        "commits": [
-          {
-            "hash": "0af4dd96870fb7a4c0eff3accc576a1ec843623f",
-            "date": "Mon Oct 25 19:07:30 2021 -0700",
-            "message": "Merge pull request #30031 from sahilvv/ga_ttl",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/releases/notes.md",
-        "commits": [
-          {
-            "hash": "07438fc7bf9f9e793e231820b2f36a856620f325",
-            "date": "Sat Feb 3 19:06:35 2024 +0900",
-            "message": "feat: translate content/ja/releases/notes.md",
-            "author": "Junya Okabe"
-          }
-        ]
-      },
       "ko": {
-        "exists": true,
         "path": "content/ko/releases/notes.md",
         "commits": [
           {
@@ -1409,39 +1268,59 @@
           }
         ]
       },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/releases/notes.md",
+      "fr": {
+        "path": "content/fr/releases/notes.md",
         "commits": [
           {
-            "hash": "e9394c0be91f9c98db3013456c919f5a1d66e6ef",
-            "date": "Sat Mar 15 18:44:28 2025 +0900",
-            "message": "Add release note page for vi docs",
-            "author": "khanhtc1202"
+            "hash": "0af4dd96870fb7a4c0eff3accc576a1ec843623f",
+            "date": "Mon Oct 25 19:07:30 2021 -0700",
+            "message": "Merge pull request #30031 from sahilvv/ga_ttl",
+            "author": "Kubernetes Prow Robot"
           }
         ]
-      },
+      }
+    }
+  },
+  "content/en/releases/release.md": {
+    "translations": {
       "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/notes.md",
+        "path": "content/zh-cn/releases/release.md",
         "commits": [
+          {
+            "hash": "1c1b2b0a907f8814920c4934659606576bb310c6",
+            "date": "Fri Feb 21 17:39:42 2025 +0800",
+            "message": "[zh] Sync releases/release.md",
+            "author": "windsonsea"
+          },
           {
             "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
             "date": "Tue Oct 10 23:38:05 2023 +0800",
             "message": "[zh-cn] sync releases/* and training/*",
             "author": "xin.li"
+          },
+          {
+            "hash": "45d63e478c001c7da548c64a7110a94229360776",
+            "date": "Tue Apr 4 16:46:52 2023 +0300",
+            "message": "Mention kubernetes/websites everywhere in the same way",
+            "author": "MaxymVlasov"
+          },
+          {
+            "hash": "3ffabe063974c1bd72e3690bafd7f928c86fc1cc",
+            "date": "Tue Aug 23 10:14:40 2022 +0800",
+            "message": "[zh] Update releases page and fix the 404 link",
+            "author": "ydFu"
+          },
+          {
+            "hash": "a0a41981e0771070cdf4a266db0bcd49226e595f",
+            "date": "Wed Jul 20 10:11:47 2022 +0800",
+            "message": "[zh-cn] fix 404 errors in release.md",
+            "author": "windsonsea"
+          },
+          {
+            "hash": "0ea60658b5f2253a36ef2d601a206baeca60b439",
+            "date": "Wed Jul 6 19:01:33 2022 +0800",
+            "message": "[zh]fix image address of kubernetes release cycle",
+            "author": "howieyuen"
           },
           {
             "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
@@ -1450,13 +1329,85 @@
             "author": "Qiming Teng"
           }
         ]
-      }
-    }
-  },
-  "content/en/releases/release.md": {
-    "translations": {
+      },
+      "en": {
+        "path": "content/en/releases/release.md",
+        "commits": [
+          {
+            "hash": "d2ac5f5d4e8c0609d1fef0b9dc4643efab1a480a",
+            "date": "Mon Nov 25 18:19:43 2024 +0000",
+            "message": "Tweak heading",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "a2bb19c112912c2d14519d1744e71e42ea392fe1",
+            "date": "Mon Nov 25 18:18:55 2024 +0000",
+            "message": "Update release info page",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "dc87111e2dac849b1ff373763c78267d4c673140",
+            "date": "Sun Nov 24 20:18:48 2024 -0800",
+            "message": "Clarification for milestone-maintainer post Code-Freeze (2/2)",
+            "author": "Grace Nguyen"
+          },
+          {
+            "hash": "4efddf96e86b85dc9a4589827a9a7a286d9eecef",
+            "date": "Tue Nov 14 13:33:22 2023 +0100",
+            "message": "Merge pull request #43907 from pohly/dra-scheduling-impact",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "5cbf53b0c8220f2fa24924306ec1c1144f415eea",
+            "date": "Wed Jul 13 15:07:46 2022 +0000",
+            "message": "Migrate to latest versioning document",
+            "author": "ayatk"
+          },
+          {
+            "hash": "d7627ba6979b0e01fdb091f876ee459248c60b66",
+            "date": "Sun Jul 10 20:25:47 2022 -0700",
+            "message": "Merge pull request #34918 from howieyuen/release-en",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "34719abc1949646403b146457377900b44d421e4",
+            "date": "Thu Jun 30 11:42:07 2022 +0800",
+            "message": "Fix links in release.md",
+            "author": "Sean Wei"
+          },
+          {
+            "hash": "36bee814937a4b88525cfd3f0e2b8a1512cb88b2",
+            "date": "Fri Jun 10 08:17:46 2022 -0700",
+            "message": "Merge pull request #33976 from jihoon-seo/220527_ko_Update_outdated_dev-1.24-ko.1_M34",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "198ddf5039fb4bbf76b4fb1f73ae6d6fa15dce06",
+            "date": "Mon May 30 07:48:51 2022 -0700",
+            "message": "Merge pull request #33094 from MrErlison/cluster-architect-ptbr",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "612ebcc5594ec4043f65f2a1f7a5bd15075a19c5",
+            "date": "Thu Jun 3 17:29:05 2021 +0530",
+            "message": "links corrected",
+            "author": "himanshu007-creator"
+          },
+          {
+            "hash": "2021adac4a9287d26ee45cc6e6ab6d63cd26e5d5",
+            "date": "Wed May 19 17:30:51 2021 -0400",
+            "message": "releases: Update script reference and front matter for release.md",
+            "author": "Stephen Augustus"
+          },
+          {
+            "hash": "45f36649ab9dd8c077b90edd600dfe30b3026abd",
+            "date": "Tue May 11 16:03:38 2021 -0700",
+            "message": "Merge pull request #27884 from jingxu97/nodename",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/release.md",
         "commits": [
           {
@@ -1550,163 +1501,133 @@
             "author": "Kubernetes Prow Robot"
           }
         ]
-      },
-      "de": {
-        "exists": false
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/releases/release.md",
-        "commits": [
-          {
-            "hash": "d2ac5f5d4e8c0609d1fef0b9dc4643efab1a480a",
-            "date": "Mon Nov 25 18:19:43 2024 +0000",
-            "message": "Tweak heading",
-            "author": "Tim Bannister"
-          },
-          {
-            "hash": "a2bb19c112912c2d14519d1744e71e42ea392fe1",
-            "date": "Mon Nov 25 18:18:55 2024 +0000",
-            "message": "Update release info page",
-            "author": "Tim Bannister"
-          },
-          {
-            "hash": "dc87111e2dac849b1ff373763c78267d4c673140",
-            "date": "Sun Nov 24 20:18:48 2024 -0800",
-            "message": "Clarification for milestone-maintainer post Code-Freeze (2/2)",
-            "author": "Grace Nguyen"
-          },
-          {
-            "hash": "4efddf96e86b85dc9a4589827a9a7a286d9eecef",
-            "date": "Tue Nov 14 13:33:22 2023 +0100",
-            "message": "Merge pull request #43907 from pohly/dra-scheduling-impact",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "5cbf53b0c8220f2fa24924306ec1c1144f415eea",
-            "date": "Wed Jul 13 15:07:46 2022 +0000",
-            "message": "Migrate to latest versioning document",
-            "author": "ayatk"
-          },
-          {
-            "hash": "d7627ba6979b0e01fdb091f876ee459248c60b66",
-            "date": "Sun Jul 10 20:25:47 2022 -0700",
-            "message": "Merge pull request #34918 from howieyuen/release-en",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "34719abc1949646403b146457377900b44d421e4",
-            "date": "Thu Jun 30 11:42:07 2022 +0800",
-            "message": "Fix links in release.md",
-            "author": "Sean Wei"
-          },
-          {
-            "hash": "36bee814937a4b88525cfd3f0e2b8a1512cb88b2",
-            "date": "Fri Jun 10 08:17:46 2022 -0700",
-            "message": "Merge pull request #33976 from jihoon-seo/220527_ko_Update_outdated_dev-1.24-ko.1_M34",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "198ddf5039fb4bbf76b4fb1f73ae6d6fa15dce06",
-            "date": "Mon May 30 07:48:51 2022 -0700",
-            "message": "Merge pull request #33094 from MrErlison/cluster-architect-ptbr",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "612ebcc5594ec4043f65f2a1f7a5bd15075a19c5",
-            "date": "Thu Jun 3 17:29:05 2021 +0530",
-            "message": "links corrected",
-            "author": "himanshu007-creator"
-          },
-          {
-            "hash": "2021adac4a9287d26ee45cc6e6ab6d63cd26e5d5",
-            "date": "Wed May 19 17:30:51 2021 -0400",
-            "message": "releases: Update script reference and front matter for release.md",
-            "author": "Stephen Augustus"
-          },
-          {
-            "hash": "45f36649ab9dd8c077b90edd600dfe30b3026abd",
-            "date": "Tue May 11 16:03:38 2021 -0700",
-            "message": "Merge pull request #27884 from jingxu97/nodename",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": false
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
+      }
+    }
+  },
+  "content/en/releases/patch-releases.md": {
+    "translations": {
       "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/release.md",
+        "path": "content/zh-cn/releases/patch-releases.md",
         "commits": [
           {
-            "hash": "1c1b2b0a907f8814920c4934659606576bb310c6",
-            "date": "Fri Feb 21 17:39:42 2025 +0800",
-            "message": "[zh] Sync releases/release.md",
-            "author": "windsonsea"
+            "hash": "cefd6b347b77e848b6c0002e031c45b1dd28213e",
+            "date": "Tue Oct 29 14:21:46 2024 +0800",
+            "message": "sync device-plugins cluster-ip-allocation patch-releases",
+            "author": "xin gu"
           },
           {
-            "hash": "b30ac00c214e809351b0ea9b79396b05394d61e5",
-            "date": "Tue Oct 10 23:38:05 2023 +0800",
-            "message": "[zh-cn] sync releases/* and training/*",
+            "hash": "53ecc9454c2ac89000ab02d631e1a46fce4208ac",
+            "date": "Mon Apr 22 01:43:40 2024 -0700",
+            "message": "Merge pull request #45949 from my-git9/patch-4577",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "c4aea8c8619ee1be081550a52c60ab306010a6db",
+            "date": "Wed Feb 21 21:16:01 2024 +0800",
+            "message": "[zh-cn]sync patch-releases network-policies",
             "author": "xin.li"
           },
           {
-            "hash": "45d63e478c001c7da548c64a7110a94229360776",
-            "date": "Tue Apr 4 16:46:52 2023 +0300",
-            "message": "Mention kubernetes/websites everywhere in the same way",
-            "author": "MaxymVlasov"
+            "hash": "4712234e093b76134bb5613a798a0265c54b6c6c",
+            "date": "Sat Dec 2 22:03:46 2023 +0800",
+            "message": "[zh-cn] sync releases/patch-releases",
+            "author": "xin.li"
           },
           {
-            "hash": "3ffabe063974c1bd72e3690bafd7f928c86fc1cc",
-            "date": "Tue Aug 23 10:14:40 2022 +0800",
-            "message": "[zh] Update releases page and fix the 404 link",
-            "author": "ydFu"
+            "hash": "1cc98dfdf06c3893c2aca55efa8b7d04a4f52daa",
+            "date": "Wed Nov 29 19:51:32 2023 +0800",
+            "message": "[zh-cn] sync persistent-volumes configure-liveness-readiness-startup-probes patch-releases",
+            "author": "xin.li"
           },
           {
-            "hash": "a0a41981e0771070cdf4a266db0bcd49226e595f",
-            "date": "Wed Jul 20 10:11:47 2022 +0800",
-            "message": "[zh-cn] fix 404 errors in release.md",
+            "hash": "6475d0f6c6436fe160838d6dfe85f3b16a42f658",
+            "date": "Tue Sep 5 08:15:51 2023 -0700",
+            "message": "Merge pull request #42896 from my-git9/patch-releases",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "37fe70480b5aacae3e47ff1a5fdfdf5eafee80a3",
+            "date": "Thu Aug 31 00:50:47 2023 -0700",
+            "message": "Merge pull request #42788 from mrhan1993/patch-1",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "494fbc1c6509e36052c5edddeb16bdcb3656a25c",
+            "date": "Fri Aug 4 10:54:24 2023 -0700",
+            "message": "Merge pull request #42343 from ydFu/update-pods-index",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "babdf20a704a56a119ec6d13c2406d37e09646c4",
+            "date": "Fri Jun 23 15:21:28 2023 +0800",
+            "message": "sync style-guide api-concepts patch-releases",
+            "author": "xin gu"
+          },
+          {
+            "hash": "01acc6f2cecdff28479744cce972ae16e581e421",
+            "date": "Mon Jun 12 10:29:44 2023 +0800",
+            "message": "sync implementation-details kubelet-credentialprovider.v1beta1 intro",
+            "author": "xin gu"
+          },
+          {
+            "hash": "210c50f967913724105093c7dd0678321feabc4f",
+            "date": "Sun Apr 16 09:17:29 2023 +0800",
+            "message": "sync patch-releases",
+            "author": "xin gu"
+          },
+          {
+            "hash": "7a4a9768200821bf915d34282d8d54bd7e22427b",
+            "date": "Sat Jan 21 23:02:53 2023 +0800",
+            "message": "[zh] sync /releases/patch-releases.md",
             "author": "windsonsea"
           },
           {
-            "hash": "0ea60658b5f2253a36ef2d601a206baeca60b439",
-            "date": "Wed Jul 6 19:01:33 2022 +0800",
-            "message": "[zh]fix image address of kubernetes release cycle",
-            "author": "howieyuen"
+            "hash": "28e0bc313b2cb7efdea769ab4874ae9aebaabe30",
+            "date": "Mon Dec 19 18:57:43 2022 -0800",
+            "message": "Merge pull request #38543 from Arhell/id-add-cloud",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "9835bd47cc9a6644c9e89e8b04ba251d79bc636f",
+            "date": "Tue Nov 15 07:40:04 2022 +0800",
+            "message": "[zh] sync patch-releases.md",
+            "author": "Michael"
+          },
+          {
+            "hash": "feb37b221abfc4ee94dbe0b11a0e4f9cf17c9236",
+            "date": "Mon Oct 17 20:00:22 2022 +0800",
+            "message": "[zh] sync /patch-releases.md",
+            "author": "Michael"
+          },
+          {
+            "hash": "809b5c87a4466937f53aef6f88b853eb2500917c",
+            "date": "Fri Sep 16 08:17:44 2022 +0800",
+            "message": "Update patch-releases.md",
+            "author": "yanrongshi"
+          },
+          {
+            "hash": "425d05e62b42bd88f4944d1fde9838a2b463aac9",
+            "date": "Wed Sep 7 07:43:20 2022 +0800",
+            "message": "[zh] Resync /releases/patch-releases.md",
+            "author": "Michael"
+          },
+          {
+            "hash": "17cf876b55559ea39ea1a6d481d1e8b4de0f15c8",
+            "date": "Wed Aug 24 09:18:13 2022 +0800",
+            "message": "[zh-cn] Sync 1.25 to release schedule for 1.25 release",
+            "author": "jzhupup"
+          },
+          {
+            "hash": "0a30374ee183ca3b6759a74b0fb18ffce4e9d193",
+            "date": "Sat Jul 16 15:22:38 2022 +0800",
+            "message": "Update patch-releases.md",
+            "author": "yanrong.shi"
+          },
+          {
+            "hash": "49398ff87c016dbb8cd4f18cad928ddb324a7838",
+            "date": "Thu Jun 30 22:13:22 2022 -0700",
+            "message": "Merge pull request #34732 from pasudo123/patch-1",
+            "author": "Kubernetes Prow Robot"
           },
           {
             "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
@@ -1715,13 +1636,8 @@
             "author": "Qiming Teng"
           }
         ]
-      }
-    }
-  },
-  "content/en/releases/patch-releases.md": {
-    "translations": {
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/releases/patch-releases.md",
         "commits": [
           {
@@ -1774,11 +1690,7 @@
           }
         ]
       },
-      "de": {
-        "exists": false
-      },
       "en": {
-        "exists": true,
         "path": "content/en/releases/patch-releases.md",
         "commits": [
           {
@@ -2182,174 +2094,6 @@
             "date": "Tue May 11 16:03:38 2021 -0700",
             "message": "Merge pull request #27884 from jingxu97/nodename",
             "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": false
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/releases/patch-releases.md",
-        "commits": [
-          {
-            "hash": "cefd6b347b77e848b6c0002e031c45b1dd28213e",
-            "date": "Tue Oct 29 14:21:46 2024 +0800",
-            "message": "sync device-plugins cluster-ip-allocation patch-releases",
-            "author": "xin gu"
-          },
-          {
-            "hash": "53ecc9454c2ac89000ab02d631e1a46fce4208ac",
-            "date": "Mon Apr 22 01:43:40 2024 -0700",
-            "message": "Merge pull request #45949 from my-git9/patch-4577",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "c4aea8c8619ee1be081550a52c60ab306010a6db",
-            "date": "Wed Feb 21 21:16:01 2024 +0800",
-            "message": "[zh-cn]sync patch-releases network-policies",
-            "author": "xin.li"
-          },
-          {
-            "hash": "4712234e093b76134bb5613a798a0265c54b6c6c",
-            "date": "Sat Dec 2 22:03:46 2023 +0800",
-            "message": "[zh-cn] sync releases/patch-releases",
-            "author": "xin.li"
-          },
-          {
-            "hash": "1cc98dfdf06c3893c2aca55efa8b7d04a4f52daa",
-            "date": "Wed Nov 29 19:51:32 2023 +0800",
-            "message": "[zh-cn] sync persistent-volumes configure-liveness-readiness-startup-probes patch-releases",
-            "author": "xin.li"
-          },
-          {
-            "hash": "6475d0f6c6436fe160838d6dfe85f3b16a42f658",
-            "date": "Tue Sep 5 08:15:51 2023 -0700",
-            "message": "Merge pull request #42896 from my-git9/patch-releases",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "37fe70480b5aacae3e47ff1a5fdfdf5eafee80a3",
-            "date": "Thu Aug 31 00:50:47 2023 -0700",
-            "message": "Merge pull request #42788 from mrhan1993/patch-1",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "494fbc1c6509e36052c5edddeb16bdcb3656a25c",
-            "date": "Fri Aug 4 10:54:24 2023 -0700",
-            "message": "Merge pull request #42343 from ydFu/update-pods-index",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "babdf20a704a56a119ec6d13c2406d37e09646c4",
-            "date": "Fri Jun 23 15:21:28 2023 +0800",
-            "message": "sync style-guide api-concepts patch-releases",
-            "author": "xin gu"
-          },
-          {
-            "hash": "01acc6f2cecdff28479744cce972ae16e581e421",
-            "date": "Mon Jun 12 10:29:44 2023 +0800",
-            "message": "sync implementation-details kubelet-credentialprovider.v1beta1 intro",
-            "author": "xin gu"
-          },
-          {
-            "hash": "210c50f967913724105093c7dd0678321feabc4f",
-            "date": "Sun Apr 16 09:17:29 2023 +0800",
-            "message": "sync patch-releases",
-            "author": "xin gu"
-          },
-          {
-            "hash": "7a4a9768200821bf915d34282d8d54bd7e22427b",
-            "date": "Sat Jan 21 23:02:53 2023 +0800",
-            "message": "[zh] sync /releases/patch-releases.md",
-            "author": "windsonsea"
-          },
-          {
-            "hash": "28e0bc313b2cb7efdea769ab4874ae9aebaabe30",
-            "date": "Mon Dec 19 18:57:43 2022 -0800",
-            "message": "Merge pull request #38543 from Arhell/id-add-cloud",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "9835bd47cc9a6644c9e89e8b04ba251d79bc636f",
-            "date": "Tue Nov 15 07:40:04 2022 +0800",
-            "message": "[zh] sync patch-releases.md",
-            "author": "Michael"
-          },
-          {
-            "hash": "feb37b221abfc4ee94dbe0b11a0e4f9cf17c9236",
-            "date": "Mon Oct 17 20:00:22 2022 +0800",
-            "message": "[zh] sync /patch-releases.md",
-            "author": "Michael"
-          },
-          {
-            "hash": "809b5c87a4466937f53aef6f88b853eb2500917c",
-            "date": "Fri Sep 16 08:17:44 2022 +0800",
-            "message": "Update patch-releases.md",
-            "author": "yanrongshi"
-          },
-          {
-            "hash": "425d05e62b42bd88f4944d1fde9838a2b463aac9",
-            "date": "Wed Sep 7 07:43:20 2022 +0800",
-            "message": "[zh] Resync /releases/patch-releases.md",
-            "author": "Michael"
-          },
-          {
-            "hash": "17cf876b55559ea39ea1a6d481d1e8b4de0f15c8",
-            "date": "Wed Aug 24 09:18:13 2022 +0800",
-            "message": "[zh-cn] Sync 1.25 to release schedule for 1.25 release",
-            "author": "jzhupup"
-          },
-          {
-            "hash": "0a30374ee183ca3b6759a74b0fb18ffce4e9d193",
-            "date": "Sat Jul 16 15:22:38 2022 +0800",
-            "message": "Update patch-releases.md",
-            "author": "yanrong.shi"
-          },
-          {
-            "hash": "49398ff87c016dbb8cd4f18cad928ddb324a7838",
-            "date": "Thu Jun 30 22:13:22 2022 -0700",
-            "message": "Merge pull request #34732 from pasudo123/patch-1",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
           }
         ]
       }

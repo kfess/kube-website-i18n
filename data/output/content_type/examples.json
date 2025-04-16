@@ -2,7 +2,6 @@
   "content/en/examples/README.md": {
     "translations": {
       "bn": {
-        "exists": true,
         "path": "content/bn/examples/README.md",
         "commits": [
           {
@@ -13,11 +12,18 @@
           }
         ]
       },
-      "de": {
-        "exists": false
+      "zh-cn": {
+        "path": "content/zh-cn/examples/README.md",
+        "commits": [
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/examples/README.md",
         "commits": [
           {
@@ -40,23 +46,7 @@
           }
         ]
       },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
       "ja": {
-        "exists": true,
         "path": "content/ja/examples/README.md",
         "commits": [
           {
@@ -64,36 +54,6 @@
             "date": "Fri Mar 8 03:17:41 2019 +0900",
             "message": "First Japanese l10n work for release-1.13 (#12998)",
             "author": "Takuya Tokuda"
-          }
-        ]
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/examples/README.md",
-        "commits": [
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
           }
         ]
       }

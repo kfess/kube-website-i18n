@@ -1,74 +1,7 @@
 {
   "content/en/docs/doc-contributor-tools/linkchecker/README.md": {
     "translations": {
-      "bn": {
-        "exists": false
-      },
-      "de": {
-        "exists": false
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/docs/doc-contributor-tools/linkchecker/README.md",
-        "commits": [
-          {
-            "hash": "99d420a5e4917d3bad10850a6251633f374d0a30",
-            "date": "Tue Oct 1 10:50:30 2024 +0800",
-            "message": "Tweak and clean up pr-wranglers and linkchecke readme",
-            "author": "Michael"
-          },
-          {
-            "hash": "e832559fa0e4452c1340c2cc194c914a4084d0ed",
-            "date": "Fri Apr 29 12:11:43 2022 +0800",
-            "message": "[en] Update docs/doc-contributor-tools/linkchecker",
-            "author": "xin.li"
-          },
-          {
-            "hash": "2eb6ab1ad349778878c90e0902c079b0b04025ba",
-            "date": "Mon May 25 18:14:44 2020 +0100",
-            "message": "Add a link checker",
-            "author": "Tim Bannister"
-          }
-        ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": false
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
       "zh-cn": {
-        "exists": true,
         "path": "content/zh-cn/docs/doc-contributor-tools/linkchecker/README.md",
         "commits": [
           {
@@ -88,6 +21,29 @@
             "date": "Fri Jun 10 20:25:27 2022 +0800",
             "message": "Switch language name 'zh' to 'zh-cn'",
             "author": "Qiming Teng"
+          }
+        ]
+      },
+      "en": {
+        "path": "content/en/docs/doc-contributor-tools/linkchecker/README.md",
+        "commits": [
+          {
+            "hash": "99d420a5e4917d3bad10850a6251633f374d0a30",
+            "date": "Tue Oct 1 10:50:30 2024 +0800",
+            "message": "Tweak and clean up pr-wranglers and linkchecke readme",
+            "author": "Michael"
+          },
+          {
+            "hash": "e832559fa0e4452c1340c2cc194c914a4084d0ed",
+            "date": "Fri Apr 29 12:11:43 2022 +0800",
+            "message": "[en] Update docs/doc-contributor-tools/linkchecker",
+            "author": "xin.li"
+          },
+          {
+            "hash": "2eb6ab1ad349778878c90e0902c079b0b04025ba",
+            "date": "Mon May 25 18:14:44 2020 +0100",
+            "message": "Add a link checker",
+            "author": "Tim Bannister"
           }
         ]
       }

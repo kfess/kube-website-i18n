@@ -1,8 +1,153 @@
 {
   "content/en/docs/home/_index.md": {
     "translations": {
+      "pl": {
+        "path": "content/pl/docs/home/_index.md",
+        "commits": [
+          {
+            "hash": "47165fff3ac25f1085ac057a4270cc1a5f0c6f1c",
+            "date": "Fri Feb 7 08:41:56 2025 -0800",
+            "message": "Merge pull request #49592 from sftim/20250129_add_katex_formulae_support",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "7b721061eebf397ae488a1f5df348d0c2649906a",
+            "date": "Sat Oct 21 20:48:14 2023 +0200",
+            "message": "Synchronize Polish localization for ver 1.28, part 1",
+            "author": "Maciej Filocha"
+          },
+          {
+            "hash": "5cf5bf210ca8c3c0fc4d96740e1bbab19790504e",
+            "date": "Tue Nov 24 11:13:35 2020 +0100",
+            "message": "Synchronize Polish localization 2020-11-24 part 1.",
+            "author": "Maciej Filocha"
+          },
+          {
+            "hash": "331851e1fb16014a4c9b1294989eb0fbff6643c0",
+            "date": "Tue Jun 16 09:42:40 2020 +0200",
+            "message": "Polish localization update - June 2020 - part 1",
+            "author": "Maciej Filocha"
+          },
+          {
+            "hash": "c5398ec9a8504d230f88cbb655f3b2c5cf20a519",
+            "date": "Fri Apr 3 02:24:32 2020 +0300",
+            "message": "Fix left menu button on mobile",
+            "author": "Arhell"
+          },
+          {
+            "hash": "fbf4c99ecda632407ce2ef154a132adef37f907f",
+            "date": "Fri Apr 3 02:24:32 2020 +0300",
+            "message": "Fix left menu button on mobile",
+            "author": "Arhell"
+          },
+          {
+            "hash": "6d7602b5d6da0882c816fdcbb85f58a43110ceda",
+            "date": "Mon Mar 23 09:28:45 2020 +0100",
+            "message": "Synchronize Polish translation to upstream master (#19772)",
+            "author": "Maciej Filocha"
+          },
+          {
+            "hash": "0adc7047a5b607cc7987322c3b8209119131869d",
+            "date": "Tue Jan 14 14:51:24 2020 +0000",
+            "message": "Init Polish localization (#18419) (#18659)",
+            "author": "Maciej Filocha"
+          }
+        ]
+      },
+      "uk": {
+        "path": "content/uk/docs/home/_index.md",
+        "commits": [
+          {
+            "hash": "2a63944bb89128eeb79e01b81dd6790a345d1453",
+            "date": "Wed Feb 14 00:35:04 2024 +0200",
+            "message": "Update documentation with new links and descriptions",
+            "author": "Andrii Holovin"
+          },
+          {
+            "hash": "f2a8d171a876ba23330ea572dbff15f6932cac0e",
+            "date": "Sat Nov 11 18:35:31 2023 -0500",
+            "message": "[uk] Change footer l10n from Home to Documentation",
+            "author": "Lisa Y. Zhu"
+          },
+          {
+            "hash": "8422530cdbec3efa86eb7578406a418bc6250847",
+            "date": "Tue Mar 31 21:57:52 2020 +0300",
+            "message": "Fix errors",
+            "author": "MaxymVlasov"
+          },
+          {
+            "hash": "c29da7c788142174583d843f08ea111532c7e7d4",
+            "date": "Tue Mar 31 21:14:44 2020 +0300",
+            "message": "Add minimum requirement content (#3)",
+            "author": "Maksym Vlasov"
+          },
+          {
+            "hash": "b64b4c9b3ad10efa94f9633138fc1afaaa7a7310",
+            "date": "Wed Apr 8 03:15:43 2020 -0700",
+            "message": "Merge pull request #20020 from kubernetes-i18n-ukrainian/GH-2/minimum-requirement-content",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "56c18bcc080f4f78a5e0a8845fa42f868e8aa440",
+            "date": "Tue Mar 31 21:14:44 2020 +0300",
+            "message": "Add minimum requirement content (#3)",
+            "author": "Maksym Vlasov"
+          }
+        ]
+      },
+      "pt-br": {
+        "path": "content/pt-br/docs/home/_index.md",
+        "commits": [
+          {
+            "hash": "bb16b85bd4881d236e1e8e5a61f3520163e18fdf",
+            "date": "Tue May 21 19:37:05 2024 -0400",
+            "message": "[pt-br] Update navbar items for vanilla Docsy",
+            "author": "Mauren Berti"
+          },
+          {
+            "hash": "7114d141c33dccf8d4352ff5ab9c9aacec88d2c2",
+            "date": "Sat Oct 21 20:36:53 2023 -0300",
+            "message": "docs: fix footer string after PR #42962",
+            "author": "Zilmar"
+          },
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "es": {
+        "path": "content/es/docs/home/_index.md",
+        "commits": [
+          {
+            "hash": "7811f2596147b2550fca2df25b4713c5e8f5fcba",
+            "date": "Mon May 20 23:15:33 2024 -0700",
+            "message": "Merge pull request #46196 from rchaganti/patch-1",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "0f3a628202444df7676eb6e2c664d6cf3c0cc23b",
+            "date": "Sat Nov 11 18:32:15 2023 -0500",
+            "message": "[es] Change footer l10n from Home to Documentation",
+            "author": "Lisa Y. Zhu"
+          },
+          {
+            "hash": "4d93dc07883da2ee83a4749b2035823bbf12b22f",
+            "date": "Wed Apr 29 14:56:24 2020 +0800",
+            "message": "fix home docs page button on mobile & tablet",
+            "author": "Zhang Yong"
+          },
+          {
+            "hash": "cb49ff1005274afecb8087cd2d5aafbf7430c450",
+            "date": "Tue Apr 16 13:13:05 2019 +0200",
+            "message": "Add es/docs index tree (#13809)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
       "bn": {
-        "exists": true,
         "path": "content/bn/docs/home/_index.md",
         "commits": [
           {
@@ -25,32 +170,149 @@
           }
         ]
       },
-      "de": {
-        "exists": true,
-        "path": "content/de/docs/home/_index.md",
+      "ja": {
+        "path": "content/ja/docs/home/_index.md",
         "commits": [
           {
-            "hash": "592ac947147c05773f47b18c7bac629e35617bc3",
-            "date": "Sat Nov 11 18:31:46 2023 -0500",
-            "message": "[de] Change footer l10n from Home to Documentation",
+            "hash": "d0e29892e8116cfc0a04c6075ed0f0660dac2e5e",
+            "date": "Thu May 2 09:32:43 2024 +0900",
+            "message": "Add botton for About the documentation",
+            "author": "EigoOda"
+          },
+          {
+            "hash": "296ab918c33f9aa72334e7a1002d2de246555a03",
+            "date": "Wed Apr 24 06:25:50 2024 +0900",
+            "message": "[ja] Change the structure of `/content/ja/docs/contribute/_index.md` (#44826)",
+            "author": "Junya Okabe"
+          },
+          {
+            "hash": "a5e512e0e92d569cca0f92e8d08457ea3e45af97",
+            "date": "Thu Jan 4 00:12:38 2024 +0100",
+            "message": "Merge pull request #44539 from haripriya9647/values",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "ade1020f84e93521b9a39005ebd96a29675efb3c",
+            "date": "Sat Nov 11 18:34:09 2023 -0500",
+            "message": "[ja] Change footer l10n from Home to Documentation",
             "author": "Lisa Y. Zhu"
           },
           {
-            "hash": "489d44d7bda8f391eab2eb9ef3575c16d949eac6",
-            "date": "Sun Mar 22 22:24:44 2020 +0100",
-            "message": "Adding fix for #19646 (#19727)",
-            "author": "Roy Lenferink"
+            "hash": "c8019f35d5f07849d9058c98d6cc413eedbe8564",
+            "date": "Sat Mar 19 00:23:12 2022 +0200",
+            "message": "[ja] fix download link",
+            "author": "Arhell"
           },
           {
-            "hash": "8deb0aba8c5c99db82318c1ed1727d64c38a5f1d",
-            "date": "Thu Mar 28 23:23:57 2019 +0100",
-            "message": "German Docs home (#13508)",
-            "author": "Benedikt Rollik"
+            "hash": "26338b84cccc31c251aa03361213e171035d1b51",
+            "date": "Sun Apr 4 19:50:54 2021 +0900",
+            "message": "Fix the position of the abbreviation text \"CNCF\"",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "ae80ffb29f24eae2c0f7e1b63d44aa212e94ae8c",
+            "date": "Thu Mar 11 20:48:05 2021 +0900",
+            "message": "make docs/home/_index.md follow v1.19 of the original text",
+            "author": "Lapi"
+          },
+          {
+            "hash": "a4dd5b91c56d8ebb9218b4dd4b473e156ae66a04",
+            "date": "Sun Jun 28 07:44:13 2020 +0900",
+            "message": "Fix markdown. Rewrite some kanji to hiragana. Make parentheses half-width.",
+            "author": "TAKAHASHI Shuuji"
+          },
+          {
+            "hash": "b23f513d796695ccc7be9682e2712b4c5aedf4a7",
+            "date": "Fri May 29 01:23:15 2020 -0700",
+            "message": "Merge pull request #21077 from oke-py/ja/annotations",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "15412e55a297b8d9e0a3e4ed3e639b33bd8fcf83",
+            "date": "Fri Apr 10 15:06:24 2020 +0300",
+            "message": "Fix left menu button on mobile (docs home page)",
+            "author": "Arhell"
+          },
+          {
+            "hash": "af7ebbe2cff2749c47ce5f0062a87d6c1f4b6ae7",
+            "date": "Fri Apr 10 15:06:24 2020 +0300",
+            "message": "Fix left menu button on mobile (docs home page)",
+            "author": "Arhell"
+          },
+          {
+            "hash": "4532bd2bdb4419de4783be084195f18be516ee53",
+            "date": "Wed Nov 20 14:25:19 2019 -0800",
+            "message": "First Japanese l10n work for release-1.15. (#17693)",
+            "author": "inductor"
+          },
+          {
+            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
+            "date": "Wed Aug 28 15:05:11 2019 +0900",
+            "message": "First Japanese l10n work for release-1.14 (#16115)",
+            "author": "Takuya Tokuda"
+          },
+          {
+            "hash": "bbf3a979d470de795ea017281994514dfe6a64a5",
+            "date": "Wed May 22 16:14:12 2019 +0200",
+            "message": "Second Japanese l10n work for release-1.13 (#14465)",
+            "author": "Takuya Tokuda"
+          },
+          {
+            "hash": "edb233cac2f4f910dd55311a3c63bdfbd53a081b",
+            "date": "Fri Mar 8 03:17:41 2019 +0900",
+            "message": "First Japanese l10n work for release-1.13 (#12998)",
+            "author": "Takuya Tokuda"
+          }
+        ]
+      },
+      "zh-cn": {
+        "path": "content/zh-cn/docs/home/_index.md",
+        "commits": [
+          {
+            "hash": "9cf56e0dfd099bb92b056056685a906ceb048b50",
+            "date": "Sun Apr 21 20:50:26 2024 +0800",
+            "message": "[zh-cn] sync home/* user-namespaces",
+            "author": "xin.li"
+          },
+          {
+            "hash": "6a9fc1436d5f6d807e31ff9759bae3d926196e0e",
+            "date": "Sat Jan 20 22:28:54 2024 +0800",
+            "message": "[zh-cn] sync docs/home/_index.md",
+            "author": "xin.li"
+          },
+          {
+            "hash": "d30438d2ffb2fc7848efff1ba4ad14196cb6e6ca",
+            "date": "Sat Sep 23 04:56:55 2023 -0700",
+            "message": "Merge pull request #43134 from shannonxtreme/secret-types-cleanup",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "4befb03acddcdfe270cc57e0712ad21c03ea601d",
+            "date": "Thu Aug 24 19:34:50 2023 +0800",
+            "message": "[zh-cn] sync home/_index.md",
+            "author": "xin.li"
+          },
+          {
+            "hash": "f459695da15522e88638e442db9709660eaf3f37",
+            "date": "Sun Feb 12 06:05:30 2023 -0800",
+            "message": "Merge pull request #39404 from Zhuzhenghao/zh-sync-tls",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
+            "date": "Thu Jun 23 20:07:06 2022 +0800",
+            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
           }
         ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/docs/home/_index.md",
         "commits": [
           {
@@ -229,86 +491,7 @@
           }
         ]
       },
-      "es": {
-        "exists": true,
-        "path": "content/es/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "7811f2596147b2550fca2df25b4713c5e8f5fcba",
-            "date": "Mon May 20 23:15:33 2024 -0700",
-            "message": "Merge pull request #46196 from rchaganti/patch-1",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "0f3a628202444df7676eb6e2c664d6cf3c0cc23b",
-            "date": "Sat Nov 11 18:32:15 2023 -0500",
-            "message": "[es] Change footer l10n from Home to Documentation",
-            "author": "Lisa Y. Zhu"
-          },
-          {
-            "hash": "4d93dc07883da2ee83a4749b2035823bbf12b22f",
-            "date": "Wed Apr 29 14:56:24 2020 +0800",
-            "message": "fix home docs page button on mobile & tablet",
-            "author": "Zhang Yong"
-          },
-          {
-            "hash": "cb49ff1005274afecb8087cd2d5aafbf7430c450",
-            "date": "Tue Apr 16 13:13:05 2019 +0200",
-            "message": "Add es/docs index tree (#13809)",
-            "author": "Rael Garcia"
-          }
-        ]
-      },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "7730e32505a582769aa06dc2f108338a04e063a9",
-            "date": "Sat Nov 11 18:32:45 2023 -0500",
-            "message": "[fr] Change footer l10n from Home to Documentation",
-            "author": "Lisa Y. Zhu"
-          },
-          {
-            "hash": "89896ef9d66b14db16126641195fe9cd7143a582",
-            "date": "Wed Apr 29 10:32:41 2020 +0300",
-            "message": "fix home docs page button on mobile & tablet",
-            "author": "Arhell"
-          },
-          {
-            "hash": "c27dced6e9653ffd107077100a6523cd4e6293c7",
-            "date": "Mon Jun 10 23:02:21 2019 -0400",
-            "message": "Fix several potential issues with existing translation (#14785)",
-            "author": "Anthony Dahanne"
-          },
-          {
-            "hash": "194a8950116ac0622d39c09829f46853d2bffe95",
-            "date": "Thu Jun 6 08:48:12 2019 +0200",
-            "message": "revert on a name translation of card made by mistake (#14751)",
-            "author": "Gasmi Christophe"
-          },
-          {
-            "hash": "7092bd3ca3f7f9eefe791f7bac5d93b7caa74d2e",
-            "date": "Tue Apr 16 10:31:08 2019 +0200",
-            "message": "Add description meta tag to improve SEO results (#13799)",
-            "author": "Rémy Léone"
-          },
-          {
-            "hash": "c9fd709b0ab6517155340b2a44c476f9974d8378",
-            "date": "Mon Mar 25 15:19:18 2019 +0100",
-            "message": "Add documentation homepage in French (#13387)",
-            "author": "Rémy Léone"
-          },
-          {
-            "hash": "11b573520f6a6b104ece6a0664cac1f29ab11559",
-            "date": "Fri Feb 22 12:00:33 2019 +0100",
-            "message": "Translate the home docs directory (#12761)",
-            "author": "Rémy Léone"
-          }
-        ]
-      },
       "hi": {
-        "exists": true,
         "path": "content/hi/docs/home/_index.md",
         "commits": [
           {
@@ -362,7 +545,6 @@
         ]
       },
       "id": {
-        "exists": true,
         "path": "content/id/docs/home/_index.md",
         "commits": [
           {
@@ -415,122 +597,65 @@
           }
         ]
       },
-      "it": {
-        "exists": true,
-        "path": "content/it/docs/home/_index.md",
+      "vi": {
+        "path": "content/vi/docs/home/_index.md",
         "commits": [
           {
-            "hash": "f129591124e255422fae59884653064e372d58c2",
-            "date": "Sat Nov 11 18:33:42 2023 -0500",
-            "message": "[it](Change footer l10n from Home to Documentation)",
+            "hash": "3b08737cfba5b3fb687db7aa2756e4f843c831e4",
+            "date": "Sat Nov 11 18:35:52 2023 -0500",
+            "message": "[vi] Change footer l10n from Home to Documentation",
             "author": "Lisa Y. Zhu"
           },
           {
-            "hash": "a0325251ab6685cb3853bb4e7d3e1ed030e6626e",
-            "date": "Tue Jan 21 11:07:37 2020 +0100",
-            "message": "Add IT localization for overview/components/ (#18368)",
-            "author": "Fabio Alessandro Locati"
+            "hash": "77fde22ea9eb921105ba61a9287068e2f6f47666",
+            "date": "Mon Apr 13 09:10:54 2020 +0300",
+            "message": "Fix left menu button on mobile (docs home page)",
+            "author": "Arhell"
+          },
+          {
+            "hash": "bc2cb83ad1cbe59af1c5efbaab6a21f5fd1f072f",
+            "date": "Mon Apr 13 09:10:54 2020 +0300",
+            "message": "Fix left menu button on mobile (docs home page)",
+            "author": "Arhell"
+          },
+          {
+            "hash": "9a562ec7808cccb37f5aa2499447f32f565d81c3",
+            "date": "Wed Nov 20 16:37:20 2019 +0700",
+            "message": "Adding docs/home for Vietnamese localization (#17647)",
+            "author": "Nguyen Hai Truong"
           }
         ]
       },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/docs/home/_index.md",
+      "ru": {
+        "path": "content/ru/docs/home/_index.md",
         "commits": [
           {
-            "hash": "d0e29892e8116cfc0a04c6075ed0f0660dac2e5e",
-            "date": "Thu May 2 09:32:43 2024 +0900",
-            "message": "Add botton for About the documentation",
-            "author": "EigoOda"
-          },
-          {
-            "hash": "296ab918c33f9aa72334e7a1002d2de246555a03",
-            "date": "Wed Apr 24 06:25:50 2024 +0900",
-            "message": "[ja] Change the structure of `/content/ja/docs/contribute/_index.md` (#44826)",
-            "author": "Junya Okabe"
-          },
-          {
-            "hash": "a5e512e0e92d569cca0f92e8d08457ea3e45af97",
-            "date": "Thu Jan 4 00:12:38 2024 +0100",
-            "message": "Merge pull request #44539 from haripriya9647/values",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "ade1020f84e93521b9a39005ebd96a29675efb3c",
-            "date": "Sat Nov 11 18:34:09 2023 -0500",
-            "message": "[ja] Change footer l10n from Home to Documentation",
+            "hash": "0866f1575817f5ddc1b29317edda36f7a55d4af2",
+            "date": "Sat Nov 11 18:35:07 2023 -0500",
+            "message": "[ru] Change footer l10n from Home to Documentation",
             "author": "Lisa Y. Zhu"
           },
           {
-            "hash": "c8019f35d5f07849d9058c98d6cc413eedbe8564",
-            "date": "Sat Mar 19 00:23:12 2022 +0200",
-            "message": "[ja] fix download link",
-            "author": "Arhell"
+            "hash": "eb6575a232fa73f21fd58c7a410e3d9511a2668e",
+            "date": "Tue Mar 31 16:36:40 2020 +0300",
+            "message": "Fix left menu button on mobile (#19986)",
+            "author": "Ihor Sychevskyi"
           },
           {
-            "hash": "26338b84cccc31c251aa03361213e171035d1b51",
-            "date": "Sun Apr 4 19:50:54 2021 +0900",
-            "message": "Fix the position of the abbreviation text \"CNCF\"",
-            "author": "TAKAHASHI Shuuji"
+            "hash": "0925b636ff10101cbafe799f58e89d522b63dc68",
+            "date": "Tue Mar 31 16:36:40 2020 +0300",
+            "message": "Fix left menu button on mobile (#19986)",
+            "author": "Ihor Sychevskyi"
           },
           {
-            "hash": "ae80ffb29f24eae2c0f7e1b63d44aa212e94ae8c",
-            "date": "Thu Mar 11 20:48:05 2021 +0900",
-            "message": "make docs/home/_index.md follow v1.19 of the original text",
-            "author": "Lapi"
-          },
-          {
-            "hash": "a4dd5b91c56d8ebb9218b4dd4b473e156ae66a04",
-            "date": "Sun Jun 28 07:44:13 2020 +0900",
-            "message": "Fix markdown. Rewrite some kanji to hiragana. Make parentheses half-width.",
-            "author": "TAKAHASHI Shuuji"
-          },
-          {
-            "hash": "b23f513d796695ccc7be9682e2712b4c5aedf4a7",
-            "date": "Fri May 29 01:23:15 2020 -0700",
-            "message": "Merge pull request #21077 from oke-py/ja/annotations",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "15412e55a297b8d9e0a3e4ed3e639b33bd8fcf83",
-            "date": "Fri Apr 10 15:06:24 2020 +0300",
-            "message": "Fix left menu button on mobile (docs home page)",
-            "author": "Arhell"
-          },
-          {
-            "hash": "af7ebbe2cff2749c47ce5f0062a87d6c1f4b6ae7",
-            "date": "Fri Apr 10 15:06:24 2020 +0300",
-            "message": "Fix left menu button on mobile (docs home page)",
-            "author": "Arhell"
-          },
-          {
-            "hash": "4532bd2bdb4419de4783be084195f18be516ee53",
-            "date": "Wed Nov 20 14:25:19 2019 -0800",
-            "message": "First Japanese l10n work for release-1.15. (#17693)",
-            "author": "inductor"
-          },
-          {
-            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
-            "date": "Wed Aug 28 15:05:11 2019 +0900",
-            "message": "First Japanese l10n work for release-1.14 (#16115)",
-            "author": "Takuya Tokuda"
-          },
-          {
-            "hash": "bbf3a979d470de795ea017281994514dfe6a64a5",
-            "date": "Wed May 22 16:14:12 2019 +0200",
-            "message": "Second Japanese l10n work for release-1.13 (#14465)",
-            "author": "Takuya Tokuda"
-          },
-          {
-            "hash": "edb233cac2f4f910dd55311a3c63bdfbd53a081b",
-            "date": "Fri Mar 8 03:17:41 2019 +0900",
-            "message": "First Japanese l10n work for release-1.13 (#12998)",
-            "author": "Takuya Tokuda"
+            "hash": "9d0cc29bf4c8a5881b5c2c3daffc549299350eb1",
+            "date": "Fri Nov 15 00:15:14 2019 +0200",
+            "message": "Init Russian localization (#16404)",
+            "author": "Nikita Potapenko"
           }
         ]
       },
       "ko": {
-        "exists": true,
         "path": "content/ko/docs/home/_index.md",
         "commits": [
           {
@@ -649,379 +774,49 @@
           }
         ]
       },
-      "pl": {
-        "exists": true,
-        "path": "content/pl/docs/home/_index.md",
+      "it": {
+        "path": "content/it/docs/home/_index.md",
         "commits": [
           {
-            "hash": "47165fff3ac25f1085ac057a4270cc1a5f0c6f1c",
-            "date": "Fri Feb 7 08:41:56 2025 -0800",
-            "message": "Merge pull request #49592 from sftim/20250129_add_katex_formulae_support",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "7b721061eebf397ae488a1f5df348d0c2649906a",
-            "date": "Sat Oct 21 20:48:14 2023 +0200",
-            "message": "Synchronize Polish localization for ver 1.28, part 1",
-            "author": "Maciej Filocha"
-          },
-          {
-            "hash": "5cf5bf210ca8c3c0fc4d96740e1bbab19790504e",
-            "date": "Tue Nov 24 11:13:35 2020 +0100",
-            "message": "Synchronize Polish localization 2020-11-24 part 1.",
-            "author": "Maciej Filocha"
-          },
-          {
-            "hash": "331851e1fb16014a4c9b1294989eb0fbff6643c0",
-            "date": "Tue Jun 16 09:42:40 2020 +0200",
-            "message": "Polish localization update - June 2020 - part 1",
-            "author": "Maciej Filocha"
-          },
-          {
-            "hash": "c5398ec9a8504d230f88cbb655f3b2c5cf20a519",
-            "date": "Fri Apr 3 02:24:32 2020 +0300",
-            "message": "Fix left menu button on mobile",
-            "author": "Arhell"
-          },
-          {
-            "hash": "fbf4c99ecda632407ce2ef154a132adef37f907f",
-            "date": "Fri Apr 3 02:24:32 2020 +0300",
-            "message": "Fix left menu button on mobile",
-            "author": "Arhell"
-          },
-          {
-            "hash": "6d7602b5d6da0882c816fdcbb85f58a43110ceda",
-            "date": "Mon Mar 23 09:28:45 2020 +0100",
-            "message": "Synchronize Polish translation to upstream master (#19772)",
-            "author": "Maciej Filocha"
-          },
-          {
-            "hash": "0adc7047a5b607cc7987322c3b8209119131869d",
-            "date": "Tue Jan 14 14:51:24 2020 +0000",
-            "message": "Init Polish localization (#18419) (#18659)",
-            "author": "Maciej Filocha"
-          }
-        ]
-      },
-      "pt-br": {
-        "exists": true,
-        "path": "content/pt-br/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "bb16b85bd4881d236e1e8e5a61f3520163e18fdf",
-            "date": "Tue May 21 19:37:05 2024 -0400",
-            "message": "[pt-br] Update navbar items for vanilla Docsy",
-            "author": "Mauren Berti"
-          },
-          {
-            "hash": "7114d141c33dccf8d4352ff5ab9c9aacec88d2c2",
-            "date": "Sat Oct 21 20:36:53 2023 -0300",
-            "message": "docs: fix footer string after PR #42962",
-            "author": "Zilmar"
-          },
-          {
-            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
-            "date": "Mon Apr 19 17:30:33 2021 -0700",
-            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "ru": {
-        "exists": true,
-        "path": "content/ru/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "0866f1575817f5ddc1b29317edda36f7a55d4af2",
-            "date": "Sat Nov 11 18:35:07 2023 -0500",
-            "message": "[ru] Change footer l10n from Home to Documentation",
+            "hash": "f129591124e255422fae59884653064e372d58c2",
+            "date": "Sat Nov 11 18:33:42 2023 -0500",
+            "message": "[it](Change footer l10n from Home to Documentation)",
             "author": "Lisa Y. Zhu"
           },
           {
-            "hash": "eb6575a232fa73f21fd58c7a410e3d9511a2668e",
-            "date": "Tue Mar 31 16:36:40 2020 +0300",
-            "message": "Fix left menu button on mobile (#19986)",
-            "author": "Ihor Sychevskyi"
-          },
-          {
-            "hash": "0925b636ff10101cbafe799f58e89d522b63dc68",
-            "date": "Tue Mar 31 16:36:40 2020 +0300",
-            "message": "Fix left menu button on mobile (#19986)",
-            "author": "Ihor Sychevskyi"
-          },
-          {
-            "hash": "9d0cc29bf4c8a5881b5c2c3daffc549299350eb1",
-            "date": "Fri Nov 15 00:15:14 2019 +0200",
-            "message": "Init Russian localization (#16404)",
-            "author": "Nikita Potapenko"
-          }
-        ]
-      },
-      "uk": {
-        "exists": true,
-        "path": "content/uk/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "2a63944bb89128eeb79e01b81dd6790a345d1453",
-            "date": "Wed Feb 14 00:35:04 2024 +0200",
-            "message": "Update documentation with new links and descriptions",
-            "author": "Andrii Holovin"
-          },
-          {
-            "hash": "f2a8d171a876ba23330ea572dbff15f6932cac0e",
-            "date": "Sat Nov 11 18:35:31 2023 -0500",
-            "message": "[uk] Change footer l10n from Home to Documentation",
-            "author": "Lisa Y. Zhu"
-          },
-          {
-            "hash": "8422530cdbec3efa86eb7578406a418bc6250847",
-            "date": "Tue Mar 31 21:57:52 2020 +0300",
-            "message": "Fix errors",
-            "author": "MaxymVlasov"
-          },
-          {
-            "hash": "c29da7c788142174583d843f08ea111532c7e7d4",
-            "date": "Tue Mar 31 21:14:44 2020 +0300",
-            "message": "Add minimum requirement content (#3)",
-            "author": "Maksym Vlasov"
-          },
-          {
-            "hash": "b64b4c9b3ad10efa94f9633138fc1afaaa7a7310",
-            "date": "Wed Apr 8 03:15:43 2020 -0700",
-            "message": "Merge pull request #20020 from kubernetes-i18n-ukrainian/GH-2/minimum-requirement-content",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "56c18bcc080f4f78a5e0a8845fa42f868e8aa440",
-            "date": "Tue Mar 31 21:14:44 2020 +0300",
-            "message": "Add minimum requirement content (#3)",
-            "author": "Maksym Vlasov"
-          }
-        ]
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "3b08737cfba5b3fb687db7aa2756e4f843c831e4",
-            "date": "Sat Nov 11 18:35:52 2023 -0500",
-            "message": "[vi] Change footer l10n from Home to Documentation",
-            "author": "Lisa Y. Zhu"
-          },
-          {
-            "hash": "77fde22ea9eb921105ba61a9287068e2f6f47666",
-            "date": "Mon Apr 13 09:10:54 2020 +0300",
-            "message": "Fix left menu button on mobile (docs home page)",
-            "author": "Arhell"
-          },
-          {
-            "hash": "bc2cb83ad1cbe59af1c5efbaab6a21f5fd1f072f",
-            "date": "Mon Apr 13 09:10:54 2020 +0300",
-            "message": "Fix left menu button on mobile (docs home page)",
-            "author": "Arhell"
-          },
-          {
-            "hash": "9a562ec7808cccb37f5aa2499447f32f565d81c3",
-            "date": "Wed Nov 20 16:37:20 2019 +0700",
-            "message": "Adding docs/home for Vietnamese localization (#17647)",
-            "author": "Nguyen Hai Truong"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/docs/home/_index.md",
-        "commits": [
-          {
-            "hash": "9cf56e0dfd099bb92b056056685a906ceb048b50",
-            "date": "Sun Apr 21 20:50:26 2024 +0800",
-            "message": "[zh-cn] sync home/* user-namespaces",
-            "author": "xin.li"
-          },
-          {
-            "hash": "6a9fc1436d5f6d807e31ff9759bae3d926196e0e",
-            "date": "Sat Jan 20 22:28:54 2024 +0800",
-            "message": "[zh-cn] sync docs/home/_index.md",
-            "author": "xin.li"
-          },
-          {
-            "hash": "d30438d2ffb2fc7848efff1ba4ad14196cb6e6ca",
-            "date": "Sat Sep 23 04:56:55 2023 -0700",
-            "message": "Merge pull request #43134 from shannonxtreme/secret-types-cleanup",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "4befb03acddcdfe270cc57e0712ad21c03ea601d",
-            "date": "Thu Aug 24 19:34:50 2023 +0800",
-            "message": "[zh-cn] sync home/_index.md",
-            "author": "xin.li"
-          },
-          {
-            "hash": "f459695da15522e88638e442db9709660eaf3f37",
-            "date": "Sun Feb 12 06:05:30 2023 -0800",
-            "message": "Merge pull request #39404 from Zhuzhenghao/zh-sync-tls",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
-            "date": "Thu Jun 23 20:07:06 2022 +0800",
-            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
-      }
-    }
-  },
-  "content/en/docs/home/supported-doc-versions.md": {
-    "translations": {
-      "bn": {
-        "exists": true,
-        "path": "content/bn/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "23e046ed56addd7ccc53470675340966f602274d",
-            "date": "Sun May 5 14:21:43 2024 +0600",
-            "message": "Update supported-doc-versions.md",
-            "author": "Asem Hamid"
-          },
-          {
-            "hash": "ebde34ed09ab3d120461fdbfdbabd3655f32b842",
-            "date": "Wed Jun 29 00:14:05 2022 -0700",
-            "message": "Merge pull request #34672 from chrismetz09/patch-8",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "86dd3b3c1ffd5eed14ec23dcccf4b4abfa0888ba",
-            "date": "Tue Jun 28 23:14:05 2022 -0700",
-            "message": "Merge pull request #34682 from windsonsea/yhffr",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "79d1d49797aec04c76f68e792c941b6b346c7eff",
-            "date": "Wed Jun 29 12:04:24 2022 +0600",
-            "message": "Update supported-doc-versions.md",
-            "author": "shahriyar101931"
-          },
-          {
-            "hash": "67d5cd7600771e51f7ea117ab52ef9a7101f58a1",
-            "date": "Wed Jun 29 12:03:49 2022 +0600",
-            "message": "Update supported-doc-versions.md",
-            "author": "shahriyar101931"
-          },
-          {
-            "hash": "441ebaaa60f30c085b46b2a027023fd240d19a77",
-            "date": "Wed Jun 29 11:56:57 2022 +0600",
-            "message": "Created the supported docs file",
-            "author": "shahriyar101931"
-          }
-        ]
-      },
-      "de": {
-        "exists": true,
-        "path": "content/de/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "4dfb7edc6c7ffb3e7d668cdc9a195dd6d6119257",
-            "date": "Mon May 13 13:52:43 2024 +0200",
-            "message": "Update list of versions to match English",
-            "author": "AbdelatifAitBara"
-          },
-          {
-            "hash": "e5825ea8f9026ed1cb91edd89c936ce978574d68",
-            "date": "Sat May 30 15:19:34 2020 -0400",
-            "message": "add de pages",
-            "author": "Karen Bradshaw"
-          },
-          {
-            "hash": "8deb0aba8c5c99db82318c1ed1727d64c38a5f1d",
-            "date": "Thu Mar 28 23:23:57 2019 +0100",
-            "message": "German Docs home (#13508)",
-            "author": "Benedikt Rollik"
-          }
-        ]
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "653584fd10d61f0be46c09f58006287addad8e95",
-            "date": "Fri Apr 12 03:02:49 2024 -0700",
-            "message": "Merge pull request #45792 from CasperLiu/otlp-env-var-for-trace",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "159a8fe36c0e41e94da3f77d9b78b53e1c7c7e3e",
-            "date": "Tue May 31 06:54:51 2022 +0600",
-            "message": "Hyperlink to support period details (#33772)",
-            "author": "S M Samnoon Abrar"
-          },
-          {
-            "hash": "7bac2479adce135d1375f90ee1c5b0037e2ee6aa",
-            "date": "Fri Aug 28 13:47:18 2020 +0100",
-            "message": "Revise list of available documentation versions",
-            "author": "Tim Bannister"
-          },
-          {
-            "hash": "ecc27bbbe70f92d031fa52be76bb9471b2e83152",
-            "date": "Sat May 30 15:10:23 2020 -0400",
-            "message": "add en pages",
-            "author": "Karen Bradshaw"
-          },
-          {
-            "hash": "8e5d7e482999957fa64152a2490df1a9350ec112",
-            "date": "Fri Feb 22 01:24:20 2019 +0900",
-            "message": "Make k8s.io/docs/home to support i18n (#12570)",
-            "author": "June Yi"
-          },
-          {
-            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
-            "date": "Sat May 5 18:00:51 2018 +0200",
-            "message": "Convert site to Hugo (#8316)",
-            "author": "Bjørn Erik Pedersen"
-          }
-        ]
-      },
-      "es": {
-        "exists": true,
-        "path": "content/es/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "53ed08ba642f5d054357002e87e4639cf83873ca",
-            "date": "Mon May 13 13:02:40 2024 +0200",
-            "message": "Update list of versions to match English",
-            "author": "AbdelatifAitBara"
-          },
-          {
-            "hash": "a61b1d5b59fcc9e39d482c4f7a7f48191094d3be",
-            "date": "Wed Mar 22 09:00:37 2023 -0700",
-            "message": "Merge pull request #39680 from Zhuzhenghao/2-27",
-            "author": "Kubernetes Prow Robot"
+            "hash": "a0325251ab6685cb3853bb4e7d3e1ed030e6626e",
+            "date": "Tue Jan 21 11:07:37 2020 +0100",
+            "message": "Add IT localization for overview/components/ (#18368)",
+            "author": "Fabio Alessandro Locati"
           }
         ]
       },
       "fr": {
-        "exists": true,
-        "path": "content/fr/docs/home/supported-doc-versions.md",
+        "path": "content/fr/docs/home/_index.md",
         "commits": [
           {
-            "hash": "343cea90cb68405ab7484297629392671f1bb978",
-            "date": "Mon May 13 09:12:56 2024 +0100",
-            "message": "Update list of versions to match English",
-            "author": "Tim Bannister"
+            "hash": "7730e32505a582769aa06dc2f108338a04e063a9",
+            "date": "Sat Nov 11 18:32:45 2023 -0500",
+            "message": "[fr] Change footer l10n from Home to Documentation",
+            "author": "Lisa Y. Zhu"
           },
           {
-            "hash": "7daf3c55e95f312fddf31bd21b4cd3c0febab0b5",
-            "date": "Sat May 30 15:36:51 2020 -0400",
-            "message": "add fr pages",
-            "author": "Karen Bradshaw"
+            "hash": "89896ef9d66b14db16126641195fe9cd7143a582",
+            "date": "Wed Apr 29 10:32:41 2020 +0300",
+            "message": "fix home docs page button on mobile & tablet",
+            "author": "Arhell"
+          },
+          {
+            "hash": "c27dced6e9653ffd107077100a6523cd4e6293c7",
+            "date": "Mon Jun 10 23:02:21 2019 -0400",
+            "message": "Fix several potential issues with existing translation (#14785)",
+            "author": "Anthony Dahanne"
+          },
+          {
+            "hash": "194a8950116ac0622d39c09829f46853d2bffe95",
+            "date": "Thu Jun 6 08:48:12 2019 +0200",
+            "message": "revert on a name translation of card made by mistake (#14751)",
+            "author": "Gasmi Christophe"
           },
           {
             "hash": "7092bd3ca3f7f9eefe791f7bac5d93b7caa74d2e",
@@ -1030,10 +825,10 @@
             "author": "Rémy Léone"
           },
           {
-            "hash": "a0e0de90c2f93abd20006caae4358e1c67833c15",
-            "date": "Thu Mar 28 16:58:45 2019 +0100",
-            "message": "Add Supported Versions of the Documentation link in docs home (#13499)",
-            "author": "Oussema CHERNI"
+            "hash": "c9fd709b0ab6517155340b2a44c476f9974d8378",
+            "date": "Mon Mar 25 15:19:18 2019 +0100",
+            "message": "Add documentation homepage in French (#13387)",
+            "author": "Rémy Léone"
           },
           {
             "hash": "11b573520f6a6b104ece6a0664cac1f29ab11559",
@@ -1043,62 +838,97 @@
           }
         ]
       },
-      "hi": {
-        "exists": true,
-        "path": "content/hi/docs/home/supported-doc-versions.md",
+      "de": {
+        "path": "content/de/docs/home/_index.md",
         "commits": [
           {
-            "hash": "634983ca077ad0df53cac3d37853dd4fc0e7c7e8",
-            "date": "Mon Sep 13 02:20:07 2021 -0700",
-            "message": "Merge pull request #29372 from verma-kunal/Hindi-localization-docs/home2",
-            "author": "Kubernetes Prow Robot"
+            "hash": "592ac947147c05773f47b18c7bac629e35617bc3",
+            "date": "Sat Nov 11 18:31:46 2023 -0500",
+            "message": "[de] Change footer l10n from Home to Documentation",
+            "author": "Lisa Y. Zhu"
           },
           {
-            "hash": "3a0268eb2cecadee9238bf740d55d67260867f30",
-            "date": "Fri Aug 13 11:34:22 2021 +0530",
-            "message": "Update supported-doc-versions.md",
-            "author": "Kunal Verma"
+            "hash": "489d44d7bda8f391eab2eb9ef3575c16d949eac6",
+            "date": "Sun Mar 22 22:24:44 2020 +0100",
+            "message": "Adding fix for #19646 (#19727)",
+            "author": "Roy Lenferink"
+          },
+          {
+            "hash": "8deb0aba8c5c99db82318c1ed1727d64c38a5f1d",
+            "date": "Thu Mar 28 23:23:57 2019 +0100",
+            "message": "German Docs home (#13508)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      }
+    }
+  },
+  "content/en/docs/home/supported-doc-versions.md": {
+    "translations": {
+      "uk": {
+        "path": "content/uk/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "2a63944bb89128eeb79e01b81dd6790a345d1453",
+            "date": "Wed Feb 14 00:35:04 2024 +0200",
+            "message": "Update documentation with new links and descriptions",
+            "author": "Andrii Holovin"
           }
         ]
       },
-      "id": {
-        "exists": true,
-        "path": "content/id/docs/home/supported-doc-versions.md",
+      "vi": {
+        "path": "content/vi/docs/home/supported-doc-versions.md",
         "commits": [
           {
-            "hash": "1abf84e7cd4e5a304d8e207a07b06d49bd64a61b",
-            "date": "Thu Mar 25 13:55:28 2021 +0800",
-            "message": "id: sync supported-doc-versions.md",
-            "author": "M. Habib Rosyad"
+            "hash": "f2055101834ca874b52c54b1261d26ef3eadc730",
+            "date": "Tue May 14 20:21:40 2024 +0200",
+            "message": "Update list of versions to match English",
+            "author": "AbdelatifAitBara"
           },
           {
-            "hash": "7d031344565a44b3943f99dfb2392dc0f6cb3f18",
-            "date": "Sat May 30 15:41:48 2020 -0400",
-            "message": "add id pages",
+            "hash": "21fd0a12f981e01c4dff0cef3fb72f1a797bbf25",
+            "date": "Mon Jun 1 09:20:09 2020 -0400",
+            "message": "add vi pages",
             "author": "Karen Bradshaw"
           },
           {
-            "hash": "3d9dcfcc695b5c59b12c96e35aaefb9c4e355388",
-            "date": "Tue Apr 16 15:13:08 2019 +0530",
-            "message": "Init Indonesian translation (#13822)",
-            "author": "Giri Kuncoro"
+            "hash": "9a562ec7808cccb37f5aa2499447f32f565d81c3",
+            "date": "Wed Nov 20 16:37:20 2019 +0700",
+            "message": "Adding docs/home for Vietnamese localization (#17647)",
+            "author": "Nguyen Hai Truong"
           }
         ]
       },
-      "it": {
-        "exists": true,
-        "path": "content/it/docs/home/supported-doc-versions.md",
+      "ru": {
+        "path": "content/ru/docs/home/supported-doc-versions.md",
         "commits": [
           {
-            "hash": "bb4e19a93550188a67b838e3b805a64e8c12bc5c",
-            "date": "Mon May 13 09:17:16 2024 -0700",
-            "message": "Merge pull request #46311 from Atomsoldat/fix-featuregate-link",
-            "author": "Kubernetes Prow Robot"
+            "hash": "690a4ae1881c15ec562d6f6cae2895b5e4596d76",
+            "date": "Tue May 14 20:12:36 2024 +0200",
+            "message": "Update list of versions to match English",
+            "author": "AbdelatifAitBara"
+          },
+          {
+            "hash": "657d78bec2b35925730cd307bb888cfd496a04a2",
+            "date": "Sun Jul 12 14:29:17 2020 +0300",
+            "message": "Fix markdown of header",
+            "author": "Alexander Shangin"
+          },
+          {
+            "hash": "1224efaa6f9bc5c8c5f178deb617344c9bc39947",
+            "date": "Mon Jun 1 09:17:30 2020 -0400",
+            "message": "add ru pages",
+            "author": "Karen Bradshaw"
+          },
+          {
+            "hash": "9d0cc29bf4c8a5881b5c2c3daffc549299350eb1",
+            "date": "Fri Nov 15 00:15:14 2019 +0200",
+            "message": "Init Russian localization (#16404)",
+            "author": "Nikita Potapenko"
           }
         ]
       },
       "ja": {
-        "exists": true,
         "path": "content/ja/docs/home/supported-doc-versions.md",
         "commits": [
           {
@@ -1151,8 +981,58 @@
           }
         ]
       },
+      "es": {
+        "path": "content/es/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "53ed08ba642f5d054357002e87e4639cf83873ca",
+            "date": "Mon May 13 13:02:40 2024 +0200",
+            "message": "Update list of versions to match English",
+            "author": "AbdelatifAitBara"
+          },
+          {
+            "hash": "a61b1d5b59fcc9e39d482c4f7a7f48191094d3be",
+            "date": "Wed Mar 22 09:00:37 2023 -0700",
+            "message": "Merge pull request #39680 from Zhuzhenghao/2-27",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "it": {
+        "path": "content/it/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "bb4e19a93550188a67b838e3b805a64e8c12bc5c",
+            "date": "Mon May 13 09:17:16 2024 -0700",
+            "message": "Merge pull request #46311 from Atomsoldat/fix-featuregate-link",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
+      "de": {
+        "path": "content/de/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "4dfb7edc6c7ffb3e7d668cdc9a195dd6d6119257",
+            "date": "Mon May 13 13:52:43 2024 +0200",
+            "message": "Update list of versions to match English",
+            "author": "AbdelatifAitBara"
+          },
+          {
+            "hash": "e5825ea8f9026ed1cb91edd89c936ce978574d68",
+            "date": "Sat May 30 15:19:34 2020 -0400",
+            "message": "add de pages",
+            "author": "Karen Bradshaw"
+          },
+          {
+            "hash": "8deb0aba8c5c99db82318c1ed1727d64c38a5f1d",
+            "date": "Thu Mar 28 23:23:57 2019 +0100",
+            "message": "German Docs home (#13508)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      },
       "ko": {
-        "exists": true,
         "path": "content/ko/docs/home/supported-doc-versions.md",
         "commits": [
           {
@@ -1199,8 +1079,170 @@
           }
         ]
       },
+      "fr": {
+        "path": "content/fr/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "343cea90cb68405ab7484297629392671f1bb978",
+            "date": "Mon May 13 09:12:56 2024 +0100",
+            "message": "Update list of versions to match English",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "7daf3c55e95f312fddf31bd21b4cd3c0febab0b5",
+            "date": "Sat May 30 15:36:51 2020 -0400",
+            "message": "add fr pages",
+            "author": "Karen Bradshaw"
+          },
+          {
+            "hash": "7092bd3ca3f7f9eefe791f7bac5d93b7caa74d2e",
+            "date": "Tue Apr 16 10:31:08 2019 +0200",
+            "message": "Add description meta tag to improve SEO results (#13799)",
+            "author": "Rémy Léone"
+          },
+          {
+            "hash": "a0e0de90c2f93abd20006caae4358e1c67833c15",
+            "date": "Thu Mar 28 16:58:45 2019 +0100",
+            "message": "Add Supported Versions of the Documentation link in docs home (#13499)",
+            "author": "Oussema CHERNI"
+          },
+          {
+            "hash": "11b573520f6a6b104ece6a0664cac1f29ab11559",
+            "date": "Fri Feb 22 12:00:33 2019 +0100",
+            "message": "Translate the home docs directory (#12761)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
+      "bn": {
+        "path": "content/bn/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "23e046ed56addd7ccc53470675340966f602274d",
+            "date": "Sun May 5 14:21:43 2024 +0600",
+            "message": "Update supported-doc-versions.md",
+            "author": "Asem Hamid"
+          },
+          {
+            "hash": "ebde34ed09ab3d120461fdbfdbabd3655f32b842",
+            "date": "Wed Jun 29 00:14:05 2022 -0700",
+            "message": "Merge pull request #34672 from chrismetz09/patch-8",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "86dd3b3c1ffd5eed14ec23dcccf4b4abfa0888ba",
+            "date": "Tue Jun 28 23:14:05 2022 -0700",
+            "message": "Merge pull request #34682 from windsonsea/yhffr",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "79d1d49797aec04c76f68e792c941b6b346c7eff",
+            "date": "Wed Jun 29 12:04:24 2022 +0600",
+            "message": "Update supported-doc-versions.md",
+            "author": "shahriyar101931"
+          },
+          {
+            "hash": "67d5cd7600771e51f7ea117ab52ef9a7101f58a1",
+            "date": "Wed Jun 29 12:03:49 2022 +0600",
+            "message": "Update supported-doc-versions.md",
+            "author": "shahriyar101931"
+          },
+          {
+            "hash": "441ebaaa60f30c085b46b2a027023fd240d19a77",
+            "date": "Wed Jun 29 11:56:57 2022 +0600",
+            "message": "Created the supported docs file",
+            "author": "shahriyar101931"
+          }
+        ]
+      },
+      "zh-cn": {
+        "path": "content/zh-cn/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "9cf56e0dfd099bb92b056056685a906ceb048b50",
+            "date": "Sun Apr 21 20:50:26 2024 +0800",
+            "message": "[zh-cn] sync home/* user-namespaces",
+            "author": "xin.li"
+          },
+          {
+            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
+            "date": "Thu Jun 23 20:07:06 2022 +0800",
+            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "bad685f6f5fee52d1c599052c02bb6c418f4118c",
+            "date": "Sat Jun 11 17:09:14 2022 +0800",
+            "message": "[zh]Resync files after zh language renaming(#34221, misc-1)",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      },
+      "en": {
+        "path": "content/en/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "653584fd10d61f0be46c09f58006287addad8e95",
+            "date": "Fri Apr 12 03:02:49 2024 -0700",
+            "message": "Merge pull request #45792 from CasperLiu/otlp-env-var-for-trace",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "159a8fe36c0e41e94da3f77d9b78b53e1c7c7e3e",
+            "date": "Tue May 31 06:54:51 2022 +0600",
+            "message": "Hyperlink to support period details (#33772)",
+            "author": "S M Samnoon Abrar"
+          },
+          {
+            "hash": "7bac2479adce135d1375f90ee1c5b0037e2ee6aa",
+            "date": "Fri Aug 28 13:47:18 2020 +0100",
+            "message": "Revise list of available documentation versions",
+            "author": "Tim Bannister"
+          },
+          {
+            "hash": "ecc27bbbe70f92d031fa52be76bb9471b2e83152",
+            "date": "Sat May 30 15:10:23 2020 -0400",
+            "message": "add en pages",
+            "author": "Karen Bradshaw"
+          },
+          {
+            "hash": "8e5d7e482999957fa64152a2490df1a9350ec112",
+            "date": "Fri Feb 22 01:24:20 2019 +0900",
+            "message": "Make k8s.io/docs/home to support i18n (#12570)",
+            "author": "June Yi"
+          },
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
+      },
+      "pt-br": {
+        "path": "content/pt-br/docs/home/supported-doc-versions.md",
+        "commits": [
+          {
+            "hash": "6f978685038b758e8a0e1e38e7e79dbd8aa5c478",
+            "date": "Sun Jun 4 07:00:42 2023 -0700",
+            "message": "Merge pull request #41452 from abhigyadufare/patch-1",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
+      },
       "pl": {
-        "exists": true,
         "path": "content/pl/docs/home/supported-doc-versions.md",
         "commits": [
           {
@@ -1235,117 +1277,43 @@
           }
         ]
       },
-      "pt-br": {
-        "exists": true,
-        "path": "content/pt-br/docs/home/supported-doc-versions.md",
+      "hi": {
+        "path": "content/hi/docs/home/supported-doc-versions.md",
         "commits": [
           {
-            "hash": "6f978685038b758e8a0e1e38e7e79dbd8aa5c478",
-            "date": "Sun Jun 4 07:00:42 2023 -0700",
-            "message": "Merge pull request #41452 from abhigyadufare/patch-1",
+            "hash": "634983ca077ad0df53cac3d37853dd4fc0e7c7e8",
+            "date": "Mon Sep 13 02:20:07 2021 -0700",
+            "message": "Merge pull request #29372 from verma-kunal/Hindi-localization-docs/home2",
             "author": "Kubernetes Prow Robot"
           },
           {
-            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
-            "date": "Mon Apr 19 17:30:33 2021 -0700",
-            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
-            "author": "Kubernetes Prow Robot"
+            "hash": "3a0268eb2cecadee9238bf740d55d67260867f30",
+            "date": "Fri Aug 13 11:34:22 2021 +0530",
+            "message": "Update supported-doc-versions.md",
+            "author": "Kunal Verma"
           }
         ]
       },
-      "ru": {
-        "exists": true,
-        "path": "content/ru/docs/home/supported-doc-versions.md",
+      "id": {
+        "path": "content/id/docs/home/supported-doc-versions.md",
         "commits": [
           {
-            "hash": "690a4ae1881c15ec562d6f6cae2895b5e4596d76",
-            "date": "Tue May 14 20:12:36 2024 +0200",
-            "message": "Update list of versions to match English",
-            "author": "AbdelatifAitBara"
+            "hash": "1abf84e7cd4e5a304d8e207a07b06d49bd64a61b",
+            "date": "Thu Mar 25 13:55:28 2021 +0800",
+            "message": "id: sync supported-doc-versions.md",
+            "author": "M. Habib Rosyad"
           },
           {
-            "hash": "657d78bec2b35925730cd307bb888cfd496a04a2",
-            "date": "Sun Jul 12 14:29:17 2020 +0300",
-            "message": "Fix markdown of header",
-            "author": "Alexander Shangin"
-          },
-          {
-            "hash": "1224efaa6f9bc5c8c5f178deb617344c9bc39947",
-            "date": "Mon Jun 1 09:17:30 2020 -0400",
-            "message": "add ru pages",
+            "hash": "7d031344565a44b3943f99dfb2392dc0f6cb3f18",
+            "date": "Sat May 30 15:41:48 2020 -0400",
+            "message": "add id pages",
             "author": "Karen Bradshaw"
           },
           {
-            "hash": "9d0cc29bf4c8a5881b5c2c3daffc549299350eb1",
-            "date": "Fri Nov 15 00:15:14 2019 +0200",
-            "message": "Init Russian localization (#16404)",
-            "author": "Nikita Potapenko"
-          }
-        ]
-      },
-      "uk": {
-        "exists": true,
-        "path": "content/uk/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "2a63944bb89128eeb79e01b81dd6790a345d1453",
-            "date": "Wed Feb 14 00:35:04 2024 +0200",
-            "message": "Update documentation with new links and descriptions",
-            "author": "Andrii Holovin"
-          }
-        ]
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "f2055101834ca874b52c54b1261d26ef3eadc730",
-            "date": "Tue May 14 20:21:40 2024 +0200",
-            "message": "Update list of versions to match English",
-            "author": "AbdelatifAitBara"
-          },
-          {
-            "hash": "21fd0a12f981e01c4dff0cef3fb72f1a797bbf25",
-            "date": "Mon Jun 1 09:20:09 2020 -0400",
-            "message": "add vi pages",
-            "author": "Karen Bradshaw"
-          },
-          {
-            "hash": "9a562ec7808cccb37f5aa2499447f32f565d81c3",
-            "date": "Wed Nov 20 16:37:20 2019 +0700",
-            "message": "Adding docs/home for Vietnamese localization (#17647)",
-            "author": "Nguyen Hai Truong"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/docs/home/supported-doc-versions.md",
-        "commits": [
-          {
-            "hash": "9cf56e0dfd099bb92b056056685a906ceb048b50",
-            "date": "Sun Apr 21 20:50:26 2024 +0800",
-            "message": "[zh-cn] sync home/* user-namespaces",
-            "author": "xin.li"
-          },
-          {
-            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
-            "date": "Thu Jun 23 20:07:06 2022 +0800",
-            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "bad685f6f5fee52d1c599052c02bb6c418f4118c",
-            "date": "Sat Jun 11 17:09:14 2022 +0800",
-            "message": "[zh]Resync files after zh language renaming(#34221, misc-1)",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
+            "hash": "3d9dcfcc695b5c59b12c96e35aaefb9c4e355388",
+            "date": "Tue Apr 16 15:13:08 2019 +0530",
+            "message": "Init Indonesian translation (#13822)",
+            "author": "Giri Kuncoro"
           }
         ]
       }

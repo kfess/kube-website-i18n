@@ -1,134 +1,7 @@
 {
   "content/en/includes/index.md": {
     "translations": {
-      "bn": {
-        "exists": true,
-        "path": "content/bn/includes/index.md",
-        "commits": [
-          {
-            "hash": "9e7591102bf52e3c86118c8a7f569a3528a61c44",
-            "date": "Mon Apr 8 21:29:00 2024 +0600",
-            "message": "Update index.md",
-            "author": "Pronay Sarker"
-          },
-          {
-            "hash": "954e1938e96b0a6f58b094ca6cd63ef857b7fed6",
-            "date": "Tue Mar 19 22:17:53 2024 +0600",
-            "message": "Create index.md",
-            "author": "Pronay"
-          }
-        ]
-      },
-      "de": {
-        "exists": true,
-        "path": "content/de/includes/index.md",
-        "commits": [
-          {
-            "hash": "f63f1c1ca72b3581a04f86ae83f79cf0d668e452",
-            "date": "Wed Apr 17 20:00:06 2019 +0200",
-            "message": "[DOCS-DE] Translation Partners (#13842)",
-            "author": "Benedikt Rollik"
-          }
-        ]
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/includes/index.md",
-        "commits": [
-          {
-            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
-            "date": "Sat May 5 18:00:51 2018 +0200",
-            "message": "Convert site to Hugo (#8316)",
-            "author": "Bjørn Erik Pedersen"
-          }
-        ]
-      },
-      "es": {
-        "exists": true,
-        "path": "content/es/includes/index.md",
-        "commits": [
-          {
-            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
-            "date": "Thu Apr 4 21:11:20 2019 +0100",
-            "message": "Init Spanish translation (#13543)",
-            "author": "Rael Garcia"
-          }
-        ]
-      },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/includes/index.md",
-        "commits": [
-          {
-            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
-            "date": "Fri Apr 5 16:01:22 2019 +0200",
-            "message": "Translate partners to French (#13389)",
-            "author": "Rémy Léone"
-          }
-        ]
-      },
-      "hi": {
-        "exists": true,
-        "path": "content/hi/includes/index.md",
-        "commits": [
-          {
-            "hash": "b153426c85dcf6500c64d651f97daddd8655a584",
-            "date": "Fri Aug 23 17:37:52 2024 +0200",
-            "message": "Fixed flag deprecations and updated Hugo version to latest (#47612)",
-            "author": "Matteo Bianchi"
-          }
-        ]
-      },
-      "id": {
-        "exists": true,
-        "path": "content/id/includes/index.md",
-        "commits": [
-          {
-            "hash": "c14937ffa3003a5cd5306d384caebd381393dd49",
-            "date": "Sun May 5 19:07:37 2019 +0700",
-            "message": "Initialize Federation in Bahasa Indonesia. (#14148)",
-            "author": "Irvi Aini"
-          }
-        ]
-      },
-      "it": {
-        "exists": true,
-        "path": "content/it/includes/index.md",
-        "commits": [
-          {
-            "hash": "e8af96dbeb7615384b720fa6ed104911ea23dc3b",
-            "date": "Tue Feb 19 19:04:14 2019 -0800",
-            "message": "translate tutorials/kubernetes-basics/update/update-intro/ in Italian (#12425)",
-            "author": "Michele Berardi"
-          }
-        ]
-      },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/includes/index.md",
-        "commits": [
-          {
-            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
-            "date": "Wed Aug 28 15:05:11 2019 +0900",
-            "message": "First Japanese l10n work for release-1.14 (#16115)",
-            "author": "Takuya Tokuda"
-          }
-        ]
-      },
-      "ko": {
-        "exists": true,
-        "path": "content/ko/includes/index.md",
-        "commits": [
-          {
-            "hash": "d3c21344b59287a54162b70ac0a8c2ea3e2852fb",
-            "date": "Mon Nov 26 07:12:57 2018 +0800",
-            "message": "ko-trans: add includes/index.md (#11199)",
-            "author": "Liuduii"
-          }
-        ]
-      },
       "pl": {
-        "exists": true,
         "path": "content/pl/includes/index.md",
         "commits": [
           {
@@ -145,20 +18,18 @@
           }
         ]
       },
-      "pt-br": {
-        "exists": true,
-        "path": "content/pt-br/includes/index.md",
+      "hi": {
+        "path": "content/hi/includes/index.md",
         "commits": [
           {
-            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
-            "date": "Mon Apr 19 17:30:33 2021 -0700",
-            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
-            "author": "Kubernetes Prow Robot"
+            "hash": "b153426c85dcf6500c64d651f97daddd8655a584",
+            "date": "Fri Aug 23 17:37:52 2024 +0200",
+            "message": "Fixed flag deprecations and updated Hugo version to latest (#47612)",
+            "author": "Matteo Bianchi"
           }
         ]
       },
       "ru": {
-        "exists": true,
         "path": "content/ru/includes/index.md",
         "commits": [
           {
@@ -169,11 +40,46 @@
           }
         ]
       },
-      "uk": {
-        "exists": false
+      "bn": {
+        "path": "content/bn/includes/index.md",
+        "commits": [
+          {
+            "hash": "9e7591102bf52e3c86118c8a7f569a3528a61c44",
+            "date": "Mon Apr 8 21:29:00 2024 +0600",
+            "message": "Update index.md",
+            "author": "Pronay Sarker"
+          },
+          {
+            "hash": "954e1938e96b0a6f58b094ca6cd63ef857b7fed6",
+            "date": "Tue Mar 19 22:17:53 2024 +0600",
+            "message": "Create index.md",
+            "author": "Pronay"
+          }
+        ]
+      },
+      "zh-cn": {
+        "path": "content/zh-cn/includes/index.md",
+        "commits": [
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      },
+      "pt-br": {
+        "path": "content/pt-br/includes/index.md",
+        "commits": [
+          {
+            "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
+            "date": "Mon Apr 19 17:30:33 2021 -0700",
+            "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+            "author": "Kubernetes Prow Robot"
+          }
+        ]
       },
       "vi": {
-        "exists": true,
         "path": "content/vi/includes/index.md",
         "commits": [
           {
@@ -184,15 +90,91 @@
           }
         ]
       },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/includes/index.md",
+      "ja": {
+        "path": "content/ja/includes/index.md",
         "commits": [
           {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
+            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
+            "date": "Wed Aug 28 15:05:11 2019 +0900",
+            "message": "First Japanese l10n work for release-1.14 (#16115)",
+            "author": "Takuya Tokuda"
+          }
+        ]
+      },
+      "id": {
+        "path": "content/id/includes/index.md",
+        "commits": [
+          {
+            "hash": "c14937ffa3003a5cd5306d384caebd381393dd49",
+            "date": "Sun May 5 19:07:37 2019 +0700",
+            "message": "Initialize Federation in Bahasa Indonesia. (#14148)",
+            "author": "Irvi Aini"
+          }
+        ]
+      },
+      "de": {
+        "path": "content/de/includes/index.md",
+        "commits": [
+          {
+            "hash": "f63f1c1ca72b3581a04f86ae83f79cf0d668e452",
+            "date": "Wed Apr 17 20:00:06 2019 +0200",
+            "message": "[DOCS-DE] Translation Partners (#13842)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      },
+      "fr": {
+        "path": "content/fr/includes/index.md",
+        "commits": [
+          {
+            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
+            "date": "Fri Apr 5 16:01:22 2019 +0200",
+            "message": "Translate partners to French (#13389)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
+      "es": {
+        "path": "content/es/includes/index.md",
+        "commits": [
+          {
+            "hash": "f1627103a0cdf6343e65e142c3b4bc7d1b3ef234",
+            "date": "Thu Apr 4 21:11:20 2019 +0100",
+            "message": "Init Spanish translation (#13543)",
+            "author": "Rael Garcia"
+          }
+        ]
+      },
+      "it": {
+        "path": "content/it/includes/index.md",
+        "commits": [
+          {
+            "hash": "e8af96dbeb7615384b720fa6ed104911ea23dc3b",
+            "date": "Tue Feb 19 19:04:14 2019 -0800",
+            "message": "translate tutorials/kubernetes-basics/update/update-intro/ in Italian (#12425)",
+            "author": "Michele Berardi"
+          }
+        ]
+      },
+      "ko": {
+        "path": "content/ko/includes/index.md",
+        "commits": [
+          {
+            "hash": "d3c21344b59287a54162b70ac0a8c2ea3e2852fb",
+            "date": "Mon Nov 26 07:12:57 2018 +0800",
+            "message": "ko-trans: add includes/index.md (#11199)",
+            "author": "Liuduii"
+          }
+        ]
+      },
+      "en": {
+        "path": "content/en/includes/index.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
           }
         ]
       }
@@ -200,44 +182,53 @@
   },
   "content/en/includes/task-tutorial-prereqs.md": {
     "translations": {
-      "bn": {
-        "exists": true,
-        "path": "content/bn/includes/task-tutorial-prereqs.md",
+      "vi": {
+        "path": "content/vi/includes/task-tutorial-prereqs.md",
         "commits": [
           {
-            "hash": "d250c3e99deab249f69e7a88d20e32d82bb22858",
-            "date": "Sun May 5 11:16:41 2024 +0600",
-            "message": "Update task-tutorial-prereqs.md",
-            "author": "Asem Hamid"
-          },
-          {
-            "hash": "8f99986d02c33ca90cf70ca002ad8aac55cf432e",
-            "date": "Thu Dec 22 21:21:26 2022 -0800",
-            "message": "Merge pull request #37889 from s-kawamura-w664/update-pod-lifecycle",
+            "hash": "bd37928e0860e05110e43a9a5755207f1d735ea4",
+            "date": "Mon Mar 31 13:32:35 2025 -0700",
+            "message": "Merge pull request #50332 from dkarczmarski/pl-sync-42502",
             "author": "Kubernetes Prow Robot"
           }
         ]
       },
-      "de": {
-        "exists": true,
-        "path": "content/de/includes/task-tutorial-prereqs.md",
+      "zh-cn": {
+        "path": "content/zh-cn/includes/task-tutorial-prereqs.md",
         "commits": [
           {
-            "hash": "ce91c8e3eec73cc04f788ca3cb2d33dd41861484",
-            "date": "Sun Jun 25 16:07:07 2023 -0700",
-            "message": "Merge pull request #41758 from windsonsea/guidey",
+            "hash": "8c38cb8c2d4e35940790c2fce2143166225cc7d4",
+            "date": "Thu Mar 13 20:21:47 2025 -0700",
+            "message": "Merge pull request #50085 from khanhtc1202/add-release-page",
             "author": "Kubernetes Prow Robot"
           },
           {
-            "hash": "a5ddc03b4fa34b2e010652d5b447f4617c4a0faf",
-            "date": "Tue Mar 26 21:37:19 2019 +0100",
-            "message": "Init German translation (#13340)",
-            "author": "Benedikt Rollik"
+            "hash": "ee797003d1c9e94569848ee6dac332d8a9e660be",
+            "date": "Sun Apr 28 04:59:51 2024 -0700",
+            "message": "Merge pull request #46036 from Arhell/zh-link",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "77838d1cab84f950c4326d610af61433b962e12e",
+            "date": "Mon Jun 19 03:00:22 2023 -0700",
+            "message": "Merge pull request #41362 from s-kawamura-w664/topology-1.27",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "733f5f7fc2aec41110cb3c2204adb022b16f0de5",
+            "date": "Wed Jun 29 07:30:01 2022 +0800",
+            "message": "[zh-cn] fix links about Katacoda",
+            "author": "Michael"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
           }
         ]
       },
       "en": {
-        "exists": true,
         "path": "content/en/includes/task-tutorial-prereqs.md",
         "commits": [
           {
@@ -302,74 +293,82 @@
           }
         ]
       },
-      "es": {
-        "exists": true,
-        "path": "content/es/includes/task-tutorial-prereqs.md",
+      "uk": {
+        "path": "content/uk/includes/task-tutorial-prereqs.md",
         "commits": [
           {
-            "hash": "3df479cccb4a4c2a7f6764b88dd46b438ce6f30f",
-            "date": "Wed Jul 5 15:35:06 2023 -0700",
-            "message": "Merge pull request #41574 from sftim/20230610_revise_encryption_at_rest_part",
+            "hash": "123b3ab3ac9a432db9d8f926841da06af6a324fe",
+            "date": "Sun Jun 2 05:12:13 2024 -0700",
+            "message": "Merge pull request #46517 from sftim/20240524_update_cluster_prerequisites_uk",
             "author": "Kubernetes Prow Robot"
           },
           {
-            "hash": "fbdf9ecf888b593d2120f32f1caef75eab804d1d",
-            "date": "Wed Jun 29 07:31:23 2022 +0800",
-            "message": "[es] fix link about Katacoda",
-            "author": "Michael"
-          },
-          {
-            "hash": "13269b31652c715603b9ab597bb4131815562e99",
-            "date": "Wed Apr 17 15:34:03 2019 -0400",
-            "message": "docs/es: add first couple of pages under the run-application section (#13743)",
-            "author": "Alexander Brand"
+            "hash": "068ec93628098627fb5ac2c535b8a470d6f22681",
+            "date": "Fri May 24 05:07:10 2024 -0700",
+            "message": "Merge pull request #46423 from Okabe-Junya/fix-46422",
+            "author": "Kubernetes Prow Robot"
           }
         ]
       },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/includes/task-tutorial-prereqs.md",
+      "bn": {
+        "path": "content/bn/includes/task-tutorial-prereqs.md",
         "commits": [
           {
-            "hash": "b66f93ef4b647752e4c2bee504f1a44d81fc2400",
-            "date": "Sun Jul 2 00:34:03 2023 +0300",
-            "message": "[fr] Fix labs.play-with-k8s.com",
-            "author": "Arhell"
+            "hash": "d250c3e99deab249f69e7a88d20e32d82bb22858",
+            "date": "Sun May 5 11:16:41 2024 +0600",
+            "message": "Update task-tutorial-prereqs.md",
+            "author": "Asem Hamid"
           },
           {
-            "hash": "79b8cd4636700a786a6a5a26476ee580dbaa03f9",
-            "date": "Wed Jun 29 07:32:25 2022 +0800",
-            "message": "[fr] fix link about Katacoda",
-            "author": "Michael"
-          },
-          {
-            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
-            "date": "Fri Apr 5 16:01:22 2019 +0200",
-            "message": "Translate partners to French (#13389)",
-            "author": "Rémy Léone"
+            "hash": "8f99986d02c33ca90cf70ca002ad8aac55cf432e",
+            "date": "Thu Dec 22 21:21:26 2022 -0800",
+            "message": "Merge pull request #37889 from s-kawamura-w664/update-pod-lifecycle",
+            "author": "Kubernetes Prow Robot"
           }
         ]
       },
-      "hi": {
-        "exists": true,
-        "path": "content/hi/includes/task-tutorial-prereqs.md",
+      "pt-br": {
+        "path": "content/pt-br/includes/task-tutorial-prereqs.md",
         "commits": [
           {
-            "hash": "74e8fffdc7ba1ec3d95b6a9f485153345a51e382",
-            "date": "Fri Jul 7 00:26:00 2023 +0300",
-            "message": "[hi] Fix labs.play-with-k8s.com",
-            "author": "Arhell"
+            "hash": "e1f06f306983bf8d07c5bddf02098c86b85538ee",
+            "date": "Sat Jul 8 14:39:03 2023 -0700",
+            "message": "Merge pull request #41949 from Arhell/pt-fix",
+            "author": "Kubernetes Prow Robot"
           },
           {
-            "hash": "fe0d12b9b95f57eb16ba71930697351c9b3abb35",
-            "date": "Sun Nov 28 22:23:22 2021 +0530",
-            "message": "[hi] Add content/hi/includes/task-tutorial-prereqs.md (#30602)",
-            "author": "Mohd Nawaz Siddiqui"
+            "hash": "be8d63e5d22f31cf82850454bd5a7239e743c7e7",
+            "date": "Mon Jan 23 12:50:07 2023 -0800",
+            "message": "Merge pull request #39002 from waych/pv_doc",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "5e39cbc3564f36c528352761600a16e3c4c67b87",
+            "date": "Mon Jan 23 00:48:54 2023 +0530",
+            "message": "[pt-br] Update includes/task-tutorial-prereqs.md",
+            "author": "Arc_G"
+          },
+          {
+            "hash": "f5405bf453f9afb54dfa982bfb9b5ad141ff299c",
+            "date": "Wed Jun 29 07:36:29 2022 +0800",
+            "message": "[pt-br] fix link about Katacoda",
+            "author": "Michael"
+          },
+          {
+            "hash": "ceddffeb1ea877e5892738cc766b9a7177259f7a",
+            "date": "Sun May 16 09:28:00 2021 -0700",
+            "message": "Merge pull request #27286 from CriaHu/hyq-2021032902",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "72267ac653724cddcd503adb97b64c5154250ad5",
+            "date": "Sun May 2 10:30:34 2021 -0300",
+            "message": "Add initial files to translate the secret task",
+            "author": "edsoncelio"
           }
         ]
       },
       "id": {
-        "exists": true,
         "path": "content/id/includes/task-tutorial-prereqs.md",
         "commits": [
           {
@@ -404,11 +403,70 @@
           }
         ]
       },
-      "it": {
-        "exists": false
+      "hi": {
+        "path": "content/hi/includes/task-tutorial-prereqs.md",
+        "commits": [
+          {
+            "hash": "74e8fffdc7ba1ec3d95b6a9f485153345a51e382",
+            "date": "Fri Jul 7 00:26:00 2023 +0300",
+            "message": "[hi] Fix labs.play-with-k8s.com",
+            "author": "Arhell"
+          },
+          {
+            "hash": "fe0d12b9b95f57eb16ba71930697351c9b3abb35",
+            "date": "Sun Nov 28 22:23:22 2021 +0530",
+            "message": "[hi] Add content/hi/includes/task-tutorial-prereqs.md (#30602)",
+            "author": "Mohd Nawaz Siddiqui"
+          }
+        ]
+      },
+      "es": {
+        "path": "content/es/includes/task-tutorial-prereqs.md",
+        "commits": [
+          {
+            "hash": "3df479cccb4a4c2a7f6764b88dd46b438ce6f30f",
+            "date": "Wed Jul 5 15:35:06 2023 -0700",
+            "message": "Merge pull request #41574 from sftim/20230610_revise_encryption_at_rest_part",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "fbdf9ecf888b593d2120f32f1caef75eab804d1d",
+            "date": "Wed Jun 29 07:31:23 2022 +0800",
+            "message": "[es] fix link about Katacoda",
+            "author": "Michael"
+          },
+          {
+            "hash": "13269b31652c715603b9ab597bb4131815562e99",
+            "date": "Wed Apr 17 15:34:03 2019 -0400",
+            "message": "docs/es: add first couple of pages under the run-application section (#13743)",
+            "author": "Alexander Brand"
+          }
+        ]
+      },
+      "fr": {
+        "path": "content/fr/includes/task-tutorial-prereqs.md",
+        "commits": [
+          {
+            "hash": "b66f93ef4b647752e4c2bee504f1a44d81fc2400",
+            "date": "Sun Jul 2 00:34:03 2023 +0300",
+            "message": "[fr] Fix labs.play-with-k8s.com",
+            "author": "Arhell"
+          },
+          {
+            "hash": "79b8cd4636700a786a6a5a26476ee580dbaa03f9",
+            "date": "Wed Jun 29 07:32:25 2022 +0800",
+            "message": "[fr] fix link about Katacoda",
+            "author": "Michael"
+          },
+          {
+            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
+            "date": "Fri Apr 5 16:01:22 2019 +0200",
+            "message": "Translate partners to French (#13389)",
+            "author": "Rémy Léone"
+          }
+        ]
       },
       "ja": {
-        "exists": true,
         "path": "content/ja/includes/task-tutorial-prereqs.md",
         "commits": [
           {
@@ -449,8 +507,47 @@
           }
         ]
       },
+      "ru": {
+        "path": "content/ru/includes/task-tutorial-prereqs.md",
+        "commits": [
+          {
+            "hash": "1cb13903889b37ebd2e300a76c702feb36d430d8",
+            "date": "Mon Jun 26 17:32:29 2023 -0700",
+            "message": "Merge pull request #41000 from zlabjp/fix-key-usage",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "3537321bd683f2b0690a63c0005a718b6409b22a",
+            "date": "Wed Jun 29 07:37:20 2022 +0800",
+            "message": "[ru] fix link about Katacoda",
+            "author": "Michael"
+          },
+          {
+            "hash": "c6f76c6be279fcc9cafd5a03fbaa761e0c6c4c73",
+            "date": "Wed May 20 00:07:57 2020 +0500",
+            "message": "configure-liveness-readiness-startup-probes RU",
+            "author": "Жаков Виталий"
+          }
+        ]
+      },
+      "de": {
+        "path": "content/de/includes/task-tutorial-prereqs.md",
+        "commits": [
+          {
+            "hash": "ce91c8e3eec73cc04f788ca3cb2d33dd41861484",
+            "date": "Sun Jun 25 16:07:07 2023 -0700",
+            "message": "Merge pull request #41758 from windsonsea/guidey",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "a5ddc03b4fa34b2e010652d5b447f4617c4a0faf",
+            "date": "Tue Mar 26 21:37:19 2019 +0100",
+            "message": "Init German translation (#13340)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      },
       "ko": {
-        "exists": true,
         "path": "content/ko/includes/task-tutorial-prereqs.md",
         "commits": [
           {
@@ -508,190 +605,12 @@
             "author": "Claudia J.Kang"
           }
         ]
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": true,
-        "path": "content/pt-br/includes/task-tutorial-prereqs.md",
-        "commits": [
-          {
-            "hash": "e1f06f306983bf8d07c5bddf02098c86b85538ee",
-            "date": "Sat Jul 8 14:39:03 2023 -0700",
-            "message": "Merge pull request #41949 from Arhell/pt-fix",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "be8d63e5d22f31cf82850454bd5a7239e743c7e7",
-            "date": "Mon Jan 23 12:50:07 2023 -0800",
-            "message": "Merge pull request #39002 from waych/pv_doc",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "5e39cbc3564f36c528352761600a16e3c4c67b87",
-            "date": "Mon Jan 23 00:48:54 2023 +0530",
-            "message": "[pt-br] Update includes/task-tutorial-prereqs.md",
-            "author": "Arc_G"
-          },
-          {
-            "hash": "f5405bf453f9afb54dfa982bfb9b5ad141ff299c",
-            "date": "Wed Jun 29 07:36:29 2022 +0800",
-            "message": "[pt-br] fix link about Katacoda",
-            "author": "Michael"
-          },
-          {
-            "hash": "ceddffeb1ea877e5892738cc766b9a7177259f7a",
-            "date": "Sun May 16 09:28:00 2021 -0700",
-            "message": "Merge pull request #27286 from CriaHu/hyq-2021032902",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "72267ac653724cddcd503adb97b64c5154250ad5",
-            "date": "Sun May 2 10:30:34 2021 -0300",
-            "message": "Add initial files to translate the secret task",
-            "author": "edsoncelio"
-          }
-        ]
-      },
-      "ru": {
-        "exists": true,
-        "path": "content/ru/includes/task-tutorial-prereqs.md",
-        "commits": [
-          {
-            "hash": "1cb13903889b37ebd2e300a76c702feb36d430d8",
-            "date": "Mon Jun 26 17:32:29 2023 -0700",
-            "message": "Merge pull request #41000 from zlabjp/fix-key-usage",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "3537321bd683f2b0690a63c0005a718b6409b22a",
-            "date": "Wed Jun 29 07:37:20 2022 +0800",
-            "message": "[ru] fix link about Katacoda",
-            "author": "Michael"
-          },
-          {
-            "hash": "c6f76c6be279fcc9cafd5a03fbaa761e0c6c4c73",
-            "date": "Wed May 20 00:07:57 2020 +0500",
-            "message": "configure-liveness-readiness-startup-probes RU",
-            "author": "Жаков Виталий"
-          }
-        ]
-      },
-      "uk": {
-        "exists": true,
-        "path": "content/uk/includes/task-tutorial-prereqs.md",
-        "commits": [
-          {
-            "hash": "123b3ab3ac9a432db9d8f926841da06af6a324fe",
-            "date": "Sun Jun 2 05:12:13 2024 -0700",
-            "message": "Merge pull request #46517 from sftim/20240524_update_cluster_prerequisites_uk",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "068ec93628098627fb5ac2c535b8a470d6f22681",
-            "date": "Fri May 24 05:07:10 2024 -0700",
-            "message": "Merge pull request #46423 from Okabe-Junya/fix-46422",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "vi": {
-        "exists": true,
-        "path": "content/vi/includes/task-tutorial-prereqs.md",
-        "commits": [
-          {
-            "hash": "bd37928e0860e05110e43a9a5755207f1d735ea4",
-            "date": "Mon Mar 31 13:32:35 2025 -0700",
-            "message": "Merge pull request #50332 from dkarczmarski/pl-sync-42502",
-            "author": "Kubernetes Prow Robot"
-          }
-        ]
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/includes/task-tutorial-prereqs.md",
-        "commits": [
-          {
-            "hash": "8c38cb8c2d4e35940790c2fce2143166225cc7d4",
-            "date": "Thu Mar 13 20:21:47 2025 -0700",
-            "message": "Merge pull request #50085 from khanhtc1202/add-release-page",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "ee797003d1c9e94569848ee6dac332d8a9e660be",
-            "date": "Sun Apr 28 04:59:51 2024 -0700",
-            "message": "Merge pull request #46036 from Arhell/zh-link",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "77838d1cab84f950c4326d610af61433b962e12e",
-            "date": "Mon Jun 19 03:00:22 2023 -0700",
-            "message": "Merge pull request #41362 from s-kawamura-w664/topology-1.27",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "733f5f7fc2aec41110cb3c2204adb022b16f0de5",
-            "date": "Wed Jun 29 07:30:01 2022 +0800",
-            "message": "[zh-cn] fix links about Katacoda",
-            "author": "Michael"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
       }
     }
   },
   "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
     "translations": {
-      "bn": {
-        "exists": true,
-        "path": "content/bn/includes/task-tutorial-prereqs-node-upgrade.md",
-        "commits": [
-          {
-            "hash": "997a8d9e3132a95f74150de53aae71bd3a304326",
-            "date": "Sun May 5 11:12:55 2024 +0600",
-            "message": "Create task-tutorial-prereqs-node-upgrade.md",
-            "author": "Asem Hamid"
-          }
-        ]
-      },
-      "de": {
-        "exists": false
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
-        "commits": [
-          {
-            "hash": "7a91dcc0785d68cb83d20ebb733e87304bf5cbf6",
-            "date": "Thu Apr 4 17:27:41 2024 -0700",
-            "message": "Add shell access prereq to node upgrade cluster task",
-            "author": "Marcelo Giles"
-          }
-        ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": false
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
       "ja": {
-        "exists": true,
         "path": "content/ja/includes/task-tutorial-prereqs-node-upgrade.md",
         "commits": [
           {
@@ -702,26 +621,18 @@
           }
         ]
       },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
+      "bn": {
+        "path": "content/bn/includes/task-tutorial-prereqs-node-upgrade.md",
+        "commits": [
+          {
+            "hash": "997a8d9e3132a95f74150de53aae71bd3a304326",
+            "date": "Sun May 5 11:12:55 2024 +0600",
+            "message": "Create task-tutorial-prereqs-node-upgrade.md",
+            "author": "Asem Hamid"
+          }
+        ]
       },
       "zh-cn": {
-        "exists": true,
         "path": "content/zh-cn/includes/task-tutorial-prereqs-node-upgrade.md",
         "commits": [
           {
@@ -731,13 +642,23 @@
             "author": "Kubernetes Prow Robot"
           }
         ]
+      },
+      "en": {
+        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+        "commits": [
+          {
+            "hash": "7a91dcc0785d68cb83d20ebb733e87304bf5cbf6",
+            "date": "Thu Apr 4 17:27:41 2024 -0700",
+            "message": "Add shell access prereq to node upgrade cluster task",
+            "author": "Marcelo Giles"
+          }
+        ]
       }
     }
   },
   "content/en/includes/user-guide-content-moved.md": {
     "translations": {
       "bn": {
-        "exists": true,
         "path": "content/bn/includes/user-guide-content-moved.md",
         "commits": [
           {
@@ -748,86 +669,7 @@
           }
         ]
       },
-      "de": {
-        "exists": true,
-        "path": "content/de/includes/user-guide-content-moved.md",
-        "commits": [
-          {
-            "hash": "a5ddc03b4fa34b2e010652d5b447f4617c4a0faf",
-            "date": "Tue Mar 26 21:37:19 2019 +0100",
-            "message": "Init German translation (#13340)",
-            "author": "Benedikt Rollik"
-          }
-        ]
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/includes/user-guide-content-moved.md",
-        "commits": [
-          {
-            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
-            "date": "Sat May 5 18:00:51 2018 +0200",
-            "message": "Convert site to Hugo (#8316)",
-            "author": "Bjørn Erik Pedersen"
-          }
-        ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/includes/user-guide-content-moved.md",
-        "commits": [
-          {
-            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
-            "date": "Fri Apr 5 16:01:22 2019 +0200",
-            "message": "Translate partners to French (#13389)",
-            "author": "Rémy Léone"
-          }
-        ]
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/includes/user-guide-content-moved.md",
-        "commits": [
-          {
-            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
-            "date": "Wed Aug 28 15:05:11 2019 +0900",
-            "message": "First Japanese l10n work for release-1.14 (#16115)",
-            "author": "Takuya Tokuda"
-          }
-        ]
-      },
-      "ko": {
-        "exists": false
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
       "zh-cn": {
-        "exists": true,
         "path": "content/zh-cn/includes/user-guide-content-moved.md",
         "commits": [
           {
@@ -849,13 +691,56 @@
             "author": "Qiming Teng"
           }
         ]
+      },
+      "ja": {
+        "path": "content/ja/includes/user-guide-content-moved.md",
+        "commits": [
+          {
+            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
+            "date": "Wed Aug 28 15:05:11 2019 +0900",
+            "message": "First Japanese l10n work for release-1.14 (#16115)",
+            "author": "Takuya Tokuda"
+          }
+        ]
+      },
+      "fr": {
+        "path": "content/fr/includes/user-guide-content-moved.md",
+        "commits": [
+          {
+            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
+            "date": "Fri Apr 5 16:01:22 2019 +0200",
+            "message": "Translate partners to French (#13389)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
+      "de": {
+        "path": "content/de/includes/user-guide-content-moved.md",
+        "commits": [
+          {
+            "hash": "a5ddc03b4fa34b2e010652d5b447f4617c4a0faf",
+            "date": "Tue Mar 26 21:37:19 2019 +0100",
+            "message": "Init German translation (#13340)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      },
+      "en": {
+        "path": "content/en/includes/user-guide-content-moved.md",
+        "commits": [
+          {
+            "hash": "7f3b633aa0332b8a1ddc61b6d4e2e34fc6dd5522",
+            "date": "Sat May 5 18:00:51 2018 +0200",
+            "message": "Convert site to Hugo (#8316)",
+            "author": "Bjørn Erik Pedersen"
+          }
+        ]
       }
     }
   },
   "content/en/includes/default-storage-class-prereqs.md": {
     "translations": {
       "bn": {
-        "exists": true,
         "path": "content/bn/includes/default-storage-class-prereqs.md",
         "commits": [
           {
@@ -866,8 +751,24 @@
           }
         ]
       },
+      "zh-cn": {
+        "path": "content/zh-cn/includes/default-storage-class-prereqs.md",
+        "commits": [
+          {
+            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
+            "date": "Thu Jun 23 20:07:06 2022 +0800",
+            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
+            "author": "howieyuen"
+          },
+          {
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
+          }
+        ]
+      },
       "de": {
-        "exists": true,
         "path": "content/de/includes/default-storage-class-prereqs.md",
         "commits": [
           {
@@ -884,8 +785,53 @@
           }
         ]
       },
+      "ja": {
+        "path": "content/ja/includes/default-storage-class-prereqs.md",
+        "commits": [
+          {
+            "hash": "88d087a8578c09fa2c5725fcad2fca272561eb2f",
+            "date": "Tue May 10 18:28:50 2022 -0700",
+            "message": "Merge pull request #33558 from JarHMJ/content/zh/docs/concepts/architecture/nodes.md",
+            "author": "Kubernetes Prow Robot"
+          },
+          {
+            "hash": "4532bd2bdb4419de4783be084195f18be516ee53",
+            "date": "Wed Nov 20 14:25:19 2019 -0800",
+            "message": "First Japanese l10n work for release-1.15. (#17693)",
+            "author": "inductor"
+          },
+          {
+            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
+            "date": "Wed Aug 28 15:05:11 2019 +0900",
+            "message": "First Japanese l10n work for release-1.14 (#16115)",
+            "author": "Takuya Tokuda"
+          }
+        ]
+      },
+      "fr": {
+        "path": "content/fr/includes/default-storage-class-prereqs.md",
+        "commits": [
+          {
+            "hash": "970c5fadb80653edf39e43afd9d2c5ceac61e666",
+            "date": "Tue May 10 00:16:11 2022 +0300",
+            "message": "[fr] fix links",
+            "author": "Arhell"
+          },
+          {
+            "hash": "4d55d0f538b7931314dd555dce0d49a4a9ad2362",
+            "date": "Sun May 8 10:03:58 2022 +0300",
+            "message": "[fr] update links",
+            "author": "Arhell"
+          },
+          {
+            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
+            "date": "Fri Apr 5 16:01:22 2019 +0200",
+            "message": "Translate partners to French (#13389)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
       "en": {
-        "exists": true,
         "path": "content/en/includes/default-storage-class-prereqs.md",
         "commits": [
           {
@@ -914,68 +860,7 @@
           }
         ]
       },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/includes/default-storage-class-prereqs.md",
-        "commits": [
-          {
-            "hash": "970c5fadb80653edf39e43afd9d2c5ceac61e666",
-            "date": "Tue May 10 00:16:11 2022 +0300",
-            "message": "[fr] fix links",
-            "author": "Arhell"
-          },
-          {
-            "hash": "4d55d0f538b7931314dd555dce0d49a4a9ad2362",
-            "date": "Sun May 8 10:03:58 2022 +0300",
-            "message": "[fr] update links",
-            "author": "Arhell"
-          },
-          {
-            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
-            "date": "Fri Apr 5 16:01:22 2019 +0200",
-            "message": "Translate partners to French (#13389)",
-            "author": "Rémy Léone"
-          }
-        ]
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": false
-      },
-      "it": {
-        "exists": false
-      },
-      "ja": {
-        "exists": true,
-        "path": "content/ja/includes/default-storage-class-prereqs.md",
-        "commits": [
-          {
-            "hash": "88d087a8578c09fa2c5725fcad2fca272561eb2f",
-            "date": "Tue May 10 18:28:50 2022 -0700",
-            "message": "Merge pull request #33558 from JarHMJ/content/zh/docs/concepts/architecture/nodes.md",
-            "author": "Kubernetes Prow Robot"
-          },
-          {
-            "hash": "4532bd2bdb4419de4783be084195f18be516ee53",
-            "date": "Wed Nov 20 14:25:19 2019 -0800",
-            "message": "First Japanese l10n work for release-1.15. (#17693)",
-            "author": "inductor"
-          },
-          {
-            "hash": "abde92139926cfb22cecf06acca207c2b0f85f86",
-            "date": "Wed Aug 28 15:05:11 2019 +0900",
-            "message": "First Japanese l10n work for release-1.14 (#16115)",
-            "author": "Takuya Tokuda"
-          }
-        ]
-      },
       "ko": {
-        "exists": true,
         "path": "content/ko/includes/default-storage-class-prereqs.md",
         "commits": [
           {
@@ -991,46 +876,12 @@
             "author": "June Yi"
           }
         ]
-      },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/includes/default-storage-class-prereqs.md",
-        "commits": [
-          {
-            "hash": "f0ccbff3169cce115a0fde95960359ae083447e6",
-            "date": "Thu Jun 23 20:07:06 2022 +0800",
-            "message": "[zh]Update other pages for links with '/zh/' prefix, using new prefix '/zh-cn/'",
-            "author": "howieyuen"
-          },
-          {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
-          }
-        ]
       }
     }
   },
   "content/en/includes/federation-deprecation-warning-note.md": {
     "translations": {
       "bn": {
-        "exists": true,
         "path": "content/bn/includes/federation-deprecation-warning-note.md",
         "commits": [
           {
@@ -1047,62 +898,24 @@
           }
         ]
       },
-      "de": {
-        "exists": true,
-        "path": "content/de/includes/federation-deprecation-warning-note.md",
+      "zh-cn": {
+        "path": "content/zh-cn/includes/federation-deprecation-warning-note.md",
         "commits": [
           {
-            "hash": "f63f1c1ca72b3581a04f86ae83f79cf0d668e452",
-            "date": "Wed Apr 17 20:00:06 2019 +0200",
-            "message": "[DOCS-DE] Translation Partners (#13842)",
-            "author": "Benedikt Rollik"
-          }
-        ]
-      },
-      "en": {
-        "exists": true,
-        "path": "content/en/includes/federation-deprecation-warning-note.md",
-        "commits": [
+            "hash": "ef76985d0ed87e9855002c67d82a5650b55781aa",
+            "date": "Fri Aug 26 14:17:27 2022 +0800",
+            "message": "[zh] Fix EOL style for federation deprecation warning",
+            "author": "Qiming Teng"
+          },
           {
-            "hash": "56021dc6710b7a12bda237cd475b43a92ea3c537",
-            "date": "Tue Mar 12 20:38:39 2019 +0000",
-            "message": "Reorganize Federation tasks so we have it group and under one topic (#12900)",
-            "author": "Dani Comnea"
-          }
-        ]
-      },
-      "es": {
-        "exists": false
-      },
-      "fr": {
-        "exists": true,
-        "path": "content/fr/includes/federation-deprecation-warning-note.md",
-        "commits": [
-          {
-            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
-            "date": "Fri Apr 5 16:01:22 2019 +0200",
-            "message": "Translate partners to French (#13389)",
-            "author": "Rémy Léone"
-          }
-        ]
-      },
-      "hi": {
-        "exists": false
-      },
-      "id": {
-        "exists": true,
-        "path": "content/id/includes/federation-deprecation-warning-note.md",
-        "commits": [
-          {
-            "hash": "c14937ffa3003a5cd5306d384caebd381393dd49",
-            "date": "Sun May 5 19:07:37 2019 +0700",
-            "message": "Initialize Federation in Bahasa Indonesia. (#14148)",
-            "author": "Irvi Aini"
+            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
+            "date": "Fri Jun 10 20:25:27 2022 +0800",
+            "message": "Switch language name 'zh' to 'zh-cn'",
+            "author": "Qiming Teng"
           }
         ]
       },
       "it": {
-        "exists": true,
         "path": "content/it/includes/federation-deprecation-warning-note.md",
         "commits": [
           {
@@ -1138,7 +951,6 @@
         ]
       },
       "ja": {
-        "exists": true,
         "path": "content/ja/includes/federation-deprecation-warning-note.md",
         "commits": [
           {
@@ -1149,8 +961,29 @@
           }
         ]
       },
+      "id": {
+        "path": "content/id/includes/federation-deprecation-warning-note.md",
+        "commits": [
+          {
+            "hash": "c14937ffa3003a5cd5306d384caebd381393dd49",
+            "date": "Sun May 5 19:07:37 2019 +0700",
+            "message": "Initialize Federation in Bahasa Indonesia. (#14148)",
+            "author": "Irvi Aini"
+          }
+        ]
+      },
+      "de": {
+        "path": "content/de/includes/federation-deprecation-warning-note.md",
+        "commits": [
+          {
+            "hash": "f63f1c1ca72b3581a04f86ae83f79cf0d668e452",
+            "date": "Wed Apr 17 20:00:06 2019 +0200",
+            "message": "[DOCS-DE] Translation Partners (#13842)",
+            "author": "Benedikt Rollik"
+          }
+        ]
+      },
       "ko": {
-        "exists": true,
         "path": "content/ko/includes/federation-deprecation-warning-note.md",
         "commits": [
           {
@@ -1161,36 +994,25 @@
           }
         ]
       },
-      "pl": {
-        "exists": false
-      },
-      "pt-br": {
-        "exists": false
-      },
-      "ru": {
-        "exists": false
-      },
-      "uk": {
-        "exists": false
-      },
-      "vi": {
-        "exists": false
-      },
-      "zh-cn": {
-        "exists": true,
-        "path": "content/zh-cn/includes/federation-deprecation-warning-note.md",
+      "fr": {
+        "path": "content/fr/includes/federation-deprecation-warning-note.md",
         "commits": [
           {
-            "hash": "ef76985d0ed87e9855002c67d82a5650b55781aa",
-            "date": "Fri Aug 26 14:17:27 2022 +0800",
-            "message": "[zh] Fix EOL style for federation deprecation warning",
-            "author": "Qiming Teng"
-          },
+            "hash": "c00262c2d35128a26de21c774e1edda87c37b7f2",
+            "date": "Fri Apr 5 16:01:22 2019 +0200",
+            "message": "Translate partners to French (#13389)",
+            "author": "Rémy Léone"
+          }
+        ]
+      },
+      "en": {
+        "path": "content/en/includes/federation-deprecation-warning-note.md",
+        "commits": [
           {
-            "hash": "c52818c03d6bb8d6bf76b09ad20de3a823dc8e0a",
-            "date": "Fri Jun 10 20:25:27 2022 +0800",
-            "message": "Switch language name 'zh' to 'zh-cn'",
-            "author": "Qiming Teng"
+            "hash": "56021dc6710b7a12bda237cd475b43a92ea3c537",
+            "date": "Tue Mar 12 20:38:39 2019 +0000",
+            "message": "Reorganize Federation tasks so we have it group and under one topic (#12900)",
+            "author": "Dani Comnea"
           }
         ]
       }
