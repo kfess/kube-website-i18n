@@ -194,19 +194,18 @@ def map_translations(df: pd.DataFrame) -> dict:
 
     Returns:
     -------
-        Dict: Nested dictionary of translations
+        Dict: Nested dictionary of translations per English path and language
 
     """
     grouped = {}
 
     for english_path in df["english_path"].unique():
-        grouped[english_path] = {"translations": {}}
-
         path_df = df[df["english_path"] == english_path]
+        grouped[english_path] = {}
 
         for lang in path_df["language"].unique():
             lang_rows = path_df[path_df["language"] == lang]
-            grouped[english_path]["translations"][lang] = {
+            grouped[english_path][lang] = {
                 "path": lang_rows["filepath"].iloc[0],
                 "commits": lang_rows.apply(
                     lambda row: {

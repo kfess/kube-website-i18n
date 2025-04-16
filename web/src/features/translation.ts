@@ -14,9 +14,10 @@ type TranslationInfo = {
 };
 
 export type TranslationState = {
-  [key: string]: {
-    translations: Partial<Record<Language, TranslationInfo>>;
-  };
+  // [key: string]: {
+  //   translations: Partial<Record<Language, TranslationInfo>>;
+  // };
+  [key: string]: Partial<Record<Language, TranslationInfo>>;
 };
 
 export const contentTypes = [

@@ -112,7 +112,7 @@ export const TranslationMatrix = (props: Props) => {
         }
 
         // ステータスによるフィルタリング（全言語対象）
-        const hasMatchingStatus = Object.values(fileData.translations).some(
+        const hasMatchingStatus = Object.values(fileData).some(
           (langData) =>
             (filteredStatus === 'untranslated' && !langData.path) ||
             (filteredStatus === 'translated' && langData.path)
@@ -125,7 +125,7 @@ export const TranslationMatrix = (props: Props) => {
       }
 
       // 指定した言語が存在するか確認
-      const langData = fileData.translations[filteredLanguage];
+      const langData = fileData[filteredLanguage];
       if (!langData) {
         return acc;
       }
@@ -274,7 +274,7 @@ export const TranslationMatrix = (props: Props) => {
                     </Anchor>
                   </Table.Td>
                   {sortedLanguages.map((lang) => {
-                    const exists = fileData.translations[lang]?.path !== undefined;
+                    const exists = fileData[lang]?.path !== undefined;
 
                     const bgColor = exists
                       ? isDark
@@ -305,7 +305,7 @@ export const TranslationMatrix = (props: Props) => {
                             <Anchor
                               // We can safely assume that the path is valid because exists is true
                               // So we can use the non-null assertion operator (!)
-                              href={`https://github.com/kubernetes/website/blob/main/${fileData!.translations[lang]!.path}`}
+                              href={`https://github.com/kubernetes/website/blob/main/${fileData[lang]!.path}`}
                               target="_blank"
                               rel="noopener noreferrer"
                               c="inherit"
