@@ -34,7 +34,7 @@ jobs:
           ./fetch.sh
         shell: bash
 
-      - name: Collect all files
+      - name: Collect all existing files
         working-directory: ./scripts/shell
         run: |
           chmod +x ./collect_all_files.sh
@@ -51,7 +51,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: processed-data
-          path: data/output/
+          path: |
+            data/output/
+            data/cache/
           retention-days: 7
 
       - name: Commit and push changes
