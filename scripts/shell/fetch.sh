@@ -100,6 +100,6 @@ else
   fetch_history "" "" "$OUTPUT_FILE" "false"
 fi
 
-log_success "$CURRENT_HEAD" > "$LAST_COMMIT_FILE"
+echo "$CURRENT_HEAD" > "$LAST_COMMIT_FILE"
 log_success "CSV file created/updated: $OUTPUT_FILE"
 log_success "Last processed commit hash: $CURRENT_HEAD"
