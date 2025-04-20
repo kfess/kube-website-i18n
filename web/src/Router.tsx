@@ -8,7 +8,7 @@ const router = createBrowserRouter(
     { path: '/terms', element: <TermsOfServicePage /> },
   ],
   {
-    basename: '/kube-website-i18n',
+    basename: '/kube-i18n-status',
   }
 );
 
