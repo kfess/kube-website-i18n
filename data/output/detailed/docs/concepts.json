@@ -3591,6 +3591,12 @@
           "date": "Wed Aug 28 15:05:11 2019 +0900",
           "message": "First Japanese l10n work for release-1.14 (#16115)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -3721,6 +3727,12 @@
           "date": "Mon Jul 22 13:42:21 2024 +0900",
           "message": "[ja] Translate content/en/docs/concepts/workloads/autoscaling.md into Japanese (#46749)",
           "author": "kohbis"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -13619,6 +13631,17 @@
           "author": "Shannon Kularathna"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/concepts/cluster-administration/admission-webhooks-good-practices.md",
+      "commits": [
+        {
+          "hash": "e104370cd3ceecff0360fd8c987f66a0215eb5d2",
+          "date": "Sun Mar 23 15:50:53 2025 +0800",
+          "message": "[zh-cn]sync admission-webhooks-good-practices",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/cluster-administration/node-autoscaling.md": {
@@ -18978,6 +19001,12 @@
           "hash": "3599c0392966e01d643501e5da1d6627c5c6d26a",
           "date": "Mon Apr 19 17:30:33 2021 -0700",
           "message": "Merge pull request #27436 from sftim/20210406_document_statefulset_pod_name_label",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "09cf5d1ad71d5d141ba32c5b868d896a6982a4e3",
+          "date": "Sun Apr 13 18:46:51 2025 -0700",
+          "message": "Merge pull request #50475 from my-git9/npa-2512",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -24897,6 +24926,18 @@
           "date": "Fri Sep 6 11:58:57 2019 +0900",
           "message": "Fifth Korean l10n work for release-1.15 (#16231)",
           "author": "Seokho Son"
+        },
+        {
+          "hash": "2a87c798274777232a577424b5a8be91eab402c0",
+          "date": "Mon Mar 3 00:54:27 2025 +0200",
+          "message": "[ko] fix: code block typo in deployment.md",
+          "author": "Arhell"
+        },
+        {
+          "hash": "c3498fceee5b16a77d4960967bd900cde9cf8abd",
+          "date": "Mon Jan 27 17:44:40 2025 +0100",
+          "message": "[ko] fix: typo in deployment.md",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -29162,6 +29203,12 @@
           "date": "Fri May 15 02:08:58 2020 -0700",
           "message": "Merge pull request #20979 from divyabhushan/master",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "e24debf813c4fc953e89199e79917cba1eb86b39",
+          "date": "Tue Feb 11 00:10:58 2025 +0200",
+          "message": "[ko] Fixed link for core dns helm charts",
+          "author": "Arhell"
         }
       ]
     },
@@ -29209,6 +29256,12 @@
           "date": "Fri Feb 7 15:57:45 2020 +0100",
           "message": "Added german translation for Addons page (#19010)",
           "author": "Alexander Zimmermann"
+        },
+        {
+          "hash": "06a7e77db878f0ac4d4954192826402616ea46c4",
+          "date": "Sun Feb 16 01:50:55 2025 +0200",
+          "message": "[de] Fixed link for core dns helm charts",
+          "author": "Arhell"
         }
       ]
     }
@@ -36002,6 +36055,12 @@
           "date": "Mon May 30 02:26:51 2022 -0700",
           "message": "Merge pull request #34022 from tengqm/addback-check-dockershim",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "5196eb60be0cc55f5e2ff1bb1f36adb842eb98e9",
+          "date": "Sun Feb 9 12:11:33 2025 +0200",
+          "message": "[ko] Fix OpenTelemetry Protocol hyperlink",
+          "author": "Arhell"
         }
       ]
     }
@@ -36570,6 +36629,12 @@
           "date": "Thu Jun 8 19:10:13 2023 -0700",
           "message": "Merge pull request #41248 from krapie/concepts-cluster-architecture-leases",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "f9b4a6ecd8afaf829b4d7767f141ee0dc66c37e4",
+          "date": "Fri Feb 7 00:10:47 2025 +0200",
+          "message": "[ko] fix: typo in leases.md",
+          "author": "Arhell"
         }
       ]
     }
@@ -42777,6 +42842,12 @@
           "date": "Sat Aug 1 19:45:03 2020 +0900",
           "message": "Translate /ja/docs/concepts/workloads/controllers/job.md",
           "author": "nishipy"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -44571,6 +44642,12 @@
           "date": "Sat Feb 26 01:15:22 2022 +0900",
           "message": "commit",
           "author": "196Ikuchil"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -51939,6 +52016,12 @@
           "date": "Wed Jul 6 20:49:32 2022 -0700",
           "message": "Merge pull request #34845 from dch1228/patch-1",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9e29f3d30ff5f9546f03352b68bab6e08099ad73",
+          "date": "Fri Apr 18 22:33:03 2025 -0700",
+          "message": "Merge pull request #50531 from windsonsea/mapkeys",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -52040,6 +52123,12 @@
           "date": "Tue May 24 22:34:43 2022 -0700",
           "message": "Merge pull request #33839 from tengqm/update-kubeadm-configapi",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "c5441a5da768193a1f4f893e8929e712ff5a80e9",
+          "date": "Fri Apr 18 15:26:25 2025 -0400",
+          "message": "Remove references to archived HNC project",
+          "author": "Jordan Liggitt"
         }
       ]
     },
@@ -52182,6 +52271,17 @@
           "date": "Sat May 11 19:15:19 2024 -0700",
           "message": "Application security checklist",
           "author": "Anshuman Tripathi"
+        }
+      ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/security/application-security-checklist.md",
+      "commits": [
+        {
+          "hash": "dd303e3cdd4c668e076cc5bf353ac4024ebb1c62",
+          "date": "Mon Apr 14 08:55:05 2025 -0700",
+          "message": "Merge pull request #50487 from windsonsea/pvcv1y",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -62357,6 +62457,12 @@
           "date": "Sat Aug 17 17:05:39 2024 -0700",
           "message": "Merge pull request #47535 from my-git9/pp-28990",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -62802,6 +62908,12 @@
           "date": "Wed Aug 28 15:05:11 2019 +0900",
           "message": "First Japanese l10n work for release-1.14 (#16115)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -64975,6 +65087,12 @@
           "date": "Sat Feb 26 20:47:01 2022 +0900",
           "message": "docs:translate concepts/scheduling-eviction/pod-overhead/",
           "author": "196Ikuchil"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },

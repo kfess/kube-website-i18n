@@ -258,7 +258,8 @@
   },
   "content/en/docs/concepts/cluster-administration/admission-webhooks-good-practices.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/concepts/cluster-administration/node-autoscaling.md": {
@@ -957,7 +958,8 @@
   "content/en/docs/concepts/security/application-security-checklist.md": {
     "langs": [
       "zh-cn",
-      "en"
+      "en",
+      "id"
     ]
   },
   "content/en/docs/concepts/services-networking/cluster-ip-allocation.md": {

@@ -2902,6 +2902,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "7d75d112d1cc52d34b6ed3c5636dd9b5ca336f6d",
+          "date": "Fri Apr 18 08:09:08 2025 -0700",
+          "message": "Merge pull request #50525 from ntheanh201/glossary/device-plugin",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -3783,6 +3789,12 @@
           "date": "Thu Oct 4 05:08:33 2018 +0900",
           "message": "Add: Korean translation initialized (#10471)",
           "author": "Claudia J.Kang"
+        },
+        {
+          "hash": "4b10c8a9915f82dfc0f9ae941bfcd6f3a22cfcbb",
+          "date": "Thu Jan 9 12:45:42 2025 -0600",
+          "message": "[ko] Remove tutorials link to java microservice example",
+          "author": "Sean McGinnis"
         }
       ]
     },
@@ -5361,6 +5373,17 @@
           "author": "Marcelo Giles"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro.md",
+      "commits": [
+        {
+          "hash": "2efa86d2f616c93ce71928c9a4523df7c3a03d4c",
+          "date": "Sun Apr 6 11:02:47 2025 +0800",
+          "message": "[zh-cn]sync create-cluster/cluster-intro",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.md": {
@@ -5411,6 +5434,17 @@
           "author": "Marcelo Giles"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/tutorials/kubernetes-basics/explore/explore-intro.md",
+      "commits": [
+        {
+          "hash": "3585c7adf0f5bdc028fb89a4f5b360a6f8f7faa6",
+          "date": "Sun Apr 6 11:50:58 2025 +0800",
+          "message": "[zh-cn]sync explore/explore-intro",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/tutorials/kubernetes-basics/expose/expose-intro.md": {
@@ -5442,6 +5476,17 @@
           "author": "Marcelo Giles"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/tutorials/kubernetes-basics/expose/expose-intro.md",
+      "commits": [
+        {
+          "hash": "76294844fcf2994add0f0446d98bc2455d303000",
+          "date": "Sun Apr 6 12:17:22 2025 +0800",
+          "message": "[zh-cn]sync expose/expose-intro",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/tutorials/kubernetes-basics/scale/scale-intro.md": {
@@ -5465,6 +5510,17 @@
           "date": "Sat Nov 2 22:18:07 2024 -0700",
           "message": "Add scale-your-app tutorial",
           "author": "Marcelo Giles"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/tutorials/kubernetes-basics/scale/scale-intro.md",
+      "commits": [
+        {
+          "hash": "65d6d624e9f504f6b67c6cb22f00a784a31cf8dd",
+          "date": "Sun Apr 6 14:49:39 2025 +0800",
+          "message": "[zh-cn]sync scale/scale-intro",
+          "author": "xin.li"
         }
       ]
     }

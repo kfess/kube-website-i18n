@@ -329,6 +329,12 @@
           "date": "Wed Mar 19 19:45:13 2025 +0900",
           "message": "Add release managers page in Vietnamese",
           "author": "khanhtc1202"
+        },
+        {
+          "hash": "f4feeffd307d091bb9d18a94a6b496834034acee",
+          "date": "Fri Mar 21 18:08:45 2025 +0900",
+          "message": "Remove GitHub team mention from Release Managers docs in Vietnamese",
+          "author": "khanhtc1202"
         }
       ]
     },
@@ -626,6 +632,12 @@
           "date": "Sat May 15 16:01:02 2021 -0400",
           "message": "releases: Canonicalize Release Managers page on k/website",
           "author": "Stephen Augustus"
+        },
+        {
+          "hash": "50b90b9429d2a178646d81d27144335e01b9192f",
+          "date": "Fri Apr 18 10:17:07 2025 -0700",
+          "message": "Merge pull request #50168 from khanhtc1202/remove-unneed-link",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

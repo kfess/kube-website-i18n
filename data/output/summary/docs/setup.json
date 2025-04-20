@@ -20,7 +20,8 @@
       "hi",
       "uk",
       "fr",
-      "id"
+      "id",
+      "vi"
     ]
   },
   "content/en/docs/setup/production-environment/tools/kubeadm/high-availability.md": {
@@ -69,7 +70,8 @@
       "fr",
       "id",
       "uk",
-      "ja"
+      "ja",
+      "vi"
     ]
   },
   "content/en/docs/setup/_index.md": {
@@ -141,7 +143,8 @@
       "ja",
       "zh-cn",
       "en",
-      "fr"
+      "fr",
+      "vi"
     ]
   },
   "content/en/docs/setup/best-practices/multiple-zones.md": {
@@ -212,7 +215,8 @@
       "uk",
       "ja",
       "ko",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/setup/production-environment/tools/kubeadm/kubelet-integration.md": {

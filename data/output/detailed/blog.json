@@ -1,4 +1,17 @@
 {
+  "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md",
+      "commits": [
+        {
+          "hash": "adb4abd3caa9f9121e0b163db3acebca98119dea",
+          "date": "Mon Apr 7 17:32:26 2025 +0200",
+          "message": "blog: add Kubernetes multi-container patterns",
+          "author": "Agata Skorupka"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md",
@@ -24973,6 +24986,68 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md": {
+    "en": {
+      "path": "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md",
+      "commits": [
+        {
+          "hash": "3408bccabeedd1e248bc8b81863258c0561e7328",
+          "date": "Thu Mar 20 10:58:53 2025 -0400",
+          "message": "Update metadata to align with other articles",
+          "author": "jm-franc"
+        },
+        {
+          "hash": "30fc1259ee4488f2cf8f4ee625ccce32d0196bc0",
+          "date": "Tue Mar 18 14:52:21 2025 -0400",
+          "message": "Improved example following review.",
+          "author": "Jean-Marc François"
+        },
+        {
+          "hash": "05d813118f2b5c6c1ab617eb3208dd146a262b3a",
+          "date": "Tue Mar 18 14:15:44 2025 -0400",
+          "message": "Updates following review (small fixes, added example).",
+          "author": "Jean-Marc François"
+        },
+        {
+          "hash": "e0b07828a5a2140aeeb7d505fa9200c77ce07808",
+          "date": "Tue Mar 18 12:25:47 2025 -0400",
+          "message": "Merge branch 'kubernetes:main' into configurable-tolerance-blog",
+          "author": "jm-franc"
+        },
+        {
+          "hash": "fae8cf5d5d703a21c0a94b18122a04146d630ec4",
+          "date": "Tue Mar 4 16:16:14 2025 -0500",
+          "message": "Update following review.",
+          "author": "Jean-Marc François"
+        },
+        {
+          "hash": "f0e06919590726a05cdc371b315ed63dc8bd0a5d",
+          "date": "Tue Mar 4 16:02:24 2025 -0500",
+          "message": "Merge branch 'kubernetes:main' into configurable-tolerance-blog",
+          "author": "jm-franc"
+        },
+        {
+          "hash": "230c74dc256c0229c0d50435751e94059f10700f",
+          "date": "Tue Mar 4 11:18:18 2025 -0500",
+          "message": "Add HPA 'configurable tolerance' blog post (KEP-4951).",
+          "author": "Jean-Marc François"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/XXXX-XX-XX-in-place-pod-resize-beta.md": {
+    "en": {
+      "path": "content/en/blog/_posts/XXXX-XX-XX-in-place-pod-resize-beta.md",
+      "commits": [
+        {
+          "hash": "fe156cec0a1daf485072d32e661733e55efc5f67",
+          "date": "Mon Oct 28 09:14:41 2024 -0700",
+          "message": "In-place pod resize beta blog post",
+          "author": "Tim Allclair"
         }
       ]
     }
