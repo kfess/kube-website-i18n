@@ -11,9 +11,10 @@ import {
   useMantineColorScheme,
 } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
+import { useTranslationFilter } from './hooks/useTranslationFilter';
 import { Language, LANGUAGES } from './languages';
 import { TranslationState } from './translation';
-import { TranslationFilter, type TranslationStatus } from './TranslationFilter';
+import { TranslationFilter } from './TranslationFilter';
 import { TranslationMatrixHeader } from './TranslationMatrixHeader';
 
 const getSortedLanguages = (preferred?: Language): Language[] => {
@@ -39,83 +40,32 @@ export const TranslationMatrix = ({ translationData, activePage, setActivePage }
   const { colorScheme } = useMantineColorScheme();
   const isDark = colorScheme === 'dark';
 
-  // フィルター状態
-  const [selectedLanguage, setSelectedLanguage] = useState<Language | null>('en');
-  const [translationStatus, setTranslationStatus] = useState<TranslationStatus>('all');
-  const [filteredTranslations, setFilteredTranslations] =
-    useState<TranslationState>(translationData);
+  // Filter
+  const {
+    selectedLanguage,
+    setSelectedLanguage,
+    translationStatus,
+    setTranslationStatus,
+    filteredTranslations,
+  } = useTranslationFilter(translationData);
 
-  const applyFilter = (
-    data: TranslationState,
-    filteredLanguage: Language | null,
-    filteredStatus: TranslationStatus
-  ): TranslationState => {
-    if (!filteredLanguage && filteredStatus === 'all') {
-      return data;
-    }
-
-    // フィルター処理
-    const filteredData = Object.entries(data).reduce((acc, [filePath, fileData]) => {
-      // 言語フィルターが指定されていない場合は、ファイルをそのまま追加（ステータスフィルターは後で処理）
-      if (!filteredLanguage) {
-        if (filteredStatus === 'all') {
-          acc[filePath] = fileData;
-          return acc;
-        }
-
-        // ステータスによるフィルタリング（全言語対象）
-        const hasMatchingStatus =
-          filteredStatus === 'untranslated'
-            ? !fileData.langs.includes('en') // 未翻訳はen言語がない場合
-            : fileData.langs.includes('en'); // 翻訳済みはen言語がある場合
-
-        if (hasMatchingStatus) {
-          acc[filePath] = fileData;
-        }
-        return acc;
-      }
-
-      // 指定した言語がlangsに含まれているか確認
-      const langExists = fileData.langs.includes(filteredLanguage);
-
-      // ステータスフィルター
-      if (
-        filteredStatus === 'all' ||
-        (filteredStatus === 'untranslated' && !langExists) ||
-        (filteredStatus === 'translated' && langExists)
-      ) {
-        acc[filePath] = fileData;
-      }
-
-      return acc;
-    }, {} as TranslationState);
-
-    return filteredData;
-  };
-
-  // 言語またはステータスが変更されたときにフィルタリングを実行
-  useEffect(() => {
-    if (Object.keys(translationData).length > 0) {
-      const filtered = applyFilter(translationData, selectedLanguage, translationStatus);
-      setFilteredTranslations(filtered);
-
-      // フィルター後にページネーションを調整
-      const filteredTotalItems = Object.keys(filtered).length;
-      const filteredTotalPages = Math.ceil(filteredTotalItems / parseInt(itemsPerPage, 10));
-      if (activePage > filteredTotalPages && filteredTotalPages > 0) {
-        setActivePage(1);
-      }
-    }
-  }, [selectedLanguage, translationStatus, translationData]);
-
+  // Pagination
   const [itemsPerPage, setItemsPerPage] = useState('30');
   const translationEntries = Object.entries(filteredTranslations);
   const totalItems = translationEntries.length;
   const totalPages = Math.ceil(totalItems / parseInt(itemsPerPage, 10));
-
-  const startIndex = (activePage - 1) * parseInt(itemsPerPage, 10);
-  const endIndex = Math.min(startIndex + parseInt(itemsPerPage, 10), totalItems);
+  const [startIndex, endIndex] = [
+    (activePage - 1) * parseInt(itemsPerPage, 10),
+    Math.min(
+      (activePage - 1) * parseInt(itemsPerPage, 10) + parseInt(itemsPerPage, 10),
+      totalItems
+    ),
+  ];
   const currentPageData = translationEntries.slice(startIndex, endIndex);
+
+  useEffect(() => {
+    setActivePage(1);
+  }, [translationData, selectedLanguage, translationStatus]);
 
   return (
     <Stack>
@@ -134,11 +84,7 @@ export const TranslationMatrix = ({ translationData, activePage, setActivePage }
               setItemsPerPage(value || '30');
               setActivePage(1);
             }}
-            data={[
-              { value: '30', label: '30' },
-              { value: '50', label: '50' },
-              { value: '100', label: '100' },
-            ]}
+            data={['30', '50', '100'].map((value) => ({ value, label: value }))}
             style={{ width: 80 }}
           />
           <Pagination

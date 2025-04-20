@@ -9,7 +9,7 @@ const formatContentTypeLabel = (t: ContentType) => {
     case 'blog':
       return 'Blog';
     case 'case_study':
-      return 'Case-Study';
+      return 'Case Study';
     case 'community':
       return 'Community';
     case 'example':
