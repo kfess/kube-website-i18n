@@ -12,92 +12,44 @@ import {
 } from '@mantine/core';
 import { useLocalStorage } from '@mantine/hooks';
 import { Language, LANGUAGES } from './languages';
-import { ContentType, DocsSubContentType, TranslationState } from './translation';
+import { TranslationState } from './translation';
 import { TranslationFilter, type TranslationStatus } from './TranslationFilter';
+import { TranslationMatrixHeader } from './TranslationMatrixHeader';
 
-const getTranslationData = async (
-  contentType: ContentType,
-  docsSubContentType?: DocsSubContentType
-): Promise<TranslationState> => {
-  if (contentType === 'Docs') {
-    if (docsSubContentType === 'Concepts') {
-      const data = await import(`../../../data/output/content_type/docs/concepts.json`);
-      return data.default;
-    } else if (docsSubContentType === 'Reference') {
-      const data = await import(`../../../data/output/content_type/docs/reference.json`);
-      return data.default;
-    } else if (docsSubContentType === 'Tutorials') {
-      const data = await import(`../../../data/output/content_type/docs/tutorials.json`);
-      return data.default;
-    } else if (docsSubContentType === 'Tasks') {
-      const data = await import(`../../../data/output/content_type/docs/tasks.json`);
-      return data.default;
-    } else if (docsSubContentType === 'Contribute') {
-      const data = await import(`../../../data/output/content_type/docs/contribute.json`);
-      return data.default;
-    }
-  } else if (contentType === 'Blog') {
-    const data = await import(`../../../data/output/content_type/blog.json`);
-    return data.default;
-  } else if (contentType === 'Release') {
-    const data = await import(`../../../data/output/content_type/releases.json`);
-    return data.default;
-  } else if (contentType === 'Community') {
-    const data = await import(`../../../data/output/content_type/community.json`);
-    return data.default;
-  } else if (contentType === 'Example') {
-    const data = await import(`../../../data/output/content_type/examples.json`);
-    return data.default;
-  } else if (contentType === 'Include') {
-    const data = await import(`../../../data/output/content_type/includes.json`);
-    return data.default;
-  } else if (contentType === 'Case Study') {
-    const data = await import(`../../../data/output/content_type/case-studies.json`);
-    return data.default;
-  } else if (contentType === 'Partner') {
-    const data = await import(`../../../data/output/content_type/partners.json`);
-    return data.default;
-  } else if (contentType === 'Training') {
-    const data = await import(`../../../data/output/content_type/training.json`);
-    return data.default;
-  }
-
-  throw new Error(`Unknown content type: ${contentType}`);
+const getSortedLanguages = (preferred?: Language): Language[] => {
+  const langs = Object.keys(LANGUAGES) as Language[];
+  const rest = langs.filter((l) => l !== 'en' && l !== preferred);
+  return ['en', ...(preferred && preferred !== 'en' ? [preferred] : []), ...rest];
 };
 
-// Other types
-type BaseProps = {
-  contentType: Exclude<ContentType, 'Docs'>;
-};
-
-// Docs-specific props
-type DocsProps = {
-  contentType: 'Docs';
-  docsSubContentType: DocsSubContentType;
-};
-
-type Props = (BaseProps | DocsProps) & {
+type Props = {
+  translationData: TranslationState;
   activePage: number;
   setActivePage: (page: number) => void;
 };
 
-export const TranslationMatrix = (props: Props) => {
-  const [translations, setTranslations] = useState<TranslationState>({});
-  const [preferredLanguage, _setPreferredLanguage] = useLocalStorage<Language>({
+export const TranslationMatrix = ({ translationData, activePage, setActivePage }: Props) => {
+  // 言語設定
+  const [preferredLanguage, _] = useLocalStorage<Language>({
     key: 'preferred-language',
   });
+  const sortedLanguages = getSortedLanguages(preferredLanguage);
+
+  // Color scheme
+  const { colorScheme } = useMantineColorScheme();
+  const isDark = colorScheme === 'dark';
 
   // フィルター状態
   const [selectedLanguage, setSelectedLanguage] = useState<Language | null>('en');
   const [translationStatus, setTranslationStatus] = useState<TranslationStatus>('all');
-  const [filteredTranslations, setFilteredTranslations] = useState<TranslationState>({});
+  const [filteredTranslations, setFilteredTranslations] =
+    useState<TranslationState>(translationData);
 
   const applyFilter = (
     data: TranslationState,
     filteredLanguage: Language | null,
     filteredStatus: TranslationStatus
   ): TranslationState => {
-    // フィルター条件がなければ元のデータをそのまま返す
     if (!filteredLanguage && filteredStatus === 'all') {
       return data;
     }
@@ -112,11 +64,10 @@ export const TranslationMatrix = (props: Props) => {
         }
 
         // ステータスによるフィルタリング（全言語対象）
-        const hasMatchingStatus = Object.values(fileData).some(
-          (langData) =>
-            (filteredStatus === 'untranslated' && !langData.path) ||
-            (filteredStatus === 'translated' && langData.path)
-        );
+        const hasMatchingStatus =
+          filteredStatus === 'untranslated'
+            ? !fileData.langs.includes('en') // 未翻訳はen言語がない場合
+            : fileData.langs.includes('en'); // 翻訳済みはen言語がある場合
 
         if (hasMatchingStatus) {
           acc[filePath] = fileData;
@@ -124,17 +75,14 @@ export const TranslationMatrix = (props: Props) => {
         return acc;
       }
 
-      // 指定した言語が存在するか確認
-      const langData = fileData[filteredLanguage];
-      if (!langData) {
-        return acc;
-      }
+      // 指定した言語がlangsに含まれているか確認
+      const langExists = fileData.langs.includes(filteredLanguage);
 
       // ステータスフィルター
       if (
         filteredStatus === 'all' ||
-        (filteredStatus === 'untranslated' && !langData.path) ||
-        (filteredStatus === 'translated' && langData.path)
+        (filteredStatus === 'untranslated' && !langExists) ||
+        (filteredStatus === 'translated' && langExists)
       ) {
         acc[filePath] = fileData;
       }
@@ -147,59 +95,27 @@ export const TranslationMatrix = (props: Props) => {
 
   // 言語またはステータスが変更されたときにフィルタリングを実行
   useEffect(() => {
-    if (Object.keys(translations).length > 0) {
-      const filtered = applyFilter(translations, selectedLanguage, translationStatus);
+    if (Object.keys(translationData).length > 0) {
+      const filtered = applyFilter(translationData, selectedLanguage, translationStatus);
       setFilteredTranslations(filtered);
 
       // フィルター後にページネーションを調整
       const filteredTotalItems = Object.keys(filtered).length;
       const filteredTotalPages = Math.ceil(filteredTotalItems / parseInt(itemsPerPage, 10));
-      if (props.activePage > filteredTotalPages && filteredTotalPages > 0) {
-        props.setActivePage(1);
+      if (activePage > filteredTotalPages && filteredTotalPages > 0) {
+        setActivePage(1);
       }
     }
-  }, [selectedLanguage, translationStatus]);
+  }, [selectedLanguage, translationStatus, translationData]);
 
-  const [itemsPerPage, setItemsPerPage] = useState('50');
-  const { colorScheme } = useMantineColorScheme();
-  const isDark = colorScheme === 'dark';
-
-  const languages = Object.keys(LANGUAGES) as Array<keyof typeof LANGUAGES>;
-  const sortedLanguages = [
-    'en' as Language,
-    ...(preferredLanguage && preferredLanguage !== 'en' ? [preferredLanguage] : []),
-    ...languages.filter((lang) => lang !== preferredLanguage && lang !== 'en'),
-  ];
-
+  const [itemsPerPage, setItemsPerPage] = useState('30');
   const translationEntries = Object.entries(filteredTranslations);
   const totalItems = translationEntries.length;
   const totalPages = Math.ceil(totalItems / parseInt(itemsPerPage, 10));
 
-  const startIndex = (props.activePage - 1) * parseInt(itemsPerPage, 10);
+  const startIndex = (activePage - 1) * parseInt(itemsPerPage, 10);
   const endIndex = Math.min(startIndex + parseInt(itemsPerPage, 10), totalItems);
   const currentPageData = translationEntries.slice(startIndex, endIndex);
-
-  // データ取得時の処理
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        let data: TranslationState;
-        if (props.contentType === 'Docs') {
-          data = await getTranslationData(props.contentType, props.docsSubContentType);
-        } else {
-          data = await getTranslationData(props.contentType);
-        }
-
-        setTranslations(data);
-        // 初期表示時も現在のフィルターを適用
-        setFilteredTranslations(applyFilter(data, selectedLanguage, translationStatus));
-      } catch (error) {
-        console.error('Error fetching translation data:', error);
-      }
-    };
-
-    fetchData();
-  }, [props.contentType, props.contentType === 'Docs' ? props.docsSubContentType : undefined]);
 
   return (
     <Stack>
@@ -215,58 +131,42 @@ export const TranslationMatrix = (props: Props) => {
             size="xs"
             value={itemsPerPage}
             onChange={(value) => {
-              setItemsPerPage(value || '50');
-              props.setActivePage(1);
+              setItemsPerPage(value || '30');
+              setActivePage(1);
             }}
             data={[
-              { value: '20', label: '20' },
+              { value: '30', label: '30' },
               { value: '50', label: '50' },
               { value: '100', label: '100' },
-              { value: '200', label: '200' },
             ]}
             style={{ width: 80 }}
           />
           <Pagination
-            value={props.activePage}
-            onChange={props.setActivePage}
+            value={activePage}
+            onChange={setActivePage}
             total={totalPages}
             size="sm"
             withEdges
-            siblings={1}
           />
         </Group>
       </Group>
       <Box style={{ overflowX: 'auto' }}>
         <Table stickyHeader withTableBorder withColumnBorders verticalSpacing={5}>
-          <Table.Thead>
-            <Table.Tr>
-              <Table.Th style={{ whiteSpace: 'nowrap', textAlign: 'center' }}>File Path</Table.Th>
-              {sortedLanguages.map((lang) => (
-                <Table.Th key={lang} style={{ whiteSpace: 'nowrap' }}>
-                  <Text size="sm" fw={700}>
-                    {LANGUAGES[lang]}
-                    {lang === preferredLanguage && (
-                      <Text component="span" c="red">
-                        {' '}
-                        *
-                      </Text>
-                    )}
-                  </Text>
-                </Table.Th>
-              ))}
-            </Table.Tr>
-          </Table.Thead>
-          {translationEntries.length > 0 ? (
-            <Table.Tbody>
-              {currentPageData.map(([filePath, fileData]) => (
+          <TranslationMatrixHeader
+            preferredLanguage={preferredLanguage}
+            languages={sortedLanguages}
+          />
+          <Table.Tbody>
+            {translationEntries.length > 0 ? (
+              currentPageData.map(([filePath, fileData]) => (
                 <Table.Tr key={filePath}>
                   <Table.Td>
                     <Anchor
                       href={`https://github.com/kubernetes/website/blob/main/${filePath}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      c="inherit"
                       underline="hover"
+                      c="inherit"
                     >
                       <Text size="sm" fw={500} title={filePath}>
                         {filePath}
@@ -274,70 +174,47 @@ export const TranslationMatrix = (props: Props) => {
                     </Anchor>
                   </Table.Td>
                   {sortedLanguages.map((lang) => {
-                    const exists = fileData[lang]?.path !== undefined;
-
-                    const bgColor = exists
-                      ? isDark
-                        ? 'rgba(34, 139, 34, 0.15)'
-                        : '#edf7ed'
-                      : isDark
-                        ? 'rgba(120, 120, 120, 0.1)'
-                        : '#f5f5f5';
-
-                    const textColor = exists
-                      ? isDark
-                        ? '#4caf50'
-                        : '#2e7d32'
-                      : isDark
-                        ? '#9e9e9e'
-                        : '#757575';
+                    const exists = fileData.langs.includes(lang);
+                    const bgColor = exists ? (isDark ? 'rgba(34, 139, 34, 0.15)' : '#edf7ed') : '';
 
                     return (
                       <Table.Td
                         key={lang}
-                        style={{
-                          backgroundColor: bgColor,
-                          textAlign: 'center',
-                        }}
+                        style={{ backgroundColor: bgColor, textAlign: 'center' }}
                       >
-                        <Text c={textColor} fw={600}>
-                          {exists ? (
-                            <Anchor
-                              // We can safely assume that the path is valid because exists is true
-                              // So we can use the non-null assertion operator (!)
-                              href={`https://github.com/kubernetes/website/blob/main/${fileData[lang]!.path}`}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              c="inherit"
-                              underline="never"
-                            >
-                              ✅
-                            </Anchor>
-                          ) : (
-                            '-'
-                          )}
-                        </Text>
+                        {exists ? (
+                          <Anchor
+                            href={`https://github.com/kubernetes/website/blob/main/${filePath.replace(
+                              '/content/en/',
+                              `/content/${lang}/`
+                            )}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            underline="never"
+                          >
+                            ✅
+                          </Anchor>
+                        ) : (
+                          <>-</>
+                        )}
                       </Table.Td>
                     );
                   })}
                 </Table.Tr>
-              ))}
-            </Table.Tbody>
-          ) : (
-            <Table.Tbody>
+              ))
+            ) : (
               <Table.Tr>
                 <Table.Td
                   colSpan={sortedLanguages.length + 1}
                   style={{ textAlign: 'center' }}
                   py="xl"
+                  c="dimmed"
                 >
-                  <Text size="md" c="dimmed">
-                    No data available
-                  </Text>
+                  No data available
                 </Table.Td>
               </Table.Tr>
-            </Table.Tbody>
-          )}
+            )}
+          </Table.Tbody>
         </Table>
       </Box>
       <Group justify="right">

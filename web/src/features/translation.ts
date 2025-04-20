@@ -1,6 +1,11 @@
 import { Language } from './languages';
 
-// コミット情報の型
+// Summary
+export type TranslationState = {
+  [key: string]: { langs: Language[] };
+};
+
+// Detailed
 type Commit = {
   hash: string;
   date: string;
@@ -13,31 +18,28 @@ type TranslationInfo = {
   commits: Commit[];
 };
 
-export type TranslationState = {
-  // [key: string]: {
-  //   translations: Partial<Record<Language, TranslationInfo>>;
-  // };
+export type DetailedTranslationState = {
   [key: string]: Partial<Record<Language, TranslationInfo>>;
 };
 
 export const contentTypes = [
-  'Docs',
-  'Blog',
-  'Community',
-  'Case Study',
-  'Example',
-  'Include',
-  'Release',
-  'Partner',
-  'Training',
+  'docs',
+  'blog',
+  'community',
+  'case_study',
+  'example',
+  'include',
+  'release',
+  'partner',
+  'training',
 ] as const;
 export type ContentType = (typeof contentTypes)[number];
 
 export const docsSubContentTypes = [
-  'Concepts',
-  'Tasks',
-  'Tutorials',
-  'Reference',
-  'Contribute',
+  'concept',
+  'task',
+  'tutorial',
+  'reference',
+  'contribute',
 ] as const;
 export type DocsSubContentType = (typeof docsSubContentTypes)[number];

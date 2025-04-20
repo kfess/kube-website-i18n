@@ -28,7 +28,7 @@ export const ContentTypeSelector = ({
         defaultValue="Docs"
         transitionDuration={200}
       />
-      {contentType === 'Docs' && (
+      {contentType === 'docs' && (
         <DocsSubContentTypeSelector handleDocsSubTypeChange={handleDocsSubTypeChange} />
       )}
     </Box>
