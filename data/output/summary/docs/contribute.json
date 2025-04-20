@@ -37,7 +37,8 @@
       "ko",
       "id",
       "es",
-      "ru"
+      "ru",
+      "vi"
     ]
   },
   "content/en/docs/contribute/new-content/new-features.md": {
@@ -89,12 +90,14 @@
   },
   "content/en/docs/contribute/blog/_index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/contribute/blog/buddying.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/contribute/blog/guidelines.md": {
@@ -104,12 +107,14 @@
   },
   "content/en/docs/contribute/blog/mirroring.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/contribute/blog/release-comms.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/contribute/blog/submission.md": {

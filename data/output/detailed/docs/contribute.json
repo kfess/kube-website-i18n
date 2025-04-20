@@ -1576,6 +1576,23 @@
           "author": "Alexey Pyltsyn"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/contribute/_index.md",
+      "commits": [
+        {
+          "hash": "6d89607ea4c3448adb364883f5b0bf0dd24dcc9d",
+          "date": "Tue Apr 15 06:02:08 2025 +0200",
+          "message": "Update content/vi/docs/contribute/_index.md",
+          "author": "The Anh Nguyen"
+        },
+        {
+          "hash": "e2b981f9d6a0643d927eb441aec0d5fee182c26f",
+          "date": "Mon Apr 14 19:03:27 2025 +0200",
+          "message": "[vi] add documentation for Contribute page",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/new-content/new-features.md": {
@@ -3102,6 +3119,17 @@
           "author": "Tim Bannister"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/contribute/blog/_index.md",
+      "commits": [
+        {
+          "hash": "5b16ee10cc19246ae4d196a3578fb12b59ea536c",
+          "date": "Tue Apr 8 09:10:39 2025 +0800",
+          "message": "[zh] Add contribute/blog/_index.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/blog/buddying.md": {
@@ -3113,6 +3141,17 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/contribute/blog/buddying.md",
+      "commits": [
+        {
+          "hash": "3ea0731b394ea494566db529b01201edba748271",
+          "date": "Tue Apr 8 14:53:00 2025 +0800",
+          "message": "[zh-cn] add contribute/blog/buddying.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -3141,6 +3180,17 @@
           "author": "Tim Bannister"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/contribute/blog/mirroring.md",
+      "commits": [
+        {
+          "hash": "cc4bb67460e01db4998254beae90326ceb134db7",
+          "date": "Tue Apr 8 09:40:04 2025 +0800",
+          "message": "[zh-cn]Add contribute/blog/mirroring.md",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/blog/release-comms.md": {
@@ -3154,6 +3204,17 @@
           "author": "Tim Bannister"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/contribute/blog/release-comms.md",
+      "commits": [
+        {
+          "hash": "419424e22c8a94c38dfd183940e16406a1a89be0",
+          "date": "Thu Apr 17 23:09:07 2025 -0700",
+          "message": "Merge pull request #50408 from my-git9/np-19092",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/blog/submission.md": {
@@ -3165,6 +3226,18 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "434c1495f437245b692fa0ed8337b90483f51f22",
+          "date": "Fri Apr 18 12:56:15 2025 +0100",
+          "message": "Update submission.md",
+          "author": "John.C"
+        },
+        {
+          "hash": "47c90ed4eda33550b40ef76ec8f531f8a6144f62",
+          "date": "Fri Apr 18 12:42:15 2025 +0100",
+          "message": "Update submission.md",
+          "author": "John.C"
         }
       ]
     }

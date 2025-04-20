@@ -187,6 +187,12 @@
           "date": "Mon Mar 31 13:32:35 2025 -0700",
           "message": "Merge pull request #50332 from dkarczmarski/pl-sync-42502",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "11294c7312352a8a3796a405674277f35a2ab5e6",
+          "date": "Wed Apr 16 13:27:43 2025 +0200",
+          "message": "[vi] update translation for task-tutorial-prereqs",
+          "author": "The Anh Nguyen"
         }
       ]
     },
@@ -304,6 +310,12 @@
           "date": "Fri May 24 05:07:10 2024 -0700",
           "message": "Merge pull request #46423 from Okabe-Junya/fix-46422",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "6f175553e17db78eabd983c87b267b3e3ac8ff56",
+          "date": "Wed Apr 16 10:07:16 2025 +0300",
+          "message": "[uk] add new playground to kubernetes documentation",
+          "author": "Arhell"
         }
       ]
     },
@@ -320,6 +332,12 @@
           "hash": "8f99986d02c33ca90cf70ca002ad8aac55cf432e",
           "date": "Thu Dec 22 21:21:26 2022 -0800",
           "message": "Merge pull request #37889 from s-kawamura-w664/update-pod-lifecycle",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "c235539a2e697e8899fc26f4fc01fc46441542c2",
+          "date": "Sun Apr 20 01:27:04 2025 -0700",
+          "message": "Merge pull request #50459 from ulagbulag/fix/remove-undefined-feature-gate-PreferAlignCpusByUncoreCache",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -501,6 +519,12 @@
           "date": "Wed Aug 28 15:05:11 2019 +0900",
           "message": "First Japanese l10n work for release-1.14 (#16115)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "27122393e1f46ed2a78700979f3ef9cef9b808e7",
+          "date": "Thu Apr 17 16:35:07 2025 -0700",
+          "message": "Merge pull request #50405 from my-git9/np-3322",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -524,6 +548,12 @@
           "date": "Wed May 20 00:07:57 2020 +0500",
           "message": "configure-liveness-readiness-startup-probes RU",
           "author": "Жаков Виталий"
+        },
+        {
+          "hash": "734c7c14e989eb53f75c409da864515f41e881c6",
+          "date": "Fri Apr 18 17:51:07 2025 -0700",
+          "message": "Merge pull request #50545 from Arhell/ru-add",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -600,6 +630,12 @@
           "date": "Wed Jan 16 20:31:18 2019 +0900",
           "message": "Fourth Korean l10n work for release-1.13 (#12242)",
           "author": "Claudia J.Kang"
+        },
+        {
+          "hash": "a4b98c59e0b7d2d983fc4378d112934b50e0c0f6",
+          "date": "Tue Apr 15 00:55:52 2025 +0300",
+          "message": "[ko] add new playground to kubernetes documentation",
+          "author": "Arhell"
         }
       ]
     }

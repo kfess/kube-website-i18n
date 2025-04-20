@@ -457,6 +457,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2f85d4f82f35c3b91ec264b72011c09af0fadfff",
+          "date": "Wed Apr 16 03:21:07 2025 -0700",
+          "message": "Merge pull request #50506 from jayeshmahajan/patch-3",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -1176,6 +1182,48 @@
           "date": "Wed Jun 12 17:27:29 2019 +0530",
           "message": "Restructure the left navigation pane of setup (#14826)",
           "author": "Rajakavitha1"
+        },
+        {
+          "hash": "6e8297ea91ea73c727a3d632305a1e053d504f3d",
+          "date": "Wed Apr 9 09:57:31 2025 -0700",
+          "message": "Add links to Kubernetes docs about Linux and Windows requirements, and update text.",
+          "author": "Daniel Lipovetsky"
+        },
+        {
+          "hash": "ecd9a51ee41a02c50ef3687576cb4720ff6043db",
+          "date": "Tue Apr 8 17:30:32 2025 -0700",
+          "message": "Update content/en/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+          "author": "Daniel Lipovetsky"
+        },
+        {
+          "hash": "e74ff6b9c3874450d188bc69f932eda476afa866",
+          "date": "Tue Apr 8 17:24:37 2025 -0700",
+          "message": "Update content/en/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+          "author": "Daniel Lipovetsky"
+        },
+        {
+          "hash": "987d13848696b4d634ec5211e4e3033e073124ee",
+          "date": "Tue Apr 8 17:23:39 2025 -0700",
+          "message": "Update content/en/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+          "author": "Daniel Lipovetsky"
+        },
+        {
+          "hash": "66b032bdbdd12d84aee7ed3e95bbe4586147f230",
+          "date": "Thu Apr 3 09:43:53 2025 -0700",
+          "message": "fixup! Document kubeadm OS version requirement",
+          "author": "Daniel Lipovetsky"
+        },
+        {
+          "hash": "01b2d11b0970eb35f4a3579103b0a3dbf396c5d9",
+          "date": "Wed Apr 2 16:11:54 2025 -0700",
+          "message": "fixup! Document kubeadm OS version requirement",
+          "author": "Daniel Lipovetsky"
+        },
+        {
+          "hash": "7ba18ac7967709c1382bbf56cf5f06dc81860f18",
+          "date": "Wed Apr 2 16:03:53 2025 -0700",
+          "message": "Document kubeadm OS version requirement",
+          "author": "Daniel Lipovetsky"
         }
       ]
     },
@@ -1241,6 +1289,12 @@
           "date": "Wed Sep 8 16:02:10 2021 -0300",
           "message": "feat: adding pt-br translation for install kubeadm page",
           "author": "MarcosN"
+        },
+        {
+          "hash": "72664cbcf3e434f0f0bac570cf9cfc008deaab63",
+          "date": "Sun Apr 13 16:26:43 2025 -0700",
+          "message": "Merge pull request #50483 from Arhell/pt-port",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -1365,6 +1419,12 @@
           "hash": "84e2d5ea10e56e59c7ad7b35641a2d3077f81f29",
           "date": "Wed Mar 3 18:15:59 2021 -0800",
           "message": "Merge pull request #26468 from magmax/fix-code",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "e241bf9537542bf472ec5f2eb52fc9682eda890b",
+          "date": "Sat Apr 12 20:06:40 2025 -0700",
+          "message": "Merge pull request #50479 from Arhell/ko-port",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -1760,6 +1820,12 @@
           "date": "Wed Jun 12 17:27:29 2019 +0530",
           "message": "Restructure the left navigation pane of setup (#14826)",
           "author": "Rajakavitha1"
+        },
+        {
+          "hash": "c5441a5da768193a1f4f893e8929e712ff5a80e9",
+          "date": "Fri Apr 18 15:26:25 2025 -0400",
+          "message": "Remove references to archived HNC project",
+          "author": "Jordan Liggitt"
         }
       ]
     },
@@ -2023,6 +2089,17 @@
           "date": "Wed Jun 3 05:40:17 2020 -0700",
           "message": "Merge pull request #21405 from ryokotmng/ja/install-kubectl-page",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/_index.md",
+      "commits": [
+        {
+          "hash": "f6538e538a5dcb389a6a6e1472a16c28fdfadb32",
+          "date": "Fri Apr 18 15:29:17 2025 +0000",
+          "message": "[vi] add Vietnamese translation for Production environment",
+          "author": "cyanwind23"
         }
       ]
     }
@@ -5192,6 +5269,17 @@
           "author": "inductor"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/_index.md",
+      "commits": [
+        {
+          "hash": "eee47acd70feed1d5dd7b9ad5495931f1b68ff53",
+          "date": "Fri Apr 18 09:03:07 2025 -0700",
+          "message": "Merge pull request #50540 from cyanwind23/production-environment",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/setup/_index.md": {
@@ -5215,6 +5303,12 @@
           "date": "Mon Dec 2 22:37:57 2024 +0900",
           "message": "Translate setup/_index.md into Vietnamese",
           "author": "btt-17"
+        },
+        {
+          "hash": "f6538e538a5dcb389a6a6e1472a16c28fdfadb32",
+          "date": "Fri Apr 18 15:29:17 2025 +0000",
+          "message": "[vi] add Vietnamese translation for Production environment",
+          "author": "cyanwind23"
         }
       ]
     },
@@ -7014,6 +7108,12 @@
           "date": "Wed Nov 20 14:25:19 2019 -0800",
           "message": "First Japanese l10n work for release-1.15. (#17693)",
           "author": "inductor"
+        },
+        {
+          "hash": "61ee0d16ccdbb63d2da5bb9660e995cc8b7cf1f3",
+          "date": "Wed Mar 26 18:05:34 2025 +0900",
+          "message": "chore: trim full-wide space",
+          "author": "Junya Okabe"
         }
       ]
     },
@@ -7704,6 +7804,17 @@
           "date": "Thu Sep 3 17:31:17 2020 +0200",
           "message": "Move setup/independent files to setup/production-environment",
           "author": "Benjamin Rozière"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md",
+      "commits": [
+        {
+          "hash": "eee47acd70feed1d5dd7b9ad5495931f1b68ff53",
+          "date": "Fri Apr 18 09:03:07 2025 -0700",
+          "message": "Merge pull request #50540 from cyanwind23/production-environment",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -9259,6 +9370,17 @@
           "date": "Wed Jun 12 17:27:29 2019 +0530",
           "message": "Restructure the left navigation pane of setup (#14826)",
           "author": "Rajakavitha1"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/kubeadm/_index.md",
+      "commits": [
+        {
+          "hash": "eee47acd70feed1d5dd7b9ad5495931f1b68ff53",
+          "date": "Fri Apr 18 09:03:07 2025 -0700",
+          "message": "Merge pull request #50540 from cyanwind23/production-environment",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

@@ -1,10 +1,4 @@
 {
-  "content/en/docs/reference/command-line-tools-reference/feature-gates/PreferAlignCpusByUncoreCache.md": {
-    "langs": [
-      "zh-cn",
-      "en"
-    ]
-  },
   "content/en/docs/reference/glossary/kube-apiserver.md": {
     "langs": [
       "ru",
@@ -631,7 +625,8 @@
       "ja",
       "ko",
       "id",
-      "fr"
+      "fr",
+      "vi"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/BtreeWatchCache.md": {
@@ -5824,7 +5819,8 @@
       "pt-br",
       "ko",
       "zh-cn",
-      "en"
+      "en",
+      "id"
     ]
   },
   "content/en/docs/reference/issues-security/security.md": {
@@ -5832,7 +5828,8 @@
       "ru",
       "zh-cn",
       "en",
-      "ko"
+      "ko",
+      "id"
     ]
   },
   "content/en/docs/reference/glossary/replication-controller.md": {
@@ -6082,7 +6079,8 @@
       "ru",
       "pt-br",
       "zh-cn",
-      "en"
+      "en",
+      "id"
     ]
   },
   "content/en/docs/reference/kubectl/kubectl-cmds.md": {
@@ -6265,7 +6263,8 @@
       "en",
       "fr",
       "de",
-      "es"
+      "es",
+      "id"
     ]
   },
   "content/en/docs/reference/access-authn-authz/kubelet-tls-bootstrapping.md": {
@@ -6642,7 +6641,8 @@
       "ja",
       "en",
       "pt-br",
-      "fr"
+      "fr",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/downward-api.md": {

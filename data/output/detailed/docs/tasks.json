@@ -4169,6 +4169,18 @@
           "date": "Mon May 4 18:56:23 2020 -0400",
           "message": "move setup konnectivity svc",
           "author": "Karen Bradshaw"
+        },
+        {
+          "hash": "07814b67701d89d070ba1ad9240254ce7452e212",
+          "date": "Fri Apr 18 00:11:06 2025 -0700",
+          "message": "Merge pull request #50428 from my-git9/np-921",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bcb07a04dad1a3fd807711c05b0158ca4242a7c9",
+          "date": "Tue Apr 1 08:19:07 2025 +0200",
+          "message": "fix: escape pipe symbol in a table",
+          "author": "Marcin Owsiany"
         }
       ]
     }
@@ -4720,6 +4732,12 @@
           "date": "Sun Oct 23 01:23:57 2022 +0900",
           "message": "[ko] Translate /docs/tasks/debug/debug-cluster/crictl into Korean (#36690)",
           "author": "Yoon Seo-yul"
+        },
+        {
+          "hash": "2490d0aaa8d433b69cfc5dd14fd355794c672e88",
+          "date": "Thu Apr 10 00:48:13 2025 +0300",
+          "message": "[ko] Remove broken hyperlink",
+          "author": "Arhell"
         }
       ]
     }
@@ -42363,6 +42381,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "f31a75226efdd03b034fc9fb120e586e07cdc3d4",
+          "date": "Tue Dec 17 05:46:57 2024 +0000",
+          "message": "improve pv storage task",
+          "author": "network-charles"
         }
       ]
     },

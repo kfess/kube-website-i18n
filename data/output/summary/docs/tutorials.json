@@ -134,7 +134,8 @@
   },
   "content/en/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.md": {
@@ -144,17 +145,20 @@
   },
   "content/en/docs/tutorials/kubernetes-basics/explore/explore-intro.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/tutorials/kubernetes-basics/expose/expose-intro.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/tutorials/kubernetes-basics/scale/scale-intro.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactive-gone.html": {
