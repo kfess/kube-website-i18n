@@ -37,8 +37,9 @@ jobs:
         shell: bash
 
       - name: Format data
+        working-directory: ./scripts/python
         run: |
-          python ./scripts/python/format.py
+          python format.py
         shell: bash
 
       - name: Upload data artifacts
