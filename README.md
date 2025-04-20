@@ -2,8 +2,41 @@
 
 A dashboard to visualize and track the translation status of Kubernetes website documentation across different languages. This tool helps contributors and maintainers monitor localization progress and identify areas requiring translation efforts.
 
-[![Data Fetch](https://github.com/kfess/kube-i18n-status/actions/workflows/fetch.yaml/badge.svg)](https://github.com/kfess/kube-i18n-status/actions/workflows/fetch.yaml) [![Build and Deploy Website](https://github.com/kfess/kube-i18n-status/actions/workflows/deploy.yaml/badge.svg)](https://github.com/kfess/kube-i18n-status/actions/workflows/deploy.yaml)
+📍 **Live site**: [https://kfess.github.io/kube-i18n-status](https://kfess.github.io/kube-i18n-status) (Deployed on GitHub Pages)
 
-## Features
+## [![Data Fetch](https://github.com/kfess/kube-i18n-status/actions/workflows/fetch.yaml/badge.svg)](https://github.com/kfess/kube-i18n-status/actions/workflows/fetch.yaml) [![Build and Deploy Website](https://github.com/kfess/kube-i18n-status/actions/workflows/deploy.yaml/badge.svg)](https://github.com/kfess/kube-i18n-status/actions/workflows/deploy.yaml)
 
-![Screenshot](./images/screenshot.png)
+## 🚀 Features
+
+- View translation status across all supported languages
+- Track translation availability for each file
+
+## ![Screenshot](./images/screenshot.png)
+
+## 🔗 Who is this for?
+
+- **Localization contributors** who want to see which files need translation
+- **SIG Docs reviewers** managing the progress of i18n
+- **New translators** who want to identify good entry points for contribution
+
+---
+
+## 🛠 Tech Stack
+
+- Frontend: React + Vite
+- Data Source: [kubernetes/website](https://github.com/kubernetes/website)
+- CI/CD: GitHub Actions
+- Hosting: GitHub Pages
+
+---
+
+## 🧩 How it works
+
+- Automatically fetches the latest kubernetes/website content daily
+- Powered by GitHub Actions for reliable updates and deployment
+
+## 🤝 Contribution
+
+We welcome feedback, suggestions, and contributions.
+
+If you'd like to help improve this dashboard, feel free to open an issue or pull request.
