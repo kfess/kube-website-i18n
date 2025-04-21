@@ -7,14 +7,11 @@ on:
     types:
       - completed
     branches:
-      - main # メインブランチのワークフロー完了時のみ実行
+      - gh-pages
 
-  # webディレクトリの変更時にも実行
   push:
-    paths:
-      - "web/**"
     branches:
-      - main
+      - gh-pages
 
   # 手動実行も可能に
   workflow_dispatch:
