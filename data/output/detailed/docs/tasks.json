@@ -17237,6 +17237,47 @@
           "author": "Jihoon Seo"
         }
       ]
+    },
+    "pt-br": {
+      "path": "content/pt-br/docs/tasks/debug/debug-application/debug-running-pod.md",
+      "commits": [
+        {
+          "hash": "fb55533a97089ff0d298118b3c83d3cc62af7d3c",
+          "date": "Sun Apr 20 11:59:00 2025 -0700",
+          "message": "Merge pull request #50068 from paulofponciano/issue-49701",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "e9a69a862b6f69e7cb96077f8a2baffdba1ee1e9",
+          "date": "Thu Apr 17 07:05:26 2025 -0300",
+          "message": "Update content/pt-br/docs/tasks/debug/debug-application/debug-running-pod.md",
+          "author": "Paulo Ponciano"
+        },
+        {
+          "hash": "516cd1d4e6071591058d8dca5629b50540a23c4b",
+          "date": "Thu Apr 17 07:04:49 2025 -0300",
+          "message": "Update content/pt-br/docs/tasks/debug/debug-application/debug-running-pod.md",
+          "author": "Paulo Ponciano"
+        },
+        {
+          "hash": "a0d277f3d6755eb1e342f05b50d58bd40d10b73a",
+          "date": "Sun Mar 16 19:13:30 2025 -0300",
+          "message": "[pt-br] Add /tasks/debug/debug-application/debug-running-pod.md",
+          "author": "Paulo Ponciano"
+        },
+        {
+          "hash": "af9502b6a0fc41294dc127b509abbf82cb1f6aab",
+          "date": "Tue Mar 11 17:36:52 2025 -0300",
+          "message": "[pt-br] Add /tasks/debug/debug-application/debug-running-pod.md",
+          "author": "Paulo Ponciano"
+        },
+        {
+          "hash": "c5eee7d7126435556fda8a2d86c39a49432abcb4",
+          "date": "Tue Mar 11 07:55:13 2025 -0300",
+          "message": "[pt-br] Add /tasks/debug/debug-application/debug-running-pod.md",
+          "author": "Paulo Ponciano"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/administer-cluster/quota-api-object.md": {

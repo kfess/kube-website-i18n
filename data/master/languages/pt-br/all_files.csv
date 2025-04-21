@@ -303,6 +303,7 @@ content/pt-br/docs/tasks/debug/_index.md
 content/pt-br/docs/tasks/debug/debug-application/_index.md
 content/pt-br/docs/tasks/debug/debug-application/debug-init-containers.md
 content/pt-br/docs/tasks/debug/debug-application/debug-pods.md
+content/pt-br/docs/tasks/debug/debug-application/debug-running-pod.md
 content/pt-br/docs/tasks/debug/debug-application/debug-service.md
 content/pt-br/docs/tasks/debug/debug-application/debug-statefulset.md
 content/pt-br/docs/tasks/debug/debug-application/determine-reason-pod-failure.md
@@ -349,6 +350,7 @@ content/pt-br/examples/admin/logging/two-files-counter-pod-streaming-sidecar.yam
 content/pt-br/examples/admin/logging/two-files-counter-pod.yaml
 content/pt-br/examples/application/deployment.yaml
 content/pt-br/examples/application/job/cronjob.yaml
+content/pt-br/examples/application/nginx-with-request.yaml
 content/pt-br/examples/application/shell-demo.yaml
 content/pt-br/examples/configmap/configmap-multikeys.yaml
 content/pt-br/examples/configmap/configmaps.yaml

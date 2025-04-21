@@ -486,7 +486,8 @@
       "zh-cn",
       "ja",
       "en",
-      "ko"
+      "ko",
+      "pt-br"
     ]
   },
   "content/en/docs/tasks/administer-cluster/quota-api-object.md": {
