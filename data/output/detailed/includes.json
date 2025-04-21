@@ -478,6 +478,12 @@
           "date": "Fri Apr 5 16:01:22 2019 +0200",
           "message": "Translate partners to French (#13389)",
           "author": "Rémy Léone"
+        },
+        {
+          "hash": "d8457c052c55c084bd73eca42a89b605e27adf23",
+          "date": "Mon Apr 21 01:02:19 2025 +0300",
+          "message": "[fr] add new playground to kubernetes documentation",
+          "author": "Arhell"
         }
       ]
     },
