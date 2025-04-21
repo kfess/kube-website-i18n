@@ -185,7 +185,7 @@ def format_df(df: pd.DataFrame, all_existing_paths: set[str]) -> pd.DataFrame:
     return df[mask]
 
 
-def map_translations(df: pd.DataFrame) -> dict:
+def gen_detailed_map(df: pd.DataFrame) -> dict:
     """Generate a nested dictionary for translations grouped by English path.
 
     Args:
@@ -194,22 +194,18 @@ def map_translations(df: pd.DataFrame) -> dict:
 
     Returns:
     -------
-        Dict: Nested dictionary of translations
+        Dict: Nested dictionary of translations per English path and language
 
     """
     grouped = {}
 
     for english_path in df["english_path"].unique():
-        grouped[english_path] = {
-            "translations": {lang: {"exists": False} for lang in LANGUAGE_CODES}
-        }
-
         path_df = df[df["english_path"] == english_path]
+        grouped[english_path] = {}
 
         for lang in path_df["language"].unique():
             lang_rows = path_df[path_df["language"] == lang]
-            grouped[english_path]["translations"][lang] = {
-                "exists": True,
+            grouped[english_path][lang] = {
                 "path": lang_rows["filepath"].iloc[0],
                 "commits": lang_rows.apply(
                     lambda row: {
@@ -221,6 +217,30 @@ def map_translations(df: pd.DataFrame) -> dict:
                     axis=1,
                 ).tolist(),
             }
+
+    return grouped
+
+
+def gen_summary_map(df: pd.DataFrame) -> dict:
+    """Generate a summary dictionary for translations.
+
+    Args:
+    ----
+        df (pd.DataFrame): Processed DataFrame with translations
+
+    Returns:
+    -------
+        dict: Dictionary of translations per English path and language
+
+        "some_path": {"langs": ["en", "fr", "es"]}
+
+    """
+    grouped = {}
+
+    for english_path in df["english_path"].unique():
+        path_df = df[df["english_path"] == english_path]
+        langs = path_df["language"].unique()
+        grouped[english_path] = {"langs": langs.tolist()}
 
     return grouped
 
@@ -266,12 +286,13 @@ def process_docs_data(df: pd.DataFrame) -> dict:
     return result
 
 
-def process_content_by_type(df: pd.DataFrame) -> dict:
+def process_content_by_type(df: pd.DataFrame, use_detailed: bool = True) -> dict:
     """Process content by type, preparing for saving.
 
     Args:
     ----
         df (pd.DataFrame): DataFrame to process
+        use_detailed (bool): Whether to generate detailed or summary data
 
     Returns:
     -------
@@ -281,6 +302,9 @@ def process_content_by_type(df: pd.DataFrame) -> dict:
     """
     result = {}
 
+    # 使用する生成関数を選択
+    map_generator = gen_detailed_map if use_detailed else gen_summary_map
+
     all_content_types = df["content_type"].unique()
     for content_type in all_content_types:
         content_type_df = df[df["content_type"] == content_type]
@@ -288,17 +312,17 @@ def process_content_by_type(df: pd.DataFrame) -> dict:
         match content_type:
             case "blog":
                 processed_df = process_blog_data(content_type_df)
-                translations = map_translations(processed_df)
-                result[content_type] = [(f"{content_type}.json", translations)]
+                data_map = map_generator(processed_df)
+                result[content_type] = [(f"{content_type}.json", data_map)]
             case "docs":
                 docs_by_sub_type = process_docs_data(content_type_df)
                 result[content_type] = [
-                    (f"{content_type}/{sub_type}.json", map_translations(sub_df))
+                    (f"{content_type}/{sub_type}.json", map_generator(sub_df))
                     for sub_type, sub_df in docs_by_sub_type.items()
                 ]
             case _:
-                translations = map_translations(content_type_df)
-                result[content_type] = [(f"{content_type}.json", translations)]
+                data_map = map_generator(content_type_df)
+                result[content_type] = [(f"{content_type}.json", data_map)]
 
     return result
 
@@ -336,13 +360,23 @@ def main() -> None:
     git_df = pd.read_csv(input_file, encoding="utf-8")
     git_df = format_df(git_df, all_existing_paths)
 
-    output_dir = Path("../../data/output/content_type/")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    # Create output directories
+    detailed_dir = Path("../../data/output/detailed/")
+    summary_dir = Path("../../data/output/summary/")
+    detailed_dir.mkdir(parents=True, exist_ok=True)
+    summary_dir.mkdir(parents=True, exist_ok=True)
 
-    processed_content = process_content_by_type(git_df)
+    # Process and save detailed data
+    processed_content = process_content_by_type(git_df, use_detailed=True)
     for file_data_list in processed_content.values():
         for file_data in file_data_list:
-            save_as_json(file_data, output_dir)
+            save_as_json(file_data, detailed_dir)
+
+    # Process and save summary data
+    processed_summary = process_content_by_type(git_df, use_detailed=False)
+    for file_data_list in processed_summary.values():
+        for file_data in file_data_list:
+            save_as_json(file_data, summary_dir)
 
 
 if __name__ == "__main__":

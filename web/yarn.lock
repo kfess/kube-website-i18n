@@ -783,7 +783,7 @@
           languageName: node
           linkType: hard
         
-        "@mantine/core@npm:7.17.4":
+        "@mantine/core@npm:^7.17.4":
           version: 7.17.4
           resolution: "@mantine/core@npm:7.17.4"
           dependencies:
@@ -801,7 +801,7 @@
           languageName: node
           linkType: hard
         
-        "@mantine/hooks@npm:7.17.4":
+        "@mantine/hooks@npm:^7.17.4":
           version: 7.17.4
           resolution: "@mantine/hooks@npm:7.17.4"
           peerDependencies:
@@ -4220,8 +4220,8 @@
           dependencies:
             "@eslint/js": "npm:^9.23.0"
             "@ianvs/prettier-plugin-sort-imports": "npm:^4.4.1"
-            "@mantine/core": "npm:7.17.4"
-            "@mantine/hooks": "npm:7.17.4"
+            "@mantine/core": "npm:^7.17.4"
+            "@mantine/hooks": "npm:^7.17.4"
             "@storybook/react": "npm:^8.6.8"
             "@storybook/react-vite": "npm:^8.6.8"
             "@tabler/icons-react": "npm:^3.31.0"
@@ -5047,12 +5047,12 @@
           linkType: hard
         
         "react-number-format@npm:^5.4.3":
-          version: 5.4.3
-          resolution: "react-number-format@npm:5.4.3"
+          version: 5.4.4
+          resolution: "react-number-format@npm:5.4.4"
           peerDependencies:
             react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
             react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-          checksum: 10c0/0d0c597c880e4abe8b1c3d4820ae8a5b8bd7c5fdd75011aedfb07d0d0311c0c45b5c3984b58c9c64a96a4570dee43adb4f0065e4e7b034b68118e338ad1c0eba
+          checksum: 10c0/e55cd16d9f7379a717e77d519db06ed455cc2df9842cd23499b60bc2ba1179df580742e27867a4ae84e0d308b18c0773b7e8943f9162e853f97bd194d15b0de7
           languageName: node
           linkType: hard
         
@@ -6239,9 +6239,9 @@
           linkType: hard
         
         "type-fest@npm:^4.27.0":
-          version: 4.39.1
-          resolution: "type-fest@npm:4.39.1"
-          checksum: 10c0/f5bf302eb2e2f70658be1757aa578f4a09da3f65699b0b12b7ae5502ccea76e5124521a6e6b69540f442c3dc924c394202a2ab58718d0582725c7ac23c072594
+          version: 4.40.0
+          resolution: "type-fest@npm:4.40.0"
+          checksum: 10c0/b39d4da6f9a154e3db7e714cd05ccf56b53f4f0bbf74dd294cb6be4921b16ecca5cb00cb81b53ab621a31c8e8509c74b5101895ada47af9de368a317d24538a3
           languageName: node
           linkType: hard
         
