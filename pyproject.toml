@@ -12,6 +12,7 @@ license = { file = "LICENSE" }
 
 dependencies = [
     "pandas>=2.2.3",
+    "ipykernel>=6.29.5",
 ]
 
 [tool.uv]
