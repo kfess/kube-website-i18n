@@ -140,7 +140,8 @@
   },
   "content/en/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/tutorials/kubernetes-basics/explore/explore-intro.md": {

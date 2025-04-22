@@ -5409,6 +5409,17 @@
           "author": "Marcelo Giles"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.md",
+      "commits": [
+        {
+          "hash": "bc18df62f9e2784526ee9e7dd629851743e3fce5",
+          "date": "Sun Apr 6 11:30:23 2025 +0800",
+          "message": "[zh-cn]sync deploy-app/deploy-intro",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/tutorials/kubernetes-basics/explore/explore-intro.md": {

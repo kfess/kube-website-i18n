@@ -1713,6 +1713,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d5b9b53c8d91fb9111500c523eea6405acdd744e",
+          "date": "Sun Apr 20 21:57:38 2025 +0800",
+          "message": "[zh-cn]sync production-environment/_index.md",
+          "author": "xin.li"
         }
       ]
     },

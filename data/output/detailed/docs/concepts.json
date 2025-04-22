@@ -16259,6 +16259,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/security/security-checklist.md",
+      "commits": [
+        {
+          "hash": "bac6aeacc1a9b64d9f97018416dab884ae7abd08",
+          "date": "Mon Apr 21 13:31:01 2025 -0700",
+          "message": "Merge pull request #50572 from za/id-translate-security-checklist",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/workloads/pods/_index.md": {

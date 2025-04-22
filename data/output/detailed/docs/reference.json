@@ -5384,6 +5384,12 @@
           "date": "Thu Sep 5 19:48:48 2024 +0800",
           "message": "[zh-cn] Add binding-v1.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "40f594b59aa5b34448bd0b18295ea673166dc7f3",
+          "date": "Sun Apr 20 22:10:36 2025 +0800",
+          "message": "[zh-cn]sync binding-v1.md cron-job-v1.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -5594,6 +5600,12 @@
           "date": "Mon Apr 14 11:14:01 2025 +0800",
           "message": "[zh] Sync workload-resources/cron-job-v1, daemon-set-v1, replica-set-v1",
           "author": "windsonsea"
+        },
+        {
+          "hash": "40f594b59aa5b34448bd0b18295ea673166dc7f3",
+          "date": "Sun Apr 20 22:10:36 2025 +0800",
+          "message": "[zh-cn]sync binding-v1.md cron-job-v1.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -19538,6 +19550,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9274bb0f1b000baace194e46e07d9eed67c57f32",
+          "date": "Sun Apr 20 22:47:47 2025 +0800",
+          "message": "[zh-cn]sync feature-gates/WatchList",
+          "author": "xin.li"
         }
       ]
     },

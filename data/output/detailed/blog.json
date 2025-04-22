@@ -1,13 +1,13 @@
 {
-  "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md": {
+  "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md",
+      "path": "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md",
       "commits": [
         {
-          "hash": "adb4abd3caa9f9121e0b163db3acebca98119dea",
-          "date": "Mon Apr 7 17:32:26 2025 +0200",
-          "message": "blog: add Kubernetes multi-container patterns",
-          "author": "Agata Skorupka"
+          "hash": "104e19ad3b28f7d75a86d2f9ccc97f033f76583a",
+          "date": "Mon Apr 21 00:27:01 2025 -0700",
+          "message": "Merge pull request #50406 from my-git9/np-1336",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

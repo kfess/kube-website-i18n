@@ -294,7 +294,8 @@
     "langs": [
       "zh-cn",
       "en",
-      "ja"
+      "ja",
+      "id"
     ]
   },
   "content/en/docs/concepts/workloads/pods/_index.md": {
