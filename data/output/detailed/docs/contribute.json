@@ -6089,6 +6089,17 @@
           "author": "Misty Linville"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/generate-ref-docs/kubernetes-components.md",
+      "commits": [
+        {
+          "hash": "02af50f8a203f8b8b7bb8c1f02fedd217b1ca8f1",
+          "date": "Thu Feb 13 12:54:27 2025 +0100",
+          "message": "[pl] docs/contribute/generate-ref-docs/kubernetes-components.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/participate/roles-and-responsibilities.md": {

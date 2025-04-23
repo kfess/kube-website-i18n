@@ -1,4 +1,30 @@
 {
+  "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md",
+      "commits": [
+        {
+          "hash": "7264776068738f8dfb7472b26e441d08a90f9551",
+          "date": "Tue Apr 22 01:00:32 2025 +0100",
+          "message": "Add Kubernetes v1.33 release announcement blog",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-23-userns-enabled-by-default/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-23-userns-enabled-by-default/index.md",
+      "commits": [
+        {
+          "hash": "5c6020200fa15ce4af217f91e928d308b1e55f06",
+          "date": "Tue Apr 22 07:07:41 2025 -0700",
+          "message": "Merge pull request #49976 from danwinship/endpoints-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md",
@@ -24986,6 +25012,19 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-XX-XX-endpoints-deprecation.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-XX-XX-endpoints-deprecation.md",
+      "commits": [
+        {
+          "hash": "f6f389f25b0cf7c6bc9ca162ee219b0719a14631",
+          "date": "Thu Feb 27 09:45:47 2025 -0500",
+          "message": "blog post about Endpoints deprecation",
+          "author": "Dan Winship"
         }
       ]
     }

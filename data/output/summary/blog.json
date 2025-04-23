@@ -1,4 +1,14 @@
 {
+  "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-23-userns-enabled-by-default/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
     "langs": [
       "en"
@@ -3452,6 +3462,11 @@
       "it",
       "vi",
       "de"
+    ]
+  },
+  "content/en/blog/_posts/2025-XX-XX-endpoints-deprecation.md": {
+    "langs": [
+      "en"
     ]
   },
   "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md": {

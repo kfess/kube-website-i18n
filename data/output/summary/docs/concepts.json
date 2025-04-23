@@ -1335,7 +1335,8 @@
       "pt-br",
       "id",
       "fr",
-      "es"
+      "es",
+      "pl"
     ]
   },
   "content/en/docs/concepts/workloads/pods/downward-api.md": {

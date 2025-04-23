@@ -65354,6 +65354,17 @@
           "author": "Rael Garcia"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/extend-kubernetes/api-extension/_index.md",
+      "commits": [
+        {
+          "hash": "2fbd5d573c5a57ae8ae54824b97935fa07045228",
+          "date": "Sun Feb 16 12:10:20 2025 +0100",
+          "message": "[pl] docs/concepts/extend-kubernetes/api-extension/_index.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/workloads/pods/downward-api.md": {

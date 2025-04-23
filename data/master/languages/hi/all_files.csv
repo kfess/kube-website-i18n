@@ -2,6 +2,8 @@ content/hi/OWNERS
 content/hi/README.md
 content/hi/_common-resources/index.md
 content/hi/_index.html
+content/hi/application/cassandra/cassandra-service.yaml
+content/hi/application/cassandra/cassandra-statefulset.yaml
 content/hi/case-studies/_index.html
 content/hi/docs/_index.md
 content/hi/docs/concepts/_index.md
