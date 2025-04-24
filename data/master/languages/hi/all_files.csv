@@ -2,8 +2,6 @@ content/hi/OWNERS
 content/hi/README.md
 content/hi/_common-resources/index.md
 content/hi/_index.html
-content/hi/application/cassandra/cassandra-service.yaml
-content/hi/application/cassandra/cassandra-statefulset.yaml
 content/hi/case-studies/_index.html
 content/hi/docs/_index.md
 content/hi/docs/concepts/_index.md
@@ -112,6 +110,9 @@ content/hi/docs/tutorials/kubernetes-basics/scale/scale-intro.html
 content/hi/docs/tutorials/kubernetes-basics/update/_index.md
 content/hi/docs/tutorials/kubernetes-basics/update/update-interactive.html
 content/hi/docs/tutorials/kubernetes-basics/update/update-intro.html
+content/hi/examples/application/cassandra/cassandra-service.yaml
+content/hi/examples/application/cassandra/cassandra-statefulset.yaml
+content/hi/examples/application/hpa/php-apache.yaml
 content/hi/includes/index.md
 content/hi/includes/task-tutorial-prereqs.md
 content/hi/releases/_index.md

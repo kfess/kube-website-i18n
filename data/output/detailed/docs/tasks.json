@@ -323,6 +323,18 @@
           "date": "Thu Mar 20 22:36:00 2025 +0900",
           "message": "translate rollback-daemon-set.md into Japanese",
           "author": "Hiroyuki Hasebe"
+        },
+        {
+          "hash": "6571c5e92906bfa8c7a667825a769727d9beff73",
+          "date": "Sat Apr 5 13:39:13 2025 +0900",
+          "message": "Apply review feedback",
+          "author": "Hiroyuki Hasebe"
+        },
+        {
+          "hash": "47b67bd311326287038deff71354a9946e17ea71",
+          "date": "Thu Mar 20 22:36:00 2025 +0900",
+          "message": "translate rollback-daemon-set.md into Japanese",
+          "author": "Hiroyuki Hasebe"
         }
       ]
     },
@@ -485,6 +497,30 @@
         },
         {
           "hash": "83e9766884d95bc6dfc9b082f3f485467b373c68",
+          "date": "Sun Mar 30 02:10:21 2025 +0700",
+          "message": "create the Assign memory resources to Containers and Pods page",
+          "author": "Andrew"
+        },
+        {
+          "hash": "488443605e027b9346ab5f557d03689402cae582",
+          "date": "Thu Apr 3 23:44:28 2025 +0700",
+          "message": "Update content/vi/docs/tasks/configure-pod-container/assign-memory-resource.md",
+          "author": "aud1ence"
+        },
+        {
+          "hash": "f47b558677827d534360f05b0e23f59ae277cd55",
+          "date": "Thu Apr 3 23:43:59 2025 +0700",
+          "message": "Update content/vi/docs/tasks/configure-pod-container/assign-memory-resource.md",
+          "author": "aud1ence"
+        },
+        {
+          "hash": "72f9b34172bcfb09cd22c0d068181166722da308",
+          "date": "Sun Mar 30 02:22:42 2025 +0700",
+          "message": "add email address for EasyCLA",
+          "author": "aud1ence"
+        },
+        {
+          "hash": "4f371f709e98254b31e83f6822974e56ab1ac9ce",
           "date": "Sun Mar 30 02:10:21 2025 +0700",
           "message": "create the Assign memory resources to Containers and Pods page",
           "author": "Andrew"
@@ -678,6 +714,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
         }
       ]
     },
@@ -851,6 +893,12 @@
       "commits": [
         {
           "hash": "83e9766884d95bc6dfc9b082f3f485467b373c68",
+          "date": "Sun Mar 30 02:10:21 2025 +0700",
+          "message": "create the Assign memory resources to Containers and Pods page",
+          "author": "Andrew"
+        },
+        {
+          "hash": "4f371f709e98254b31e83f6822974e56ab1ac9ce",
           "date": "Sun Mar 30 02:10:21 2025 +0700",
           "message": "create the Assign memory resources to Containers and Pods page",
           "author": "Andrew"
@@ -5106,6 +5154,12 @@
           "date": "Mon Apr 25 22:06:51 2022 -0700",
           "message": "Merge pull request #33185 from my-git9/panic-kubernetes-and-docker",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -5723,6 +5777,12 @@
           "date": "Mon Apr 25 22:06:51 2022 -0700",
           "message": "Merge pull request #33185 from my-git9/panic-kubernetes-and-docker",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -7570,6 +7630,18 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "2964572998cfa93d506cfb33dd6e6ca511cb0d5d",
+          "date": "Wed Mar 26 09:37:51 2025 -0400",
+          "message": "Apply suggestions from code review",
+          "author": "jm-franc"
+        },
+        {
+          "hash": "4ce48b65673c60b7081b67e8b393a953cca7aaa6",
+          "date": "Tue Mar 25 13:20:29 2025 -0400",
+          "message": "Add documentation for configurable autoscaling tolerance.",
+          "author": "Jean-Marc François"
         }
       ]
     },
@@ -8452,6 +8524,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "d2f678e958b5f348b2dddbf0b7f32d7087de2a73",
+          "date": "Sun Feb 16 09:20:23 2025 -0800",
+          "message": "Merge pull request #49512 from chrischdi/pr-kubeadm-ControlPlaneKubeletLocalMode-beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -10919,6 +10997,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ec78e8690ae3f8894d9fa5c2ea8811a0d574392c",
+          "date": "Tue Feb 25 13:11:34 2025 -0500",
+          "message": "KEP-4540: Move to beta",
+          "author": "Jing Zhang"
         }
       ]
     },
@@ -11134,6 +11218,24 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "0a80c0544a77e9575009af0564b62e4d5f847ded",
+          "date": "Tue Feb 25 16:48:41 2025 +0100",
+          "message": "KEP-2625: cpumanager full-pcpus-inly becomes GA",
+          "author": "Francesco Romani"
+        },
+        {
+          "hash": "d1ac26f4392c052682466c82a4d97f73416eb2c3",
+          "date": "Fri Mar 21 19:58:06 2025 +0530",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "Sreeram"
+        },
+        {
+          "hash": "ec78e8690ae3f8894d9fa5c2ea8811a0d574392c",
+          "date": "Tue Feb 25 13:11:34 2025 -0500",
+          "message": "KEP-4540: Move to beta",
+          "author": "Jing Zhang"
         }
       ]
     }
@@ -14812,6 +14914,12 @@
           "date": "Fri Nov 29 16:43:04 2019 +0700",
           "message": "Task tools  document in Vietnamese (#17854)",
           "author": "Nguyen Quang Huy"
+        },
+        {
+          "hash": "80bd42daaa6ab88fb1f1c93f080fb25b54dd998d",
+          "date": "Wed Apr 23 23:23:26 2025 +0530",
+          "message": "Merge pull request #50579 from rytswd/v1.33-release-announcement",
+          "author": "Rayan Das"
         }
       ]
     },
@@ -18721,6 +18829,12 @@
           "date": "Thu Mar 30 19:59:48 2023 -0700",
           "message": "Documentation for in-place pod resize feature (#39845)",
           "author": "Vinay Kulkarni"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
         }
       ]
     }
@@ -20087,6 +20201,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
         }
       ]
     },
@@ -22133,6 +22253,54 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "5d6fb08b15f8da587fc3cfc5eb653e0be08a0b7a",
+          "date": "Wed Mar 26 12:58:21 2025 +0100",
+          "message": "Update content/en/docs/tasks/configure-pod-container/security-context.md",
+          "author": "Jan Šafránek"
+        },
+        {
+          "hash": "c5254523843e92f8583dd0576892092e6b0f03d6",
+          "date": "Wed Mar 26 12:58:07 2025 +0100",
+          "message": "Update content/en/docs/tasks/configure-pod-container/security-context.md",
+          "author": "Jan Šafránek"
+        },
+        {
+          "hash": "1005e070e5aec93287822837b69d58fd355493b4",
+          "date": "Wed Mar 26 12:58:00 2025 +0100",
+          "message": "Update content/en/docs/tasks/configure-pod-container/security-context.md",
+          "author": "Jan Šafránek"
+        },
+        {
+          "hash": "e71aaf5649206e186860c5c62995816c9a3e66b3",
+          "date": "Wed Mar 26 12:57:49 2025 +0100",
+          "message": "Update content/en/docs/tasks/configure-pod-container/security-context.md",
+          "author": "Jan Šafránek"
+        },
+        {
+          "hash": "753ccb6c1eb7104765a6a0f89a06f2c374bdcb5b",
+          "date": "Wed Feb 26 16:03:25 2025 +0100",
+          "message": "Add placeholder docs for 1710: Speed up SELinux volume relabeling",
+          "author": "Jan Safranek"
+        },
+        {
+          "hash": "e63cc33fb676d06e9c71a4fc9d2ef9eb2c137f72",
+          "date": "Mon Mar 24 03:24:32 2025 -0700",
+          "message": "Merge pull request #49453 from danwinship/nftables-ga",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "eb40b1b53b5ac60444f7c9b126e1ffef421334e2",
+          "date": "Sat Mar 22 08:42:13 2025 +0900",
+          "message": "Update content/en/docs/tasks/configure-pod-container/security-context.md",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "03209fac5f88614e6cdc4f24bbfc6784c09b02a9",
+          "date": "Mon Feb 24 18:50:06 2025 +0900",
+          "message": "KEP-3619: add a note about a pod rejection which starts from its Beta level",
+          "author": "Shingo Omura"
         }
       ]
     },
@@ -31258,6 +31426,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -31482,6 +31656,12 @@
           "date": "Thu Jul 25 04:32:21 2024 -0700",
           "message": "Merge pull request #46946 from saschagrunert/oci-volumesource-docs",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "5dead83b55a4cddaa15606e1dcd0fbe846d83111",
+          "date": "Fri Mar 14 14:24:18 2025 -0400",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "michellengnx"
         }
       ]
     }
@@ -31679,6 +31859,12 @@
           "date": "Mon Aug 15 13:22:37 2022 +0200",
           "message": "Add docs for KEP-3329 Retriable and non-retriable Pod failures for Jobs",
           "author": "Michal Wozniak"
+        },
+        {
+          "hash": "0d639b9629295064d9b5205d25b92b509e215f2d",
+          "date": "Thu Mar 27 14:06:35 2025 +0100",
+          "message": "Docs update as we promote JobBackoffLimitPerIndex to stable (#49811)",
+          "author": "Michał Woźniak"
         }
       ]
     }
@@ -33854,6 +34040,12 @@
           "date": "Mon May 4 18:56:23 2020 -0400",
           "message": "move setup konnectivity svc",
           "author": "Karen Bradshaw"
+        },
+        {
+          "hash": "30aae369f3ad375996f25218a8d034140ceaacca",
+          "date": "Wed Feb 19 03:04:27 2025 -0800",
+          "message": "Merge pull request #49817 from carlory/mark-DisableCloudProviders-DisableKubeletCloudCredentialProviders-as-removed",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -35110,6 +35302,12 @@
           "date": "Mon May 18 00:17:44 2020 -0700",
           "message": "Move update-api-object-kubectl-patch.md to be under 'Manage Kubernetes Objects' section",
           "author": "Prasad Katti"
+        },
+        {
+          "hash": "30aae369f3ad375996f25218a8d034140ceaacca",
+          "date": "Wed Feb 19 03:04:27 2025 -0800",
+          "message": "Merge pull request #49817 from carlory/mark-DisableCloudProviders-DisableKubeletCloudCredentialProviders-as-removed",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -45107,6 +45305,12 @@
           "date": "Mon Dec 5 21:30:37 2022 -0800",
           "message": "Updating the content and references in the docs for Credential Provider (#38139)",
           "author": "Dixita"
+        },
+        {
+          "hash": "38f74cfc5ca4d8a6ab0ce457f1b89d77fd69e866",
+          "date": "Thu Mar 27 04:18:39 2025 -0700",
+          "message": "Merge pull request #49807 from tenzen-y/success-policy-ga",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

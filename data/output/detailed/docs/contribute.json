@@ -151,6 +151,12 @@
           "date": "Thu Apr 2 16:03:51 2020 -0700",
           "message": "Restructure to reduce duplication",
           "author": "Celeste Horgan"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -359,6 +365,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "574ab921626aeb38ac7a8f165a27ba8529375394",
+          "date": "Tue Apr 8 11:16:42 2025 +0700",
+          "message": "[zh-cn] sync review/for-approvers.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -442,6 +454,12 @@
           "date": "Thu Apr 2 16:03:51 2020 -0700",
           "message": "Restructure to reduce duplication",
           "author": "Celeste Horgan"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -585,6 +603,12 @@
           "date": "Wed Jan 10 08:16:37 2024 +0100",
           "message": "Merge pull request #44672 from my-git9/coarse-parallel-processing-work-queue",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "897c02c0d183a4b451585ffb9f8d69d27cfe2698",
+          "date": "Tue Apr 8 09:15:56 2025 +0700",
+          "message": "[zh-cn] sync contribute/docs.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -607,6 +631,12 @@
           "hash": "77857bc8f98b08f25e3d82f9621f9fd242077201",
           "date": "Thu Dec 28 14:46:33 2023 +0000",
           "message": "Emphasize contributions other than docs",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
         }
       ]
@@ -686,6 +716,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3d19b98534037725b03fd6885c0fc8277cf22f3e",
+          "date": "Tue Apr 8 09:26:54 2025 +0700",
+          "message": "[zh-cn] sync contribute/_index.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -937,6 +973,12 @@
           "date": "Mon Aug 6 16:15:57 2018 -0700",
           "message": "Reorganize docs contrib guide (#9510)",
           "author": "Misty Linville"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -1652,6 +1694,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c6efc8e39a88fb8a530dff933296f3e8e6a986f8",
+          "date": "Tue Apr 8 09:29:29 2025 +0800",
+          "message": "[zh-cn]sync blogs-case-studies new-features",
+          "author": "xin.li"
         }
       ]
     },
@@ -1783,6 +1831,12 @@
           "date": "Thu Apr 2 16:03:51 2020 -0700",
           "message": "Restructure to reduce duplication",
           "author": "Celeste Horgan"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -1825,6 +1879,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d5e62a1a7f510848817ab5e3cf719a9590942556",
+          "date": "Tue Apr 8 09:25:48 2025 +0800",
+          "message": "[zh] Add new-content/case-studies.md and update _index.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -1884,6 +1944,12 @@
           "date": "Thu Apr 2 16:03:51 2020 -0700",
           "message": "Restructure to reduce duplication",
           "author": "Celeste Horgan"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -1961,6 +2027,12 @@
           "date": "Tue Apr 8 09:25:48 2025 +0800",
           "message": "[zh] Add new-content/case-studies.md and update _index.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "d5e62a1a7f510848817ab5e3cf719a9590942556",
+          "date": "Tue Apr 8 09:25:48 2025 +0800",
+          "message": "[zh] Add new-content/case-studies.md and update _index.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -1969,6 +2041,12 @@
       "commits": [
         {
           "hash": "aa361ddcd115d7918d3812b2677bfcc47a19280c",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
@@ -1982,6 +2060,12 @@
       "commits": [
         {
           "hash": "c0fd50a2379b6ffe10944bea10983250b6d92cf6",
+          "date": "Thu Feb 13 08:30:15 2025 +0100",
+          "message": "[pl] docs/contribute/generate-ref-docs/kubectl.md",
+          "author": "dkarczmarski"
+        },
+        {
+          "hash": "c819a5324b1fcac2bd41ea963f1736c8acd87686",
           "date": "Thu Feb 13 08:30:15 2025 +0100",
           "message": "[pl] docs/contribute/generate-ref-docs/kubectl.md",
           "author": "dkarczmarski"
@@ -2133,6 +2217,12 @@
           "date": "Fri Apr 4 06:52:37 2025 -0700",
           "message": "Merge pull request #50324 from aud1ence/translate/vi-contribute",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "da9452061580d21476b65c6a07649c00865bdea3",
+          "date": "Thu Feb 13 13:44:39 2025 +0100",
+          "message": "[pl] docs/contribute/generate-ref-docs/prerequisites-ref-docs.md",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -3117,6 +3207,12 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -3138,6 +3234,12 @@
       "commits": [
         {
           "hash": "aa361ddcd115d7918d3812b2677bfcc47a19280c",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
@@ -3165,6 +3267,12 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     }
@@ -3175,6 +3283,12 @@
       "commits": [
         {
           "hash": "aa361ddcd115d7918d3812b2677bfcc47a19280c",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
@@ -3199,6 +3313,12 @@
       "commits": [
         {
           "hash": "aa361ddcd115d7918d3812b2677bfcc47a19280c",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
@@ -3238,6 +3358,12 @@
           "date": "Fri Apr 18 12:42:15 2025 +0100",
           "message": "Update submission.md",
           "author": "John.C"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     }
@@ -3293,6 +3419,12 @@
           "date": "Thu Apr 2 16:03:51 2020 -0700",
           "message": "Restructure to reduce duplication",
           "author": "Celeste Horgan"
+        },
+        {
+          "hash": "815a75d02530dc7049160a8806b68781b958ca62",
+          "date": "Thu Mar 13 10:41:00 2025 +0000",
+          "message": "Add guide to blog contributions",
+          "author": "Tim Bannister"
         }
       ]
     },

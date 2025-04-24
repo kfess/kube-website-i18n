@@ -19,6 +19,12 @@
           "date": "Tue Dec 17 02:56:52 2024 +0100",
           "message": "Merge pull request #49098 from my-git9/pp-2457",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "af9c4c83f4945061391ed8be853a0bdee74a5de0",
+          "date": "Sat Oct 19 17:08:26 2024 +0000",
+          "message": "Move 'Namespaces Walkthrough' to tutorials section",
+          "author": "John.C"
         }
       ]
     }
@@ -35,6 +41,18 @@
         },
         {
           "hash": "0c83aa4c36afb645bae01919fede1889f3bf95cc",
+          "date": "Fri Mar 28 14:56:28 2025 +0700",
+          "message": "id: translate index page on security tutorial",
+          "author": "za"
+        },
+        {
+          "hash": "6d4da8b55cbb70973f268f4dc75481f26df17e3b",
+          "date": "Tue Apr 8 15:56:05 2025 +0700",
+          "message": "id: Replace kluster with klaster",
+          "author": "za"
+        },
+        {
+          "hash": "47eb898bcdcf3c91c58abd2db6507a09a146a1d8",
           "date": "Fri Mar 28 14:56:28 2025 +0700",
           "message": "id: translate index page on security tutorial",
           "author": "za"
@@ -154,6 +172,18 @@
           "date": "Sat Mar 29 00:32:39 2025 -0700",
           "message": "Merge pull request #50267 from windsonsea/crd327",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "c2f7cc868ccf1ed255d6b7dcca87f1e7ef39892d",
+          "date": "Tue Apr 8 15:46:41 2025 +0700",
+          "message": "id: replace kluster with klaster",
+          "author": "za"
+        },
+        {
+          "hash": "9809d2e8b01212564cd8396b3cd538a7b2c68364",
+          "date": "Sat Mar 29 14:27:53 2025 +0700",
+          "message": "id: translate tutorial security pod security standard into ID",
+          "author": "za"
         }
       ]
     },
@@ -534,6 +564,30 @@
           "date": "Tue May 15 15:29:27 2018 -0700",
           "message": "Fix up Tutorials landing page and Tutorials left nav. (#8557)",
           "author": "Steve Perry"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "fc54e124b245e11d1470ba3b026f8ba2eadf6493",
+          "date": "Tue Oct 29 21:39:09 2024 -0700",
+          "message": "Add deploy-an-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "278ca8504af0f3a57cc338f375470e7d3aa4c46f",
+          "date": "Tue Oct 29 13:09:21 2024 -0700",
+          "message": "Add create-cluster tutorial",
+          "author": "Marcelo Giles"
         }
       ]
     },
@@ -564,6 +618,12 @@
           "date": "Sun Apr 6 04:34:48 2025 -0700",
           "message": "Merge pull request #50400 from my-git9/np-19183",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "67507bb86f9dc9be9645d6e068f11f832cfa7d97",
+          "date": "Sun Apr 6 15:07:41 2025 +0800",
+          "message": "[zh-cn]sync update/update-intro",
+          "author": "xin.li"
         }
       ]
     },
@@ -581,6 +641,18 @@
           "date": "Mon Nov 18 21:44:55 2024 +0000",
           "message": "Merge pull request #48508 from yannkistenmacker/dev",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
         }
       ]
     }
@@ -786,6 +858,12 @@
           "date": "Fri Mar 8 03:17:41 2019 +0900",
           "message": "First Japanese l10n work for release-1.13 (#12998)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "89c9b58cfbdc87ffd142546d4c7de07de754351e",
+          "date": "Wed Apr 2 23:44:37 2025 +0900",
+          "message": "[ja] Update `tutorials/hello-minikube.md` to follow the upstream (#50063)",
+          "author": "Yuto KIMURA"
         }
       ]
     },
@@ -5371,6 +5449,30 @@
           "date": "Tue Oct 29 13:09:21 2024 -0700",
           "message": "Add create-cluster tutorial",
           "author": "Marcelo Giles"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "fc54e124b245e11d1470ba3b026f8ba2eadf6493",
+          "date": "Tue Oct 29 21:39:09 2024 -0700",
+          "message": "Add deploy-an-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "278ca8504af0f3a57cc338f375470e7d3aa4c46f",
+          "date": "Tue Oct 29 13:09:21 2024 -0700",
+          "message": "Add create-cluster tutorial",
+          "author": "Marcelo Giles"
         }
       ]
     },
@@ -5407,6 +5509,24 @@
           "date": "Tue Oct 29 21:39:09 2024 -0700",
           "message": "Add deploy-an-app tutorial",
           "author": "Marcelo Giles"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "fc54e124b245e11d1470ba3b026f8ba2eadf6493",
+          "date": "Tue Oct 29 21:39:09 2024 -0700",
+          "message": "Add deploy-an-app tutorial",
+          "author": "Marcelo Giles"
         }
       ]
     },
@@ -5440,6 +5560,24 @@
         },
         {
           "hash": "d222f02f75dd5be7c6a9b7cec53a93f2c635b5f7",
+          "date": "Tue Oct 29 23:06:33 2024 -0700",
+          "message": "Add explore-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "1bbf3c9441b9287c898ea1d37c719dafe0a50650",
           "date": "Tue Oct 29 23:06:33 2024 -0700",
           "message": "Add explore-your-app tutorial",
           "author": "Marcelo Giles"
@@ -5485,6 +5623,30 @@
           "date": "Fri Nov 1 23:05:46 2024 -0700",
           "message": "Add expose-your-app-publicly tutorial",
           "author": "Marcelo Giles"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "55e12cb851f4a69cff0e756d0a4e195f2309d71f",
+          "date": "Sat Nov 2 22:18:07 2024 -0700",
+          "message": "Add scale-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "e36e4017113d0bd9d3b8673cf20c2ac89a20c37e",
+          "date": "Fri Nov 1 23:05:46 2024 -0700",
+          "message": "Add expose-your-app-publicly tutorial",
+          "author": "Marcelo Giles"
         }
       ]
     },
@@ -5518,6 +5680,24 @@
         },
         {
           "hash": "7d9f20185a717ff51b9606684cb4443ab6b9617a",
+          "date": "Sat Nov 2 22:18:07 2024 -0700",
+          "message": "Add scale-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "b9ee7dbcbaa6203fa4c0f7d559dbc5aba7c6e30e",
+          "date": "Mon Nov 18 20:50:24 2024 -0800",
+          "message": "Add images css and alert boxes",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "8715a3b7f4866f7f2c9be2983b596c295bbd71a5",
+          "date": "Sun Nov 3 13:03:46 2024 -0800",
+          "message": "Add update-your-app tutorial",
+          "author": "Marcelo Giles"
+        },
+        {
+          "hash": "55e12cb851f4a69cff0e756d0a4e195f2309d71f",
           "date": "Sat Nov 2 22:18:07 2024 -0700",
           "message": "Add scale-your-app tutorial",
           "author": "Marcelo Giles"

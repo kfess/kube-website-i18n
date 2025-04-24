@@ -522,7 +522,8 @@
       "es",
       "pt-br",
       "id",
-      "ja"
+      "ja",
+      "vi"
     ]
   },
   "content/en/docs/reference/using-api/server-side-apply.md": {
@@ -5705,7 +5706,8 @@
       "hi",
       "ko",
       "it",
-      "es"
+      "es",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/cronjob.md": {
@@ -5980,7 +5982,8 @@
       "fr",
       "hi",
       "zh-cn",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/affinity.md": {
@@ -6770,6 +6773,111 @@
     "langs": [
       "zh-cn",
       "pt-br",
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/using-api/declarative-validation.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md": {
+    "langs": [
       "en"
     ]
   }

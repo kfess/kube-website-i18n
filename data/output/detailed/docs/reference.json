@@ -7192,6 +7192,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "709cdcd3195b5ad873c5f0e90e372a1e2de36755",
+          "date": "Sun Apr 6 07:02:13 2025 -0600",
+          "message": "JSONPath example",
+          "author": "sdarwin"
         }
       ]
     },
@@ -7363,6 +7369,12 @@
           "date": "Thu Aug 3 08:37:31 2023 +0800",
           "message": "[zh-cn] sync node-labels namepaces security-context assign-cpu-resource",
           "author": "xin.li"
+        },
+        {
+          "hash": "d8f49b1ecedd1e9c2b999389ee6f431fa74a0ef6",
+          "date": "Sat Apr 5 22:43:21 2025 +0800",
+          "message": "[zh-cn]sync node-labels.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -7380,6 +7392,12 @@
           "date": "Wed Jul 26 19:19:22 2023 +0100",
           "message": "Link to specific node labels rather than entire list",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "3239aaf75a5bef6621449f5b35c392d771c093b3",
+          "date": "Fri Apr 4 18:35:42 2025 +0100",
+          "message": "Fix broken link",
+          "author": "steve-hardman"
         }
       ]
     }
@@ -7390,6 +7408,12 @@
       "commits": [
         {
           "hash": "c18bcd94b66b6254b704cfbfd395253ac4981051",
+          "date": "Thu Apr 3 23:51:50 2025 +0900",
+          "message": "Translate content/en/docs/reference/glossary/drain.md into Japanese",
+          "author": "yuto-kimura-g"
+        },
+        {
+          "hash": "dc436a61bd9b52d60a794f13bd50d03b336dfaa2",
           "date": "Thu Apr 3 23:51:50 2025 +0900",
           "message": "Translate content/en/docs/reference/glossary/drain.md into Japanese",
           "author": "yuto-kimura-g"
@@ -7548,6 +7572,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f5e509f46ac1ee1c895add42c0f408aea9f2bbe7",
+          "date": "Tue Apr 1 10:06:09 2025 +0800",
+          "message": "sync authentication kubelet-authn-authz validating-admission-policy",
+          "author": "xin gu"
         }
       ]
     },
@@ -8422,6 +8452,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f5e509f46ac1ee1c895add42c0f408aea9f2bbe7",
+          "date": "Tue Apr 1 10:06:09 2025 +0800",
+          "message": "sync authentication kubelet-authn-authz validating-admission-policy",
+          "author": "xin gu"
         }
       ]
     },
@@ -8996,6 +9032,12 @@
           "date": "Tue Jan 14 14:51:24 2020 +0000",
           "message": "Init Polish localization (#18419) (#18659)",
           "author": "Maciej Filocha"
+        },
+        {
+          "hash": "fc2aeeebaeb29dbcb39602213121bdb798ac08e3",
+          "date": "Sun Mar 30 23:28:29 2025 +0200",
+          "message": "[pl] sync with PR #45916,#44349",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -10349,6 +10391,17 @@
           "author": "inductor"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/container-runtime.md",
+      "commits": [
+        {
+          "hash": "06413ccc551c0fbb9b082fc8b9d6f0e85d10de25",
+          "date": "Tue Apr 22 15:38:24 2025 +0000",
+          "message": "[vi] add glossary cni, container-runtime, kubeadm",
+          "author": "cyanwind23"
+        }
+      ]
     }
   },
   "content/en/docs/reference/using-api/server-side-apply.md": {
@@ -11229,6 +11282,12 @@
           "date": "Wed May 23 13:58:32 2018 -0400",
           "message": "move access/auth content to reference folder, add TOC (#8624)",
           "author": "Jennifer Rondeau"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -13963,6 +14022,18 @@
           "date": "Sun Aug 11 01:40:53 2024 +0000",
           "message": "outline files kubelet uses",
           "author": "Sergey Kanzhelev"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
+        },
+        {
+          "hash": "5a1b532179cda2c16f7d1a2e8ef3dbb82f77d28a",
+          "date": "Mon Feb 24 17:40:16 2025 -0600",
+          "message": "add documentation for 2535 Co-authored-by: Standa Láznička <stlaz@users.noreply.github.com>",
+          "author": "Daniel Shebib"
         }
       ]
     }
@@ -14875,6 +14946,12 @@
           "date": "Wed May 23 13:58:32 2018 -0400",
           "message": "move access/auth content to reference folder, add TOC (#8624)",
           "author": "Jennifer Rondeau"
+        },
+        {
+          "hash": "8fc54795d801beaecd52105e180c3998e97a2c57",
+          "date": "Sun Apr 6 15:38:38 2025 -0700",
+          "message": "Merge pull request #49886 from dshebib/2535-secret-pulled-images-alpha",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -16063,6 +16140,18 @@
           "date": "Wed Mar 2 20:14:14 2022 +0100",
           "message": "Add a separate subpage for audit annotations and add reference to it on the main page",
           "author": "mtardy"
+        },
+        {
+          "hash": "c755d00988b1d77ff0e96c12873d02e4dd2bcedb",
+          "date": "Tue Apr 15 13:04:49 2025 -0400",
+          "message": "Document endpoints.kubernetes.io/managed-by",
+          "author": "Dan Winship"
+        },
+        {
+          "hash": "ce16fbdf8b6eaaa84660b34116bd2b4a16c8e61a",
+          "date": "Mon Apr 7 19:56:44 2025 +0100",
+          "message": "5018 dra admin access (#49929)",
+          "author": "Rita Zhang"
         }
       ]
     },
@@ -16791,6 +16880,12 @@
           "date": "Sun Feb 16 05:40:22 2025 -0800",
           "message": "Merge pull request #49756 from elmiko/ccm-chick-egg-fixups",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "f9795abc0e233a51124ec21986215ada1abb51f6",
+          "date": "Sun Feb 16 14:26:45 2025 +0100",
+          "message": "[pl] docs/reference/glossary/pod-disruption.md",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -18985,6 +19080,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3e00afab1788a7366913b0c8bd6df3bab3302579",
+          "date": "Mon Apr 7 21:16:39 2025 +0100",
+          "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
+          "author": "Dan Winship"
         }
       ]
     }
@@ -19321,6 +19422,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "88bb575dfaf5e2ed1b481eff8320aeb384df85a8",
+          "date": "Mon Apr 7 03:06:39 2025 -0700",
+          "message": "Merge pull request #50287 from atiratree/pod-replacement-policy-docs",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -20052,6 +20159,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "753ccb6c1eb7104765a6a0f89a06f2c374bdcb5b",
+          "date": "Wed Feb 26 16:03:25 2025 +0100",
+          "message": "Add placeholder docs for 1710: Speed up SELinux volume relabeling",
+          "author": "Jan Safranek"
         }
       ]
     }
@@ -20076,6 +20189,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "753ccb6c1eb7104765a6a0f89a06f2c374bdcb5b",
+          "date": "Wed Feb 26 16:03:25 2025 +0100",
+          "message": "Add placeholder docs for 1710: Speed up SELinux volume relabeling",
+          "author": "Jan Safranek"
         }
       ]
     }
@@ -20148,6 +20267,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2c5cb627578c7143ca73fce3f0aca6745bf99774",
+          "date": "Wed Mar 5 09:43:46 2025 -0800",
+          "message": "Merge pull request #49327 from soltysh/tz_validation",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -20388,6 +20513,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "1eae76928bab749a82e2a8d4905a7ccf38e8efe3",
+          "date": "Mon Jan 13 11:07:28 2025 -0500",
+          "message": "KEP-4193: 1.33 updates for ServiceAccountTokenNodeBinding GA",
+          "author": "Jordan Liggitt"
         }
       ]
     }
@@ -20676,6 +20807,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3e00afab1788a7366913b0c8bd6df3bab3302579",
+          "date": "Mon Apr 7 21:16:39 2025 +0100",
+          "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
+          "author": "Dan Winship"
         }
       ]
     }
@@ -20724,6 +20861,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ab27c52ee5f205156562d028835b245afbef3508",
+          "date": "Sat Apr 5 09:32:37 2025 +0100",
+          "message": "update SidecarContainers to stable in v1.33 (#49685)",
+          "author": "Paco Xu"
         }
       ]
     }
@@ -21174,6 +21317,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c0980ea6bb95adebdf74b03935008635a56139a5",
+          "date": "Tue Feb 25 02:25:51 2025 +0900",
+          "message": "KEP-3619: Promote SupplementalGroupsPolicy to Beta in feature gate file",
+          "author": "Shingo Omura"
         }
       ]
     }
@@ -21354,6 +21503,18 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "6b59e2fc6f7f21c89c31875bbaefbcf6ce65ad8e",
+          "date": "Thu Feb 27 16:51:57 2025 +0900",
+          "message": "fix: modify `toVersion` on beta",
+          "author": "Kensei Nakada"
+        },
+        {
+          "hash": "9ad35c97e80fd622513357fe027312637b8df5c5",
+          "date": "Thu Feb 27 15:06:03 2025 +0900",
+          "message": "KEP-3633: graduate MatchLabelKeys (PodAffinity) to GA",
+          "author": "Kensei Nakada"
         }
       ]
     }
@@ -21618,6 +21779,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "afd8051fb3523039f24c65821028345cc67356ba",
+          "date": "Fri Apr 4 23:54:44 2025 -0700",
+          "message": "Merge pull request #49749 from AkihiroSuda/userns-65536",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -21666,6 +21833,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "5290e19de6ddcf3e3afd3e2fdb3bb016181d3da0",
+          "date": "Wed Jan 15 16:10:39 2025 -0500",
+          "message": "KEP-3866 nftables kube-proxy to GA",
+          "author": "Dan Winship"
         }
       ]
     }
@@ -21810,6 +21983,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "9cd79f4f63f09172e7f99962e1546c517b8effa1",
+          "date": "Sat Apr 5 17:24:37 2025 -0700",
+          "message": "Merge pull request #49897 from ffromani/node-cpumanager-full-pcpus-only-GA",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -22086,6 +22265,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a545f461562f41dafffe4824aed3ffa9e54a8128",
+          "date": "Tue Jan 7 10:48:34 2025 +0800",
+          "message": "mark PersistentVolumeLastPhaseTransitionTime as removed",
+          "author": "carlory"
         }
       ]
     }
@@ -22350,6 +22535,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "cf40ef0bf8d4117f6ba003a9dbcdd219a478d314",
+          "date": "Sat Apr 5 14:00:37 2025 +0530",
+          "message": "KEP 4818: PodLifecycleSleepActionAllowZero beta graduation (#49858)",
+          "author": "Sreeram Venkitesh"
         }
       ]
     }
@@ -22782,6 +22973,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "480b1db1fa08bc168348b0c1e8dd59de0109a9e7",
+          "date": "Mon Feb 24 16:02:23 2025 +0530",
+          "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
+          "author": "Urvashi0109"
         }
       ]
     }
@@ -23232,6 +23429,12 @@
           "date": "Tue Aug 6 05:56:49 2024 -0700",
           "message": "Merge pull request #47365 from dipesh-rawat/admonition-table-issue",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "f9ff985f416e50e0c327ac0deefecce7c293b32b",
+          "date": "Tue Mar 25 22:40:31 2025 +0000",
+          "message": "Kubelet PSI metrics documentation",
+          "author": "Haowei Cai"
         }
       ]
     }
@@ -23628,6 +23831,12 @@
           "date": "Wed May 23 13:58:32 2018 -0400",
           "message": "move access/auth content to reference folder, add TOC (#8624)",
           "author": "Jennifer Rondeau"
+        },
+        {
+          "hash": "1eae76928bab749a82e2a8d4905a7ccf38e8efe3",
+          "date": "Mon Jan 13 11:07:28 2025 -0500",
+          "message": "KEP-4193: 1.33 updates for ServiceAccountTokenNodeBinding GA",
+          "author": "Jordan Liggitt"
         }
       ]
     },
@@ -26152,6 +26361,12 @@
           "date": "Fri May 11 10:21:25 2018 -0700",
           "message": "Re-add command line tools reference (#8421)",
           "author": "Zach Corleissen"
+        },
+        {
+          "hash": "726d06f1b77c5f5eff9fbb25bd6801526ff75e77",
+          "date": "Thu Apr 3 04:06:38 2025 -0700",
+          "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -26890,6 +27105,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "e8eb812096da46a4916dfaab468f6995c54ff838",
+          "date": "Mon Jan 13 16:52:24 2025 +0800",
+          "message": "mark HonorPVReclaimPolicy as stable",
+          "author": "carlory"
         }
       ]
     }
@@ -27082,6 +27303,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "5dead83b55a4cddaa15606e1dcd0fbe846d83111",
+          "date": "Fri Mar 14 14:24:18 2025 -0400",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "michellengnx"
         }
       ]
     }
@@ -27130,6 +27357,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
         }
       ]
     }
@@ -27442,6 +27675,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "0d639b9629295064d9b5205d25b92b509e215f2d",
+          "date": "Thu Mar 27 14:06:35 2025 +0100",
+          "message": "Docs update as we promote JobBackoffLimitPerIndex to stable (#49811)",
+          "author": "Michał Woźniak"
         }
       ]
     }
@@ -27520,6 +27759,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c1600a12a5eb83e071a04e7b0dfbd20fb9a2e7d6",
+          "date": "Tue Jan 7 11:16:46 2025 +0800",
+          "message": "mark JobPodFailurePolicy as removed",
+          "author": "carlory"
         }
       ]
     }
@@ -27592,6 +27837,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "5870bf3071a5da9096143faf31b16c51010cbe90",
+          "date": "Mon Feb 17 19:46:59 2025 +0900",
+          "message": "KEP-3998: Graduate JobSuccessPolicy to Stable",
+          "author": "Yuki Iwai"
         }
       ]
     }
@@ -27760,6 +28011,24 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "941773d2ca6018c62d377fbb23f64f957f75d6ff",
+          "date": "Thu Feb 27 17:25:52 2025 +0000",
+          "message": "KEP-5040: Disable git_repo volume driver.",
+          "author": "Vinayak Goyal"
+        },
+        {
+          "hash": "660d6fd407dfa69688e4919ec79a48b6d1b2ecce",
+          "date": "Sat Mar 1 09:09:37 2025 -0500",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "michellengnx"
+        },
+        {
+          "hash": "11b65ee347813c61541df0548cc426286da5e85e",
+          "date": "Thu Jan 30 08:23:13 2025 -0800",
+          "message": "Mark AnyVolumeDataSource as stable",
+          "author": "Sunny"
         }
       ]
     }
@@ -28462,6 +28731,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "54db14276cf10405668894b0e8fb8bcb8f292fbe",
+          "date": "Tue Jan 28 22:11:56 2025 +0530",
+          "message": "Merge main into dev-1.33",
+          "author": "Rayan Das"
         }
       ]
     }
@@ -28498,6 +28773,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "63b4b91517ebb18933c76c4fa186430a4c6e84ec",
+          "date": "Tue Jan 7 10:55:27 2025 +0800",
+          "message": "mark AppArmor as removed",
+          "author": "carlory"
         }
       ]
     }
@@ -28522,6 +28803,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "8197a3cc32a7b3a08df2c8526780144de46df553",
+          "date": "Tue Jan 7 11:07:35 2025 +0800",
+          "message": "mark AppArmorFields as removed",
+          "author": "carlory"
         }
       ]
     }
@@ -28714,6 +29001,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "eace141b66a241a28695bb68ab43b0c2efeaa5ca",
+          "date": "Wed Feb 5 08:34:17 2025 -0800",
+          "message": "Merge pull request #49618 from Urvashi0109/merged-main-dev-1.33",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -28810,6 +29103,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "09234f3680a960d3766a8a39030d4e602355f762",
+          "date": "Wed Mar 19 18:06:31 2025 -0700",
+          "message": "Merge pull request #49926 from sanposhiho/ga-mlk",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -29194,6 +29493,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f317909e062a15eada10354f39f7c920035b0389",
+          "date": "Fri Dec 20 21:23:01 2024 +0000",
+          "message": "Update doc for Portworx CSI migration moving to stable",
+          "author": "Ankit Gohil"
         }
       ]
     }
@@ -29530,6 +29835,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef2f657be077b7d253b4c8918b45a9b81c05841f",
+          "date": "Fri Feb 28 10:13:08 2025 +0100",
+          "message": "bump ClusterTrustBundle{,Projection} to beta",
+          "author": "Stanislav Láznička"
         }
       ]
     }
@@ -29554,6 +29865,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef2f657be077b7d253b4c8918b45a9b81c05841f",
+          "date": "Fri Feb 28 10:13:08 2025 +0100",
+          "message": "bump ClusterTrustBundle{,Projection} to beta",
+          "author": "Stanislav Láznička"
         }
       ]
     }
@@ -29818,6 +30135,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a368f553c771629a67f8417ec23e077252d7058d",
+          "date": "Tue Apr 8 23:54:41 2025 +0900",
+          "message": "KEP 4355 - CoordinatedLeaderElection to Beta Docs  (#49950)",
+          "author": "Jeffrey Ying"
         }
       ]
     }
@@ -30154,6 +30477,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ce16fbdf8b6eaaa84660b34116bd2b4a16c8e61a",
+          "date": "Mon Apr 7 19:56:44 2025 +0100",
+          "message": "5018 dra admin access (#49929)",
+          "author": "Rita Zhang"
         }
       ]
     }
@@ -30202,6 +30531,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3b2872f4435c12a3c55c245e5de8893e5fe3d612",
+          "date": "Sat Apr 5 03:16:37 2025 -0700",
+          "message": "Merge pull request #49955 from stlaz/ctb_beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -30346,6 +30681,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "afd8051fb3523039f24c65821028345cc67356ba",
+          "date": "Fri Apr 4 23:54:44 2025 -0700",
+          "message": "Merge pull request #49749 from AkihiroSuda/userns-65536",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -30370,6 +30711,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "9e6ec2618b7d70069f72b10bcf16728ff879259c",
+          "date": "Tue Feb 18 14:04:08 2025 +0800",
+          "message": "mark DisableCloudProviders and DisableKubeletCloudCredentialProviders as removed",
+          "author": "carlory"
         }
       ]
     }
@@ -30394,6 +30741,18 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "6e43d0530b8f6d35ea7329dc942dbf67679747e6",
+          "date": "Tue Feb 18 07:33:36 2025 -0500",
+          "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
+          "author": "ArvindParekh"
+        },
+        {
+          "hash": "9e6ec2618b7d70069f72b10bcf16728ff879259c",
+          "date": "Tue Feb 18 14:04:08 2025 +0800",
+          "message": "mark DisableCloudProviders and DisableKubeletCloudCredentialProviders as removed",
+          "author": "carlory"
         }
       ]
     }
@@ -33477,6 +33836,12 @@
           "date": "Wed May 23 13:58:32 2018 -0400",
           "message": "move access/auth content to reference folder, add TOC (#8624)",
           "author": "Jennifer Rondeau"
+        },
+        {
+          "hash": "aef810e31d570f5e8e51232cdbdf31db1deb3e34",
+          "date": "Thu Feb 27 15:12:41 2025 +0100",
+          "message": "Update list semantics to cover ListFromCacheSnapshot introduced in KEP-4988",
+          "author": "Marek Siarkowicz"
         }
       ]
     }
@@ -34723,6 +35088,12 @@
           "date": "Thu May 10 15:35:55 2018 -0700",
           "message": "Copy kubectl binary ref page to Hugo site. (#8478)",
           "author": "Steve Perry"
+        },
+        {
+          "hash": "a9f33159857624b1af4fcfa5b2ed215518ba46b4",
+          "date": "Wed Feb 12 09:16:44 2025 +0300",
+          "message": "Add KUBECTL_KUBERC environment variable description",
+          "author": "Arda Güçlü"
         }
       ]
     },
@@ -37113,6 +37484,24 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "77cb121627a795c68238f27c6452d6da5b1f83ca",
+          "date": "Sat Feb 8 21:41:46 2025 -0500",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "michellengnx"
+        },
+        {
+          "hash": "77f460036f2c5033d12e821d5262234007bd04a2",
+          "date": "Mon Jan 20 17:16:20 2025 +0100",
+          "message": "kubeadm: Document ControlPlaneKubeletLocalMode promotion to beta",
+          "author": "Christian Schlotter"
+        },
+        {
+          "hash": "712a7235741be31a4cbb0af62dfcae2d645be289",
+          "date": "Wed Jan 15 16:58:34 2025 +0200",
+          "message": "kubeadm: remove the EtcdLearnerMode FG (#49410)",
+          "author": "Lubomir I. Ivanov"
         }
       ]
     },
@@ -38154,6 +38543,12 @@
           "date": "Fri May 11 10:21:25 2018 -0700",
           "message": "Re-add command line tools reference (#8421)",
           "author": "Zach Corleissen"
+        },
+        {
+          "hash": "726d06f1b77c5f5eff9fbb25bd6801526ff75e77",
+          "date": "Thu Apr 3 04:06:38 2025 -0700",
+          "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -38753,6 +39148,12 @@
           "date": "Fri May 11 10:21:25 2018 -0700",
           "message": "Re-add command line tools reference (#8421)",
           "author": "Zach Corleissen"
+        },
+        {
+          "hash": "726d06f1b77c5f5eff9fbb25bd6801526ff75e77",
+          "date": "Thu Apr 3 04:06:38 2025 -0700",
+          "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -42158,6 +42559,18 @@
           "date": "Mon Nov 28 14:55:22 2022 -0800",
           "message": "Merge pull request #38135 from Huang-Wei/mermaid-fix",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "fd68ed8909deb93b427d79f00ab53b9f08eb5e39",
+          "date": "Tue Apr 8 15:42:52 2025 +0000",
+          "message": "Add cgroup v2 to PSI requirements",
+          "author": "Haowei Cai"
+        },
+        {
+          "hash": "f9ff985f416e50e0c327ac0deefecce7c293b32b",
+          "date": "Tue Mar 25 22:40:31 2025 +0000",
+          "message": "Kubelet PSI metrics documentation",
+          "author": "Haowei Cai"
         }
       ]
     },
@@ -47341,6 +47754,24 @@
           "date": "Wed Dec 8 17:43:33 2021 +0000",
           "message": "Migrate reference details out Service concept",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
+        },
+        {
+          "hash": "3e00afab1788a7366913b0c8bd6df3bab3302579",
+          "date": "Mon Apr 7 21:16:39 2025 +0100",
+          "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
+          "author": "Dan Winship"
+        },
+        {
+          "hash": "afd8051fb3523039f24c65821028345cc67356ba",
+          "date": "Fri Apr 4 23:54:44 2025 -0700",
+          "message": "Merge pull request #49749 from AkihiroSuda/userns-65536",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -58338,6 +58769,12 @@
           "date": "Sun Jun 21 07:58:41 2020 -0700",
           "message": "Merge pull request #21855 from Marusyk/rmarusyk/21747",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     }
@@ -59080,6 +59517,17 @@
           "date": "Wed Jun 12 14:51:30 2019 +0200",
           "message": "Add content/es/docs/reference/glossary/kubeadm.md (#14546)",
           "author": "Javi Sabalete"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/kubeadm.md",
+      "commits": [
+        {
+          "hash": "06413ccc551c0fbb9b082fc8b9d6f0e85d10de25",
+          "date": "Tue Apr 22 15:38:24 2025 +0000",
+          "message": "[vi] add glossary cni, container-runtime, kubeadm",
+          "author": "cyanwind23"
         }
       ]
     }
@@ -60165,6 +60613,12 @@
           "date": "Tue Jun 2 16:22:46 2020 -0400",
           "message": "Add Scheduling Configuration reference doc",
           "author": "Aldo Culquicondor"
+        },
+        {
+          "hash": "88bb575dfaf5e2ed1b481eff8320aeb384df85a8",
+          "date": "Mon Apr 7 03:06:39 2025 -0700",
+          "message": "Merge pull request #50287 from atiratree/pod-replacement-policy-docs",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -63281,6 +63735,17 @@
           "date": "Fri Jul 20 05:33:53 2018 +0530",
           "message": "adding cni.md (#8760)",
           "author": "Tanvi Gupta"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/cni.md",
+      "commits": [
+        {
+          "hash": "06413ccc551c0fbb9b082fc8b9d6f0e85d10de25",
+          "date": "Tue Apr 22 15:38:24 2025 +0000",
+          "message": "[vi] add glossary cni, container-runtime, kubeadm",
+          "author": "cyanwind23"
         }
       ]
     }
@@ -68401,6 +68866,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "30aae369f3ad375996f25218a8d034140ceaacca",
+          "date": "Wed Feb 19 03:04:27 2025 -0800",
+          "message": "Merge pull request #49817 from carlory/mark-DisableCloudProviders-DisableKubeletCloudCredentialProviders-as-removed",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -70907,6 +71378,12 @@
           "date": "Mon Sep 9 10:21:18 2019 -0700",
           "message": "Adding initial EndpointSlice documentation (#16018)",
           "author": "Rob Scott"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     }
@@ -72133,6 +72610,291 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md",
+      "commits": [
+        {
+          "hash": "6c3b9a7fb125ac4d9ea349d006c6ef79ed4707fa",
+          "date": "Tue Feb 18 13:25:07 2025 +0100",
+          "message": "DRA: device taints and tolerations",
+          "author": "Patrick Ohly"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md",
+      "commits": [
+        {
+          "hash": "ee24cc050a8f791f879967bf5703057e0dc30f05",
+          "date": "Tue Apr 8 23:16:39 2025 -0700",
+          "message": "Merge pull request #50439 from roycaihw/psi",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md",
+      "commits": [
+        {
+          "hash": "74406c8972dd36df8c456003500e8c545e120aa2",
+          "date": "Tue Apr 8 07:38:40 2025 -0700",
+          "message": "Merge pull request #49904 from marosset/5100-winsdr-winoverlay-beta-website-updates",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md",
+      "commits": [
+        {
+          "hash": "eca7cd38cf6d6e42d0d826824fdf8610dc8c1db3",
+          "date": "Tue Apr 8 00:16:42 2025 -0700",
+          "message": "Merge pull request #49942 from danwinship/kep-4858-alpha",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md",
+      "commits": [
+        {
+          "hash": "23f39cdd4bf9b92a4de5b6d5bd16871ab8e6776c",
+          "date": "Mon Apr 7 18:00:53 2025 -0700",
+          "message": "Merge pull request #49801 from cupnes/add-storage-capacity-scoring",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md",
+      "commits": [
+        {
+          "hash": "3e00afab1788a7366913b0c8bd6df3bab3302579",
+          "date": "Mon Apr 7 21:16:39 2025 +0100",
+          "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
+          "author": "Dan Winship"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md",
+      "commits": [
+        {
+          "hash": "f9ff985f416e50e0c327ac0deefecce7c293b32b",
+          "date": "Tue Mar 25 22:40:31 2025 +0000",
+          "message": "Kubelet PSI metrics documentation",
+          "author": "Haowei Cai"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md",
+      "commits": [
+        {
+          "hash": "c35e485d376a22acdc482e328af389b353ae986f",
+          "date": "Thu Feb 27 09:46:15 2025 -0500",
+          "message": "Add StrictIPCIDRValidation feature gate file",
+          "author": "Dan Winship"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md",
+      "commits": [
+        {
+          "hash": "88bb575dfaf5e2ed1b481eff8320aeb384df85a8",
+          "date": "Mon Apr 7 03:06:39 2025 -0700",
+          "message": "Merge pull request #50287 from atiratree/pod-replacement-policy-docs",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md",
+      "commits": [
+        {
+          "hash": "8fc54795d801beaecd52105e180c3998e97a2c57",
+          "date": "Sun Apr 6 15:38:38 2025 -0700",
+          "message": "Merge pull request #49886 from dshebib/2535-secret-pulled-images-alpha",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md",
+      "commits": [
+        {
+          "hash": "5a1b532179cda2c16f7d1a2e8ef3dbb82f77d28a",
+          "date": "Mon Feb 24 17:40:16 2025 -0600",
+          "message": "add documentation for 2535 Co-authored-by: Standa Láznička <stlaz@users.noreply.github.com>",
+          "author": "Daniel Shebib"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md",
+      "commits": [
+        {
+          "hash": "726d06f1b77c5f5eff9fbb25bd6801526ff75e77",
+          "date": "Thu Apr 3 04:06:38 2025 -0700",
+          "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md",
+      "commits": [
+        {
+          "hash": "e5bc848393bef4d69956c3b874c1f9aafa15eb13",
+          "date": "Sat Mar 29 03:24:39 2025 -0700",
+          "message": "Merge pull request #49578 from vinayakankugoyal/kep2862beta",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "def6c590adb8d0a880c028315172fd2ac0ceee41",
+          "date": "Tue Mar 25 14:45:51 2025 +0100",
+          "message": "Document .status.terminatingReplicas enabled by DeploymentPodReplacementPolicy feature",
+          "author": "Filip Křepinský"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/using-api/declarative-validation.md": {
+    "en": {
+      "path": "content/en/docs/reference/using-api/declarative-validation.md",
+      "commits": [
+        {
+          "hash": "210060f58453438bcdead4879933a5f05c869a2c",
+          "date": "Thu Mar 27 10:09:06 2025 -0700",
+          "message": "Update content/en/docs/concepts/extend-kubernetes/api-extension/declarative-validation.md",
+          "author": "Aaron Prindle"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md",
+      "commits": [
+        {
+          "hash": "38f74cfc5ca4d8a6ab0ce457f1b89d77fd69e866",
+          "date": "Thu Mar 27 04:18:39 2025 -0700",
+          "message": "Merge pull request #49807 from tenzen-y/success-policy-ga",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md",
+      "commits": [
+        {
+          "hash": "2964572998cfa93d506cfb33dd6e6ca511cb0d5d",
+          "date": "Wed Mar 26 09:37:51 2025 -0400",
+          "message": "Apply suggestions from code review",
+          "author": "jm-franc"
+        },
+        {
+          "hash": "4ce48b65673c60b7081b67e8b393a953cca7aaa6",
+          "date": "Tue Mar 25 13:20:29 2025 -0400",
+          "message": "Add documentation for configurable autoscaling tolerance.",
+          "author": "Jean-Marc François"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md",
+      "commits": [
+        {
+          "hash": "178ce422ec7c5df889829587b0e259380c30e5fa",
+          "date": "Tue Mar 25 14:22:02 2025 +0000",
+          "message": "Add documentation for Alpha feature: MutableCSINodeAllocatableCount",
+          "author": "torredil"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md",
+      "commits": [
+        {
+          "hash": "fc8270addd0157c234c07c52b05b90424c9e77a6",
+          "date": "Wed Feb 12 20:57:13 2025 +0000",
+          "message": "docs: add necessary feature gate information for KEP-5073 - Declarative Validation of K8s Native Types With validation-gen",
+          "author": "Aaron Prindle"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md",
+      "commits": [
+        {
+          "hash": "fc8270addd0157c234c07c52b05b90424c9e77a6",
+          "date": "Wed Feb 12 20:57:13 2025 +0000",
+          "message": "docs: add necessary feature gate information for KEP-5073 - Declarative Validation of K8s Native Types With validation-gen",
+          "author": "Aaron Prindle"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md",
+      "commits": [
+        {
+          "hash": "c74a403c260bbad090862bcaabef7c90a6b3a1a0",
+          "date": "Tue Mar 11 23:13:55 2025 +0530",
+          "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
+          "author": "Rayan Das"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md",
+      "commits": [
+        {
+          "hash": "af7cde73257893e016bd961e6a9f8f0e378b7069",
+          "date": "Thu Feb 20 02:14:27 2025 -0800",
+          "message": "Merge pull request #49824 from soltysh/subresource_docs",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

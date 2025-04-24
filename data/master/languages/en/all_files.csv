@@ -1317,6 +1317,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/Configurabl
 content/en/docs/reference/command-line-tools-reference/feature-gates/ConsistentHTTPGetHandlers.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ConsistentListFromCache.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerCheckpoint.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ContextualLogging.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ControllerManagerLeaderMigration.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/CoordinatedLeaderElection.md
@@ -1335,8 +1336,13 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/CustomResou
 content/en/docs/reference/command-line-tools-reference/feature-gates/CustomResourceWebhookConversion.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DRAAdminAccess.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DRAControlPlaneController.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DRAResourceClaimDeviceStatus.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DaemonSetUpdateSurge.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DefaultHostNetworkHostPortsInPodTemplates.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DefaultPodTopologySpread.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DelegateFSGroupToCSIDriver.md
@@ -1379,6 +1385,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/GRPCContain
 content/en/docs/reference/command-line-tools-reference/feature-gates/GenericEphemeralVolume.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/GracefulNodeShutdown.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/GracefulNodeShutdownBasedOnPodPriority.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/HPAContainerMetrics.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/HPAScaleToZero.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/HonorPVReclaimPolicy.md
@@ -1423,12 +1430,14 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletCras
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletCredentialProviders.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletFineGrainedAuthz.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletInUserNamespace.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPluginsWatcher.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResources.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResourcesDynamicResources.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResourcesGet.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResourcesGetAllocatable.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletSeparateDiskGC.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletTracing.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LegacyNodeRoleBehavior.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenCleanUp.md
@@ -1452,6 +1461,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/MountContai
 content/en/docs/reference/command-line-tools-reference/feature-gates/MountPropagation.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/MultiCIDRRangeAllocator.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/MultiCIDRServiceAllocator.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/MutatingAdmissionPolicy.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/NFTablesProxyMode.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/NamespaceDefaultLabelName.md
@@ -1467,6 +1477,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/NodeSwap.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/NonPreemptingPriority.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/OpenAPIEnums.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/OpenAPIV3.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PDBUnhealthyPodEvictionPolicy.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PVCProtection.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PersistentLocalVolumes.md
@@ -1483,6 +1494,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/PodLevelRes
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodLifecycleSleepAction.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodLifecycleSleepActionAllowZero.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodLogsQuerySplitStreams.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodOverhead.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodPriority.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodReadinessGates.md
@@ -1490,8 +1502,10 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/PodReadyToS
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodSchedulingReadiness.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodSecurity.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PodShareProcessNamespace.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PortForwardWebsockets.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/PreferNominatedNode.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ProbeTerminationGracePeriod.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ProcMountType.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ProxyTerminatingEndpoints.md
@@ -1500,6 +1514,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/ReadOnlyAPI
 content/en/docs/reference/command-line-tools-reference/feature-gates/ReadWriteOncePod.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/RecoverVolumeExpansionFailure.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/RecursiveReadOnlyMounts.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/RelaxedDNSSearchValidation.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/RelaxedEnvironmentVariableValidation.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ReloadKubeletServerCertificateFile.md
@@ -1525,6 +1540,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/SELinuxMoun
 content/en/docs/reference/command-line-tools-reference/feature-gates/SELinuxMountReadWriteOncePod.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ScheduleDaemonSetPods.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerAsyncPreemption.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerQueueingHints.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/SeccompDefault.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/SecurityContextDeny.md
@@ -1557,6 +1573,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/StartupProb
 content/en/docs/reference/command-line-tools-reference/feature-gates/StatefulSetAutoDeletePVC.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StatefulSetMinReadySeconds.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StatefulSetStartOrdinal.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StorageNamespaceIndex.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StorageObjectInUseProtection.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StorageVersionAPI.md
@@ -1565,6 +1582,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/StorageVers
 content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingProxyRedirects.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StrictCostEnforcementForVAP.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StrictCostEnforcementForWebhooks.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StructuredAuthenticationConfiguration.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StructuredAuthorizationConfiguration.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/SupplementalGroupsPolicy.md
@@ -1615,7 +1633,9 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/WindowsHost
 content/en/docs/reference/command-line-tools-reference/feature-gates/WindowsHostProcessContainers.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/WindowsRunAsUserName.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ZeroLimitedNominalConcurrencyShares.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/index.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md
 content/en/docs/reference/command-line-tools-reference/kube-apiserver.md
 content/en/docs/reference/command-line-tools-reference/kube-controller-manager.md
 content/en/docs/reference/command-line-tools-reference/kube-proxy.md
@@ -2205,6 +2225,7 @@ content/en/docs/reference/using-api/_index.md
 content/en/docs/reference/using-api/api-concepts.md
 content/en/docs/reference/using-api/cel.md
 content/en/docs/reference/using-api/client-libraries.md
+content/en/docs/reference/using-api/declarative-validation.md
 content/en/docs/reference/using-api/deprecation-guide.md
 content/en/docs/reference/using-api/deprecation-policy.md
 content/en/docs/reference/using-api/health-checks.md
@@ -2680,6 +2701,7 @@ content/en/examples/controllers/fluentd-daemonset.yaml
 content/en/examples/controllers/frontend.yaml
 content/en/examples/controllers/hpa-rs.yaml
 content/en/examples/controllers/job-backoff-limit-per-index-example.yaml
+content/en/examples/controllers/job-backoff-limit-per-index-failindex.yaml
 content/en/examples/controllers/job-pod-failure-policy-config-issue.yaml
 content/en/examples/controllers/job-pod-failure-policy-example.yaml
 content/en/examples/controllers/job-pod-failure-policy-failjob.yaml
@@ -2715,6 +2737,7 @@ content/en/examples/pods/commands.yaml
 content/en/examples/pods/config/example-redis-config.yaml
 content/en/examples/pods/config/redis-config
 content/en/examples/pods/config/redis-pod.yaml
+content/en/examples/pods/image-volumes-subpath.yaml
 content/en/examples/pods/image-volumes.yaml
 content/en/examples/pods/init-containers.yaml
 content/en/examples/pods/inject/dapi-envars-container.yaml
@@ -2770,6 +2793,7 @@ content/en/examples/pods/resource/memory-request-limit.yaml
 content/en/examples/pods/resource/pod-level-cpu-request-limit.yaml
 content/en/examples/pods/resource/pod-level-memory-request-limit.yaml
 content/en/examples/pods/resource/pod-level-resources.yaml
+content/en/examples/pods/resource/pod-resize.yaml
 content/en/examples/pods/security/hello-apparmor.yaml
 content/en/examples/pods/security/seccomp/alpha/audit-pod.yaml
 content/en/examples/pods/security/seccomp/alpha/default-pod.yaml
@@ -2810,11 +2834,14 @@ content/en/examples/pods/two-container-pod.yaml
 content/en/examples/pods/user-namespaces-stateless.yaml
 content/en/examples/policy/baseline-psp.yaml
 content/en/examples/policy/example-psp.yaml
+content/en/examples/policy/gold-vac-pvc.yaml
 content/en/examples/policy/high-priority-pod.yaml
 content/en/examples/policy/priority-class-resourcequota.yaml
 content/en/examples/policy/privileged-psp.yaml
+content/en/examples/policy/quota-vac.yaml
 content/en/examples/policy/quota.yaml
 content/en/examples/policy/restricted-psp.yaml
+content/en/examples/policy/service-cluster-cidr-address-range.yaml
 content/en/examples/policy/zookeeper-pod-disruption-budget-maxunavailable.yaml
 content/en/examples/policy/zookeeper-pod-disruption-budget-minavailable.yaml
 content/en/examples/priority-and-fairness/health-for-strangers.yaml

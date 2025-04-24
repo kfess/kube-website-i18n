@@ -8,6 +8,18 @@
           "date": "Tue Apr 22 01:00:32 2025 +0100",
           "message": "Add Kubernetes v1.33 release announcement blog",
           "author": "Ryota"
+        },
+        {
+          "hash": "c2fe700c0a789ec94d605692cab056a903fd752f",
+          "date": "Tue Apr 22 12:23:00 2025 +0100",
+          "message": "Add evergreen flag",
+          "author": "Ryota"
+        },
+        {
+          "hash": "98f4c8ea76885e8c5d653c3f76989027286d84da",
+          "date": "Tue Apr 22 11:52:47 2025 +0100",
+          "message": "Remove draft flag to publish release announcement",
+          "author": "Ryota"
         }
       ]
     }
@@ -63,6 +75,12 @@
       "commits": [
         {
           "hash": "b1b93f62ed35e482d416561ab2683b673e9ac70f",
+          "date": "Sat Apr 5 13:32:42 2025 +0900",
+          "message": "[ja] Translate blog: Kubernetes v1.33 sneak peek into Japanese (#50359)",
+          "author": "kfess"
+        },
+        {
+          "hash": "4e345ebdb66db996da165fd474661f31df671566",
           "date": "Sat Apr 5 13:32:42 2025 +0900",
           "message": "[ja] Translate blog: Kubernetes v1.33 sneak peek into Japanese (#50359)",
           "author": "kfess"
@@ -981,6 +999,12 @@
           "date": "Mon Apr 7 10:44:38 2025 -0700",
           "message": "Merge pull request #49742 from dkarczmarski/dkarczmarski/pl-docs-contribute-generate-ref-docs-prerequisites-ref-docs.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "673b6506a3ac64b5a785a277529593d4e6daee2e",
+          "date": "Mon Apr 7 16:42:40 2025 +0900",
+          "message": "[ja] Translate content/en/blog/_posts/2024-08-20-websocket-transition.md into Japanese (#50340)",
+          "author": "ntkm61027"
         }
       ]
     },
@@ -1204,6 +1228,12 @@
       "commits": [
         {
           "hash": "93a4a353298b833d2a5a5ee6945639f2d9bb2672",
+          "date": "Wed Mar 26 10:52:37 2025 +0800",
+          "message": "[zh-cn] sync blog file 2024-08-14-pv-last-phase-transition-time-ga.md",
+          "author": "Jin Li"
+        },
+        {
+          "hash": "55dd78d4bfffbaaa5c6bfb46f8d1d91007b20241",
           "date": "Wed Mar 26 10:52:37 2025 +0800",
           "message": "[zh-cn] sync blog file 2024-08-14-pv-last-phase-transition-time-ga.md",
           "author": "Jin Li"
@@ -1516,6 +1546,18 @@
           "date": "Mon Jul 1 17:35:37 2024 +0000",
           "message": "docs: Add \"Spotlight on SIG Node\"",
           "author": "b1gb4by"
+        },
+        {
+          "hash": "a930ec2af970c3639b306b8f6d8966f02a835a56",
+          "date": "Thu Apr 3 23:23:45 2025 +0900",
+          "message": "update: remove slash",
+          "author": "kita456"
+        },
+        {
+          "hash": "05607fbb9d1b0eabb7568ff79de942202cd802c8",
+          "date": "Thu Apr 3 23:18:24 2025 +0900",
+          "message": "[ja] Fix broken image in SIG Node Spotlight 2024 blog post due to incorrect path",
+          "author": "kita456"
         }
       ]
     },
@@ -1659,6 +1701,12 @@
           "date": "Thu May 23 02:21:38 2024 -0700",
           "message": "Merge pull request #46500 from windsonsea/sigdocs",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ab23ed42046a89b5ba9e57ba0b1f4495d50f518d",
+          "date": "Tue Apr 8 08:34:13 2025 +0800",
+          "message": "[zh] Update 2024-05-09-gateway-api-v1.1/index.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -1682,6 +1730,12 @@
           "date": "Wed May 8 20:05:47 2024 -0400",
           "message": "Add Gateway API v1.1 Blog Post (#45971)",
           "author": "Candace Holman"
+        },
+        {
+          "hash": "22cc76771e31a52adde96cb8002a5e3c7fa0d243",
+          "date": "Fri Mar 28 22:39:38 2025 +0800",
+          "message": "fix: correct invalid Gateway example in v1.1 docs",
+          "author": "lichanghao.orange"
         }
       ]
     },
@@ -2327,6 +2381,12 @@
           "date": "Tue Apr 30 00:12:23 2024 -0700",
           "message": "Merge pull request #45585 from HwangTaehyun/patch-1",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "4e345ebdb66db996da165fd474661f31df671566",
+          "date": "Sat Apr 5 13:32:42 2025 +0900",
+          "message": "[ja] Translate blog: Kubernetes v1.33 sneak peek into Japanese (#50359)",
+          "author": "kfess"
         }
       ]
     },
@@ -2481,6 +2541,12 @@
           "date": "Thu Apr 3 08:42:37 2025 -0700",
           "message": "Merge pull request #50378 from kfess/issue-50326",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "364ce3d5fb77adf78d438030a2786429368601a5",
+          "date": "Fri Apr 4 00:24:37 2025 +0900",
+          "message": "[ja] Translate blog: Spotlight on SIG Cloud Provider into Japanese (#50331)",
+          "author": "kfess"
         }
       ]
     },

@@ -1612,6 +1612,17 @@
           "author": "Evan Adi"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+      "commits": [
+        {
+          "hash": "6be4392a7bd4ab22e476553fa4a46eaec40f27d3",
+          "date": "Wed Apr 23 00:12:33 2025 +0530",
+          "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
+          "author": "Rayan Das"
+        }
+      ]
     }
   },
   "content/en/docs/setup/production-environment/_index.md": {
@@ -2105,6 +2116,18 @@
           "hash": "f6538e538a5dcb389a6a6e1472a16c28fdfadb32",
           "date": "Fri Apr 18 15:29:17 2025 +0000",
           "message": "[vi] add Vietnamese translation for Production environment",
+          "author": "cyanwind23"
+        },
+        {
+          "hash": "04553b2e8a0d442f72db0ce913feef60299f376a",
+          "date": "Tue Apr 22 15:40:08 2025 +0000",
+          "message": "[vi] fix vietnamese header anchors",
+          "author": "cyanwind23"
+        },
+        {
+          "hash": "c0b6bc1b2a2cd440d3bb8b777a20fba1540b039e",
+          "date": "Tue Apr 22 07:13:06 2025 +0000",
+          "message": "[vi] Remove references to archived HNC project",
           "author": "cyanwind23"
         }
       ]
