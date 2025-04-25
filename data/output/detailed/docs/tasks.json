@@ -5736,6 +5736,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "b0e816b4b42c8869399e9b16c07956d7be96f946",
+          "date": "Thu Apr 24 10:13:26 2025 +0800",
+          "message": "[zh-cn]sync configure-pod-container/image-volumes",
+          "author": "xin.li"
         }
       ]
     },
@@ -8339,6 +8345,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "418a18011781810db0701150bf7af07b8c17ebf2",
+          "date": "Thu Apr 24 03:26:35 2025 -0700",
+          "message": "Merge pull request #50606 from tengqm/resourceapi-133",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -11003,6 +11015,12 @@
           "date": "Tue Feb 25 13:11:34 2025 -0500",
           "message": "KEP-4540: Move to beta",
           "author": "Jing Zhang"
+        },
+        {
+          "hash": "418a18011781810db0701150bf7af07b8c17ebf2",
+          "date": "Thu Apr 24 03:26:35 2025 -0700",
+          "message": "Merge pull request #50606 from tengqm/resourceapi-133",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -21930,6 +21948,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "7d746ef7d5a048cff99f32715a9570d0666a3d3a",
+          "date": "Thu Apr 24 11:18:14 2025 +0800",
+          "message": "[zh-cn]sync security-context.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -31199,6 +31223,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "418a18011781810db0701150bf7af07b8c17ebf2",
+          "date": "Thu Apr 24 03:26:35 2025 -0700",
+          "message": "Merge pull request #50606 from tengqm/resourceapi-133",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -31639,6 +31669,12 @@
           "date": "Fri Aug 23 03:07:51 2024 +0100",
           "message": "Merge pull request #47636 from windsonsea/imagey",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b0e816b4b42c8869399e9b16c07956d7be96f946",
+          "date": "Thu Apr 24 10:13:26 2025 +0800",
+          "message": "[zh-cn]sync configure-pod-container/image-volumes",
+          "author": "xin.li"
         }
       ]
     },
@@ -45270,6 +45306,12 @@
           "date": "Sat Dec 17 20:07:41 2022 -0800",
           "message": "Merge pull request #38369 from windsonsea/imagesy",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "660fe56b4b9d045b5567716d1a55a097a41922a0",
+          "date": "Thu Apr 24 14:18:11 2025 +0800",
+          "message": "[zh-cn]sync kubelet-credential-provide",
+          "author": "xin.li"
         }
       ]
     },

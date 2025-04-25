@@ -879,54 +879,6 @@
       ]
     }
   },
-  "content/en/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1alpha1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1alpha1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "7b39e9a9ec5bbb6aa89fb50c25aec3f394366393",
-          "date": "Mon Apr 3 08:22:54 2023 +0200",
-          "message": "API Ref multi-pages v1.27",
-          "author": "Philippe Martin"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1alpha1.md",
-      "commits": [
-        {
-          "hash": "9af50f219802711d57770cc5a0cae65cd3c34bd4",
-          "date": "Fri Nov 3 09:20:39 2023 +0100",
-          "message": "Merge pull request #42801 from pacoxu/update-kubeadm-fgs",
-          "author": "Kubernetes Prow Robot"
-        },
-        {
-          "hash": "25b65c23ceb33e85605a361f7bb729cd05747737",
-          "date": "Fri Apr 11 22:26:41 2025 +0800",
-          "message": "[zh-cn] sync kubernetes-api/authentication-resources/*",
-          "author": "xin.li"
-        }
-      ]
-    }
-  },
   "content/en/docs/reference/kubernetes-api/authentication-resources/service-account-v1.md": {
     "en": {
       "path": "content/en/docs/reference/kubernetes-api/authentication-resources/service-account-v1.md",
@@ -1689,61 +1641,6 @@
       ]
     }
   },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/ip-address-v1beta1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/ip-address-v1beta1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/cluster-resources/ip-address-v1beta1.md",
-      "commits": [
-        {
-          "hash": "69a008ca32e345b0ad1837bc47e2656200f48609",
-          "date": "Fri Sep 6 10:01:41 2024 +0800",
-          "message": "[zh] Add ip-address-v1beta1.md",
-          "author": "windsonsea"
-        },
-        {
-          "hash": "3c737d3b4273caa2463ce77df6e075cc70981cbf",
-          "date": "Tue Apr 15 09:43:44 2025 +0800",
-          "message": "sync ip-address-v1beta1 runtime-class-v1 service-cidr-v1beta1",
-          "author": "xin gu"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha2.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha2.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        }
-      ]
-    }
-  },
   "content/en/docs/reference/kubernetes-api/cluster-resources/lease-v1.md": {
     "en": {
       "path": "content/en/docs/reference/kubernetes-api/cluster-resources/lease-v1.md",
@@ -2053,6 +1950,12 @@
           "date": "Tue Jan 19 20:51:46 2021 +0100",
           "message": "New API Reference presentation on /content/en/docs/reference/kubernetes-api",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -2189,48 +2092,6 @@
           "hash": "063ec8e4d66c0165ebdb74c0656086dc00bc6046",
           "date": "Fri Jul 1 14:44:21 2022 +0800",
           "message": "[zh-cn] resync runtime-class-v1.md",
-          "author": "windsonsea"
-        },
-        {
-          "hash": "3c737d3b4273caa2463ce77df6e075cc70981cbf",
-          "date": "Tue Apr 15 09:43:44 2025 +0800",
-          "message": "sync ip-address-v1beta1 runtime-class-v1 service-cidr-v1beta1",
-          "author": "xin gu"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1beta1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1beta1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1beta1.md",
-      "commits": [
-        {
-          "hash": "4aa49bd6a7a255d36191c6e3f48c511c98ca0adf",
-          "date": "Tue Sep 10 09:58:05 2024 +0800",
-          "message": "[zh] Add cluster-resources/service-cidr-v1beta1.md",
           "author": "windsonsea"
         },
         {
@@ -2611,6 +2472,12 @@
           "date": "Tue Jan 19 20:51:46 2021 +0100",
           "message": "New API Reference presentation on /content/en/docs/reference/kubernetes-api",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -3421,6 +3288,12 @@
           "date": "Tue Jan 19 20:51:46 2021 +0100",
           "message": "New API Reference presentation on /content/en/docs/reference/kubernetes-api",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -3577,6 +3450,12 @@
           "date": "Tue Jan 19 20:51:46 2021 +0100",
           "message": "New API Reference presentation on /content/en/docs/reference/kubernetes-api",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -3755,42 +3634,6 @@
           "hash": "ba7dfe7ce6c9c5cd5cfca0d613ae6ae1e3d82081",
           "date": "Sat Apr 12 17:26:40 2025 +0800",
           "message": "[zh-cn]sync extend-resources/*",
-          "author": "xin.li"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "26b5da08852788528477506123789b9ef49736ef",
-          "date": "Tue Nov 19 11:15:22 2024 +0100",
-          "message": "DRA: include v1beta1 API references",
-          "author": "Patrick Ohly"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1beta1.md",
-      "commits": [
-        {
-          "hash": "7afde847c53791c2d4e9040df053d18eed5701e6",
-          "date": "Tue Dec 31 06:08:13 2024 +0100",
-          "message": "Merge pull request #49252 from lhajouji/adding-clicktozoom",
-          "author": "Kubernetes Prow Robot"
-        },
-        {
-          "hash": "6acacb4441e1eb399cc8acc49550a968fb60808a",
-          "date": "Fri Apr 11 21:23:27 2025 +0800",
-          "message": "[zh-cn] sync device-class-v1beta1.md",
           "author": "xin.li"
         }
       ]
@@ -4219,6 +4062,12 @@
           "date": "Wed Apr 9 18:36:39 2025 +0800",
           "message": "Update API reference docs for v1.32",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -4232,6 +4081,12 @@
           "date": "Wed Apr 9 18:36:39 2025 +0800",
           "message": "Update API reference docs for v1.32",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -4431,6 +4286,12 @@
           "date": "Sun Feb 7 16:11:02 2021 +0100",
           "message": "Prepare for v1.21 + indentation + local common definitions",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -4773,6 +4634,12 @@
           "date": "Sun Feb 7 16:11:02 2021 +0100",
           "message": "Prepare for v1.21 + indentation + local common definitions",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -4904,6 +4771,12 @@
           "hash": "0b32f897b2225ea6ff256c14bea3ce16d3c8a585",
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -5288,6 +5161,12 @@
           "hash": "0b32f897b2225ea6ff256c14bea3ce16d3c8a585",
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -5787,6 +5666,12 @@
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -5967,6 +5852,12 @@
           "date": "Wed Dec 8 09:34:52 2021 +0100",
           "message": "Reference docs for kubernetes 1.23",
           "author": "Philippe Martin"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -6122,6 +6013,12 @@
           "hash": "0b32f897b2225ea6ff256c14bea3ce16d3c8a585",
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -6387,6 +6284,12 @@
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -6627,6 +6530,12 @@
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -6768,80 +6677,6 @@
       ]
     }
   },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "26b5da08852788528477506123789b9ef49736ef",
-          "date": "Tue Nov 19 11:15:22 2024 +0100",
-          "message": "DRA: include v1beta1 API references",
-          "author": "Patrick Ohly"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "26b5da08852788528477506123789b9ef49736ef",
-          "date": "Tue Nov 19 11:15:22 2024 +0100",
-          "message": "DRA: include v1beta1 API references",
-          "author": "Patrick Ohly"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta1.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta1.md",
-      "commits": [
-        {
-          "hash": "a3b579d03512e440250c5153dacf982b9a364d2c",
-          "date": "Wed Apr 9 18:36:39 2025 +0800",
-          "message": "Update API reference docs for v1.32",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "26b5da08852788528477506123789b9ef49736ef",
-          "date": "Tue Nov 19 11:15:22 2024 +0100",
-          "message": "DRA: include v1beta1 API references",
-          "author": "Patrick Ohly"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta1.md",
-      "commits": [
-        {
-          "hash": "9886895446e36e857f4ddd7b1e574a3845734606",
-          "date": "Fri Dec 27 09:05:49 2024 +0800",
-          "message": "[zh] Add resource-slice-v1beta1.md",
-          "author": "windsonsea"
-        },
-        {
-          "hash": "1c4e77b3e2c901606d10922ee322926d14afd72c",
-          "date": "Sun Apr 13 19:54:47 2025 -0700",
-          "message": "Merge pull request #50182 from my-git9/np-9594",
-          "author": "Kubernetes Prow Robot"
-        }
-      ]
-    }
-  },
   "content/en/docs/reference/kubernetes-api/workload-resources/stateful-set-v1.md": {
     "en": {
       "path": "content/en/docs/reference/kubernetes-api/workload-resources/stateful-set-v1.md",
@@ -6917,6 +6752,12 @@
           "date": "Mon Mar 8 11:09:00 2021 -0800",
           "message": "Merge pull request #26820 from ahg-g/nss",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -6958,6 +6799,12 @@
           "date": "Tue Apr 15 08:55:47 2025 +0800",
           "message": "[zh] Update workload-resources/stateful-set-v1.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "21d719ff8d5f10d7c85720469c89dd09657a9657",
+          "date": "Thu Apr 24 05:32:32 2025 -0700",
+          "message": "Merge pull request #50622 from windsonsea/labtit",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -6983,6 +6830,12 @@
           "date": "Fri Jun 28 09:20:32 2024 +0800",
           "message": "[zh] Add kubectl_get/_index.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "2540f5ca9f0bddf6185e14f5b621cd7f2478a5de",
+          "date": "Thu Apr 24 12:46:31 2025 -0700",
+          "message": "Merge pull request #50595 from aibarbetta/publish-kep-127-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -7012,6 +6865,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -12047,6 +11906,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -13926,6 +13791,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -14323,6 +14194,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "dc259f737be69d7274967b488323fd54070b8c55",
+          "date": "Thu Apr 24 13:20:02 2025 +0800",
+          "message": "[zh-cn]sync user-namespaces admission-controllers",
+          "author": "xin.li"
         }
       ]
     },
@@ -15193,6 +15070,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "68dd4803ae075939dd0feb02ebccf5832848bcf2",
+          "date": "Thu Apr 24 11:25:01 2025 +0800",
+          "message": "[zh] Sync labels-annotations-taints/_index.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -16436,6 +16319,12 @@
           "date": "Sun Jun 23 18:17:01 2024 +0800",
           "message": "[zh-cn] Add kubectl_apply/_index.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "fc95be23ed52eb9ca1abda0b85a875be4f9c84b6",
+          "date": "Thu Apr 24 20:57:33 2025 +0800",
+          "message": "[zh-cn]sync kubectl_apply/_index",
+          "author": "xin.li"
         }
       ]
     },
@@ -16465,6 +16354,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -16573,6 +16468,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -19997,6 +19898,12 @@
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -20038,6 +19945,12 @@
           "hash": "88f00805046ab43b3b95bacc0fa728e130743522",
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -23550,6 +23463,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "089dafce93b17068db7d706ecc0d0af9ce575c89",
+          "date": "Thu Apr 24 13:09:33 2025 +0800",
+          "message": "[zh-cn]sync service-accounts-admin.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -24724,6 +24643,12 @@
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -24765,6 +24690,12 @@
           "hash": "88f00805046ab43b3b95bacc0fa728e130743522",
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -24844,6 +24775,12 @@
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -24885,6 +24822,12 @@
           "hash": "88f00805046ab43b3b95bacc0fa728e130743522",
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -25935,6 +25878,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -25989,6 +25938,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -26116,6 +26071,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "0e9de48ee08bfffc63791a05354c8f5ee176682b",
+          "date": "Wed Apr 23 23:52:31 2025 -0700",
+          "message": "Merge pull request #50550 from enchant3dmango/docs/new-id-localization-proposal",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -26367,6 +26328,12 @@
           "date": "Thu Apr 3 04:06:38 2025 -0700",
           "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "05a3c54633e08478d71f3e1ee8055092d3fd47e1",
+          "date": "Thu Apr 24 07:58:44 2025 +0800",
+          "message": "Component reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -32960,6 +32927,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -33014,6 +32987,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -33122,6 +33101,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -33919,6 +33904,12 @@
           "hash": "88f00805046ab43b3b95bacc0fa728e130743522",
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -37896,6 +37887,12 @@
           "date": "Fri May 11 10:21:25 2018 -0700",
           "message": "Re-add command line tools reference (#8421)",
           "author": "Zach Corleissen"
+        },
+        {
+          "hash": "05a3c54633e08478d71f3e1ee8055092d3fd47e1",
+          "date": "Thu Apr 24 07:58:44 2025 +0800",
+          "message": "Component reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     },
@@ -38819,6 +38816,12 @@
           "date": "Fri May 11 10:21:25 2018 -0700",
           "message": "Re-add command line tools reference (#8421)",
           "author": "Zach Corleissen"
+        },
+        {
+          "hash": "05a3c54633e08478d71f3e1ee8055092d3fd47e1",
+          "date": "Thu Apr 24 07:58:44 2025 +0800",
+          "message": "Component reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     },
@@ -39154,6 +39157,12 @@
           "date": "Thu Apr 3 04:06:38 2025 -0700",
           "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "05a3c54633e08478d71f3e1ee8055092d3fd47e1",
+          "date": "Thu Apr 24 07:58:44 2025 +0800",
+          "message": "Component reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -42530,6 +42539,12 @@
           "date": "Wed Nov 30 09:42:41 2022 +0800",
           "message": "[zh] sync reference/instrumentation/",
           "author": "windsonsea"
+        },
+        {
+          "hash": "afa2e6c071a9fd6920f491155762e72d9d6d1bba",
+          "date": "Thu Apr 24 07:46:33 2025 -0700",
+          "message": "Merge pull request #50625 from my-git9/npa-9872",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -43329,42 +43344,6 @@
           "date": "Tue Jan 19 20:51:46 2021 +0100",
           "message": "New API Reference presentation on /content/en/docs/reference/kubernetes-api",
           "author": "Philippe Martin"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1alpha3.md": {
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "26b5da08852788528477506123789b9ef49736ef",
-          "date": "Tue Nov 19 11:15:22 2024 +0100",
-          "message": "DRA: include v1beta1 API references",
-          "author": "Patrick Ohly"
-        },
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "adbbbe1c6dd8be98927b1cf067217af942fa5c7f",
-          "date": "Mon Sep 9 10:13:29 2024 +0800",
-          "message": "[zh] Add device-class-v1alpha3.md",
-          "author": "windsonsea"
         }
       ]
     }
@@ -46081,42 +46060,6 @@
           "date": "Thu Jul 8 21:41:31 2021 +0000",
           "message": "Create garbage collection docs",
           "author": "Shannon Kularathna"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1alpha3.md": {
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-slice-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "51cd49d9611a005440434a08234e14e59cab91f1",
-          "date": "Mon Nov 11 13:58:44 2024 +0000",
-          "message": "Merge pull request #48668 from my-git9/pp-877",
-          "author": "Kubernetes Prow Robot"
-        }
-      ]
-    },
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "9ca17f397985e3ff2eaf412d9aa50a5001a67fab",
-          "date": "Thu Sep 5 06:58:44 2024 +0800",
-          "message": "Fix field name for ListMeta in API reference",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
         }
       ]
     }
@@ -50830,48 +50773,6 @@
       ]
     }
   },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha1.md": {
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha1.md",
-      "commits": [
-        {
-          "hash": "e73f5beac3bfa3e4e096f3601808d163102d6b5a",
-          "date": "Sun Sep 29 15:29:21 2024 +0800",
-          "message": "[zh] Add an API doc: lease-candidate-v1alpha1.md",
-          "author": "windsonsea"
-        }
-      ]
-    },
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha1.md",
-      "commits": [
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "ace0f356a17709ef44e68587164ba1fbf73dcb9f",
-          "date": "Tue Jul 30 12:59:15 2024 -0700",
-          "message": "Merge pull request #46982 from Jefftree/cle",
-          "author": "Kubernetes Prow Robot"
-        },
-        {
-          "hash": "856df61cb3300d523879630ccdfb895a20cdbaca",
-          "date": "Tue Jul 30 12:34:26 2024 -0700",
-          "message": "Merge pull request #44311 from apeabody/patch-1",
-          "author": "Kubernetes Prow Robot"
-        }
-      ]
-    }
-  },
   "content/en/docs/reference/kubernetes-api/authorization-resources/self-subject-access-review-v1.md": {
     "zh-cn": {
       "path": "content/zh-cn/docs/reference/kubernetes-api/authorization-resources/self-subject-access-review-v1.md",
@@ -51901,96 +51802,6 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1alpha3.md": {
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "d62f44ba6347db0913e5072d985e498cfb5deecd",
-          "date": "Wed Sep 4 09:55:07 2024 +0800",
-          "message": "[zh] Sync resource-claim-template-v1alpha3.md",
-          "author": "windsonsea"
-        }
-      ]
-    },
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/pod-scheduling-context-v1alpha3.md": {
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-scheduling-context-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "88988dc020d322a30c80247cf59305c8e3a6bef1",
-          "date": "Thu Sep 5 10:09:34 2024 +0800",
-          "message": "[zh] Add pod-scheduling-context-v1alpha3.md",
-          "author": "windsonsea"
-        }
-      ]
-    },
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/pod-scheduling-context-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1alpha3.md": {
-    "zh-cn": {
-      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "f91dc17fccf32dd70eb3d9fbc5f4a5a89e73d7f2",
-          "date": "Wed Sep 4 10:26:36 2024 +0800",
-          "message": "[zh] Add workload-resources/resource-claim-v1alpha3.md",
-          "author": "windsonsea"
-        }
-      ]
-    },
-    "en": {
-      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1alpha3.md",
-      "commits": [
-        {
-          "hash": "8ba98c79c169bb070416a685db63074847399df5",
-          "date": "Wed Aug 28 18:01:21 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
-        },
-        {
-          "hash": "890b36a496fb93c68efedc06385293ee35326df7",
-          "date": "Sat Aug 24 22:29:16 2024 +0800",
-          "message": "Update generated API reference for v1.31",
-          "author": "Qiming Teng"
         }
       ]
     }
@@ -53171,6 +52982,12 @@
           "date": "Sat Aug 17 15:44:18 2024 +0800",
           "message": "update kubeadm reference for v1.31",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "881fa11a774e07ab7ecd7048f3c02a6d530ddfa8",
+          "date": "Thu Apr 24 08:06:21 2025 +0800",
+          "message": "Update kubeadm reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -53900,6 +53717,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -54817,6 +54640,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55111,6 +54940,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55279,6 +55114,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55321,6 +55162,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55363,6 +55210,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55447,6 +55300,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55489,6 +55348,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55531,6 +55396,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -55657,6 +55528,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56203,6 +56080,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56245,6 +56128,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56287,6 +56176,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56329,6 +56224,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56371,6 +56272,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56761,6 +56668,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56845,6 +56758,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -56887,6 +56806,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -57013,6 +56938,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -57889,6 +57820,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -57973,6 +57910,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -58351,6 +58294,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -58447,6 +58396,12 @@
           "date": "Sat Jan 6 10:26:14 2024 +0100",
           "message": "Merge pull request #44642 from windsonsea/feanew",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "80481646c3dfa233c9c7383b371ae5bdabafc273",
+          "date": "Thu Apr 24 08:03:47 2025 +0800",
+          "message": "kubectl reference for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -58747,6 +58702,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "afa2e6c071a9fd6920f491155762e72d9d6d1bba",
+          "date": "Thu Apr 24 07:46:33 2025 -0700",
+          "message": "Merge pull request #50625 from my-git9/npa-9872",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -68645,6 +68606,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "afa2e6c071a9fd6920f491155762e72d9d6d1bba",
+          "date": "Thu Apr 24 07:46:33 2025 -0700",
+          "message": "Merge pull request #50625 from my-git9/npa-9872",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -71355,6 +71322,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "afa2e6c071a9fd6920f491155762e72d9d6d1bba",
+          "date": "Thu Apr 24 07:46:33 2025 -0700",
+          "message": "Merge pull request #50625 from my-git9/npa-9872",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -72800,6 +72773,17 @@
           "author": "Aaron Prindle"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/using-api/declarative-validation.md",
+      "commits": [
+        {
+          "hash": "454ccaca6e0505dc38894cb940d7aae3b8fa0eea",
+          "date": "Thu Apr 24 10:29:51 2025 +0800",
+          "message": "[zh-cn]sync declarative-validation.md",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md": {
@@ -72894,6 +72878,156 @@
           "hash": "af7cde73257893e016bd961e6a9f8f0e378b7069",
           "date": "Thu Feb 20 02:14:27 2025 -0800",
           "message": "Merge pull request #49824 from soltysh/subresource_docs",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md": {
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md",
+      "commits": [
+        {
+          "hash": "d02247e25992f1f98c7746812512c19e201763ca",
+          "date": "Thu Apr 24 05:26:33 2025 -0700",
+          "message": "Merge pull request #50607 from windsonsea/servyhf",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1beta1.md": {
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1beta1.md",
+      "commits": [
+        {
+          "hash": "4e215e3d475a9ab18c840a3a25a432099b90160b",
+          "date": "Thu Apr 24 20:03:58 2025 +0800",
+          "message": "[zh-cn]sync cluster-trust-bundle-v1beta1 ip-address-v1",
+          "author": "xin.li"
+        }
+      ]
+    },
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1beta1.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/cluster-resources/ip-address-v1.md": {
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/cluster-resources/ip-address-v1.md",
+      "commits": [
+        {
+          "hash": "4e215e3d475a9ab18c840a3a25a432099b90160b",
+          "date": "Thu Apr 24 20:03:58 2025 +0800",
+          "message": "[zh-cn]sync cluster-trust-bundle-v1beta1 ip-address-v1",
+          "author": "xin.li"
+        }
+      ]
+    },
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/ip-address-v1.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1beta1.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1beta1.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta2.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta2.md",
+      "commits": [
+        {
+          "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
+          "date": "Wed Apr 23 19:00:31 2025 -0700",
+          "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
           "author": "Kubernetes Prow Robot"
         }
       ]

@@ -43,12 +43,6 @@
       "zh-cn"
     ]
   },
-  "content/en/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1alpha1.md": {
-    "langs": [
-      "en",
-      "zh-cn"
-    ]
-  },
   "content/en/docs/reference/kubernetes-api/authentication-resources/service-account-v1.md": {
     "langs": [
       "en",
@@ -91,17 +85,6 @@
       "zh-cn"
     ]
   },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/ip-address-v1beta1.md": {
-    "langs": [
-      "en",
-      "zh-cn"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha2.md": {
-    "langs": [
-      "en"
-    ]
-  },
   "content/en/docs/reference/kubernetes-api/cluster-resources/lease-v1.md": {
     "langs": [
       "en",
@@ -121,12 +104,6 @@
     ]
   },
   "content/en/docs/reference/kubernetes-api/cluster-resources/runtime-class-v1.md": {
-    "langs": [
-      "en",
-      "zh-cn"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1beta1.md": {
     "langs": [
       "en",
       "zh-cn"
@@ -217,12 +194,6 @@
     ]
   },
   "content/en/docs/reference/kubernetes-api/extend-resources/custom-resource-definition-v1.md": {
-    "langs": [
-      "en",
-      "zh-cn"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta1.md": {
     "langs": [
       "en",
       "zh-cn"
@@ -401,22 +372,6 @@
     ]
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/replication-controller-v1.md": {
-    "langs": [
-      "en",
-      "zh-cn"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta1.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta1.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta1.md": {
     "langs": [
       "en",
       "zh-cn"
@@ -3993,12 +3948,6 @@
       "en"
     ]
   },
-  "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1alpha3.md": {
-    "langs": [
-      "en",
-      "zh-cn"
-    ]
-  },
   "content/en/docs/reference/glossary/node-pressure-eviction.md": {
     "langs": [
       "ja",
@@ -4177,12 +4126,6 @@
       "fr",
       "es",
       "ja",
-      "zh-cn",
-      "en"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1alpha3.md": {
-    "langs": [
       "zh-cn",
       "en"
     ]
@@ -4464,12 +4407,6 @@
       "en"
     ]
   },
-  "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha1.md": {
-    "langs": [
-      "zh-cn",
-      "en"
-    ]
-  },
   "content/en/docs/reference/kubernetes-api/authorization-resources/self-subject-access-review-v1.md": {
     "langs": [
       "zh-cn",
@@ -4556,24 +4493,6 @@
       "fr",
       "zh-cn",
       "ko",
-      "en"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1alpha3.md": {
-    "langs": [
-      "zh-cn",
-      "en"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/pod-scheduling-context-v1alpha3.md": {
-    "langs": [
-      "zh-cn",
-      "en"
-    ]
-  },
-  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1alpha3.md": {
-    "langs": [
-      "zh-cn",
       "en"
     ]
   },
@@ -6843,7 +6762,8 @@
   },
   "content/en/docs/reference/using-api/declarative-validation.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md": {
@@ -6877,6 +6797,54 @@
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md": {
+    "langs": [
+      "zh-cn",
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1beta1.md": {
+    "langs": [
+      "zh-cn",
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/cluster-resources/ip-address-v1.md": {
+    "langs": [
+      "zh-cn",
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1beta1.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta2.md": {
     "langs": [
       "en"
     ]

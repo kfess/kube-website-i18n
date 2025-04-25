@@ -4623,6 +4623,12 @@
           "date": "Fri Oct 9 20:36:52 2020 +0900",
           "message": "Move content/ja/docs/concepts/configuration/assign-pod-node.md to content/ja/docs/concepts/scheduling-eviction/assign-pod-node.md",
           "author": "hikkie3110"
+        },
+        {
+          "hash": "f1bfa64fac771d8a4767223a0538002bf2f9d4fc",
+          "date": "Thu Apr 24 00:36:59 2025 +0300",
+          "message": "[ja] Update API version",
+          "author": "Arhell"
         }
       ]
     },
@@ -5231,6 +5237,12 @@
           "date": "Sat Mar 15 07:05:47 2025 +0900",
           "message": "[ja] Translate content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md into Japanese (#49776)",
           "author": "Kohei Sugimoto"
+        },
+        {
+          "hash": "f1bfa64fac771d8a4767223a0538002bf2f9d4fc",
+          "date": "Thu Apr 24 00:36:59 2025 +0300",
+          "message": "[ja] Update API version",
+          "author": "Arhell"
         }
       ]
     },
@@ -5350,6 +5362,12 @@
           "hash": "ddb78b1906af647e3931a69547e6465a350ee663",
           "date": "Sun Mar 30 16:41:53 2025 +0800",
           "message": "[zh-cn]sync assign-pod-node topology-spread-constraints user-namespaces",
+          "author": "xin.li"
+        },
+        {
+          "hash": "dc259f737be69d7274967b488323fd54070b8c55",
+          "date": "Thu Apr 24 13:20:02 2025 +0800",
+          "message": "[zh-cn]sync user-namespaces admission-controllers",
           "author": "xin.li"
         }
       ]
@@ -13803,6 +13821,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "bcd341ba174af0fb638f31c5ab9b4835d2de88f5",
+          "date": "Thu Apr 24 06:24:31 2025 -0700",
+          "message": "Merge pull request #50642 from my-git9/npa-23662",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -14213,6 +14237,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "bcd341ba174af0fb638f31c5ab9b4835d2de88f5",
+          "date": "Thu Apr 24 06:24:31 2025 -0700",
+          "message": "Merge pull request #50642 from my-git9/npa-23662",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -16942,6 +16972,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3afa6a4ccbbb417e6cd116985edbae49bde404b1",
+          "date": "Wed Apr 23 19:52:29 2025 -0700",
+          "message": "Merge pull request #50611 from jayeshmahajan/jm/hi-example-guestbook-app",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -18661,6 +18697,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef671cd8a8d085f3ebcf8262ef2003ab40149cf6",
+          "date": "Thu Apr 24 11:01:47 2025 +0800",
+          "message": "[zh-cn]sync images.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -32948,6 +32990,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "be80b5bc2f64b21021c76463d9a1883fd670dbf0",
+          "date": "Thu Apr 24 09:24:31 2025 +0800",
+          "message": "[zh] Sync services-networking/service.md and windows-networking.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -46023,6 +46071,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3afa6a4ccbbb417e6cd116985edbae49bde404b1",
+          "date": "Wed Apr 23 19:52:29 2025 -0700",
+          "message": "Merge pull request #50611 from jayeshmahajan/jm/hi-example-guestbook-app",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -59605,6 +59659,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "be80b5bc2f64b21021c76463d9a1883fd670dbf0",
+          "date": "Thu Apr 24 09:24:31 2025 +0800",
+          "message": "[zh] Sync services-networking/service.md and windows-networking.md",
+          "author": "windsonsea"
         }
       ]
     },

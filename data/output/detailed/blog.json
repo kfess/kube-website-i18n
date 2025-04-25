@@ -1,4 +1,49 @@
 {
+  "content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md",
+      "commits": [
+        {
+          "hash": "f66c834428fb059055f8b16449646969ad5ca2da",
+          "date": "Tue Apr 22 16:01:31 2025 +0100",
+          "message": "Schedule KEP-4951 blog for publication",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md",
+      "commits": [
+        {
+          "hash": "d4d4abb3034d3233e9c14c26a014013f69e95d43",
+          "date": "Tue Apr 22 23:22:51 2025 +0000",
+          "message": "Schedule KEP-127 blog for publication",
+          "author": "Agustina Barbetta"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-24-endpoints-deprecation.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-24-endpoints-deprecation.md",
+      "commits": [
+        {
+          "hash": "d7ea5325d4aa2871be5a52661415cb4a59fa5617",
+          "date": "Tue Apr 22 17:39:38 2025 +0100",
+          "message": "Correct KEP link",
+          "author": "Ryota"
+        },
+        {
+          "hash": "fb3ceafb442905ca83718773c5df1f778af0463c",
+          "date": "Tue Apr 22 15:56:38 2025 +0100",
+          "message": "Schedule KEP-4974 blog for publication",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md",
@@ -20,19 +65,12 @@
           "date": "Tue Apr 22 11:52:47 2025 +0100",
           "message": "Remove draft flag to publish release announcement",
           "author": "Ryota"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-04-23-userns-enabled-by-default/index.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-04-23-userns-enabled-by-default/index.md",
-      "commits": [
+        },
         {
-          "hash": "5c6020200fa15ce4af217f91e928d308b1e55f06",
-          "date": "Tue Apr 22 07:07:41 2025 -0700",
-          "message": "Merge pull request #49976 from danwinship/endpoints-blog",
-          "author": "Kubernetes Prow Robot"
+          "hash": "78335f7681f8a8c13354f9c170a4be70a5499e36",
+          "date": "Thu Apr 24 03:07:24 2025 +0100",
+          "message": "Correct hyphenation for \"open source\"",
+          "author": "Ryota"
         }
       ]
     }
@@ -65,6 +103,17 @@
           "date": "Wed Mar 26 14:10:41 2025 +0100",
           "message": "Update kube scheduler simulator folder pathName",
           "author": "Graziano Casto"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md",
+      "commits": [
+        {
+          "hash": "5016ee51de497077f819d4ce4b797b3d450644f0",
+          "date": "Sat Mar 29 15:59:59 2025 +0800",
+          "message": "[zh-cn] Add blog: 2025-04-07-kube-scheduler-simulator",
+          "author": "xin.li"
         }
       ]
     }
@@ -25078,68 +25127,6 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-XX-XX-endpoints-deprecation.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-XX-XX-endpoints-deprecation.md",
-      "commits": [
-        {
-          "hash": "f6f389f25b0cf7c6bc9ca162ee219b0719a14631",
-          "date": "Thu Feb 27 09:45:47 2025 -0500",
-          "message": "blog post about Endpoints deprecation",
-          "author": "Dan Winship"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md": {
-    "en": {
-      "path": "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md",
-      "commits": [
-        {
-          "hash": "3408bccabeedd1e248bc8b81863258c0561e7328",
-          "date": "Thu Mar 20 10:58:53 2025 -0400",
-          "message": "Update metadata to align with other articles",
-          "author": "jm-franc"
-        },
-        {
-          "hash": "30fc1259ee4488f2cf8f4ee625ccce32d0196bc0",
-          "date": "Tue Mar 18 14:52:21 2025 -0400",
-          "message": "Improved example following review.",
-          "author": "Jean-Marc François"
-        },
-        {
-          "hash": "05d813118f2b5c6c1ab617eb3208dd146a262b3a",
-          "date": "Tue Mar 18 14:15:44 2025 -0400",
-          "message": "Updates following review (small fixes, added example).",
-          "author": "Jean-Marc François"
-        },
-        {
-          "hash": "e0b07828a5a2140aeeb7d505fa9200c77ce07808",
-          "date": "Tue Mar 18 12:25:47 2025 -0400",
-          "message": "Merge branch 'kubernetes:main' into configurable-tolerance-blog",
-          "author": "jm-franc"
-        },
-        {
-          "hash": "fae8cf5d5d703a21c0a94b18122a04146d630ec4",
-          "date": "Tue Mar 4 16:16:14 2025 -0500",
-          "message": "Update following review.",
-          "author": "Jean-Marc François"
-        },
-        {
-          "hash": "f0e06919590726a05cdc371b315ed63dc8bd0a5d",
-          "date": "Tue Mar 4 16:02:24 2025 -0500",
-          "message": "Merge branch 'kubernetes:main' into configurable-tolerance-blog",
-          "author": "jm-franc"
-        },
-        {
-          "hash": "230c74dc256c0229c0d50435751e94059f10700f",
-          "date": "Tue Mar 4 11:18:18 2025 -0500",
-          "message": "Add HPA 'configurable tolerance' blog post (KEP-4951).",
-          "author": "Jean-Marc François"
         }
       ]
     }

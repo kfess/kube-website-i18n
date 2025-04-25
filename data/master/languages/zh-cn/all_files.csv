@@ -329,6 +329,7 @@ content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/nftables-only.svg
 content/zh-cn/blog/_posts/2025-03-12-sig-apps-spotlight.md
 content/zh-cn/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/zh-cn/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
+content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/zh-cn/case-studies/_index.html
 content/zh-cn/case-studies/adform/adform_featured_logo.png
@@ -1464,7 +1465,7 @@ content/zh-cn/docs/reference/kubectl/quick-reference.md
 content/zh-cn/docs/reference/kubernetes-api/_index.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/_index.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/certificate-signing-request-v1.md
-content/zh-cn/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1alpha1.md
+content/zh-cn/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1beta1.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/self-subject-review-v1.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/service-account-v1.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/token-request-v1.md
@@ -1482,13 +1483,13 @@ content/zh-cn/docs/reference/kubernetes-api/cluster-resources/_index.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/api-service-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/component-status-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/event-v1.md
-content/zh-cn/docs/reference/kubernetes-api/cluster-resources/ip-address-v1beta1.md
+content/zh-cn/docs/reference/kubernetes-api/cluster-resources/ip-address-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/namespace-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/node-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/runtime-class-v1.md
-content/zh-cn/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1beta1.md
+content/zh-cn/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md
 content/zh-cn/docs/reference/kubernetes-api/common-definitions/_index.md
 content/zh-cn/docs/reference/kubernetes-api/common-definitions/delete-options.md
 content/zh-cn/docs/reference/kubernetes-api/common-definitions/label-selector.md
@@ -1519,7 +1520,6 @@ content/zh-cn/docs/reference/kubernetes-api/config-and-storage-resources/volume-
 content/zh-cn/docs/reference/kubernetes-api/config-and-storage-resources/volume.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/_index.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/custom-resource-definition-v1.md
-content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1beta1.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/mutating-webhook-configuration-v1.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/validating-webhook-configuration-v1.md
@@ -1734,6 +1734,7 @@ content/zh-cn/docs/reference/using-api/_index.md
 content/zh-cn/docs/reference/using-api/api-concepts.md
 content/zh-cn/docs/reference/using-api/cel.md
 content/zh-cn/docs/reference/using-api/client-libraries.md
+content/zh-cn/docs/reference/using-api/declarative-validation.md
 content/zh-cn/docs/reference/using-api/deprecation-guide.md
 content/zh-cn/docs/reference/using-api/deprecation-policy.md
 content/zh-cn/docs/reference/using-api/health-checks.md
@@ -2199,6 +2200,7 @@ content/zh-cn/examples/pods/commands.yaml
 content/zh-cn/examples/pods/config/example-redis-config.yaml
 content/zh-cn/examples/pods/config/redis-config
 content/zh-cn/examples/pods/config/redis-pod.yaml
+content/zh-cn/examples/pods/image-volumes-subpath.yaml
 content/zh-cn/examples/pods/image-volumes.yaml
 content/zh-cn/examples/pods/init-containers.yaml
 content/zh-cn/examples/pods/inject/dapi-envars-container.yaml
