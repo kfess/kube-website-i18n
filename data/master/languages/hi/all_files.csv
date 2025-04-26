@@ -135,6 +135,13 @@ content/hi/examples/application/job/redis/redis-pod.yaml
 content/hi/examples/application/job/redis/redis-service.yaml
 content/hi/examples/application/job/redis/rediswq.py
 content/hi/examples/application/job/redis/worker.py
+content/hi/examples/application/mongodb/mongo-deployment.yaml
+content/hi/examples/application/mongodb/mongo-service.yaml
+content/hi/examples/application/mysql/mysql-configmap.yaml
+content/hi/examples/application/mysql/mysql-deployment.yaml
+content/hi/examples/application/mysql/mysql-pv.yaml
+content/hi/examples/application/mysql/mysql-services.yaml
+content/hi/examples/application/mysql/mysql-statefulset.yaml
 content/hi/includes/index.md
 content/hi/includes/task-tutorial-prereqs.md
 content/hi/releases/_index.md

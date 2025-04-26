@@ -13858,6 +13858,12 @@
           "date": "Wed Nov 13 10:37:48 2024 +0800",
           "message": "[zh] Add reference/node/kubelet-files.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "afc8753c8d565211807270f3199b193fdb66b575",
+          "date": "Thu Apr 24 09:50:09 2025 +0800",
+          "message": "[zh] Sync node/kubelet-files.md and kernel-version-requirements.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -21405,6 +21411,12 @@
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -21680,6 +21692,12 @@
           "hash": "29cd7676a6fc8b7570b5998c990c5d0af123a52c",
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
+          "author": "windsonsea"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
           "author": "windsonsea"
         }
       ]
@@ -23319,6 +23337,12 @@
           "date": "Wed Aug 28 02:44:56 2024 +0100",
           "message": "Merge pull request #47704 from Arhell/zh-fix",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "afc8753c8d565211807270f3199b193fdb66b575",
+          "date": "Thu Apr 24 09:50:09 2025 +0800",
+          "message": "[zh] Sync node/kubelet-files.md and kernel-version-requirements.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -26077,6 +26101,12 @@
           "date": "Wed Apr 23 23:52:31 2025 -0700",
           "message": "Merge pull request #50550 from enchant3dmango/docs/new-id-localization-proposal",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "0bffd97d999788e33c6a7c10adc1d3410d22bf72",
+          "date": "Thu Apr 24 21:19:46 2025 +0800",
+          "message": "[zh] Sync command-line-tools-reference/kube-scheduler.md",
+          "author": "Michael"
         }
       ]
     },
@@ -27061,6 +27091,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -27259,6 +27295,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -27313,6 +27355,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -27631,6 +27679,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -27715,6 +27769,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -27793,6 +27853,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -27967,6 +28033,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28687,6 +28759,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28717,6 +28795,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28759,6 +28843,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28957,6 +29047,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -29059,6 +29155,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -29449,6 +29551,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -29791,6 +29899,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -29821,6 +29935,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30091,6 +30211,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30433,6 +30559,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30463,6 +30595,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30487,6 +30625,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30637,6 +30781,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30667,6 +30817,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30697,6 +30853,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30829,6 +30991,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -30853,6 +31021,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -38607,6 +38781,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "7fd0f49fd36817714276df17934c3b7bebfbe98e",
+          "date": "Thu Apr 24 21:13:05 2025 +0800",
+          "message": "[zh] Sync command-line-tools-reference/kube-proxy.md",
+          "author": "Michael"
         }
       ]
     },
@@ -38942,6 +39122,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "75bf51bd117c07cda5c57efa5c85f5688cbfc0f4",
+          "date": "Thu Apr 24 22:26:31 2025 +0800",
+          "message": "[zh] Sync command-line-tools-reference/kube-controller-manager.md",
+          "author": "Michael"
         }
       ]
     },
@@ -47434,6 +47620,12 @@
           "date": "Fri Dec 16 20:51:41 2022 -0800",
           "message": "Merge pull request #38497 from samos123/fix-38495-validation-admission-policy",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "8e80018ca4df459dd7ca8b55f2e1aa623ea2ee46",
+          "date": "Fri Apr 25 06:52:31 2025 -0700",
+          "message": "Merge pull request #50669 from windsonsea/virips",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -50175,6 +50367,12 @@
           "date": "Thu Mar 9 08:36:01 2023 -0800",
           "message": "Merge pull request #39642 from jpbetz/cel-docs",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9e578ee7ae4a36925ed626a57db3fdc8df2dd07d",
+          "date": "Sun Apr 6 09:13:10 2025 +0800",
+          "message": "Rework CEL page to use HTML table rather than Markdown table",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -72598,6 +72796,17 @@
           "author": "Patrick Ohly"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md",
+      "commits": [
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md": {
@@ -72624,6 +72833,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md",
+      "commits": [
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md": {
@@ -72637,6 +72857,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md",
+      "commits": [
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md": {
@@ -72648,6 +72879,17 @@
           "date": "Mon Apr 7 18:00:53 2025 -0700",
           "message": "Merge pull request #49801 from cupnes/add-storage-capacity-scoring",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md",
+      "commits": [
+        {
+          "hash": "438283a9932b0265363e700296eab6bfd202c0bd",
+          "date": "Thu Apr 24 14:03:40 2025 +0800",
+          "message": "[zh] Update feature-gates/A*.md to D*.md",
+          "author": "windsonsea"
         }
       ]
     }
@@ -72674,6 +72916,17 @@
           "date": "Tue Mar 25 22:40:31 2025 +0000",
           "message": "Kubelet PSI metrics documentation",
           "author": "Haowei Cai"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md",
+      "commits": [
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     }
@@ -72797,6 +73050,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md",
+      "commits": [
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md": {
@@ -72816,6 +73080,17 @@
           "author": "Jean-Marc François"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md",
+      "commits": [
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md": {
@@ -72827,6 +73102,17 @@
           "date": "Tue Mar 25 14:22:02 2025 +0000",
           "message": "Add documentation for Alpha feature: MutableCSINodeAllocatableCount",
           "author": "torredil"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md",
+      "commits": [
+        {
+          "hash": "b620acb5ad9185ec68f60f9d7864a3de7528d667",
+          "date": "Thu Apr 24 14:19:59 2025 +0800",
+          "message": "[zh] Sync feature-gates/H*.md to M*.md",
+          "author": "windsonsea"
         }
       ]
     }
@@ -72966,6 +73252,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1beta1.md",
+      "commits": [
+        {
+          "hash": "965205e83f8d839730e78e980e91d5efba189c4c",
+          "date": "Fri Apr 25 09:03:33 2025 +0800",
+          "message": "[zh] Sync lease-candidate-v1beta1.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md": {
@@ -72977,6 +73274,17 @@
           "date": "Wed Apr 23 19:00:31 2025 -0700",
           "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md",
+      "commits": [
+        {
+          "hash": "fce31f36603ed91bb53a67d59bd535133aa7e28a",
+          "date": "Fri Apr 25 09:16:48 2025 +0800",
+          "message": "[zh] Sync device-class-v1beta2.md",
+          "author": "windsonsea"
         }
       ]
     }

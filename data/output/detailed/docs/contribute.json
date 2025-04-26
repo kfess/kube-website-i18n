@@ -1097,6 +1097,12 @@
           "date": "Sun Jan 26 20:37:03 2020 +0100",
           "message": "Add Polish translation of Contribute index page (#18775)",
           "author": "Maciej Filocha"
+        },
+        {
+          "hash": "192fd4685fd4c4919bf1f917f7fea5e7cd689acb",
+          "date": "Tue Apr 22 19:11:49 2025 +0200",
+          "message": "[pl] sync with PR #50092",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -1848,6 +1854,12 @@
           "date": "Thu Mar 20 18:06:31 2025 -0700",
           "message": "Merge pull request #50139 from my-git9/np-15561",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "192fd4685fd4c4919bf1f917f7fea5e7cd689acb",
+          "date": "Tue Apr 22 19:11:49 2025 +0200",
+          "message": "[pl] sync with PR #50092",
+          "author": "dkarczmarski"
         }
       ]
     }
@@ -3435,6 +3447,12 @@
           "hash": "e6ae43ef48c7eec18208ef8f89fcca3ebce00e54",
           "date": "Mon Feb 10 20:57:12 2025 +0100",
           "message": "[pl] docs/contribute/suggesting-improvements.md",
+          "author": "dkarczmarski"
+        },
+        {
+          "hash": "192fd4685fd4c4919bf1f917f7fea5e7cd689acb",
+          "date": "Tue Apr 22 19:11:49 2025 +0200",
+          "message": "[pl] sync with PR #50092",
           "author": "dkarczmarski"
         }
       ]

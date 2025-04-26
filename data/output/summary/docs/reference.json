@@ -6697,7 +6697,8 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md": {
@@ -6707,17 +6708,20 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md": {
@@ -6727,7 +6731,8 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md": {
@@ -6768,17 +6773,20 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md": {
@@ -6821,12 +6829,14 @@
   },
   "content/en/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1beta1.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md": {

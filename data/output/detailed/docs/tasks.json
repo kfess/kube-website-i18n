@@ -42465,6 +42465,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c890dfad1b71655bbba7fa242cc56b827ee8f958",
+          "date": "Wed Apr 16 16:56:01 2025 +0800",
+          "message": "[zh] Add text to: configure-persistent-volume-storage.md",
+          "author": "windsonsea"
         }
       ]
     },

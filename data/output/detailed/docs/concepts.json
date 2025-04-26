@@ -38248,6 +38248,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "51b32a8885dbc036accd3f0a1827594a8a90c148",
+          "date": "Thu Apr 24 10:39:13 2025 +0800",
+          "message": "[zh] Sync policy/resource-quotas.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -55891,6 +55897,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "b05bba596b036da8bf02c98ee55a7067916ec9ea",
+          "date": "Thu Apr 24 10:28:51 2025 +0800",
+          "message": "[zh] Sync services-networking/endpoint-slices.md",
+          "author": "windsonsea"
         }
       ]
     },
