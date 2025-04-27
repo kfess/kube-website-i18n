@@ -1009,6 +1009,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/NodeSwap
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/NonPreemptingPriority.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OpenAPIEnums.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OpenAPIV3.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PDBUnhealthyPodEvictionPolicy.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PVCProtection.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PersistentLocalVolumes.md
@@ -1025,6 +1026,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLevel
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLifecycleSleepAction.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLifecycleSleepActionAllowZero.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLogsQuerySplitStreams.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodOverhead.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodPriority.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodReadinessGates.md
@@ -1032,8 +1034,10 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodReady
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodSchedulingReadiness.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodSecurity.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodShareProcessNamespace.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PortForwardWebsockets.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PreferNominatedNode.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ProbeTerminationGracePeriod.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ProcMountType.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ProxyTerminatingEndpoints.md
@@ -1042,6 +1046,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReadOnly
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReadWriteOncePod.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RecoverVolumeExpansionFailure.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RecursiveReadOnlyMounts.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RelaxedDNSSearchValidation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RelaxedEnvironmentVariableValidation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReloadKubeletServerCertificateFile.md
@@ -1067,6 +1072,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SELinuxM
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SELinuxMountReadWriteOncePod.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ScheduleDaemonSetPods.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerAsyncPreemption.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerQueueingHints.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SeccompDefault.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SecurityContextDeny.md
@@ -1099,6 +1105,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StartupP
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StatefulSetAutoDeletePVC.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StatefulSetMinReadySeconds.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StatefulSetStartOrdinal.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageNamespaceIndex.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageObjectInUseProtection.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageVersionAPI.md

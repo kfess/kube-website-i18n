@@ -92,6 +92,17 @@
           "author": "Ryota"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md",
+      "commits": [
+        {
+          "hash": "8477eac549cf99df3fd4335620ed392809fef67f",
+          "date": "Sat Apr 26 19:05:23 2025 +0900",
+          "message": "[ja] Translate \"Kubernetes v1.33: Octarine\" into Japanese (#50658)",
+          "author": "Taisuke Okamoto"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-23-storage-capacity-scoring.md": {

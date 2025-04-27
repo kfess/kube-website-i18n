@@ -6703,7 +6703,8 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md": {
@@ -6726,7 +6727,8 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md": {
@@ -6742,12 +6744,14 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md": {
@@ -6757,7 +6761,8 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md": {
@@ -6801,12 +6806,14 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md": {

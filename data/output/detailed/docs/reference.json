@@ -20067,6 +20067,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -20097,6 +20103,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -20175,6 +20187,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -20229,6 +20247,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -20421,6 +20445,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -20715,6 +20745,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -20769,6 +20805,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -21225,6 +21267,12 @@
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -21753,6 +21801,12 @@
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -21902,6 +21956,12 @@
           "hash": "29cd7676a6fc8b7570b5998c990c5d0af123a52c",
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
+          "author": "windsonsea"
+        },
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
           "author": "windsonsea"
         }
       ]
@@ -22113,6 +22173,12 @@
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -22184,6 +22250,12 @@
           "hash": "29cd7676a6fc8b7570b5998c990c5d0af123a52c",
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
+          "author": "windsonsea"
+        },
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
           "author": "windsonsea"
         }
       ]
@@ -22454,6 +22526,12 @@
           "hash": "29cd7676a6fc8b7570b5998c990c5d0af123a52c",
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
+          "author": "windsonsea"
+        },
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
           "author": "windsonsea"
         }
       ]
@@ -22892,6 +22970,12 @@
           "hash": "29cd7676a6fc8b7570b5998c990c5d0af123a52c",
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
+          "author": "windsonsea"
+        },
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
           "author": "windsonsea"
         }
       ]
@@ -72820,6 +72904,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md",
+      "commits": [
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md": {
@@ -72905,6 +73000,17 @@
           "author": "Dan Winship"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md",
+      "commits": [
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md": {
@@ -72955,6 +73061,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md",
+      "commits": [
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md": {
@@ -72966,6 +73083,17 @@
           "date": "Sun Apr 6 15:38:38 2025 -0700",
           "message": "Merge pull request #49886 from dshebib/2535-secret-pulled-images-alpha",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md",
+      "commits": [
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
+          "author": "windsonsea"
         }
       ]
     }
@@ -72992,6 +73120,17 @@
           "date": "Thu Apr 3 04:06:38 2025 -0700",
           "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md",
+      "commits": [
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
+          "author": "windsonsea"
         }
       ]
     }
@@ -73154,6 +73293,17 @@
           "author": "Rayan Das"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md",
+      "commits": [
+        {
+          "hash": "1308d9c503897ba9e785a874f8922415d31f1422",
+          "date": "Thu Apr 24 14:38:19 2025 +0800",
+          "message": "[zh] Sync feature-gates/N*.md to P*.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md": {
@@ -73165,6 +73315,17 @@
           "date": "Thu Feb 20 02:14:27 2025 -0800",
           "message": "Merge pull request #49824 from soltysh/subresource_docs",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md",
+      "commits": [
+        {
+          "hash": "a13abe3397d25a7c29565df14602f29f4e408948",
+          "date": "Thu Apr 24 15:40:08 2025 +0800",
+          "message": "[zh] Sync feature-gates/R*.md to S*.md",
+          "author": "windsonsea"
         }
       ]
     }
