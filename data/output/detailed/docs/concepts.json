@@ -12476,6 +12476,12 @@
           "date": "Mon Mar 24 17:09:01 2025 +0530",
           "message": "feat: add new page for self-healing",
           "author": "abhilasha2418"
+        },
+        {
+          "hash": "350a056f259949ead0efa5221df735adb1e6d1e3",
+          "date": "Tue Apr 15 17:54:30 2025 +0100",
+          "message": "Move where landing page self-healing refers to",
+          "author": "Tim Bannister"
         }
       ]
     }
@@ -16746,6 +16752,12 @@
           "date": "Fri Nov 29 15:40:58 2024 +0300",
           "message": "[ru] Localization of content/ru/docs/concepts/workloads/pods/_index.md (#45980)",
           "author": "Dmitry"
+        },
+        {
+          "hash": "84ebe34900cfc601cdb00d699bf999264fd23d73",
+          "date": "Sat Apr 26 20:11:24 2025 -0700",
+          "message": "Merge pull request #50694 from Arhell/ru-upd",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -31660,6 +31672,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "92de3191b9fe3e6d6efcebbea8181865a0cd1fa0",
+          "date": "Thu Apr 24 16:33:42 2025 +0800",
+          "message": "[zh] Sync cluster-administration/system-metrics.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -43894,6 +43912,18 @@
           "date": "Tue Mar 25 14:45:51 2025 +0100",
           "message": "Document .status.terminatingReplicas enabled by DeploymentPodReplacementPolicy feature",
           "author": "Filip Křepinský"
+        },
+        {
+          "hash": "7ae43e791cb50cac4fc0d5f365853431d6a74d18",
+          "date": "Tue Apr 15 17:55:39 2025 +0100",
+          "message": "Add note for localization teams",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "350a056f259949ead0efa5221df735adb1e6d1e3",
+          "date": "Tue Apr 15 17:54:30 2025 +0100",
+          "message": "Move where landing page self-healing refers to",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -64312,6 +64342,12 @@
           "date": "Wed Aug 14 09:54:40 2024 +0800",
           "message": "[zh] Add coordinated-leader-election.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "bb66a95c7de28697d6de4a4eded16c729409af44",
+          "date": "Sun Apr 27 02:02:27 2025 +0900",
+          "message": "[zh] sync concepts/cluster-administration/coordinated-leader-election.md",
+          "author": "KKtheGhost"
         }
       ]
     },

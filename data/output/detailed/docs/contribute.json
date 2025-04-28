@@ -3287,6 +3287,17 @@
           "author": "Tim Bannister"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/contribute/blog/guidelines.md",
+      "commits": [
+        {
+          "hash": "ddcd58076a1e76e7ad66c9969e804fd118aa0357",
+          "date": "Tue Apr 8 21:10:01 2025 +0800",
+          "message": "[zh-cn]sync contribute/blog/guidelines.md",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/blog/mirroring.md": {

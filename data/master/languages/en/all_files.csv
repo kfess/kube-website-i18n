@@ -768,6 +768,7 @@ content/en/blog/_posts/2025-02-28-nftables-kube-proxy/iptables-only.svg
 content/en/blog/_posts/2025-02-28-nftables-kube-proxy/iptables-vs-nftables.svg
 content/en/blog/_posts/2025-02-28-nftables-kube-proxy/ipvs-vs-nftables.svg
 content/en/blog/_posts/2025-02-28-nftables-kube-proxy/nftables-only.svg
+content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md
 content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md
 content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/stats.png
 content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/stats2.png
@@ -787,8 +788,11 @@ content/en/blog/_posts/2025-04-24-endpoints-deprecation.md
 content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md
 content/en/blog/_posts/2025-04-25-userns-enabled-by-default/userns-ids.xcf
 content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md
+content/en/blog/_posts/2025-05-01-image-volume-beta/index.md
+content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md
 content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
-content/en/blog/_posts/XXXX-XX-XX-dra-133-update.md
+content/en/blog/_posts/YYYY-MM-DD-streaming-list-responses/YYYY-MM-DD-streaming-list-responses.md
+content/en/blog/_posts/YYYY-MM-DD-streaming-list-responses/results.png
 content/en/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/en/case-studies/_index.html
 content/en/case-studies/adform/adform_featured_logo.png

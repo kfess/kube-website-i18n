@@ -3503,6 +3503,12 @@
           "date": "Fri Apr 11 21:58:18 2025 +0800",
           "message": "[zh-cn]sync config-and-storage-resources/volume.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "8201748ee24f76a27b8c4bafa0bab6c932f78f00",
+          "date": "Thu Apr 24 20:09:34 2025 +0800",
+          "message": "[zh-cn] sync lease-candidate-v1alpha1 config-and-storage-resources/volume",
+          "author": "xin.li"
         }
       ]
     }
@@ -37894,6 +37900,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f5672efaba17c580a03ba5c98e4bb8a53e1354fa",
+          "date": "Thu Apr 24 22:41:00 2025 +0800",
+          "message": "[zh] Sync command-line-tools-reference/kube-apiserver.md",
+          "author": "Michael"
         }
       ]
     },
@@ -53253,6 +53265,12 @@
           "date": "Tue Aug 27 10:00:58 2024 +0800",
           "message": "Sync kubeadm-upgrade and kubeadm-upgrade-phase and its dependencies",
           "author": "windsonsea"
+        },
+        {
+          "hash": "c7c14d281bc2ea4eebeafd597777f32dc928593a",
+          "date": "Thu Apr 24 23:06:48 2025 +0800",
+          "message": "[zh-cn] sync kubeadm_upgrade_plan.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -61657,6 +61675,12 @@
           "date": "Fri Apr 11 11:12:57 2025 +0700",
           "message": "id: translate issues-security into ID",
           "author": "za"
+        },
+        {
+          "hash": "4e1a1bd843c8936d997e820814ff2d0f36867ffd",
+          "date": "Thu Apr 24 12:34:47 2025 -0500",
+          "message": "Fix incorrect /security alias",
+          "author": "Anish Ramasekar"
         }
       ]
     }

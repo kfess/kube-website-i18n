@@ -18,6 +18,32 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md",
+      "commits": [
+        {
+          "hash": "1a69f97ddb0b395816189788aef595af2e3ababd",
+          "date": "Sun Apr 27 16:17:24 2025 -0700",
+          "message": "Merge pull request #50692 from jayeshmahajan/jm/hi-example-other-yaml",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-01-image-volume-beta/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-01-image-volume-beta/index.md",
+      "commits": [
+        {
+          "hash": "0630c9df73fa6b75bfbbf02b4891e0ea37209478",
+          "date": "Mon Mar 3 13:02:29 2025 +0100",
+          "message": "Feature blog 1.33: Image volumes graduate to beta",
+          "author": "Sascha Grunert"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md",
@@ -318,6 +344,43 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md",
+      "commits": [
+        {
+          "hash": "4745c4b26f5c7cd4dc1c6b68990028978ee2cfbf",
+          "date": "Thu Apr 24 16:29:06 2025 +0530",
+          "message": "Addressed review comments",
+          "author": "sreeram-venkitesh"
+        },
+        {
+          "hash": "6b104777a02b0df84e4c281adde99d80ae828d9e",
+          "date": "Fri Apr 18 15:44:47 2025 +0530",
+          "message": "Fixes from review",
+          "author": "sreeram-venkitesh"
+        },
+        {
+          "hash": "7231d0f11905bea5933add41bfa9d332d7309956",
+          "date": "Wed Apr 9 23:41:58 2025 +0530",
+          "message": "Nits",
+          "author": "Sreeram"
+        },
+        {
+          "hash": "fc6fa0fc1575e0746353eb16757d944f2ddf7d18",
+          "date": "Wed Apr 9 22:53:52 2025 +0530",
+          "message": "Added blog post for container lifecycle updates in v1.33",
+          "author": "Sreeram"
+        },
+        {
+          "hash": "fd11466bbd827efe5944eff2b0995ecf276eb66e",
+          "date": "Sat Mar 1 11:48:05 2025 +0530",
+          "message": "Added blog post about the container stop signals KEP",
+          "author": "Sreeram"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-02-28-nftables-kube-proxy/index.md": {
     "zh-cn": {
       "path": "content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/index.md",
@@ -436,6 +499,18 @@
           "date": "Sat Dec 7 06:14:00 2024 +0000",
           "message": "Merge pull request #48938 from hacktivist123/merged-main-dev-1.32",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a16cccca41d45ab49635183f58b2442520d125df",
+          "date": "Fri Apr 25 11:00:32 2025 -0400",
+          "message": "Apply suggestions from code review",
+          "author": "David Eads"
+        },
+        {
+          "hash": "3d83485cc799a776cefcb0c62e1c7a3667efb519",
+          "date": "Tue Apr 22 17:08:51 2025 -0400",
+          "message": "Update the streaming list blog to reflect disablement in 1.33",
+          "author": "David Eads"
         }
       ]
     },
@@ -25174,14 +25249,14 @@
       ]
     }
   },
-  "content/en/blog/_posts/XXXX-XX-XX-dra-133-update.md": {
+  "content/en/blog/_posts/YYYY-MM-DD-streaming-list-responses/YYYY-MM-DD-streaming-list-responses.md": {
     "en": {
-      "path": "content/en/blog/_posts/XXXX-XX-XX-dra-133-update.md",
+      "path": "content/en/blog/_posts/YYYY-MM-DD-streaming-list-responses/YYYY-MM-DD-streaming-list-responses.md",
       "commits": [
         {
-          "hash": "e87fe4bb1ddd97b39ac10c1182ec481e50f9767a",
-          "date": "Fri Apr 25 12:39:24 2025 -0700",
-          "message": "Merge pull request #49993 from mortent/dev-133-dra-prioritized-list-blog",
+          "hash": "e231b2f716c3c78c80f8328ac8c479afa67a8329",
+          "date": "Sun Apr 27 06:41:24 2025 -0700",
+          "message": "Merge pull request #50691 from KKtheGhost/sync/coordinated-leader-election",
           "author": "Kubernetes Prow Robot"
         }
       ]
