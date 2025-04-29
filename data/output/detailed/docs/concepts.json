@@ -20555,6 +20555,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "5812a5719a975386fff6bed9f28a09c7150a05cd",
+          "date": "Sun Apr 27 10:30:44 2025 +0700",
+          "message": "[zh-cn] sync pods/pod-lifecycle.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -23738,6 +23744,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a2a70ddeabc43eee4bdd9f01904ddbdf494f67fe",
+          "date": "Sun Apr 27 23:51:28 2025 -0700",
+          "message": "Merge pull request #50699 from Eason1118/patch-3",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -27171,6 +27183,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d9d139c999222b2b83d6e97d75022a8c6da17e5e",
+          "date": "Sun Apr 27 09:32:59 2025 +0700",
+          "message": "[zh-cn] sync container-lifecycle-hooks.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -43559,6 +43577,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a2a70ddeabc43eee4bdd9f01904ddbdf494f67fe",
+          "date": "Sun Apr 27 23:51:28 2025 -0700",
+          "message": "Merge pull request #50699 from Eason1118/patch-3",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -59862,6 +59886,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a82f0c891e64a120234a099646456c9e587276e1",
+          "date": "Sun Apr 27 17:57:25 2025 -0700",
+          "message": "Merge pull request #50696 from Eason1118/patch-1",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

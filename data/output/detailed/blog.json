@@ -18,6 +18,19 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-09-streaming-list-responses/2025-05-09-streaming-list-responses.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-09-streaming-list-responses/2025-05-09-streaming-list-responses.md",
+      "commits": [
+        {
+          "hash": "8259190f951d9d8cc70130a2bf5e3757a0829e6d",
+          "date": "Mon Apr 28 13:04:12 2025 -0400",
+          "message": "KEP 5116: updated for blog publication",
+          "author": "Sneha Yadav"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md",
@@ -31,28 +44,28 @@
       ]
     }
   },
-  "content/en/blog/_posts/2025-05-01-image-volume-beta/index.md": {
+  "content/en/blog/_posts/2025-04-30-image-volume-beta/index.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-01-image-volume-beta/index.md",
+      "path": "content/en/blog/_posts/2025-04-30-image-volume-beta/index.md",
       "commits": [
         {
-          "hash": "0630c9df73fa6b75bfbbf02b4891e0ea37209478",
-          "date": "Mon Mar 3 13:02:29 2025 +0100",
-          "message": "Feature blog 1.33: Image volumes graduate to beta",
-          "author": "Sascha Grunert"
+          "hash": "9bb8fc3bede6cb934fe58943396db123213c7b1e",
+          "date": "Mon Apr 28 12:48:32 2025 -0400",
+          "message": "KEP-4639: modified for blog publication #49984",
+          "author": "Sneha Yadav"
         }
       ]
     }
   },
-  "content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md": {
+  "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-04-29-hpa-configurable-tolerance.md",
+      "path": "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md",
       "commits": [
         {
-          "hash": "f66c834428fb059055f8b16449646969ad5ca2da",
-          "date": "Tue Apr 22 16:01:31 2025 +0100",
-          "message": "Schedule KEP-4951 blog for publication",
-          "author": "Ryota"
+          "hash": "36fec3f8ddb659901ac9c11431150c12efbadb81",
+          "date": "Mon Apr 28 06:51:56 2025 -0700",
+          "message": "Merge pull request #50714 from rytswd/update-slug-for-unpublished-blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -127,6 +140,19 @@
           "date": "Sat Apr 26 19:05:23 2025 +0900",
           "message": "[ja] Translate \"Kubernetes v1.33: Octarine\" into Japanese (#50658)",
           "author": "Taisuke Okamoto"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md",
+      "commits": [
+        {
+          "hash": "c6bc60a35c95663aafbe234d36ca5915a2c0156b",
+          "date": "Mon Apr 28 00:05:26 2025 -0700",
+          "message": "Merge pull request #50712 from windsonsea/virips",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -25245,19 +25271,6 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/YYYY-MM-DD-streaming-list-responses/YYYY-MM-DD-streaming-list-responses.md": {
-    "en": {
-      "path": "content/en/blog/_posts/YYYY-MM-DD-streaming-list-responses/YYYY-MM-DD-streaming-list-responses.md",
-      "commits": [
-        {
-          "hash": "e231b2f716c3c78c80f8328ac8c479afa67a8329",
-          "date": "Sun Apr 27 06:41:24 2025 -0700",
-          "message": "Merge pull request #50691 from KKtheGhost/sync/coordinated-leader-election",
-          "author": "Kubernetes Prow Robot"
         }
       ]
     }
