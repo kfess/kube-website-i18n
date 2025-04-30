@@ -5219,6 +5219,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "65a55cf82289b26f24d9b759ae1c3b151459c7e9",
+          "date": "Sat Apr 26 22:08:26 2025 +0800",
+          "message": "[zh-cn]sync debug-pods.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -7115,6 +7121,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "4eb7c1ec61c3c25f88ee1a134daf05df994d9ba2",
+          "date": "Sun Apr 27 10:41:22 2025 +0800",
+          "message": "sync horizontal-pod-autoscale",
+          "author": "xin gu"
         }
       ]
     },
@@ -33909,6 +33921,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "dc244d03902bd5580f5ee32c2b13a315549d0c1e",
+          "date": "Sat Apr 26 22:03:20 2025 +0800",
+          "message": "[zh-cn]sync custom-resource-definition-versioning.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -49993,6 +50011,17 @@
           "author": "Rémy Léone"
         }
       ]
+    },
+    "hi": {
+      "path": "content/hi/docs/tasks/tls/_index.md",
+      "commits": [
+        {
+          "hash": "c06476c5cfff90f98e2320298a2951fe403f46f7",
+          "date": "Fri Apr 18 23:37:04 2025 -0400",
+          "message": "Create _index.md",
+          "author": "Jayesh Mahajan"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/administer-cluster/manage-resources/_index.md": {
@@ -51222,6 +51251,83 @@
           "date": "Sun Jul 26 23:12:22 2020 +0900",
           "message": "Copy tasks/tls/certificate-rotation from en/ directory.",
           "author": "TAKAHASHI Shuuji"
+        }
+      ]
+    },
+    "hi": {
+      "path": "content/hi/docs/tasks/tls/certificate-rotation.md",
+      "commits": [
+        {
+          "hash": "e91aad0fb7bfdc979ece739e71dea7186d2d1c46",
+          "date": "Mon Apr 21 23:23:05 2025 -0400",
+          "message": "Update certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "19adb0c2bf172aecc619308c6649819c9c51f026",
+          "date": "Sat Apr 19 21:46:26 2025 -0400",
+          "message": "Update certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "1e5871fd8f893cfcdb9b6d49499d197b6e057191",
+          "date": "Sat Apr 19 21:46:03 2025 -0400",
+          "message": "Update certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "fa201f6d7678dcd5601dce1ff41752611a2ba799",
+          "date": "Sat Apr 19 21:27:30 2025 -0400",
+          "message": "Update content/hi/docs/tasks/tls/certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "1e1000da018e09ba4b8379290739ea20599cd1b4",
+          "date": "Sat Apr 19 15:05:01 2025 -0400",
+          "message": "Update certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "d25d4c54a2362d670506eba80ca8116b559fba4a",
+          "date": "Sat Apr 19 15:03:28 2025 -0400",
+          "message": "Update content/hi/docs/tasks/tls/certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "291901faf042e43f609232386ab82fe0c0486fb9",
+          "date": "Sat Apr 19 14:53:15 2025 -0400",
+          "message": "Update content/hi/docs/tasks/tls/certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "68a3bd0075f83c895921e896d65fe7dfd367211e",
+          "date": "Sat Apr 19 14:51:01 2025 -0400",
+          "message": "Update content/hi/docs/tasks/tls/certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "40189c0047c52ef78b0f5d413bddb32c73789f55",
+          "date": "Sat Apr 19 14:49:53 2025 -0400",
+          "message": "Update content/hi/docs/tasks/tls/certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "60910d7309876e32fdedc45c6468fa6b7d53c190",
+          "date": "Fri Apr 18 23:55:21 2025 -0400",
+          "message": "Update certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "73677020890c924d8884dd014b21a8b50c2f0b81",
+          "date": "Fri Apr 18 23:39:50 2025 -0400",
+          "message": "Update certificate-rotation.md",
+          "author": "Jayesh Mahajan"
+        },
+        {
+          "hash": "54a494d701e06419e1721c4d017e6796286c93e6",
+          "date": "Fri Apr 18 23:34:43 2025 -0400",
+          "message": "Create certificate-rotation.md",
+          "author": "Jayesh Mahajan"
         }
       ]
     }

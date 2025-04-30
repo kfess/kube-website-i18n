@@ -16,6 +16,17 @@
           "author": "Ryota"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md",
+      "commits": [
+        {
+          "hash": "2c5c1db77ac1d45225d89b3c374a3c1e516d354a",
+          "date": "Tue Apr 29 01:53:56 2025 -0700",
+          "message": "Merge pull request #50697 from asa3311/sync-zh-178",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/2025-05-09-streaming-list-responses.md": {
@@ -44,15 +55,34 @@
       ]
     }
   },
-  "content/en/blog/_posts/2025-04-30-image-volume-beta/index.md": {
+  "content/en/blog/_posts/2025-05-01-storage-capacity-scoring.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-04-30-image-volume-beta/index.md",
+      "path": "content/en/blog/_posts/2025-05-01-storage-capacity-scoring.md",
       "commits": [
         {
-          "hash": "9bb8fc3bede6cb934fe58943396db123213c7b1e",
-          "date": "Mon Apr 28 12:48:32 2025 -0400",
-          "message": "KEP-4639: modified for blog publication #49984",
-          "author": "Sneha Yadav"
+          "hash": "a6426d8965c0d2b1d8c1a2b7f722f14c79c23fa6",
+          "date": "Tue Apr 29 13:11:37 2025 +0100",
+          "message": "Schedule storage capacity scoring at 10.30 PST",
+          "author": "Ryota"
+        },
+        {
+          "hash": "e14a48a20548580e58e18e8eb278f9309937d94a",
+          "date": "Mon Apr 28 18:49:02 2025 +0530",
+          "message": "Removed draft status and updated publish date",
+          "author": "aakankshabhende"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md",
+      "commits": [
+        {
+          "hash": "3240ebc9b7559503c89b2ef943e488f0e7836eb5",
+          "date": "Tue Apr 29 13:11:06 2025 +0100",
+          "message": "Schedule image volume blog on 29th instead of 30th",
+          "author": "Ryota"
         }
       ]
     }
@@ -153,19 +183,6 @@
           "date": "Mon Apr 28 00:05:26 2025 -0700",
           "message": "Merge pull request #50712 from windsonsea/virips",
           "author": "Kubernetes Prow Robot"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-04-23-storage-capacity-scoring.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-04-23-storage-capacity-scoring.md",
-      "commits": [
-        {
-          "hash": "73f52ef24184c9f71d0886899e1f266626982b60",
-          "date": "Tue Mar 4 04:00:46 2025 +0000",
-          "message": "Add blog for StorageCapacityScoring feature",
-          "author": "Yuma Ogami"
         }
       ]
     }

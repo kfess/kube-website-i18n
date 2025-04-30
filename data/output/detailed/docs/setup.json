@@ -3821,6 +3821,35 @@
           "author": "inductor"
         }
       ]
+    },
+    "id": {
+      "path": "content/id/docs/setup/best-practices/cluster-large.md",
+      "commits": [
+        {
+          "hash": "0825ae2f1eea024d54147c6b3a2aa9e2e2140475",
+          "date": "Tue Apr 29 17:01:54 2025 -0700",
+          "message": "Merge pull request #50486 from shurup/kubecon2025-april",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9889a375b24b75e9b1e324a285f023fb7bca1fa8",
+          "date": "Sun Apr 27 21:56:49 2025 +0700",
+          "message": "Merge branch 'main' into id/translate-considerations-for-large-cluster-page",
+          "author": "ridwanbejo"
+        },
+        {
+          "hash": "b7467b6aa666df8607839c6405c09c138766a925",
+          "date": "Sun Apr 27 09:38:40 2025 +0700",
+          "message": "Merge branch 'main' into id/translate-considerations-for-large-cluster-page",
+          "author": "ridwanbejo"
+        },
+        {
+          "hash": "f1b4a9c1c5e93a538d3530aa857ea51ab4861102",
+          "date": "Sat Apr 26 10:35:26 2025 +0700",
+          "message": "Merge branch 'main' into id/translate-considerations-for-large-cluster-page",
+          "author": "ridwanbejo"
+        }
+      ]
     }
   },
   "content/en/docs/setup/production-environment/container-runtimes.md": {

@@ -48,7 +48,8 @@
       "zh-cn",
       "en",
       "ko",
-      "ja"
+      "ja",
+      "id"
     ]
   },
   "content/en/docs/setup/production-environment/container-runtimes.md": {

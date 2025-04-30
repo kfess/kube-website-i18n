@@ -1,7 +1,8 @@
 {
   "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/2025-05-09-streaming-list-responses.md": {
@@ -14,7 +15,12 @@
       "en"
     ]
   },
-  "content/en/blog/_posts/2025-04-30-image-volume-beta/index.md": {
+  "content/en/blog/_posts/2025-05-01-storage-capacity-scoring.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
     "langs": [
       "en"
     ]
@@ -41,11 +47,6 @@
     ]
   },
   "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/blog/_posts/2025-04-23-storage-capacity-scoring.md": {
     "langs": [
       "en"
     ]

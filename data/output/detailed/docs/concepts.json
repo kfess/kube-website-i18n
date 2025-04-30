@@ -12833,6 +12833,12 @@
           "date": "Mon Jan 22 11:50:49 2024 +0800",
           "message": "[zh-cn]localize content/zh-cn/docs/concepts/services-networking/gateway.md",
           "author": "howieyuen"
+        },
+        {
+          "hash": "7a435ecbabc734ffa119e8f208bd650366c29ed1",
+          "date": "Tue Apr 29 03:03:55 2025 -0700",
+          "message": "Merge pull request #50725 from my-git9/npa-11779",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -37007,6 +37013,12 @@
           "date": "Tue Feb 25 13:11:34 2025 -0500",
           "message": "KEP-4540: Move to beta",
           "author": "Jing Zhang"
+        },
+        {
+          "hash": "e3f6ed7988353dd33b09e951869581c5df01710f",
+          "date": "Tue Apr 29 21:39:56 2025 +0800",
+          "message": "[zh-cn]sync node-resource-managers.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -68608,6 +68620,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "0acd6dfc6da830de965de117a1c75115a8f8f4ad",
+          "date": "Mon Apr 28 18:01:54 2025 -0700",
+          "message": "Merge pull request #50721 from Arhell/zh-fix",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

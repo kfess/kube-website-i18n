@@ -2513,6 +2513,12 @@
           "date": "Wed Apr 16 08:54:14 2025 +0800",
           "message": "[zh] Sync csi-driver-v1, csi-node-v1, csi-storage-capacity-v1",
           "author": "windsonsea"
+        },
+        {
+          "hash": "9096abfb43e5da95dd2c9f8d1175fbef865f95de",
+          "date": "Thu Apr 24 23:12:21 2025 +0800",
+          "message": "[zh-cn]sync csi-driver-v1",
+          "author": "xin.li"
         }
       ]
     }
@@ -4339,6 +4345,12 @@
           "date": "Mon Apr 14 13:53:16 2025 +0800",
           "message": "[zh] Sync policy-resources/*",
           "author": "windsonsea"
+        },
+        {
+          "hash": "c17e9a72d8d373f78482dd9a9d4c5d2b837f427d",
+          "date": "Tue Apr 29 16:23:55 2025 -0700",
+          "message": "Merge pull request #50731 from my-git9/npa-31111",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -5905,6 +5917,12 @@
           "date": "Sat Apr 12 11:37:20 2025 +0800",
           "message": "[zh-cn]sync horizontal-pod-autoscaler-* job-v1",
           "author": "xin.li"
+        },
+        {
+          "hash": "24e67bc87e3fff21f70a06fad8a99e4d8dde6846",
+          "date": "Thu Apr 24 23:04:15 2025 +0800",
+          "message": "[zh-cn]sync horizontal-pod-autoscaler-v2.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -6072,6 +6090,12 @@
           "hash": "21d119a6a99befc54de486b4776a7b902e7d60cb",
           "date": "Sat Apr 12 11:37:20 2025 +0800",
           "message": "[zh-cn]sync horizontal-pod-autoscaler-* job-v1",
+          "author": "xin.li"
+        },
+        {
+          "hash": "85749c4b56195d5d2a513dfbc046012f244f6cde",
+          "date": "Tue Apr 29 21:58:23 2025 +0800",
+          "message": "[zh-cn]sync job-v1.md",
           "author": "xin.li"
         }
       ]

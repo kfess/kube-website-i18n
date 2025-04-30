@@ -330,6 +330,8 @@ content/zh-cn/blog/_posts/2025-03-12-sig-apps-spotlight.md
 content/zh-cn/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/zh-cn/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
 content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
+content/zh-cn/blog/_posts/2025-04-29-hpa-configurable-tolerance.md
+content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/zh-cn/case-studies/_index.html
 content/zh-cn/case-studies/adform/adform_featured_logo.png
