@@ -1,19 +1,9 @@
 name: Build and Deploy Website
 
 on:
-  # データ収集ワークフローが完了した時に実行
-  workflow_run:
-    workflows: ["Data Collection and Processing"]
-    types:
-      - completed
-    branches:
-      - gh-pages
-
   push:
     branches:
       - gh-pages
-
-  # 手動実行も可能に
   workflow_dispatch:
 
 # GitHub Pagesへのデプロイに必要な権限
@@ -44,13 +34,6 @@ jobs:
       - name: Install dependencies
         working-directory: ./web
         run: yarn install --frozen-lockfile
-
-      # - name: Copy data to web directory
-      #   run: |
-      #     mkdir -p ./web/src/assets/data/detailed
-      #     mkdir -p ./web/src/assets/data/summary
-      #     cp -r ./data/output/detailed/* ./web/src/assets/data/detailed/
-      #     cp -r ./data/output/summary/* ./web/src/assets/data/summary/
 
       - name: Build website
         working-directory: ./web
