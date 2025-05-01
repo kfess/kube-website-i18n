@@ -27793,6 +27793,17 @@
           "author": "kohbis"
         }
       ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/security/cloud-native-security.md",
+      "commits": [
+        {
+          "hash": "521904a1a7f238ed01ec4e9c98f263ea4cfaac25",
+          "date": "Thu Apr 24 14:27:09 2025 +0700",
+          "message": "id: initial commit on translate cloud-native-security into Bahasa Indonesia",
+          "author": "za"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/architecture/cloud-controller.md": {

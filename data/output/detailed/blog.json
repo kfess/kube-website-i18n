@@ -29,47 +29,53 @@
       ]
     }
   },
-  "content/en/blog/_posts/2025-05-09-streaming-list-responses/2025-05-09-streaming-list-responses.md": {
+  "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-09-streaming-list-responses/2025-05-09-streaming-list-responses.md",
+      "path": "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md",
       "commits": [
         {
-          "hash": "8259190f951d9d8cc70130a2bf5e3757a0829e6d",
-          "date": "Mon Apr 28 13:04:12 2025 -0400",
-          "message": "KEP 5116: updated for blog publication",
-          "author": "Sneha Yadav"
+          "hash": "1ab02f212c399fd7e75d77b27c1935051ecacc52",
+          "date": "Tue Apr 29 23:05:49 2025 +0100",
+          "message": "Update content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md",
+          "author": "Ryota"
+        },
+        {
+          "hash": "45222ebc24e2a4586b1b27a70b88af0688f3400a",
+          "date": "Tue Apr 29 18:00:33 2025 +0100",
+          "message": "Update figcaption as caption rather than title",
+          "author": "Ryota"
+        },
+        {
+          "hash": "0d0ca08d6c0e440ffd3d73af953994b92dfd1308",
+          "date": "Tue Apr 29 17:43:54 2025 +0100",
+          "message": "Correct file name",
+          "author": "Ryota"
         }
       ]
     }
   },
-  "content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md": {
+  "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-02-kubernetes-v1-33-dra-updates.md",
+      "path": "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md",
       "commits": [
         {
-          "hash": "1a69f97ddb0b395816189788aef595af2e3ababd",
-          "date": "Sun Apr 27 16:17:24 2025 -0700",
-          "message": "Merge pull request #50692 from jayeshmahajan/jm/hi-example-other-yaml",
+          "hash": "a77b6f37585973e32b190f6991f0384d070a83cc",
+          "date": "Wed Apr 30 07:59:56 2025 -0700",
+          "message": "Merge pull request #50728 from rytswd/fix-directory-setup-for-streaming-list-res",
           "author": "Kubernetes Prow Robot"
         }
       ]
     }
   },
-  "content/en/blog/_posts/2025-05-01-storage-capacity-scoring.md": {
+  "content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-01-storage-capacity-scoring.md",
+      "path": "content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md",
       "commits": [
         {
-          "hash": "a6426d8965c0d2b1d8c1a2b7f722f14c79c23fa6",
-          "date": "Tue Apr 29 13:11:37 2025 +0100",
-          "message": "Schedule storage capacity scoring at 10.30 PST",
-          "author": "Ryota"
-        },
-        {
-          "hash": "e14a48a20548580e58e18e8eb278f9309937d94a",
-          "date": "Mon Apr 28 18:49:02 2025 +0530",
-          "message": "Removed draft status and updated publish date",
-          "author": "aakankshabhende"
+          "hash": "a77b6f37585973e32b190f6991f0384d070a83cc",
+          "date": "Wed Apr 30 07:59:56 2025 -0700",
+          "message": "Merge pull request #50728 from rytswd/fix-directory-setup-for-streaming-list-res",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

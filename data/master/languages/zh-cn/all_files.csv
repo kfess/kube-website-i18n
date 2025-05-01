@@ -330,6 +330,7 @@ content/zh-cn/blog/_posts/2025-03-12-sig-apps-spotlight.md
 content/zh-cn/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/zh-cn/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
 content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
+content/zh-cn/blog/_posts/2025-04-23-storage-capacity-scoring.md
 content/zh-cn/blog/_posts/2025-04-29-hpa-configurable-tolerance.md
 content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
@@ -1565,7 +1566,6 @@ content/zh-cn/docs/reference/kubernetes-api/workload-resources/deployment-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v2.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/job-v1.md
-content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-scheduling-context-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-template-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/priority-class-v1.md
