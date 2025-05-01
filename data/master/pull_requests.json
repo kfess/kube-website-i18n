@@ -1,0 +1,457 @@
+[
+  {
+    "pr_number": 50753,
+    "pr_title": "Update reviewers for scheduling and job controller",
+    "files": [
+      "content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+      "content/en/docs/concepts/workloads/controllers/job.md"
+    ]
+  },
+  {
+    "pr_number": 50752,
+    "pr_title": "Update metrics docs after the bump for prober_probe_total to BETA",
+    "files": [
+      "content/en/docs/reference/instrumentation/metrics.md"
+    ]
+  },
+  {
+    "pr_number": 50750,
+    "pr_title": "[bn] Localization of garbage-collection.md",
+    "files": [
+      ".dockerignore",
+      ".gitignore",
+      ".gitmodules",
+      "Dockerfile",
+      "Makefile",
+      "OWNERS_ALIASES",
+      "README-bn.md",
+      "README-es.md",
+      "README-ja.md",
+      "README-ko.md",
+      "README-pl.md",
+      "README-pt.md",
+      "README-ru.md",
+      "README-uk.md",
+      "README-vi.md",
+      "README-zh.md",
+      "README.md",
+      "api-ref-assets/api/swagger.json",
+      "api-ref-assets/config/fields.yaml",
+      "api-ref-assets/config/toc.yaml",
+      "api-ref-generator",
+      "assets/css/glossary.css",
+      "assets/icons/logo.svg",
+      "assets/images/kubernetes-horizontal-color.png",
+      "assets/images/nav_logo.svg",
+      "assets/images/nav_logo2.svg",
+      "assets/js/banner-dismiss.js",
+      "assets/js/custom-search.js",
+      "assets/js/detect-js.js",
+      "assets/js/glossary.js",
+      "assets/js/mermaid-10.6.1.min.js",
+      "assets/js/nav.js",
+      "assets/js/search.js",
+      "assets/js/toastr-2.1.4.min.js",
+      "assets/scss/_base.scss",
+      "assets/scss/_case-studies.scss",
+      "assets/scss/_custom.scss",
+      "assets/scss/_desktop.scss",
+      "assets/scss/_documentation.scss",
+      "assets/scss/_k8s_community.scss",
+      "assets/scss/_k8s_nav.scss",
+      "assets/scss/_size.scss",
+      "assets/scss/_skin.scss",
+      "assets/scss/_styles_project.scss",
+      "assets/scss/_tablet.scss",
+      "assets/scss/_variables_project.scss",
+      "assets/scss/case_studies.scss",
+      "content/bn/README.md",
+      "content/bn/_index.html",
+      "content/bn/blog/_posts/2024-05-09-gateway-api-v1.1/gateway-api-logo.svg",
+      "content/bn/blog/_posts/2024-05-09-gateway-api-v1.1/index.md",
+      "content/bn/case-studies/box/index.html",
+      "content/bn/community/static/cncf-code-of-conduct.md",
+      "content/bn/docs/concepts/containers/_index.md",
+      "content/bn/docs/concepts/extend-kubernetes/compute-storage-net/_index.md",
+      "content/bn/docs/concepts/overview/_index.md",
+      "content/bn/docs/concepts/overview/working-with-objects/_index.md",
+      "content/bn/docs/concepts/scheduling-eviction/_index.md",
+      "content/bn/docs/concepts/security/_index.md",
+      "content/bn/docs/concepts/services-networking/_index.md",
+      "content/bn/docs/concepts/workloads/pods/_index.md",
+      "content/bn/docs/concepts/workloads/pods/sidecar-containers.md",
+      "content/bn/docs/reference/glossary/container-runtime-interface.md",
+      "content/bn/docs/reference/glossary/garbage-collection.md",
+      "content/bn/docs/reference/glossary/kube-apiserver.md",
+      "content/bn/docs/reference/glossary/volume.md",
+      "content/bn/docs/setup/production-environment/_index.md",
+      "content/bn/docs/setup/production-environment/tools/_index.md",
+      "content/bn/docs/tutorials/_index.md",
+      "content/bn/examples/admin/dns/dnsutils.yaml",
+      "content/bn/includes/task-tutorial-prereqs.md",
+      "content/bn/releases/patch-releases.md",
+      "content/de/README.md",
+      "content/de/_index.html",
+      "content/de/docs/concepts/cluster-administration/addons.md",
+      "content/de/docs/concepts/workloads/pods/_index.md",
+      "content/de/docs/contribute/_index.md",
+      "content/de/docs/contribute/participate/_index.md",
+      "content/de/docs/tasks/tools/install-kubectl-linux.md",
+      "content/en/_index.html",
+      "content/en/blog/_posts/2016-10-00-Production-Kubernetes-Dashboard-UI-1-4-improvements_3.md",
+      "content/en/blog/_posts/2018-01-00-Reporting-Errors-Using-Kubernetes-Events.md",
+      "content/en/blog/_posts/2018-05-04-Announcing-Kubeflow-0-1.md",
+      "content/en/blog/_posts/2021-08-16-support-for-hostprocess-containers/hostprocess-architecture.png",
+      "content/en/blog/_posts/2021-10-18-kpng-specialized-proxiers.md",
+      "content/en/blog/_posts/2022-12-19-devicemanager-ga.md/index.md",
+      "content/en/blog/_posts/2023-08-31-legacy-package-repository-deprecation/index.md",
+      "content/en/blog/_posts/2023-09-26-happy-7th-birthday-kubeadm.md",
+      "content/en/blog/_posts/2023-11-07-introducing-sig-etcd.md",
+      "content/en/blog/_posts/2023-12-15-volume-attributes-class/index.md",
+      "content/en/blog/_posts/2024-04-26-structured-authz-beta.md",
+      "content/en/blog/_posts/2024-05-09-gateway-api-v1.1/index.md",
+      "content/en/blog/_posts/2024-05-21-sig-node-spotlight/index.md",
+      "content/en/blog/_posts/2024-08-16-matchlabelkeys-podaffinity.md",
+      "content/en/blog/_posts/2024-08-23-kubeadm-v1beta4.md",
+      "content/en/blog/_posts/2024-09-17-sig-scheduling-spotlight.md",
+      "content/en/blog/_posts/2024-09-21-cncf-dhhwg-spotlight/cncf-dhhwg-chicago.jpg",
+      "content/en/blog/_posts/2024-09-21-cncf-dhhwg-spotlight/cncf-dhhwg-paris.jpg",
+      "content/en/blog/_posts/2024-09-21-cncf-dhhwg-spotlight/index.md",
+      "content/en/blog/_posts/2024-10-02-steering-committee-results-2024.md"
+    ]
+  },
+  {
+    "pr_number": 50749,
+    "pr_title": "[fr] Update busybox image",
+    "files": [
+      "content/fr/docs/tasks/administer-cluster/declare-network-policy.md"
+    ]
+  },
+  {
+    "pr_number": 50747,
+    "pr_title": "[ja] Translate /content/en/blog/_posts/2025-04-07-kube-scheduler-simu…",
+    "files": [
+      "content/ja/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md"
+    ]
+  },
+  {
+    "pr_number": 50744,
+    "pr_title": "[hi] add example admin",
+    "files": [
+      "content/hi/examples/admin/cloud/ccm-example.yaml",
+      "content/hi/examples/admin/dns/busybox.yaml",
+      "content/hi/examples/admin/dns/dns-horizontal-autoscaler.yaml",
+      "content/hi/examples/admin/dns/dnsutils.yaml",
+      "content/hi/examples/admin/konnectivity/egress-selector-configuration.yaml",
+      "content/hi/examples/admin/konnectivity/konnectivity-agent.yaml",
+      "content/hi/examples/admin/konnectivity/konnectivity-rbac.yaml",
+      "content/hi/examples/admin/konnectivity/konnectivity-server.yaml",
+      "content/hi/examples/admin/logging/fluentd-sidecar-config.yaml",
+      "content/hi/examples/admin/logging/two-files-counter-pod-agent-sidecar.yaml",
+      "content/hi/examples/admin/logging/two-files-counter-pod-streaming-sidecar.yaml",
+      "content/hi/examples/admin/logging/two-files-counter-pod.yaml",
+      "content/hi/examples/admin/namespace-dev.json",
+      "content/hi/examples/admin/namespace-dev.yaml",
+      "content/hi/examples/admin/namespace-prod.json",
+      "content/hi/examples/admin/namespace-prod.yaml",
+      "content/hi/examples/admin/resource/cpu-constraints-pod-2.yaml",
+      "content/hi/examples/admin/resource/cpu-constraints-pod-3.yaml",
+      "content/hi/examples/admin/resource/cpu-constraints-pod-4.yaml",
+      "content/hi/examples/admin/resource/cpu-constraints-pod.yaml",
+      "content/hi/examples/admin/resource/cpu-constraints.yaml",
+      "content/hi/examples/admin/resource/cpu-defaults-pod-2.yaml",
+      "content/hi/examples/admin/resource/cpu-defaults-pod-3.yaml",
+      "content/hi/examples/admin/resource/cpu-defaults-pod.yaml",
+      "content/hi/examples/admin/resource/cpu-defaults.yaml",
+      "content/hi/examples/admin/resource/limit-mem-cpu-container.yaml",
+      "content/hi/examples/admin/resource/limit-mem-cpu-pod.yaml",
+      "content/hi/examples/admin/resource/limit-memory-ratio-pod.yaml",
+      "content/hi/examples/admin/resource/limit-range-pod-1.yaml",
+      "content/hi/examples/admin/resource/limit-range-pod-2.yaml",
+      "content/hi/examples/admin/resource/limit-range-pod-3.yaml",
+      "content/hi/examples/admin/resource/memory-available-cgroupv2.sh",
+      "content/hi/examples/admin/resource/memory-available.sh",
+      "content/hi/examples/admin/resource/memory-constraints-pod-2.yaml",
+      "content/hi/examples/admin/resource/memory-constraints-pod-3.yaml",
+      "content/hi/examples/admin/resource/memory-constraints-pod-4.yaml",
+      "content/hi/examples/admin/resource/memory-constraints-pod.yaml",
+      "content/hi/examples/admin/resource/memory-constraints.yaml",
+      "content/hi/examples/admin/resource/memory-defaults-pod-2.yaml",
+      "content/hi/examples/admin/resource/memory-defaults-pod-3.yaml",
+      "content/hi/examples/admin/resource/memory-defaults-pod.yaml",
+      "content/hi/examples/admin/resource/memory-defaults.yaml",
+      "content/hi/examples/admin/resource/pvc-limit-greater.yaml",
+      "content/hi/examples/admin/resource/pvc-limit-lower.yaml",
+      "content/hi/examples/admin/resource/quota-mem-cpu-pod-2.yaml",
+      "content/hi/examples/admin/resource/quota-mem-cpu-pod.yaml",
+      "content/hi/examples/admin/resource/quota-mem-cpu.yaml",
+      "content/hi/examples/admin/resource/quota-objects-pvc-2.yaml",
+      "content/hi/examples/admin/resource/quota-objects-pvc.yaml",
+      "content/hi/examples/admin/resource/quota-objects.yaml",
+      "content/hi/examples/admin/resource/quota-pod-deployment.yaml",
+      "content/hi/examples/admin/resource/quota-pod.yaml",
+      "content/hi/examples/admin/resource/storagelimits.yaml",
+      "content/hi/examples/admin/sched/clusterrole.yaml",
+      "content/hi/examples/admin/sched/my-scheduler.yaml",
+      "content/hi/examples/admin/sched/pod1.yaml",
+      "content/hi/examples/admin/sched/pod2.yaml",
+      "content/hi/examples/admin/sched/pod3.yaml",
+      "content/hi/examples/admin/snowflake-deployment.yaml"
+    ]
+  },
+  {
+    "pr_number": 50743,
+    "pr_title": "[ja] Translate \"Continuing the transition from Endpoints to EndpointSlices\" into Japanese",
+    "files": [
+      "content/ja/blog/_posts/2025-04-24-endpoints-deprecation.md"
+    ]
+  },
+  {
+    "pr_number": 50739,
+    "pr_title": "[en] Update apiserver-aggregation.md",
+    "files": [
+      "content/en/docs/concepts/extend-kubernetes/api-extension/apiserver-aggregation.md"
+    ]
+  },
+  {
+    "pr_number": 50737,
+    "pr_title": "[ko] Update busybox image",
+    "files": [
+      "content/ko/docs/tasks/administer-cluster/declare-network-policy.md"
+    ]
+  },
+  {
+    "pr_number": 50726,
+    "pr_title": "[zh-cn] sync job replicaset downward-api",
+    "files": [
+      "content/zh-cn/docs/concepts/workloads/controllers/job.md",
+      "content/zh-cn/docs/concepts/workloads/controllers/replicaset.md",
+      "content/zh-cn/docs/concepts/workloads/pods/downward-api.md"
+    ]
+  },
+  {
+    "pr_number": 50724,
+    "pr_title": "OWNERS_ALIASES cleanup activity from previous cycles",
+    "files": [
+      "OWNERS_ALIASES"
+    ]
+  },
+  {
+    "pr_number": 50722,
+    "pr_title": "[zh] Add 2025-04-23-jobs-successpolicy-goes-ga.md",
+    "files": [
+      "content/zh-cn/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md"
+    ]
+  },
+  {
+    "pr_number": 50718,
+    "pr_title": "Update system-traces.md to use the Otel debug exporter",
+    "files": [
+      "content/en/docs/concepts/cluster-administration/system-traces.md"
+    ]
+  },
+  {
+    "pr_number": 50717,
+    "pr_title": "Document new `cache{A,Una}uthorizedRequests` field in `AuthorizationConfiguration`",
+    "files": [
+      "content/en/docs/reference/access-authn-authz/authorization.md",
+      "content/zh-cn/docs/reference/access-authn-authz/authorization.md"
+    ]
+  },
+  {
+    "pr_number": 50713,
+    "pr_title": "[ja] remove katacoda-based tutorial from deploy",
+    "files": [
+      "content/ja/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive.html",
+      "content/ja/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.html"
+    ]
+  },
+  {
+    "pr_number": 50711,
+    "pr_title": "  Explain Kubernetes network model in networking concept index",
+    "files": [
+      "content/en/docs/concepts/services-networking/_index.md",
+      "content/en/docs/images/k8net-PodSameHost04.drawio.svg",
+      "content/en/docs/images/k8s-api-to-kubelet-example.drawio.svg",
+      "content/en/docs/images/k8s-localhost-02.drawio.svg",
+      "content/en/docs/images/k8s-net-model-arch.svg",
+      "content/en/docs/images/k8s-net-model-arch2a.drawio.svg",
+      "content/en/docs/images/k8s-net-model-intro2.drawio.svg",
+      "content/en/docs/images/k8s-net-phys-net.drawio.svg",
+      "content/en/docs/images/k8s-net-vert-overlay-big2.drawio.svg",
+      "content/en/docs/images/k8s-net-virtual-overlay.drawio.svg",
+      "content/en/docs/reference/glossary/kube-proxy.md",
+      "content/en/docs/reference/glossary/network-namespace.md"
+    ]
+  },
+  {
+    "pr_number": 50710,
+    "pr_title": "[bn] update SidecarContainers",
+    "files": [
+      "content/bn/docs/concepts/workloads/pods/_index.md"
+    ]
+  },
+  {
+    "pr_number": 50708,
+    "pr_title": "[vi] Update Vietnamese translation for Container Lifecycle Hooks",
+    "files": [
+      "content/vi/docs/concepts/containers/container-lifecycle-hooks.md"
+    ]
+  },
+  {
+    "pr_number": 50703,
+    "pr_title": "docs(i18n): traducir guía de instalación y configuración de kubectl en Windows al español",
+    "files": [
+      "content/es/docs/tasks/tools/install-kubectl-windows.md"
+    ]
+  },
+  {
+    "pr_number": 50702,
+    "pr_title": "Clarify that custom finalizer names must be publicly qualified finalizer names",
+    "files": [
+      "content/en/docs/concepts/overview/working-with-objects/finalizers.md"
+    ]
+  },
+  {
+    "pr_number": 50695,
+    "pr_title": "Fix incorrect apiGroup for pods in MutatingAdmissionPolicy example",
+    "files": [
+      "content/en/examples/mutatingadmissionpolicy/applyconfiguration-example.yaml"
+    ]
+  },
+  {
+    "pr_number": 50687,
+    "pr_title": "Add Accurate to the list of third party multi tenancy tools",
+    "files": [
+      "content/en/docs/concepts/security/multi-tenancy.md"
+    ]
+  },
+  {
+    "pr_number": 50679,
+    "pr_title": "docs: Clarify filesystem support for user-namespace Pods",
+    "files": [
+      "content/en/docs/concepts/workloads/pods/user-namespaces.md"
+    ]
+  },
+  {
+    "pr_number": 50673,
+    "pr_title": "Add blog: Start sidecar first",
+    "files": [
+      "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md"
+    ]
+  },
+  {
+    "pr_number": 50672,
+    "pr_title": "docs: Remove misleading info about SYS_PTRACE",
+    "files": [
+      "content/en/docs/tasks/configure-pod-container/share-process-namespace.md",
+      "content/en/examples/pods/share-process-namespace.yaml"
+    ]
+  },
+  {
+    "pr_number": 50671,
+    "pr_title": "[vi] add Vietnamese translation for glossary Managed Service",
+    "files": [
+      "content/vi/docs/reference/glossary/managed-service.md"
+    ]
+  },
+  {
+    "pr_number": 50670,
+    "pr_title": "[ja] Update the tutorial of `explore` in kubernetes-basics without Kataconda",
+    "files": [
+      "content/ja/docs/tutorials/kubernetes-basics/explore/explore-interactive.html",
+      "content/ja/docs/tutorials/kubernetes-basics/explore/explore-intro.html"
+    ]
+  },
+  {
+    "pr_number": 50665,
+    "pr_title": "[WIP] Align to Docsy theme",
+    "files": [
+      "assets/icons/copycode.svg",
+      "assets/icons/link.svg",
+      "assets/icons/logo-title.svg",
+      "assets/icons/logo.svg",
+      "assets/images/common-resources/blocks.svg",
+      "assets/images/common-resources/flower.svg",
+      "assets/images/common-resources/scalable.svg",
+      "assets/images/common-resources/suitcase.svg",
+      "assets/images/nav_logo.svg",
+      "assets/images/wheel.svg",
+      "assets/js/banner-dismiss.js",
+      "assets/js/custom-search.js",
+      "assets/js/search-page.js",
+      "assets/scss/_base.scss",
+      "assets/scss/_custom.scss",
+      "assets/scss/_desktop.scss",
+      "assets/scss/_documentation.scss",
+      "assets/scss/_reset.scss",
+      "assets/scss/_size.scss",
+      "assets/scss/_styles_project.scss",
+      "assets/scss/_tablet.scss",
+      "assets/scss/_variables_project.scss",
+      "assets/scss/case_studies.scss",
+      "content/en/_common-resources/images/suitcase.svg",
+      "hugo.toml",
+      "layouts/_default/baseof.html",
+      "layouts/_default/content.html",
+      "layouts/_default/search.html",
+      "layouts/blog/baseof.html",
+      "layouts/case-studies/baseof.html",
+      "layouts/case-studies/list.html",
+      "layouts/case-studies/single.html",
+      "layouts/docs/baseof.html",
+      "layouts/docs/docsportal_home.html",
+      "layouts/docs/list.html",
+      "layouts/docs/release-info.html",
+      "layouts/docs/single.html",
+      "layouts/docs/supported-versions.html",
+      "layouts/index.headers",
+      "layouts/index.html",
+      "layouts/partials/announcement.html",
+      "layouts/partials/blog-meta-links.html",
+      "layouts/partials/blog/archive.html",
+      "layouts/partials/blog/sidebar.html",
+      "layouts/partials/css.html",
+      "layouts/partials/docs/browse.html",
+      "layouts/partials/docs/content-page.html",
+      "layouts/partials/docs/top-section-page.html",
+      "layouts/partials/feedback.html",
+      "layouts/partials/hooks/body-end.html",
+      "layouts/partials/hooks/head-end.html",
+      "layouts/partials/navbar-lang-selector.html",
+      "layouts/partials/navbar-version-selector.html",
+      "layouts/partials/navbar.html",
+      "layouts/partials/scripts.html",
+      "layouts/partials/search-input-custom.html",
+      "layouts/partials/search-url-path.html",
+      "layouts/partials/sidebar-tree.html",
+      "layouts/partials/toc.html",
+      "layouts/shortcodes/blocks/__common.html",
+      "layouts/shortcodes/blocks/case-studies.html",
+      "layouts/shortcodes/blocks/feature.html",
+      "layouts/shortcodes/blocks/kubernetes-features.html",
+      "layouts/shortcodes/blocks/section.html",
+      "layouts/shortcodes/upcoming-events.html",
+      "static/css/gridpage.css",
+      "static/css/legacy_community.css",
+      "static/css/new-case-studies.css",
+      "static/images/kub_video_banner_homepage.jpg",
+      "static/images/nav_logo2.svg"
+    ]
+  },
+  {
+    "pr_number": 50664,
+    "pr_title": "Improve bin packing concept page",
+    "files": [
+      "assets/scss/_documentation.scss",
+      "content/en/docs/concepts/scheduling-eviction/resource-bin-packing.md"
+    ]
+  },
+  {
+    "pr_number": 50663,
+    "pr_title": "Improve ResourceQuota concept: intro, end of page",
+    "files": [
+      "content/en/docs/concepts/policy/resource-quotas.md"
+    ]
+  }
+]

@@ -34,6 +34,13 @@ jobs:
           ./fetch.sh
         shell: bash
 
+      - name: Fetch Pull Requests
+        working-directory: ./scripts/shell
+        run: |
+          chmod +x ./fetch_pr.sh 1000
+          ./fetch_pr.sh
+        shell: bash
+
       - name: Collect all existing files
         working-directory: ./scripts/shell
         run: |
