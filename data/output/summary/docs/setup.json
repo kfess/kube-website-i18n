@@ -7,7 +7,8 @@
       "pt-br",
       "ko",
       "fr",
-      "id"
+      "id",
+      "vi"
     ]
   },
   "content/en/docs/setup/production-environment/_index.md": {
@@ -47,7 +48,8 @@
       "zh-cn",
       "en",
       "ko",
-      "ja"
+      "ja",
+      "id"
     ]
   },
   "content/en/docs/setup/production-environment/container-runtimes.md": {

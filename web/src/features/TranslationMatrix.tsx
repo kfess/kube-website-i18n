@@ -131,8 +131,8 @@ export const TranslationMatrix = ({ translationData, activePage, setActivePage }
                         {exists ? (
                           <Anchor
                             href={`https://github.com/kubernetes/website/blob/main/${filePath.replace(
-                              '/content/en/',
-                              `/content/${lang}/`
+                              'content/en/',
+                              `content/${lang}/`
                             )}`}
                             target="_blank"
                             rel="noopener noreferrer"

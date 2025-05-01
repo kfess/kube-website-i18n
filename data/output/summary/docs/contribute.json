@@ -102,7 +102,8 @@
   },
   "content/en/docs/contribute/blog/guidelines.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/contribute/blog/mirroring.md": {
@@ -234,7 +235,8 @@
       "zh-cn",
       "ru",
       "fr",
-      "en"
+      "en",
+      "pl"
     ]
   },
   "content/en/docs/contribute/participate/roles-and-responsibilities.md": {

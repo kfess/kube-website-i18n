@@ -193,6 +193,12 @@
           "date": "Wed Apr 16 13:27:43 2025 +0200",
           "message": "[vi] update translation for task-tutorial-prereqs",
           "author": "The Anh Nguyen"
+        },
+        {
+          "hash": "d11d4d782f7bd4b2e4aff0a13fcdf7e5cafe2c2d",
+          "date": "Mon Mar 31 23:01:18 2025 +0700",
+          "message": "update 3 feedbacks  from khanhtc1202",
+          "author": "Andrew"
         }
       ]
     },
@@ -415,6 +421,12 @@
           "date": "Sun Apr 12 16:54:33 2020 +0800",
           "message": "ID Localization for Task Index and Example.",
           "author": "Aris Cahyadi Risdianto"
+        },
+        {
+          "hash": "d3b34a1408db9557663de63e623a97bd2c4083e7",
+          "date": "Tue Apr 22 01:05:05 2025 +0300",
+          "message": "[id] add new playground to kubernetes documentation",
+          "author": "Arhell"
         }
       ]
     },

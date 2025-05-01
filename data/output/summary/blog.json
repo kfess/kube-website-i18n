@@ -1,12 +1,65 @@
 {
-  "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md": {
+  "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md": {
+    "langs": [
+      "en",
+      "zh-cn"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-24-endpoints-deprecation.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {
+    "langs": [
+      "en",
+      "ja"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
     "langs": [
       "en"
     ]
   },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md": {
@@ -40,6 +93,11 @@
     ]
   },
   "content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md": {
     "langs": [
       "en"
     ]
@@ -3452,16 +3510,6 @@
       "it",
       "vi",
       "de"
-    ]
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-in-place-pod-resize-beta.md": {
-    "langs": [
-      "en"
     ]
   },
   "content/en/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md": {

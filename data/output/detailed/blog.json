@@ -1,13 +1,207 @@
 {
-  "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md": {
+  "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-04-11-multicontainer-patterns/index.md",
+      "path": "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md",
       "commits": [
         {
-          "hash": "adb4abd3caa9f9121e0b163db3acebca98119dea",
-          "date": "Mon Apr 7 17:32:26 2025 +0200",
-          "message": "blog: add Kubernetes multi-container patterns",
-          "author": "Agata Skorupka"
+          "hash": "9f706ad1fe8922c4a92808b24c94ef0dc379ea7d",
+          "date": "Fri Apr 25 01:12:16 2025 +0100",
+          "message": "Add v1.33 prefix",
+          "author": "Ryota"
+        },
+        {
+          "hash": "26dbe1019166b562804d7b95debd771fd8bd6dbf",
+          "date": "Tue Apr 22 16:09:26 2025 +0100",
+          "message": "Schedule KEP-1287 blog for publication",
+          "author": "Ryota"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md",
+      "commits": [
+        {
+          "hash": "2c5c1db77ac1d45225d89b3c374a3c1e516d354a",
+          "date": "Tue Apr 29 01:53:56 2025 -0700",
+          "message": "Merge pull request #50697 from asa3311/sync-zh-178",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md",
+      "commits": [
+        {
+          "hash": "1ab02f212c399fd7e75d77b27c1935051ecacc52",
+          "date": "Tue Apr 29 23:05:49 2025 +0100",
+          "message": "Update content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md",
+          "author": "Ryota"
+        },
+        {
+          "hash": "45222ebc24e2a4586b1b27a70b88af0688f3400a",
+          "date": "Tue Apr 29 18:00:33 2025 +0100",
+          "message": "Update figcaption as caption rather than title",
+          "author": "Ryota"
+        },
+        {
+          "hash": "0d0ca08d6c0e440ffd3d73af953994b92dfd1308",
+          "date": "Tue Apr 29 17:43:54 2025 +0100",
+          "message": "Correct file name",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md",
+      "commits": [
+        {
+          "hash": "a77b6f37585973e32b190f6991f0384d070a83cc",
+          "date": "Wed Apr 30 07:59:56 2025 -0700",
+          "message": "Merge pull request #50728 from rytswd/fix-directory-setup-for-streaming-list-res",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md",
+      "commits": [
+        {
+          "hash": "a77b6f37585973e32b190f6991f0384d070a83cc",
+          "date": "Wed Apr 30 07:59:56 2025 -0700",
+          "message": "Merge pull request #50728 from rytswd/fix-directory-setup-for-streaming-list-res",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md",
+      "commits": [
+        {
+          "hash": "3240ebc9b7559503c89b2ef943e488f0e7836eb5",
+          "date": "Tue Apr 29 13:11:06 2025 +0100",
+          "message": "Schedule image volume blog on 29th instead of 30th",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md",
+      "commits": [
+        {
+          "hash": "36fec3f8ddb659901ac9c11431150c12efbadb81",
+          "date": "Mon Apr 28 06:51:56 2025 -0700",
+          "message": "Merge pull request #50714 from rytswd/update-slug-for-unpublished-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md",
+      "commits": [
+        {
+          "hash": "d4d4abb3034d3233e9c14c26a014013f69e95d43",
+          "date": "Tue Apr 22 23:22:51 2025 +0000",
+          "message": "Schedule KEP-127 blog for publication",
+          "author": "Agustina Barbetta"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-24-endpoints-deprecation.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-24-endpoints-deprecation.md",
+      "commits": [
+        {
+          "hash": "d7ea5325d4aa2871be5a52661415cb4a59fa5617",
+          "date": "Tue Apr 22 17:39:38 2025 +0100",
+          "message": "Correct KEP link",
+          "author": "Ryota"
+        },
+        {
+          "hash": "fb3ceafb442905ca83718773c5df1f778af0463c",
+          "date": "Tue Apr 22 15:56:38 2025 +0100",
+          "message": "Schedule KEP-4974 blog for publication",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md",
+      "commits": [
+        {
+          "hash": "7264776068738f8dfb7472b26e441d08a90f9551",
+          "date": "Tue Apr 22 01:00:32 2025 +0100",
+          "message": "Add Kubernetes v1.33 release announcement blog",
+          "author": "Ryota"
+        },
+        {
+          "hash": "c2fe700c0a789ec94d605692cab056a903fd752f",
+          "date": "Tue Apr 22 12:23:00 2025 +0100",
+          "message": "Add evergreen flag",
+          "author": "Ryota"
+        },
+        {
+          "hash": "98f4c8ea76885e8c5d653c3f76989027286d84da",
+          "date": "Tue Apr 22 11:52:47 2025 +0100",
+          "message": "Remove draft flag to publish release announcement",
+          "author": "Ryota"
+        },
+        {
+          "hash": "78335f7681f8a8c13354f9c170a4be70a5499e36",
+          "date": "Thu Apr 24 03:07:24 2025 +0100",
+          "message": "Correct hyphenation for \"open source\"",
+          "author": "Ryota"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md",
+      "commits": [
+        {
+          "hash": "8477eac549cf99df3fd4335620ed392809fef67f",
+          "date": "Sat Apr 26 19:05:23 2025 +0900",
+          "message": "[ja] Translate \"Kubernetes v1.33: Octarine\" into Japanese (#50658)",
+          "author": "Taisuke Okamoto"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md",
+      "commits": [
+        {
+          "hash": "c6bc60a35c95663aafbe234d36ca5915a2c0156b",
+          "date": "Mon Apr 28 00:05:26 2025 -0700",
+          "message": "Merge pull request #50712 from windsonsea/virips",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md",
+      "commits": [
+        {
+          "hash": "104e19ad3b28f7d75a86d2f9ccc97f033f76583a",
+          "date": "Mon Apr 21 00:27:01 2025 -0700",
+          "message": "Merge pull request #50406 from my-git9/np-1336",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -29,6 +223,17 @@
           "author": "Graziano Casto"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md",
+      "commits": [
+        {
+          "hash": "5016ee51de497077f819d4ce4b797b3d450644f0",
+          "date": "Sat Mar 29 15:59:59 2025 +0800",
+          "message": "[zh-cn] Add blog: 2025-04-07-kube-scheduler-simulator",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md": {
@@ -37,6 +242,12 @@
       "commits": [
         {
           "hash": "b1b93f62ed35e482d416561ab2683b673e9ac70f",
+          "date": "Sat Apr 5 13:32:42 2025 +0900",
+          "message": "[ja] Translate blog: Kubernetes v1.33 sneak peek into Japanese (#50359)",
+          "author": "kfess"
+        },
+        {
+          "hash": "4e345ebdb66db996da165fd474661f31df671566",
           "date": "Sat Apr 5 13:32:42 2025 +0900",
           "message": "[ja] Translate blog: Kubernetes v1.33 sneak peek into Japanese (#50359)",
           "author": "kfess"
@@ -182,6 +393,43 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md",
+      "commits": [
+        {
+          "hash": "4745c4b26f5c7cd4dc1c6b68990028978ee2cfbf",
+          "date": "Thu Apr 24 16:29:06 2025 +0530",
+          "message": "Addressed review comments",
+          "author": "sreeram-venkitesh"
+        },
+        {
+          "hash": "6b104777a02b0df84e4c281adde99d80ae828d9e",
+          "date": "Fri Apr 18 15:44:47 2025 +0530",
+          "message": "Fixes from review",
+          "author": "sreeram-venkitesh"
+        },
+        {
+          "hash": "7231d0f11905bea5933add41bfa9d332d7309956",
+          "date": "Wed Apr 9 23:41:58 2025 +0530",
+          "message": "Nits",
+          "author": "Sreeram"
+        },
+        {
+          "hash": "fc6fa0fc1575e0746353eb16757d944f2ddf7d18",
+          "date": "Wed Apr 9 22:53:52 2025 +0530",
+          "message": "Added blog post for container lifecycle updates in v1.33",
+          "author": "Sreeram"
+        },
+        {
+          "hash": "fd11466bbd827efe5944eff2b0995ecf276eb66e",
+          "date": "Sat Mar 1 11:48:05 2025 +0530",
+          "message": "Added blog post about the container stop signals KEP",
+          "author": "Sreeram"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-02-28-nftables-kube-proxy/index.md": {
     "zh-cn": {
       "path": "content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/index.md",
@@ -300,6 +548,18 @@
           "date": "Sat Dec 7 06:14:00 2024 +0000",
           "message": "Merge pull request #48938 from hacktivist123/merged-main-dev-1.32",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a16cccca41d45ab49635183f58b2442520d125df",
+          "date": "Fri Apr 25 11:00:32 2025 -0400",
+          "message": "Apply suggestions from code review",
+          "author": "David Eads"
+        },
+        {
+          "hash": "3d83485cc799a776cefcb0c62e1c7a3667efb519",
+          "date": "Tue Apr 22 17:08:51 2025 -0400",
+          "message": "Update the streaming list blog to reflect disablement in 1.33",
+          "author": "David Eads"
         }
       ]
     },
@@ -955,6 +1215,12 @@
           "date": "Mon Apr 7 10:44:38 2025 -0700",
           "message": "Merge pull request #49742 from dkarczmarski/dkarczmarski/pl-docs-contribute-generate-ref-docs-prerequisites-ref-docs.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "673b6506a3ac64b5a785a277529593d4e6daee2e",
+          "date": "Mon Apr 7 16:42:40 2025 +0900",
+          "message": "[ja] Translate content/en/blog/_posts/2024-08-20-websocket-transition.md into Japanese (#50340)",
+          "author": "ntkm61027"
         }
       ]
     },
@@ -1178,6 +1444,12 @@
       "commits": [
         {
           "hash": "93a4a353298b833d2a5a5ee6945639f2d9bb2672",
+          "date": "Wed Mar 26 10:52:37 2025 +0800",
+          "message": "[zh-cn] sync blog file 2024-08-14-pv-last-phase-transition-time-ga.md",
+          "author": "Jin Li"
+        },
+        {
+          "hash": "55dd78d4bfffbaaa5c6bfb46f8d1d91007b20241",
           "date": "Wed Mar 26 10:52:37 2025 +0800",
           "message": "[zh-cn] sync blog file 2024-08-14-pv-last-phase-transition-time-ga.md",
           "author": "Jin Li"
@@ -1490,6 +1762,18 @@
           "date": "Mon Jul 1 17:35:37 2024 +0000",
           "message": "docs: Add \"Spotlight on SIG Node\"",
           "author": "b1gb4by"
+        },
+        {
+          "hash": "a930ec2af970c3639b306b8f6d8966f02a835a56",
+          "date": "Thu Apr 3 23:23:45 2025 +0900",
+          "message": "update: remove slash",
+          "author": "kita456"
+        },
+        {
+          "hash": "05607fbb9d1b0eabb7568ff79de942202cd802c8",
+          "date": "Thu Apr 3 23:18:24 2025 +0900",
+          "message": "[ja] Fix broken image in SIG Node Spotlight 2024 blog post due to incorrect path",
+          "author": "kita456"
         }
       ]
     },
@@ -1633,6 +1917,12 @@
           "date": "Thu May 23 02:21:38 2024 -0700",
           "message": "Merge pull request #46500 from windsonsea/sigdocs",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ab23ed42046a89b5ba9e57ba0b1f4495d50f518d",
+          "date": "Tue Apr 8 08:34:13 2025 +0800",
+          "message": "[zh] Update 2024-05-09-gateway-api-v1.1/index.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -1656,6 +1946,12 @@
           "date": "Wed May 8 20:05:47 2024 -0400",
           "message": "Add Gateway API v1.1 Blog Post (#45971)",
           "author": "Candace Holman"
+        },
+        {
+          "hash": "22cc76771e31a52adde96cb8002a5e3c7fa0d243",
+          "date": "Fri Mar 28 22:39:38 2025 +0800",
+          "message": "fix: correct invalid Gateway example in v1.1 docs",
+          "author": "lichanghao.orange"
         }
       ]
     },
@@ -2301,6 +2597,12 @@
           "date": "Tue Apr 30 00:12:23 2024 -0700",
           "message": "Merge pull request #45585 from HwangTaehyun/patch-1",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "4e345ebdb66db996da165fd474661f31df671566",
+          "date": "Sat Apr 5 13:32:42 2025 +0900",
+          "message": "[ja] Translate blog: Kubernetes v1.33 sneak peek into Japanese (#50359)",
+          "author": "kfess"
         }
       ]
     },
@@ -2455,6 +2757,12 @@
           "date": "Thu Apr 3 08:42:37 2025 -0700",
           "message": "Merge pull request #50378 from kfess/issue-50326",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "364ce3d5fb77adf78d438030a2786429368601a5",
+          "date": "Fri Apr 4 00:24:37 2025 +0900",
+          "message": "[ja] Translate blog: Spotlight on SIG Cloud Provider into Japanese (#50331)",
+          "author": "kfess"
         }
       ]
     },
@@ -24986,68 +25294,6 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md": {
-    "en": {
-      "path": "content/en/blog/_posts/XXXX-XX-XX-hpa-configurable-tolerance.md",
-      "commits": [
-        {
-          "hash": "3408bccabeedd1e248bc8b81863258c0561e7328",
-          "date": "Thu Mar 20 10:58:53 2025 -0400",
-          "message": "Update metadata to align with other articles",
-          "author": "jm-franc"
-        },
-        {
-          "hash": "30fc1259ee4488f2cf8f4ee625ccce32d0196bc0",
-          "date": "Tue Mar 18 14:52:21 2025 -0400",
-          "message": "Improved example following review.",
-          "author": "Jean-Marc François"
-        },
-        {
-          "hash": "05d813118f2b5c6c1ab617eb3208dd146a262b3a",
-          "date": "Tue Mar 18 14:15:44 2025 -0400",
-          "message": "Updates following review (small fixes, added example).",
-          "author": "Jean-Marc François"
-        },
-        {
-          "hash": "e0b07828a5a2140aeeb7d505fa9200c77ce07808",
-          "date": "Tue Mar 18 12:25:47 2025 -0400",
-          "message": "Merge branch 'kubernetes:main' into configurable-tolerance-blog",
-          "author": "jm-franc"
-        },
-        {
-          "hash": "fae8cf5d5d703a21c0a94b18122a04146d630ec4",
-          "date": "Tue Mar 4 16:16:14 2025 -0500",
-          "message": "Update following review.",
-          "author": "Jean-Marc François"
-        },
-        {
-          "hash": "f0e06919590726a05cdc371b315ed63dc8bd0a5d",
-          "date": "Tue Mar 4 16:02:24 2025 -0500",
-          "message": "Merge branch 'kubernetes:main' into configurable-tolerance-blog",
-          "author": "jm-franc"
-        },
-        {
-          "hash": "230c74dc256c0229c0d50435751e94059f10700f",
-          "date": "Tue Mar 4 11:18:18 2025 -0500",
-          "message": "Add HPA 'configurable tolerance' blog post (KEP-4951).",
-          "author": "Jean-Marc François"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-in-place-pod-resize-beta.md": {
-    "en": {
-      "path": "content/en/blog/_posts/XXXX-XX-XX-in-place-pod-resize-beta.md",
-      "commits": [
-        {
-          "hash": "fe156cec0a1daf485072d32e661733e55efc5f67",
-          "date": "Mon Oct 28 09:14:41 2024 -0700",
-          "message": "In-place pod resize beta blog post",
-          "author": "Tim Allclair"
         }
       ]
     }

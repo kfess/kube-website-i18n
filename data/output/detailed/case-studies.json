@@ -14,6 +14,12 @@
           "date": "Tue Feb 11 02:45:58 2025 -0800",
           "message": "Merge pull request #49675 from dkarczmarski/dkarczmarski/pl-docs-home-_index.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "5bc2424a0850c1e5058dec7842f508bc5d40cb53",
+          "date": "Tue Apr 1 15:30:28 2025 +0800",
+          "message": "[zh] Sync case-studies/openAI/",
+          "author": "windsonsea"
         }
       ]
     },

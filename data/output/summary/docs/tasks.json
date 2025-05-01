@@ -1678,7 +1678,8 @@
       "es",
       "de",
       "ko",
-      "fr"
+      "fr",
+      "hi"
     ]
   },
   "content/en/docs/tasks/administer-cluster/manage-resources/_index.md": {
@@ -1767,7 +1768,8 @@
       "ko",
       "zh-cn",
       "en",
-      "ja"
+      "ja",
+      "hi"
     ]
   },
   "content/en/docs/tasks/manage-kubernetes-objects/imperative-command.md": {

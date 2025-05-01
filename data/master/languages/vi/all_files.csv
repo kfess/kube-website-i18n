@@ -221,7 +221,9 @@ content/vi/docs/reference/glossary/applications.md
 content/vi/docs/reference/glossary/cgroup.md
 content/vi/docs/reference/glossary/cluster.md
 content/vi/docs/reference/glossary/cncf.md
+content/vi/docs/reference/glossary/cni.md
 content/vi/docs/reference/glossary/container-env-variables.md
+content/vi/docs/reference/glossary/container-runtime.md
 content/vi/docs/reference/glossary/container.md
 content/vi/docs/reference/glossary/containerd.md
 content/vi/docs/reference/glossary/control-plane.md
@@ -238,6 +240,7 @@ content/vi/docs/reference/glossary/index.md
 content/vi/docs/reference/glossary/kube-apiserver.md
 content/vi/docs/reference/glossary/kube-proxy.md
 content/vi/docs/reference/glossary/kube-scheduler.md
+content/vi/docs/reference/glossary/kubeadm.md
 content/vi/docs/reference/glossary/kubelet.md
 content/vi/docs/reference/glossary/label.md
 content/vi/docs/reference/glossary/node.md
@@ -251,6 +254,7 @@ content/vi/docs/setup/best-practices/_index.md
 content/vi/docs/setup/production-environment/_index.md
 content/vi/docs/setup/production-environment/tools/_index.md
 content/vi/docs/setup/production-environment/tools/kubeadm/_index.md
+content/vi/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md
 content/vi/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md
 content/vi/docs/tasks/_index.md
 content/vi/docs/tasks/configure-pod-container/_index.md

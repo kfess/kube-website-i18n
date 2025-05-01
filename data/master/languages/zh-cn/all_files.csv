@@ -329,6 +329,10 @@ content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/nftables-only.svg
 content/zh-cn/blog/_posts/2025-03-12-sig-apps-spotlight.md
 content/zh-cn/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/zh-cn/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
+content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
+content/zh-cn/blog/_posts/2025-04-23-storage-capacity-scoring.md
+content/zh-cn/blog/_posts/2025-04-29-hpa-configurable-tolerance.md
+content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/zh-cn/case-studies/_index.html
 content/zh-cn/case-studies/adform/adform_featured_logo.png
@@ -701,6 +705,7 @@ content/zh-cn/docs/contribute/advanced.md
 content/zh-cn/docs/contribute/analytics.md
 content/zh-cn/docs/contribute/blog/_index.md
 content/zh-cn/docs/contribute/blog/buddying.md
+content/zh-cn/docs/contribute/blog/guidelines.md
 content/zh-cn/docs/contribute/blog/mirroring.md
 content/zh-cn/docs/contribute/blog/release-comms.md
 content/zh-cn/docs/contribute/docs.md
@@ -853,6 +858,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/Configur
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ConsistentHTTPGetHandlers.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ConsistentListFromCache.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ContainerCheckpoint.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ContainerStopSignals.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ContextualLogging.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ControllerManagerLeaderMigration.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/CoordinatedLeaderElection.md
@@ -871,6 +877,9 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/CustomRe
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/CustomResourceWebhookConversion.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAAdminAccess.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAControlPlaneController.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRADeviceTaints.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAPartitionableDevices.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAResourceClaimDeviceStatus.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DaemonSetUpdateSurge.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DefaultHostNetworkHostPortsInPodTemplates.md
@@ -915,6 +924,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/GRPCCont
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/GenericEphemeralVolume.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/GracefulNodeShutdown.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/GracefulNodeShutdownBasedOnPodPriority.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/HPAConfigurableTolerance.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/HPAContainerMetrics.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/HPAScaleToZero.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/HonorPVReclaimPolicy.md
@@ -956,12 +966,14 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletC
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletCredentialProviders.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletFineGrainedAuthz.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletInUserNamespace.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPluginsWatcher.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResources.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResourcesDynamicResources.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResourcesGet.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPodResourcesGetAllocatable.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletSeparateDiskGC.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletServiceAccountTokenForCredentialProviders.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletTracing.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LegacyNodeRoleBehavior.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenCleanUp.md
@@ -985,6 +997,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MountCon
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MountPropagation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MultiCIDRRangeAllocator.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MultiCIDRServiceAllocator.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MutableCSINodeAllocatableCount.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/MutatingAdmissionPolicy.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/NFTablesProxyMode.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/NamespaceDefaultLabelName.md
@@ -1000,6 +1013,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/NodeSwap
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/NonPreemptingPriority.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OpenAPIEnums.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OpenAPIV3.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PDBUnhealthyPodEvictionPolicy.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PVCProtection.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PersistentLocalVolumes.md
@@ -1016,6 +1030,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLevel
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLifecycleSleepAction.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLifecycleSleepActionAllowZero.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodLogsQuerySplitStreams.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodOverhead.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodPriority.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodReadinessGates.md
@@ -1023,8 +1038,10 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodReady
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodSchedulingReadiness.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodSecurity.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodShareProcessNamespace.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PodTopologyLabelsAdmission.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PortForwardWebsockets.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PreferNominatedNode.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/PreferSameTrafficDistribution.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ProbeTerminationGracePeriod.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ProcMountType.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ProxyTerminatingEndpoints.md
@@ -1033,6 +1050,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReadOnly
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReadWriteOncePod.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RecoverVolumeExpansionFailure.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RecursiveReadOnlyMounts.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReduceDefaultCrashLoopBackOffDecay.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RelaxedDNSSearchValidation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/RelaxedEnvironmentVariableValidation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ReloadKubeletServerCertificateFile.md
@@ -1058,6 +1076,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SELinuxM
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SELinuxMountReadWriteOncePod.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ScheduleDaemonSetPods.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerAsyncPreemption.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerPopFromBackoffQ.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SchedulerQueueingHints.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SeccompDefault.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SecurityContextDeny.md
@@ -1090,6 +1109,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StartupP
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StatefulSetAutoDeletePVC.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StatefulSetMinReadySeconds.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StatefulSetStartOrdinal.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageNamespaceIndex.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageObjectInUseProtection.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageVersionAPI.md
@@ -1464,7 +1484,7 @@ content/zh-cn/docs/reference/kubectl/quick-reference.md
 content/zh-cn/docs/reference/kubernetes-api/_index.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/_index.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/certificate-signing-request-v1.md
-content/zh-cn/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1alpha1.md
+content/zh-cn/docs/reference/kubernetes-api/authentication-resources/cluster-trust-bundle-v1beta1.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/self-subject-review-v1.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/service-account-v1.md
 content/zh-cn/docs/reference/kubernetes-api/authentication-resources/token-request-v1.md
@@ -1482,13 +1502,13 @@ content/zh-cn/docs/reference/kubernetes-api/cluster-resources/_index.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/api-service-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/component-status-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/event-v1.md
-content/zh-cn/docs/reference/kubernetes-api/cluster-resources/ip-address-v1beta1.md
-content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1alpha1.md
+content/zh-cn/docs/reference/kubernetes-api/cluster-resources/ip-address-v1.md
+content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-candidate-v1beta1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/lease-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/namespace-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/node-v1.md
 content/zh-cn/docs/reference/kubernetes-api/cluster-resources/runtime-class-v1.md
-content/zh-cn/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1beta1.md
+content/zh-cn/docs/reference/kubernetes-api/cluster-resources/service-cidr-v1.md
 content/zh-cn/docs/reference/kubernetes-api/common-definitions/_index.md
 content/zh-cn/docs/reference/kubernetes-api/common-definitions/delete-options.md
 content/zh-cn/docs/reference/kubernetes-api/common-definitions/label-selector.md
@@ -1519,8 +1539,7 @@ content/zh-cn/docs/reference/kubernetes-api/config-and-storage-resources/volume-
 content/zh-cn/docs/reference/kubernetes-api/config-and-storage-resources/volume.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/_index.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/custom-resource-definition-v1.md
-content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1alpha3.md
-content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1beta1.md
+content/zh-cn/docs/reference/kubernetes-api/extend-resources/device-class-v1beta2.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/mutating-webhook-configuration-v1.md
 content/zh-cn/docs/reference/kubernetes-api/extend-resources/validating-webhook-configuration-v1.md
 content/zh-cn/docs/reference/kubernetes-api/policy-resources/_index.md
@@ -1547,7 +1566,6 @@ content/zh-cn/docs/reference/kubernetes-api/workload-resources/deployment-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v2.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/job-v1.md
-content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-scheduling-context-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-template-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/priority-class-v1.md
@@ -1734,6 +1752,7 @@ content/zh-cn/docs/reference/using-api/_index.md
 content/zh-cn/docs/reference/using-api/api-concepts.md
 content/zh-cn/docs/reference/using-api/cel.md
 content/zh-cn/docs/reference/using-api/client-libraries.md
+content/zh-cn/docs/reference/using-api/declarative-validation.md
 content/zh-cn/docs/reference/using-api/deprecation-guide.md
 content/zh-cn/docs/reference/using-api/deprecation-policy.md
 content/zh-cn/docs/reference/using-api/health-checks.md
@@ -1988,7 +2007,7 @@ content/zh-cn/docs/tutorials/kubernetes-basics/create-cluster/cluster-interactiv
 content/zh-cn/docs/tutorials/kubernetes-basics/create-cluster/cluster-intro.md
 content/zh-cn/docs/tutorials/kubernetes-basics/deploy-app/_index.md
 content/zh-cn/docs/tutorials/kubernetes-basics/deploy-app/deploy-interactive-gone.html
-content/zh-cn/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.html
+content/zh-cn/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro.md
 content/zh-cn/docs/tutorials/kubernetes-basics/explore/_index.md
 content/zh-cn/docs/tutorials/kubernetes-basics/explore/explore-interactive-gone.html
 content/zh-cn/docs/tutorials/kubernetes-basics/explore/explore-intro.md
@@ -2199,6 +2218,7 @@ content/zh-cn/examples/pods/commands.yaml
 content/zh-cn/examples/pods/config/example-redis-config.yaml
 content/zh-cn/examples/pods/config/redis-config
 content/zh-cn/examples/pods/config/redis-pod.yaml
+content/zh-cn/examples/pods/image-volumes-subpath.yaml
 content/zh-cn/examples/pods/image-volumes.yaml
 content/zh-cn/examples/pods/init-containers.yaml
 content/zh-cn/examples/pods/inject/dapi-envars-container.yaml
@@ -2276,6 +2296,7 @@ content/zh-cn/examples/pods/security/security-context-6.yaml
 content/zh-cn/examples/pods/security/security-context.yaml
 content/zh-cn/examples/pods/share-process-namespace.yaml
 content/zh-cn/examples/pods/simple-pod.yaml
+content/zh-cn/examples/pods/storage/nginx.conf
 content/zh-cn/examples/pods/storage/projected-clustertrustbundle.yaml
 content/zh-cn/examples/pods/storage/projected-secret-downwardapi-configmap.yaml
 content/zh-cn/examples/pods/storage/projected-secrets-nondefault-permission-mode.yaml
@@ -2293,9 +2314,11 @@ content/zh-cn/examples/pods/two-container-pod.yaml
 content/zh-cn/examples/pods/user-namespaces-stateless.yaml
 content/zh-cn/examples/policy/baseline-psp.yaml
 content/zh-cn/examples/policy/example-psp.yaml
+content/zh-cn/examples/policy/gold-vac-pvc.yaml
 content/zh-cn/examples/policy/high-priority-pod.yaml
 content/zh-cn/examples/policy/priority-class-resourcequota.yaml
 content/zh-cn/examples/policy/privileged-psp.yaml
+content/zh-cn/examples/policy/quota-vac.yaml
 content/zh-cn/examples/policy/quota.yaml
 content/zh-cn/examples/policy/restricted-psp.yaml
 content/zh-cn/examples/policy/zookeeper-pod-disruption-budget-maxunavailable.yaml

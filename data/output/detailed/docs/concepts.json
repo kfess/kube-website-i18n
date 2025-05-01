@@ -3733,6 +3733,12 @@
           "date": "Wed Mar 26 18:05:34 2025 +0900",
           "message": "chore: trim full-wide space",
           "author": "Junya Okabe"
+        },
+        {
+          "hash": "24ed4e9c0e3b8f469ca4d0d88b521077dfc2d6c0",
+          "date": "Tue Apr 8 00:47:58 2025 +0300",
+          "message": "[ja] Fix typo in autoscaling docs",
+          "author": "Arhell"
         }
       ]
     },
@@ -3893,6 +3899,12 @@
           "date": "Tue Jan 30 22:18:28 2024 +0100",
           "message": "Adds a new concept page for autoscaling",
           "author": "Daniel Bodky"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
         }
       ]
     }
@@ -3903,6 +3915,12 @@
       "commits": [
         {
           "hash": "5d0af1a2c61b0eae3ad0d79babc35e42999fdfd2",
+          "date": "Sun Apr 6 14:18:37 2025 +0900",
+          "message": "[ja] Translate content/en/docs/concepts/workloads/management.md into Japanese (#50316)",
+          "author": "kfess"
+        },
+        {
+          "hash": "db9c2385be7683c2131c006a5735c65bebd95142",
           "date": "Sun Apr 6 14:18:37 2025 +0900",
           "message": "[ja] Translate content/en/docs/concepts/workloads/management.md into Japanese (#50316)",
           "author": "kfess"
@@ -4121,6 +4139,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ddb78b1906af647e3931a69547e6465a350ee663",
+          "date": "Sun Mar 30 16:41:53 2025 +0800",
+          "message": "[zh-cn]sync assign-pod-node topology-spread-constraints user-namespaces",
+          "author": "xin.li"
         }
       ]
     },
@@ -4599,6 +4623,12 @@
           "date": "Fri Oct 9 20:36:52 2020 +0900",
           "message": "Move content/ja/docs/concepts/configuration/assign-pod-node.md to content/ja/docs/concepts/scheduling-eviction/assign-pod-node.md",
           "author": "hikkie3110"
+        },
+        {
+          "hash": "f1bfa64fac771d8a4767223a0538002bf2f9d4fc",
+          "date": "Thu Apr 24 00:36:59 2025 +0300",
+          "message": "[ja] Update API version",
+          "author": "Arhell"
         }
       ]
     },
@@ -4627,6 +4657,12 @@
           "hash": "9eda1d37f91979788b56a2aeb8b8e2a413f75761",
           "date": "Wed Oct 11 22:09:26 2023 +0200",
           "message": "Merge pull request #43023 from edithturn/add-content/es/docs/concepts/storage/projected-volumes",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "8179dc17ddb8977691dbf6d92098f6ead9f1a7df",
+          "date": "Sat Apr 26 02:35:26 2025 -0700",
+          "message": "Merge pull request #50675 from jayeshmahajan/jm/hi-example-nginx",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -4945,6 +4981,12 @@
           "date": "Tue Jul 26 20:56:28 2022 -0700",
           "message": "Merge pull request #35416 from kinzhi/kinzhi185",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ddb78b1906af647e3931a69547e6465a350ee663",
+          "date": "Sun Mar 30 16:41:53 2025 +0800",
+          "message": "[zh-cn]sync assign-pod-node topology-spread-constraints user-namespaces",
+          "author": "xin.li"
         }
       ]
     },
@@ -5154,6 +5196,42 @@
           "date": "Tue May 10 11:01:05 2022 +0100",
           "message": "Move Pod Topology Spread Constraints into scheduling",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "9cd79f4f63f09172e7f99962e1546c517b8effa1",
+          "date": "Sat Apr 5 17:24:37 2025 -0700",
+          "message": "Merge pull request #49897 from ffromani/node-cpumanager-full-pcpus-only-GA",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9120e0c7d2d26b177ecc0535e9836373d9df83a7",
+          "date": "Fri Mar 21 10:59:18 2025 +0900",
+          "message": "Revert \"Update the description of TopologySpreadConstraints's matchLabelKeys to align with the design change\"",
+          "author": "Keita Mochizuki"
+        },
+        {
+          "hash": "b601c22677dff98e441b2584842de2f684d7cfff",
+          "date": "Sat Feb 1 14:30:56 2025 -0800",
+          "message": "Merge pull request #49607 from mochizuki875/add_deprecation_matchlabelkeys_podtopologyspread",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ea2bd426517f72b30721a46f82c8594c84d7b235",
+          "date": "Fri Jan 31 12:40:18 2025 +0000",
+          "message": "fix2",
+          "author": "mochizuki875"
+        },
+        {
+          "hash": "bf53e4f1ee151aa2181afacce2342f6e66b7ba54",
+          "date": "Fri Jan 31 08:51:21 2025 +0000",
+          "message": "fix1",
+          "author": "mochizuki875"
+        },
+        {
+          "hash": "7a4fbbce519c9587dc60e897e586fc8f1d062153",
+          "date": "Fri Jan 31 08:15:45 2025 +0000",
+          "message": "Update the description of matchLabelKeys to align with the design change",
+          "author": "mochizuki875"
         }
       ]
     },
@@ -5165,6 +5243,12 @@
           "date": "Sat Mar 15 07:05:47 2025 +0900",
           "message": "[ja] Translate content/en/docs/concepts/scheduling-eviction/topology-spread-constraints.md into Japanese (#49776)",
           "author": "Kohei Sugimoto"
+        },
+        {
+          "hash": "f1bfa64fac771d8a4767223a0538002bf2f9d4fc",
+          "date": "Thu Apr 24 00:36:59 2025 +0300",
+          "message": "[ja] Update API version",
+          "author": "Arhell"
         }
       ]
     },
@@ -5279,6 +5363,18 @@
           "date": "Sun Jan 29 05:28:32 2023 -0800",
           "message": "Merge pull request #39048 from Zhuzhenghao/fix/dns-horizontal-autoscaler",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ddb78b1906af647e3931a69547e6465a350ee663",
+          "date": "Sun Mar 30 16:41:53 2025 +0800",
+          "message": "[zh-cn]sync assign-pod-node topology-spread-constraints user-namespaces",
+          "author": "xin.li"
+        },
+        {
+          "hash": "dc259f737be69d7274967b488323fd54070b8c55",
+          "date": "Thu Apr 24 13:20:02 2025 +0800",
+          "message": "[zh-cn]sync user-namespaces admission-controllers",
+          "author": "xin.li"
         }
       ]
     },
@@ -5422,6 +5518,12 @@
           "date": "Thu Aug 18 02:16:36 2022 -0700",
           "message": "Merge pull request #35976 from windsonsea/apacyhf",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "f39cd361223ad99c0050b7a95a8d9bba808b8c0e",
+          "date": "Fri Feb 14 11:00:19 2025 +0900",
+          "message": "user-namespaces: add idsPerPod configuration",
+          "author": "Akihiro Suda"
         }
       ]
     },
@@ -8523,6 +8625,18 @@
           "date": "Wed May 16 12:26:52 2018 -0700",
           "message": "Arrange the Extending Kubernetes section in the Concepts TOC (#8569)",
           "author": "Steve Perry"
+        },
+        {
+          "hash": "210060f58453438bcdead4879933a5f05c869a2c",
+          "date": "Thu Mar 27 10:09:06 2025 -0700",
+          "message": "Update content/en/docs/concepts/extend-kubernetes/api-extension/declarative-validation.md",
+          "author": "Aaron Prindle"
+        },
+        {
+          "hash": "5001db2d964e84c3d4f485d3109437ad380320b1",
+          "date": "Wed Mar 26 18:22:11 2025 +0000",
+          "message": "docs: add new declarative validation doc page and link to it",
+          "author": "Aaron Prindle"
         }
       ]
     },
@@ -10372,6 +10486,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "55dd78d4bfffbaaa5c6bfb46f8d1d91007b20241",
+          "date": "Wed Mar 26 10:52:37 2025 +0800",
+          "message": "[zh-cn] sync blog file 2024-08-14-pv-last-phase-transition-time-ga.md",
+          "author": "Jin Li"
         }
       ]
     },
@@ -12356,6 +12476,12 @@
           "date": "Mon Mar 24 17:09:01 2025 +0530",
           "message": "feat: add new page for self-healing",
           "author": "abhilasha2418"
+        },
+        {
+          "hash": "350a056f259949ead0efa5221df735adb1e6d1e3",
+          "date": "Tue Apr 15 17:54:30 2025 +0100",
+          "message": "Move where landing page self-healing refers to",
+          "author": "Tim Bannister"
         }
       ]
     }
@@ -12707,6 +12833,12 @@
           "date": "Mon Jan 22 11:50:49 2024 +0800",
           "message": "[zh-cn]localize content/zh-cn/docs/concepts/services-networking/gateway.md",
           "author": "howieyuen"
+        },
+        {
+          "hash": "7a435ecbabc734ffa119e8f208bd650366c29ed1",
+          "date": "Tue Apr 29 03:03:55 2025 -0700",
+          "message": "Merge pull request #50725 from my-git9/npa-11779",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -12736,6 +12868,12 @@
           "date": "Thu Oct 19 09:45:52 2023 -0700",
           "message": "Adds Gateway API docs",
           "author": "Daneyon Hansen"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     }
@@ -13701,6 +13839,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "bcd341ba174af0fb638f31c5ab9b4835d2de88f5",
+          "date": "Thu Apr 24 06:24:31 2025 -0700",
+          "message": "Merge pull request #50642 from my-git9/npa-23662",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -13800,6 +13944,12 @@
           "date": "Wed Jun 27 15:26:18 2018 -0700",
           "message": "Release docs for Kubernetes 1.11 (#9171)",
           "author": "Misty Linville"
+        },
+        {
+          "hash": "178ce422ec7c5df889829587b0e259380c30e5fa",
+          "date": "Tue Mar 25 14:22:02 2025 +0000",
+          "message": "Add documentation for Alpha feature: MutableCSINodeAllocatableCount",
+          "author": "torredil"
         }
       ]
     },
@@ -14105,6 +14255,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "bcd341ba174af0fb638f31c5ab9b4835d2de88f5",
+          "date": "Thu Apr 24 06:24:31 2025 -0700",
+          "message": "Merge pull request #50642 from my-git9/npa-23662",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -15262,6 +15418,24 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "5dead83b55a4cddaa15606e1dcd0fbe846d83111",
+          "date": "Fri Mar 14 14:24:18 2025 -0400",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "michellengnx"
+        },
+        {
+          "hash": "941773d2ca6018c62d377fbb23f64f957f75d6ff",
+          "date": "Thu Feb 27 17:25:52 2025 +0000",
+          "message": "KEP-5040: Disable git_repo volume driver.",
+          "author": "Vinayak Goyal"
+        },
+        {
+          "hash": "f317909e062a15eada10354f39f7c920035b0389",
+          "date": "Fri Dec 20 21:23:01 2024 +0000",
+          "message": "Update doc for Portworx CSI migration moving to stable",
+          "author": "Ankit Gohil"
         }
       ]
     },
@@ -16259,6 +16433,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/security/security-checklist.md",
+      "commits": [
+        {
+          "hash": "bac6aeacc1a9b64d9f97018416dab884ae7abd08",
+          "date": "Mon Apr 21 13:31:01 2025 -0700",
+          "message": "Merge pull request #50572 from za/id-translate-security-checklist",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/workloads/pods/_index.md": {
@@ -16573,6 +16758,12 @@
           "date": "Fri Nov 29 15:40:58 2024 +0300",
           "message": "[ru] Localization of content/ru/docs/concepts/workloads/pods/_index.md (#45980)",
           "author": "Dmitry"
+        },
+        {
+          "hash": "84ebe34900cfc601cdb00d699bf999264fd23d73",
+          "date": "Sat Apr 26 20:11:24 2025 -0700",
+          "message": "Merge pull request #50694 from Arhell/ru-upd",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -16805,6 +16996,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3afa6a4ccbbb417e6cd116985edbae49bde404b1",
+          "date": "Wed Apr 23 19:52:29 2025 -0700",
+          "message": "Merge pull request #50611 from jayeshmahajan/jm/hi-example-guestbook-app",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -17140,6 +17337,24 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
+        },
+        {
+          "hash": "ab27c52ee5f205156562d028835b245afbef3508",
+          "date": "Sat Apr 5 09:32:37 2025 +0100",
+          "message": "update SidecarContainers to stable in v1.33 (#49685)",
+          "author": "Paco Xu"
+        },
+        {
+          "hash": "726d06f1b77c5f5eff9fbb25bd6801526ff75e77",
+          "date": "Thu Apr 3 04:06:38 2025 -0700",
+          "message": "Merge pull request #49936 from saschagrunert/dev-1.33-image-volume-beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -18506,6 +18721,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef671cd8a8d085f3ebcf8262ef2003ab40149cf6",
+          "date": "Thu Apr 24 11:01:47 2025 +0800",
+          "message": "[zh-cn]sync images.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -18979,6 +19200,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "5a1b532179cda2c16f7d1a2e8ef3dbb82f77d28a",
+          "date": "Mon Feb 24 17:40:16 2025 -0600",
+          "message": "add documentation for 2535 Co-authored-by: Standa Láznička <stlaz@users.noreply.github.com>",
+          "author": "Daniel Shebib"
         }
       ]
     },
@@ -19965,6 +20192,12 @@
           "date": "Mon May 11 10:31:51 2020 -0700",
           "message": "Merge pull request #20877 from pjhwa/fix-20875",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "6c3b9a7fb125ac4d9ea349d006c6ef79ed4707fa",
+          "date": "Tue Feb 18 13:25:07 2025 +0100",
+          "message": "DRA: device taints and tolerations",
+          "author": "Patrick Ohly"
         }
       ]
     },
@@ -20328,6 +20561,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "5812a5719a975386fff6bed9f28a09c7150a05cd",
+          "date": "Sun Apr 27 10:30:44 2025 +0700",
+          "message": "[zh-cn] sync pods/pod-lifecycle.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -20957,6 +21196,24 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
+        },
+        {
+          "hash": "ee24cc050a8f791f879967bf5703057e0dc30f05",
+          "date": "Tue Apr 8 23:16:39 2025 -0700",
+          "message": "Merge pull request #50439 from roycaihw/psi",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "74406c8972dd36df8c456003500e8c545e120aa2",
+          "date": "Tue Apr 8 07:38:40 2025 -0700",
+          "message": "Merge pull request #49904 from marosset/5100-winsdr-winoverlay-beta-website-updates",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -23493,6 +23750,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a2a70ddeabc43eee4bdd9f01904ddbdf494f67fe",
+          "date": "Sun Apr 27 23:51:28 2025 -0700",
+          "message": "Merge pull request #50699 from Eason1118/patch-3",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -24200,6 +24463,18 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "e5bc848393bef4d69956c3b874c1f9aafa15eb13",
+          "date": "Sat Mar 29 03:24:39 2025 -0700",
+          "message": "Merge pull request #49578 from vinayakankugoyal/kep2862beta",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "def6c590adb8d0a880c028315172fd2ac0ceee41",
+          "date": "Tue Mar 25 14:45:51 2025 +0100",
+          "message": "Document .status.terminatingReplicas enabled by DeploymentPodReplacementPolicy feature",
+          "author": "Filip Křepinský"
         }
       ]
     },
@@ -26914,6 +27189,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d9d139c999222b2b83d6e97d75022a8c6da17e5e",
+          "date": "Sun Apr 27 09:32:59 2025 +0700",
+          "message": "[zh-cn] sync container-lifecycle-hooks.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -27147,6 +27428,18 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "74406c8972dd36df8c456003500e8c545e120aa2",
+          "date": "Tue Apr 8 07:38:40 2025 -0700",
+          "message": "Merge pull request #49904 from marosset/5100-winsdr-winoverlay-beta-website-updates",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "cf40ef0bf8d4117f6ba003a9dbcdd219a478d314",
+          "date": "Sat Apr 5 14:00:37 2025 +0530",
+          "message": "KEP 4818: PodLifecycleSleepActionAllowZero beta graduation (#49858)",
+          "author": "Sreeram Venkitesh"
         }
       ]
     },
@@ -27498,6 +27791,17 @@
           "date": "Sat Aug 31 20:52:44 2024 +0900",
           "message": "[ja]Translate content/en/docs/concepts/security/cloud-native-security.md (#47615)",
           "author": "kohbis"
+        }
+      ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/security/cloud-native-security.md",
+      "commits": [
+        {
+          "hash": "521904a1a7f238ed01ec4e9c98f263ea4cfaac25",
+          "date": "Thu Apr 24 14:27:09 2025 +0700",
+          "message": "id: initial commit on translate cloud-native-security into Bahasa Indonesia",
+          "author": "za"
         }
       ]
     }
@@ -30382,6 +30686,12 @@
           "date": "Sun Feb 16 09:22:21 2025 -0800",
           "message": "Merge pull request #49602 from mochizuki875/add_deprecation_rel_matchlabelkeys_and_mismatchlabelkeys",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "a99fb87acbf265cad2800fa6667848b9b1fdccd0",
+          "date": "Sun Feb 16 16:20:36 2025 +0100",
+          "message": "[pl] docs/concepts/storage/_index.md",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -30582,6 +30892,12 @@
           "date": "Sun Feb 16 05:24:22 2025 -0800",
           "message": "Merge pull request #49762 from my-git9/np-17051",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "84fe6022790db9d9124e7caa8bfc51993d764c6a",
+          "date": "Sun Feb 16 10:05:06 2025 +0100",
+          "message": "[pl] docs/concepts/configuration/_index.md",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -31391,6 +31707,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "92de3191b9fe3e6d6efcebbea8181865a0cd1fa0",
+          "date": "Thu Apr 24 16:33:42 2025 +0800",
+          "message": "[zh] Sync cluster-administration/system-metrics.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -31528,6 +31850,18 @@
           "date": "Mon May 25 12:59:36 2020 +0200",
           "message": "Document structured logging",
           "author": "Marek Siarkowicz"
+        },
+        {
+          "hash": "fd68ed8909deb93b427d79f00ab53b9f08eb5e39",
+          "date": "Tue Apr 8 15:42:52 2025 +0000",
+          "message": "Add cgroup v2 to PSI requirements",
+          "author": "Haowei Cai"
+        },
+        {
+          "hash": "f9ff985f416e50e0c327ac0deefecce7c293b32b",
+          "date": "Tue Mar 25 22:40:31 2025 +0000",
+          "message": "Kubelet PSI metrics documentation",
+          "author": "Haowei Cai"
         }
       ]
     },
@@ -32715,6 +33049,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "be80b5bc2f64b21021c76463d9a1883fd670dbf0",
+          "date": "Thu Apr 24 09:24:31 2025 +0800",
+          "message": "[zh] Sync services-networking/service.md and windows-networking.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -34172,6 +34512,18 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
+        },
+        {
+          "hash": "3e00afab1788a7366913b0c8bd6df3bab3302579",
+          "date": "Mon Apr 7 21:16:39 2025 +0100",
+          "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -36666,6 +37018,18 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ec78e8690ae3f8894d9fa5c2ea8811a0d574392c",
+          "date": "Tue Feb 25 13:11:34 2025 -0500",
+          "message": "KEP-4540: Move to beta",
+          "author": "Jing Zhang"
+        },
+        {
+          "hash": "e3f6ed7988353dd33b09e951869581c5df01710f",
+          "date": "Tue Apr 29 21:39:56 2025 +0800",
+          "message": "[zh-cn]sync node-resource-managers.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -36701,6 +37065,24 @@
           "date": "Mon Oct 19 18:10:59 2020 +0200",
           "message": "The Memory Manager official documentation",
           "author": "Cezary Zukowski"
+        },
+        {
+          "hash": "0a80c0544a77e9575009af0564b62e4d5f847ded",
+          "date": "Tue Feb 25 16:48:41 2025 +0100",
+          "message": "KEP-2625: cpumanager full-pcpus-inly becomes GA",
+          "author": "Francesco Romani"
+        },
+        {
+          "hash": "d1ac26f4392c052682466c82a4d97f73416eb2c3",
+          "date": "Fri Mar 21 19:58:06 2025 +0530",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "Sreeram"
+        },
+        {
+          "hash": "ec78e8690ae3f8894d9fa5c2ea8811a0d574392c",
+          "date": "Tue Feb 25 13:11:34 2025 -0500",
+          "message": "KEP-4540: Move to beta",
+          "author": "Jing Zhang"
         }
       ]
     },
@@ -37799,6 +38181,12 @@
           "date": "Thu May 26 17:19:55 2022 -0700",
           "message": "Windows documentation overhaul (#33582)",
           "author": "Mark Rossetti"
+        },
+        {
+          "hash": "9e160e87b4bfbee57204ba58751cfc778d4ce016",
+          "date": "Tue Apr 8 23:32:40 2025 -0700",
+          "message": "Removing docs for Windows hostNetwork support for v1.33 (#49905)",
+          "author": "Mark Rossetti"
         }
       ]
     },
@@ -37925,6 +38313,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "51b32a8885dbc036accd3f0a1827594a8a90c148",
+          "date": "Thu Apr 24 10:39:13 2025 +0800",
+          "message": "[zh] Sync policy/resource-quotas.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -38338,6 +38732,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "f26e2128686b35a096675097ff8aad5030eee301",
+          "date": "Thu Mar 13 12:03:58 2025 +0800",
+          "message": "Resource Quota Per VolumeAttributesClass",
+          "author": "carlory"
         }
       ]
     },
@@ -40975,6 +41375,12 @@
           "date": "Sat Nov 16 21:56:53 2024 +0900",
           "message": "[ja] Translate docs/concepts/security/service-accounts.md into Japanese (#48719)",
           "author": "Kohei Sugimoto"
+        },
+        {
+          "hash": "7ab46e4edab5f7a63a435137f41d50f585717420",
+          "date": "Wed Apr 23 11:56:34 2025 -0700",
+          "message": "Merge pull request #50575 from Arhell/id-add",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -42699,6 +43105,24 @@
           "date": "Sat May 23 17:04:48 2020 +0100",
           "message": "Rename Job concept page",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "81d68903fc9f8fbd23cd54bff2d5f9e22bebcf9c",
+          "date": "Wed Apr 16 16:57:50 2025 +0530",
+          "message": "Merge main into dev-1.33 to keep in sync",
+          "author": "UrvashiChoubey"
+        },
+        {
+          "hash": "0d639b9629295064d9b5205d25b92b509e215f2d",
+          "date": "Thu Mar 27 14:06:35 2025 +0100",
+          "message": "Docs update as we promote JobBackoffLimitPerIndex to stable (#49811)",
+          "author": "Michał Woźniak"
+        },
+        {
+          "hash": "5870bf3071a5da9096143faf31b16c51010cbe90",
+          "date": "Mon Feb 17 19:46:59 2025 +0900",
+          "message": "KEP-3998: Graduate JobSuccessPolicy to Stable",
+          "author": "Yuki Iwai"
         }
       ]
     },
@@ -43176,6 +43600,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a2a70ddeabc43eee4bdd9f01904ddbdf494f67fe",
+          "date": "Sun Apr 27 23:51:28 2025 -0700",
+          "message": "Merge pull request #50699 from Eason1118/patch-3",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -43517,6 +43947,30 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "e5bc848393bef4d69956c3b874c1f9aafa15eb13",
+          "date": "Sat Mar 29 03:24:39 2025 -0700",
+          "message": "Merge pull request #49578 from vinayakankugoyal/kep2862beta",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "def6c590adb8d0a880c028315172fd2ac0ceee41",
+          "date": "Tue Mar 25 14:45:51 2025 +0100",
+          "message": "Document .status.terminatingReplicas enabled by DeploymentPodReplacementPolicy feature",
+          "author": "Filip Křepinský"
+        },
+        {
+          "hash": "7ae43e791cb50cac4fc0d5f365853431d6a74d18",
+          "date": "Tue Apr 15 17:55:39 2025 +0100",
+          "message": "Add note for localization teams",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "350a056f259949ead0efa5221df735adb1e6d1e3",
+          "date": "Tue Apr 15 17:54:30 2025 +0100",
+          "message": "Move where landing page self-healing refers to",
+          "author": "Tim Bannister"
         }
       ]
     },
@@ -44607,6 +45061,12 @@
           "date": "Tue Apr 7 21:35:50 2020 -0400",
           "message": "Rename \"Scheduling: concept as \"Scheduling and Eviction\"",
           "author": "Adam Kaplan"
+        },
+        {
+          "hash": "88bb575dfaf5e2ed1b481eff8320aeb384df85a8",
+          "date": "Mon Apr 7 03:06:39 2025 -0700",
+          "message": "Merge pull request #50287 from atiratree/pod-replacement-policy-docs",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -45532,6 +45992,36 @@
           "date": "Mon Nov 28 02:54:07 2022 -0800",
           "message": "Merge pull request #37379 from Kartik494/besteffortpods",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "598c25992c33a57876a8b1656f21a11c5f514a5e",
+          "date": "Thu Apr 10 02:08:51 2025 -0700",
+          "message": "Merge pull request #49313 from carlory/JobPodFailurePolicy",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "6c3b9a7fb125ac4d9ea349d006c6ef79ed4707fa",
+          "date": "Tue Feb 18 13:25:07 2025 +0100",
+          "message": "DRA: device taints and tolerations",
+          "author": "Patrick Ohly"
+        },
+        {
+          "hash": "eca7cd38cf6d6e42d0d826824fdf8610dc8c1db3",
+          "date": "Tue Apr 8 00:16:42 2025 -0700",
+          "message": "Merge pull request #49942 from danwinship/kep-4858-alpha",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "23f39cdd4bf9b92a4de5b6d5bd16871ab8e6776c",
+          "date": "Mon Apr 7 18:00:53 2025 -0700",
+          "message": "Merge pull request #49801 from cupnes/add-storage-capacity-scoring",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ce16fbdf8b6eaaa84660b34116bd2b4a16c8e61a",
+          "date": "Mon Apr 7 19:56:44 2025 +0100",
+          "message": "5018 dra admin access (#49929)",
+          "author": "Rita Zhang"
         }
       ]
     },
@@ -45670,6 +46160,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "3afa6a4ccbbb417e6cd116985edbae49bde404b1",
+          "date": "Wed Apr 23 19:52:29 2025 -0700",
+          "message": "Merge pull request #50611 from jayeshmahajan/jm/hi-example-guestbook-app",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -46112,6 +46608,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "d0fa9da4b2307cafb6f549a7da8f4bc8aa9ffb66",
+          "date": "Tue Jan 7 17:38:33 2025 +0100",
+          "message": "Update information about CronJob's unsupported time zone field",
+          "author": "Maciej Szulik"
         }
       ]
     },
@@ -51366,6 +51868,18 @@
           "date": "Mon Apr 26 21:46:50 2021 +0000",
           "message": "Create pod eviction concept and glossary entries",
           "author": "Shannon Kularathna"
+        },
+        {
+          "hash": "40c3c7f367bdef029001ad877501a52a2c41ed78",
+          "date": "Sun Mar 16 20:41:47 2025 -0700",
+          "message": "Merge pull request #49309 from carlory/PersistentVolumeLastPhaseTransitionTime",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d2f678e958b5f348b2dddbf0b7f32d7087de2a73",
+          "date": "Sun Feb 16 09:20:23 2025 -0800",
+          "message": "Merge pull request #49512 from chrischdi/pr-kubeadm-ControlPlaneKubeletLocalMode-beta",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -55466,6 +55980,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "b05bba596b036da8bf02c98ee55a7067916ec9ea",
+          "date": "Thu Apr 24 10:28:51 2025 +0800",
+          "message": "[zh] Sync services-networking/endpoint-slices.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -55866,6 +56386,12 @@
           "date": "Mon Sep 9 10:21:18 2019 -0700",
           "message": "Adding initial EndpointSlice documentation (#16018)",
           "author": "Rob Scott"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -59228,6 +59754,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "be80b5bc2f64b21021c76463d9a1883fd670dbf0",
+          "date": "Thu Apr 24 09:24:31 2025 +0800",
+          "message": "[zh] Sync services-networking/service.md and windows-networking.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -59262,6 +59794,18 @@
           "hash": "4d9e6d736b1de6ca6f72ed2b85871439d1365f3e",
           "date": "Thu May 26 17:19:55 2022 -0700",
           "message": "Windows documentation overhaul (#33582)",
+          "author": "Mark Rossetti"
+        },
+        {
+          "hash": "6708fcd387f514a335c681a4238d2c44f3931719",
+          "date": "Sat Apr 5 14:57:59 2025 +0800",
+          "message": "Update windows-networking.md",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "3434a09c560ac62acfae06b84f9dd02dbad024b9",
+          "date": "Tue Feb 25 12:48:53 2025 -0800",
+          "message": "Website updates for WinDSR / WinOverlay beta support",
           "author": "Mark Rossetti"
         }
       ]
@@ -59365,6 +59909,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a82f0c891e64a120234a099646456c9e587276e1",
+          "date": "Sun Apr 27 17:57:25 2025 -0700",
+          "message": "Merge pull request #50696 from Eason1118/patch-1",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -59400,6 +59950,12 @@
           "date": "Mon Apr 26 21:46:50 2021 +0000",
           "message": "Create pod eviction concept and glossary entries",
           "author": "Shannon Kularathna"
+        },
+        {
+          "hash": "649bda2cbda386043d3e2af07fcb84806243c828",
+          "date": "Wed Apr 9 05:08:41 2025 -0400",
+          "message": "Update docs for deprecation of Endpoints API (#49831)",
+          "author": "Dan Winship"
         }
       ]
     },
@@ -63839,6 +64395,12 @@
           "date": "Wed Aug 14 09:54:40 2024 +0800",
           "message": "[zh] Add coordinated-leader-election.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "bb66a95c7de28697d6de4a4eded16c729409af44",
+          "date": "Sun Apr 27 02:02:27 2025 +0900",
+          "message": "[zh] sync concepts/cluster-administration/coordinated-leader-election.md",
+          "author": "KKtheGhost"
         }
       ]
     },
@@ -63856,6 +64418,12 @@
           "date": "Tue Jul 30 18:08:28 2024 +0000",
           "message": "Address comments",
           "author": "Jefftree"
+        },
+        {
+          "hash": "a368f553c771629a67f8417ec23e077252d7058d",
+          "date": "Tue Apr 8 23:54:41 2025 +0900",
+          "message": "KEP 4355 - CoordinatedLeaderElection to Beta Docs  (#49950)",
+          "author": "Jeffrey Ying"
         }
       ]
     }
@@ -65343,6 +65911,17 @@
           "author": "Rael Garcia"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/extend-kubernetes/api-extension/_index.md",
+      "commits": [
+        {
+          "hash": "2fbd5d573c5a57ae8ae54824b97935fa07045228",
+          "date": "Sun Feb 16 12:10:20 2025 +0100",
+          "message": "[pl] docs/concepts/extend-kubernetes/api-extension/_index.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/workloads/pods/downward-api.md": {
@@ -65443,6 +66022,12 @@
           "date": "Mon Mar 21 22:29:53 2022 +0000",
           "message": "Revise downward API documentation",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "930294a0f4865646a4a1607a58c9bd38a1d6faf0",
+          "date": "Mon Apr 7 11:26:00 2025 -0700",
+          "message": "Merge pull request #50366 from hacktivist123/merged-main-dev-1.33",
+          "author": "Rey Lejano"
         }
       ]
     },
@@ -68046,6 +68631,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "0acd6dfc6da830de965de117a1c75115a8f8f4ad",
+          "date": "Mon Apr 28 18:01:54 2025 -0700",
+          "message": "Merge pull request #50721 from Arhell/zh-fix",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -68183,6 +68774,12 @@
           "date": "Mon Nov 8 17:26:49 2021 -0800",
           "message": "Merge pull request #30118 from Shatakshi0805/fix-link-in-release-managers.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "79763df5a5813160d815e2411174379bac7c4f82",
+          "date": "Mon Apr 7 14:37:18 2025 +0200",
+          "message": "projected volumes: clustertrustbundle API is beta in 1.33+",
+          "author": "Stanislav Láznička"
         }
       ]
     },

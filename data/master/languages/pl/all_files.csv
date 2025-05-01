@@ -10,6 +10,7 @@ content/pl/_index.html
 content/pl/docs/_index.md
 content/pl/docs/concepts/_index.md
 content/pl/docs/concepts/configuration/_index.md
+content/pl/docs/concepts/extend-kubernetes/api-extension/_index.md
 content/pl/docs/concepts/overview/_index.md
 content/pl/docs/concepts/overview/components.md
 content/pl/docs/concepts/overview/kubernetes-api.md
@@ -18,6 +19,7 @@ content/pl/docs/concepts/windows/_index.md
 content/pl/docs/contribute/_index.md
 content/pl/docs/contribute/generate-ref-docs/_index.md
 content/pl/docs/contribute/generate-ref-docs/kubectl.md
+content/pl/docs/contribute/generate-ref-docs/kubernetes-components.md
 content/pl/docs/contribute/generate-ref-docs/prerequisites-ref-docs.md
 content/pl/docs/contribute/localization-pl.md
 content/pl/docs/contribute/new-content/new-features.md

@@ -1612,6 +1612,17 @@
           "author": "Evan Adi"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/kubeadm/install-kubeadm.md",
+      "commits": [
+        {
+          "hash": "6be4392a7bd4ab22e476553fa4a46eaec40f27d3",
+          "date": "Wed Apr 23 00:12:33 2025 +0530",
+          "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
+          "author": "Rayan Das"
+        }
+      ]
     }
   },
   "content/en/docs/setup/production-environment/_index.md": {
@@ -1713,6 +1724,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d5b9b53c8d91fb9111500c523eea6405acdd744e",
+          "date": "Sun Apr 20 21:57:38 2025 +0800",
+          "message": "[zh-cn]sync production-environment/_index.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -2099,6 +2116,18 @@
           "hash": "f6538e538a5dcb389a6a6e1472a16c28fdfadb32",
           "date": "Fri Apr 18 15:29:17 2025 +0000",
           "message": "[vi] add Vietnamese translation for Production environment",
+          "author": "cyanwind23"
+        },
+        {
+          "hash": "04553b2e8a0d442f72db0ce913feef60299f376a",
+          "date": "Tue Apr 22 15:40:08 2025 +0000",
+          "message": "[vi] fix vietnamese header anchors",
+          "author": "cyanwind23"
+        },
+        {
+          "hash": "c0b6bc1b2a2cd440d3bb8b777a20fba1540b039e",
+          "date": "Tue Apr 22 07:13:06 2025 +0000",
+          "message": "[vi] Remove references to archived HNC project",
           "author": "cyanwind23"
         }
       ]
@@ -3790,6 +3819,35 @@
           "date": "Wed Nov 20 14:25:19 2019 -0800",
           "message": "First Japanese l10n work for release-1.15. (#17693)",
           "author": "inductor"
+        }
+      ]
+    },
+    "id": {
+      "path": "content/id/docs/setup/best-practices/cluster-large.md",
+      "commits": [
+        {
+          "hash": "0825ae2f1eea024d54147c6b3a2aa9e2e2140475",
+          "date": "Tue Apr 29 17:01:54 2025 -0700",
+          "message": "Merge pull request #50486 from shurup/kubecon2025-april",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9889a375b24b75e9b1e324a285f023fb7bca1fa8",
+          "date": "Sun Apr 27 21:56:49 2025 +0700",
+          "message": "Merge branch 'main' into id/translate-considerations-for-large-cluster-page",
+          "author": "ridwanbejo"
+        },
+        {
+          "hash": "b7467b6aa666df8607839c6405c09c138766a925",
+          "date": "Sun Apr 27 09:38:40 2025 +0700",
+          "message": "Merge branch 'main' into id/translate-considerations-for-large-cluster-page",
+          "author": "ridwanbejo"
+        },
+        {
+          "hash": "f1b4a9c1c5e93a538d3530aa857ea51ab4861102",
+          "date": "Sat Apr 26 10:35:26 2025 +0700",
+          "message": "Merge branch 'main' into id/translate-considerations-for-large-cluster-page",
+          "author": "ridwanbejo"
         }
       ]
     }
