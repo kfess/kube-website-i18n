@@ -238,6 +238,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "dd8142b8a5cd769c6700fbfda9fa26660a95f8a7",
+          "date": "Fri Jan 31 14:32:07 2025 +0700",
+          "message": "Change X/Twitter links to Bluesky",
+          "author": "Dmitry Shurupov"
         }
       ]
     },

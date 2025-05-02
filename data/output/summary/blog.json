@@ -10,7 +10,17 @@
       "en"
     ]
   },
+  "content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-30-mutable-csi-node-allocatable.md": {
     "langs": [
       "en"
     ]
@@ -48,10 +58,16 @@
   },
   "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md": {
     "langs": [
       "en"
     ]

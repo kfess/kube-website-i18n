@@ -1803,5 +1803,10 @@
       "zh-cn",
       "en"
     ]
+  },
+  "content/en/docs/tasks/network/reconfigure-default-service-ip-ranges.md": {
+    "langs": [
+      "en"
+    ]
   }
 }
