@@ -3786,6 +3786,12 @@
           "date": "Mon Mar 4 01:59:02 2024 -0800",
           "message": "Merge pull request #45206 from lbzss/autoscaling.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "682011d545b205162da322fbb21f4e4530902ce6",
+          "date": "Thu May 1 01:19:56 2025 -0700",
+          "message": "Merge pull request #49924 from aramase/aramase/d/kep_4412_alpha_blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -4503,6 +4509,12 @@
           "hash": "0a6f733367e18862c6404664647c288a39cdfc86",
           "date": "Mon May 11 10:31:51 2020 -0700",
           "message": "Merge pull request #20877 from pjhwa/fix-20875",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "81d1b147aa7275bd7415137cc0611b9287983c56",
+          "date": "Thu May 1 07:09:55 2025 -0700",
+          "message": "Merge pull request #50752 from royalsflush/update-docs",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -8548,6 +8560,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "682011d545b205162da322fbb21f4e4530902ce6",
+          "date": "Thu May 1 01:19:56 2025 -0700",
+          "message": "Merge pull request #49924 from aramase/aramase/d/kep_4412_alpha_blog",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -43123,6 +43141,12 @@
           "date": "Mon Feb 17 19:46:59 2025 +0900",
           "message": "KEP-3998: Graduate JobSuccessPolicy to Stable",
           "author": "Yuki Iwai"
+        },
+        {
+          "hash": "81d1b147aa7275bd7415137cc0611b9287983c56",
+          "date": "Thu May 1 07:09:55 2025 -0700",
+          "message": "Merge pull request #50752 from royalsflush/update-docs",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

@@ -54,6 +54,19 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md",
+      "commits": [
+        {
+          "hash": "d8aeb707c53d03c63f97ebb6185ad6bac55ca936",
+          "date": "Thu May 1 12:19:55 2025 -0700",
+          "message": "Merge pull request #49606 from shurup/migrate-to-bluesky",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md",
@@ -63,6 +76,19 @@
           "date": "Wed Apr 30 07:59:56 2025 -0700",
           "message": "Merge pull request #50728 from rytswd/fix-directory-setup-for-streaming-list-res",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-30-mutable-csi-node-allocatable.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-30-mutable-csi-node-allocatable.md",
+      "commits": [
+        {
+          "hash": "5e84363f9e75a181c6b92113343ff08cb5867445",
+          "date": "Tue Apr 29 14:23:02 2025 -0400",
+          "message": "Merge branch 'main' of https://github.com/kubernetes/website into jm/hi-remove-katacoda",
+          "author": "jayeshmahajan"
         }
       ]
     }
@@ -134,6 +160,12 @@
           "date": "Tue Apr 22 15:56:38 2025 +0100",
           "message": "Schedule KEP-4974 blog for publication",
           "author": "Ryota"
+        },
+        {
+          "hash": "9ec1aea845828ab433d8dab1f8a7faadb8dfe1fa",
+          "date": "Fri Apr 25 01:42:24 2025 +0100",
+          "message": "Ensure to add v1.33 prefix for title",
+          "author": "Ryota"
         }
       ]
     }
@@ -191,6 +223,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md",
+      "commits": [
+        {
+          "hash": "93381ea50da1f5e339d3cc7d1ef4b10937dbe0de",
+          "date": "Tue Apr 29 09:29:40 2025 +0800",
+          "message": "[zh] Add 2025-04-23-jobs-successpolicy-goes-ga.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
@@ -202,6 +245,31 @@
           "date": "Mon Apr 21 00:27:01 2025 -0700",
           "message": "Merge pull request #50406 from my-git9/np-1336",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md",
+      "commits": [
+        {
+          "hash": "206c0216843191897bc506bca46d77eda1ac92de",
+          "date": "Fri Apr 25 14:20:59 2025 -0500",
+          "message": "KEP-4412: blog review feedback",
+          "author": "Anish Ramasekar"
+        },
+        {
+          "hash": "4177dd13978013766a2bc7bb9f922f07fbfa075e",
+          "date": "Tue Apr 15 18:41:56 2025 -0700",
+          "message": "mark wi for image pulls blog as draft",
+          "author": "Anish Ramasekar"
+        },
+        {
+          "hash": "245e8a21bea1656a28d60bed604d171ff02cc08b",
+          "date": "Mon Oct 14 11:10:59 2024 -0700",
+          "message": "Add blog post for PSAT for Kubelet Image Credential Providers",
+          "author": "Anish Ramasekar"
         }
       ]
     }

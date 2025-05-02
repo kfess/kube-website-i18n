@@ -46481,6 +46481,12 @@
           "date": "Tue Oct 25 14:45:12 2022 -0400",
           "message": "add documentation for metrics in Kubernetes",
           "author": "Han Kang"
+        },
+        {
+          "hash": "98f736ab1674057b341703eecd5a6d7b61226c43",
+          "date": "Thu May 1 03:47:56 2025 -0700",
+          "message": "Merge pull request #50690 from jayeshmahajan/jm/hi-example-deployment",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

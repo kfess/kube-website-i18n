@@ -12354,6 +12354,24 @@
           "date": "Wed Nov 29 01:25:00 2023 +0100",
           "message": "Merge pull request #43469 from aojea/placeholder_kep1880",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d8462fb84a8cc50ea4c2fa4dd1d2716de0a34276",
+          "date": "Tue Apr 22 09:28:38 2025 +0100",
+          "message": "Update content/en/docs/tasks/network/extend-service-ip-ranges.md",
+          "author": "Antonio Ojea"
+        },
+        {
+          "hash": "c15ff39f26c59e9ae36a318f8f3355e56c15fa0a",
+          "date": "Tue Apr 22 09:21:33 2025 +0100",
+          "message": "Update content/en/docs/tasks/network/extend-service-ip-ranges.md",
+          "author": "Antonio Ojea"
+        },
+        {
+          "hash": "c582aa194e15920fb5544e9d6f0b55e891b92e37",
+          "date": "Mon Mar 3 23:34:04 2025 +0000",
+          "message": "ServiceCIDR documentation",
+          "author": "Antonio Ojea"
         }
       ]
     }
@@ -51734,6 +51752,19 @@
           "date": "Mon May 4 18:56:23 2020 -0400",
           "message": "move setup konnectivity svc",
           "author": "Karen Bradshaw"
+        }
+      ]
+    }
+  },
+  "content/en/docs/tasks/network/reconfigure-default-service-ip-ranges.md": {
+    "en": {
+      "path": "content/en/docs/tasks/network/reconfigure-default-service-ip-ranges.md",
+      "commits": [
+        {
+          "hash": "c582aa194e15920fb5544e9d6f0b55e891b92e37",
+          "date": "Mon Mar 3 23:34:04 2025 +0000",
+          "message": "ServiceCIDR documentation",
+          "author": "Antonio Ojea"
         }
       ]
     }
