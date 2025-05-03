@@ -29,6 +29,19 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md",
+      "commits": [
+        {
+          "hash": "4080daea5ac5d9aa5fea8828d7f157f402ff9b05",
+          "date": "Fri May 2 15:09:56 2025 -0700",
+          "message": "Merge pull request #49948 from deepakkinni/kep2644ga_blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md",
@@ -63,6 +76,38 @@
           "date": "Thu May 1 12:19:55 2025 -0700",
           "message": "Merge pull request #49606 from shurup/migrate-to-bluesky",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "6bae207b8a22e54975139d791f87a505856a7609",
+          "date": "Fri May 2 13:02:26 2025 +0100",
+          "message": "Schedule KEP-1495 blog for publication",
+          "author": "Ryota"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md",
+      "commits": [
+        {
+          "hash": "6c9afd4c548c5c9b6ac063f59d10dfe22c038103",
+          "date": "Fri May 2 23:14:07 2025 +0000",
+          "message": "Schedule KEP-2644 blog for publication",
+          "author": "Agustina Barbetta"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-02-mutable-csi-node-allocatable.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-02-mutable-csi-node-allocatable.md",
+      "commits": [
+        {
+          "hash": "ed93d2c069b36426665a4aa90e2237671d5f5506",
+          "date": "Fri May 2 12:59:54 2025 +0100",
+          "message": "Schedule KEP-4876 blog for publication",
+          "author": "Ryota"
         }
       ]
     }
@@ -76,19 +121,6 @@
           "date": "Wed Apr 30 07:59:56 2025 -0700",
           "message": "Merge pull request #50728 from rytswd/fix-directory-setup-for-streaming-list-res",
           "author": "Kubernetes Prow Robot"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-04-30-mutable-csi-node-allocatable.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-04-30-mutable-csi-node-allocatable.md",
-      "commits": [
-        {
-          "hash": "5e84363f9e75a181c6b92113343ff08cb5867445",
-          "date": "Tue Apr 29 14:23:02 2025 -0400",
-          "message": "Merge branch 'main' of https://github.com/kubernetes/website into jm/hi-remove-katacoda",
-          "author": "jayeshmahajan"
         }
       ]
     }
@@ -457,43 +489,6 @@
           "date": "Fri Feb 28 08:44:56 2025 -0800",
           "message": "Merge pull request #49609 from fsmunoz/sig-etcd-spotlight",
           "author": "Kubernetes Prow Robot"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md",
-      "commits": [
-        {
-          "hash": "4745c4b26f5c7cd4dc1c6b68990028978ee2cfbf",
-          "date": "Thu Apr 24 16:29:06 2025 +0530",
-          "message": "Addressed review comments",
-          "author": "sreeram-venkitesh"
-        },
-        {
-          "hash": "6b104777a02b0df84e4c281adde99d80ae828d9e",
-          "date": "Fri Apr 18 15:44:47 2025 +0530",
-          "message": "Fixes from review",
-          "author": "sreeram-venkitesh"
-        },
-        {
-          "hash": "7231d0f11905bea5933add41bfa9d332d7309956",
-          "date": "Wed Apr 9 23:41:58 2025 +0530",
-          "message": "Nits",
-          "author": "Sreeram"
-        },
-        {
-          "hash": "fc6fa0fc1575e0746353eb16757d944f2ddf7d18",
-          "date": "Wed Apr 9 22:53:52 2025 +0530",
-          "message": "Added blog post for container lifecycle updates in v1.33",
-          "author": "Sreeram"
-        },
-        {
-          "hash": "fd11466bbd827efe5944eff2b0995ecf276eb66e",
-          "date": "Sat Mar 1 11:48:05 2025 +0530",
-          "message": "Added blog post about the container stop signals KEP",
-          "author": "Sreeram"
         }
       ]
     }
@@ -25362,6 +25357,73 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md",
+      "commits": [
+        {
+          "hash": "c1e9be96ab1755a33dceb5f69e3b6f825422bd16",
+          "date": "Sat Apr 26 09:02:03 2025 +0900",
+          "message": "Apply suggestions from code review",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "f403e82b11d9e170122a4222cd4cb2be21bf3c8e",
+          "date": "Mon Apr 21 17:22:49 2025 +0900",
+          "message": "Update content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "f47045d83f746b10597c227fde430081b58c5c2a",
+          "date": "Mon Apr 21 12:01:00 2025 +0900",
+          "message": "Apply suggestions from code review",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "6f851d243c79fbce5f91e6fb08120fa91975a2c5",
+          "date": "Wed Apr 16 10:20:42 2025 +0900",
+          "message": "Update content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "62b992e19ad2efedbc3770bd1d2a76d3759d3f92",
+          "date": "Tue Apr 15 09:58:29 2025 +0900",
+          "message": "Don't use \"code_sample\" magic and \"kubectl apply\" in the article.",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "b6b6cd0db86c0e51ec03c17d6b0ca4124907a144",
+          "date": "Tue Apr 15 09:36:12 2025 +0900",
+          "message": "Apply suggestions from code review",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "0390749ca8db3d9c48fa42840f21408892c3f468",
+          "date": "Mon Apr 14 10:42:15 2025 +0900",
+          "message": "Apply suggestions from code review",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "1a307da81b31428d8da1d6071bcccf77ad84c175",
+          "date": "Mon Apr 14 10:03:43 2025 +0900",
+          "message": "Fixed grammatical typos",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "caff01322db36f60553e11d26aff2e78916f8ab9",
+          "date": "Mon Apr 14 10:02:51 2025 +0900",
+          "message": "Removed ambiguous \"popular\"",
+          "author": "Shingo Omura"
+        },
+        {
+          "hash": "614e129e855ba1e262b8d22b4e9e33782e03d2f8",
+          "date": "Sat Mar 22 00:29:07 2025 +0900",
+          "message": "blog post for KEP-3619: Fine-grained SupplementalGroups control graduates to beta",
+          "author": "Shingo Omura"
         }
       ]
     }

@@ -4849,6 +4849,12 @@
           "date": "Sat Apr 12 17:10:36 2025 +0800",
           "message": "[zh-cn]sync service-resources/*",
           "author": "xin.li"
+        },
+        {
+          "hash": "6ffab4e7bff565f0238d79046e57c7f408f61dd1",
+          "date": "Thu May 1 22:52:00 2025 +0800",
+          "message": "[zh-cn]sync endpoints-v1 daemon-set-v1",
+          "author": "xin.li"
         }
       ]
     }
@@ -5251,6 +5257,12 @@
           "date": "Sat Apr 12 17:10:36 2025 +0800",
           "message": "[zh-cn]sync service-resources/*",
           "author": "xin.li"
+        },
+        {
+          "hash": "20e9f38b6da5c904f7b703a4f1f2ad3331f35313",
+          "date": "Thu May 1 23:06:57 2025 +0800",
+          "message": "[zh-cn]sync service-v1.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -5623,6 +5635,12 @@
           "date": "Mon Apr 14 11:14:01 2025 +0800",
           "message": "[zh] Sync workload-resources/cron-job-v1, daemon-set-v1, replica-set-v1",
           "author": "windsonsea"
+        },
+        {
+          "hash": "6ffab4e7bff565f0238d79046e57c7f408f61dd1",
+          "date": "Thu May 1 22:52:00 2025 +0800",
+          "message": "[zh-cn]sync endpoints-v1 daemon-set-v1",
+          "author": "xin.li"
         }
       ]
     }
