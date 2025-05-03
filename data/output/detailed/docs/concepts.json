@@ -42452,6 +42452,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "861c091478e5ad5788e109c91eea323fd66b0872",
+          "date": "Tue Apr 29 17:17:54 2025 +0800",
+          "message": "[zh-cn] sync job replicaset downward-api",
+          "author": "xin.li"
         }
       ]
     },
@@ -43630,6 +43636,12 @@
           "date": "Sun Apr 27 23:51:28 2025 -0700",
           "message": "Merge pull request #50699 from Eason1118/patch-3",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "861c091478e5ad5788e109c91eea323fd66b0872",
+          "date": "Tue Apr 29 17:17:54 2025 +0800",
+          "message": "[zh-cn] sync job replicaset downward-api",
+          "author": "xin.li"
         }
       ]
     },
@@ -65993,6 +66005,12 @@
           "date": "Mon Jul 4 23:24:47 2022 -0700",
           "message": "Merge pull request #34804 from mengjiao-liu/fix-deployment-nginx-tag-zh",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "861c091478e5ad5788e109c91eea323fd66b0872",
+          "date": "Tue Apr 29 17:17:54 2025 +0800",
+          "message": "[zh-cn] sync job replicaset downward-api",
+          "author": "xin.li"
         }
       ]
     },

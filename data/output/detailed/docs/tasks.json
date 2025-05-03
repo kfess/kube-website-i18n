@@ -234,6 +234,12 @@
           "date": "Wed Jan 10 19:59:56 2024 +0100",
           "message": "[fr] translate task declare-network-policy",
           "author": "k0rventen"
+        },
+        {
+          "hash": "4e3f89e4f05cb9d3ba89776a044abb05ad0be6a1",
+          "date": "Thu May 1 09:14:41 2025 +0300",
+          "message": "[fr] Update busybox image",
+          "author": "Arhell"
         }
       ]
     },

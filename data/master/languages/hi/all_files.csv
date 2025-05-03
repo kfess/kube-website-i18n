@@ -175,6 +175,16 @@ content/hi/examples/audit/audit-policy.yaml
 content/hi/examples/concepts/policy/limit-range/example-conflict-with-limitrange-cpu.yaml
 content/hi/examples/concepts/policy/limit-range/example-no-conflict-with-limitrange-cpu.yaml
 content/hi/examples/concepts/policy/limit-range/problematic-limit-range.yaml
+content/hi/examples/configmap/configmap-multikeys.yaml
+content/hi/examples/configmap/configmaps.yaml
+content/hi/examples/configmap/configure-pod.yaml
+content/hi/examples/configmap/env-configmap.yaml
+content/hi/examples/configmap/game-env-file.properties
+content/hi/examples/configmap/game.properties
+content/hi/examples/configmap/immutable-configmap.yaml
+content/hi/examples/configmap/new-immutable-configmap.yaml
+content/hi/examples/configmap/ui-env-file.properties
+content/hi/examples/configmap/ui.properties
 content/hi/includes/index.md
 content/hi/includes/task-tutorial-prereqs.md
 content/hi/releases/_index.md

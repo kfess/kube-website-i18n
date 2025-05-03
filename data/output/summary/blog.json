@@ -5,6 +5,11 @@
       "zh-cn"
     ]
   },
+  "content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
     "langs": [
       "en"
@@ -15,12 +20,17 @@
       "en"
     ]
   },
-  "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
+  "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md": {
     "langs": [
       "en"
     ]
   },
-  "content/en/blog/_posts/2025-04-30-mutable-csi-node-allocatable.md": {
+  "content/en/blog/_posts/2025-05-02-mutable-csi-node-allocatable.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md": {
     "langs": [
       "en"
     ]
@@ -109,11 +119,6 @@
     ]
   },
   "content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/blog/_posts/2025-03-01-Container-Stop-Signals.md": {
     "langs": [
       "en"
     ]
@@ -3526,6 +3531,11 @@
       "it",
       "vi",
       "de"
+    ]
+  },
+  "content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md": {
+    "langs": [
+      "en"
     ]
   },
   "content/en/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md": {
