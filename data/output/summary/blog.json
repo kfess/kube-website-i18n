@@ -20,6 +20,11 @@
       "en"
     ]
   },
+  "content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md": {
     "langs": [
       "en"
@@ -77,15 +82,11 @@
       "en"
     ]
   },
-  "content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md": {
-    "langs": [
-      "en"
-    ]
-  },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
     "langs": [
       "en",
-      "zh-cn"
+      "zh-cn",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md": {

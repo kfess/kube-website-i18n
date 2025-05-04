@@ -11864,6 +11864,24 @@
           "date": "Sat Nov 19 18:09:15 2022 +0000",
           "message": "Add doc for ValidatingAdmissionPolicy",
           "author": "Cici Huang"
+        },
+        {
+          "hash": "5a06306c3a4bad846bcb0b457daa2f173923c819",
+          "date": "Tue Nov 19 10:03:56 2024 +0100",
+          "message": "Apply feedback: use note shortcode",
+          "author": "Lahoussine Bouhmou"
+        },
+        {
+          "hash": "8dd78b873f5d6a607a5070f863ce7838e2d3cfdd",
+          "date": "Tue Nov 19 09:55:44 2024 +0100",
+          "message": "Added the missing closing backticks in content/en/docs/reference/access-authn-authz/validating-admission-policy.md",
+          "author": "Lahoussine Bouhmou"
+        },
+        {
+          "hash": "9c88cfb75f94add11c5d77e1f052526546acc679",
+          "date": "Fri Nov 15 23:07:58 2024 +0100",
+          "message": "Include parameterNotFoundAction in ValidatingAdmissionPolicy documentation",
+          "author": "Lahoussine Bouhmou"
         }
       ]
     }
@@ -47453,6 +47471,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "5c1759590c2cb07ebca17ae95501ec4374d346c6",
+          "date": "Sat May 3 10:24:02 2025 +0300",
+          "message": "[zh] Fix typo in kubeadm-join.md",
+          "author": "Arhell"
         }
       ]
     },

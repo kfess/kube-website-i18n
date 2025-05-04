@@ -778,7 +778,6 @@ content/en/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/en/blog/_posts/2025-03-25-swap-fresh-improvements.md
 content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
 content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
-content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md
 content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/k8s-1.33.png
@@ -793,6 +792,7 @@ content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md
 content/en/blog/_posts/2025-05-01-kubernetes-v1-33-dra-updates.md
 content/en/blog/_posts/2025-05-02-mutable-csi-node-allocatable.md
 content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md
+content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md
 content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/results.png
