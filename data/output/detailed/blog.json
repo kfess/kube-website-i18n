@@ -86,6 +86,31 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md",
+      "commits": [
+        {
+          "hash": "c0ae18dc43b596cf1bb7dbf3a9efe73e2a16b529",
+          "date": "Fri May 2 23:33:55 2025 -0700",
+          "message": "Merge pull request #48734 from Lahoussine-Bouhmou/patch-1",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "5de76a7379af87b237f2a08eab8dda6b50c1b39a",
+          "date": "Fri May 2 09:23:20 2025 -0700",
+          "message": "KEP-4412: update slug and add timestamp",
+          "author": "Anish Ramasekar"
+        },
+        {
+          "hash": "20e58ea932f9d2607cd38b3af37e441469939217",
+          "date": "Thu May 1 10:05:10 2025 -0700",
+          "message": "KEP-4412: update blog to add v1.33 prefix for title",
+          "author": "Anish Ramasekar"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md",
@@ -281,31 +306,6 @@
       ]
     }
   },
-  "content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-04-15-wi-for-image-pulls.md",
-      "commits": [
-        {
-          "hash": "206c0216843191897bc506bca46d77eda1ac92de",
-          "date": "Fri Apr 25 14:20:59 2025 -0500",
-          "message": "KEP-4412: blog review feedback",
-          "author": "Anish Ramasekar"
-        },
-        {
-          "hash": "4177dd13978013766a2bc7bb9f922f07fbfa075e",
-          "date": "Tue Apr 15 18:41:56 2025 -0700",
-          "message": "mark wi for image pulls blog as draft",
-          "author": "Anish Ramasekar"
-        },
-        {
-          "hash": "245e8a21bea1656a28d60bed604d171ff02cc08b",
-          "date": "Mon Oct 14 11:10:59 2024 -0700",
-          "message": "Add blog post for PSAT for Kubelet Image Credential Providers",
-          "author": "Anish Ramasekar"
-        }
-      ]
-    }
-  },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md",
@@ -332,6 +332,17 @@
           "date": "Sat Mar 29 15:59:59 2025 +0800",
           "message": "[zh-cn] Add blog: 2025-04-07-kube-scheduler-simulator",
           "author": "xin.li"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md",
+      "commits": [
+        {
+          "hash": "e74b3c9b59f4f4f1ecd5ac33f71ed3d0d545cc37",
+          "date": "Sat May 3 03:39:58 2025 -0700",
+          "message": "Merge pull request #50756 from aramase/aramase/d/kep_4412_alpha_blog_update",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
