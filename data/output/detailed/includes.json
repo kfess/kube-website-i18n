@@ -386,6 +386,12 @@
           "date": "Sun May 2 10:30:34 2021 -0300",
           "message": "Add initial files to translate the secret task",
           "author": "edsoncelio"
+        },
+        {
+          "hash": "c2ef10f5fb0d02b8f73ae2026e0f4483c0a9c1dc",
+          "date": "Wed Apr 23 00:33:28 2025 +0300",
+          "message": "[pt] add new playground to kubernetes documentation",
+          "author": "Arhell"
         }
       ]
     },
