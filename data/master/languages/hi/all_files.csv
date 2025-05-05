@@ -185,6 +185,11 @@ content/hi/examples/configmap/immutable-configmap.yaml
 content/hi/examples/configmap/new-immutable-configmap.yaml
 content/hi/examples/configmap/ui-env-file.properties
 content/hi/examples/configmap/ui.properties
+content/hi/examples/controllers/daemonset-label-selector.yaml
+content/hi/examples/controllers/daemonset.yaml
+content/hi/examples/controllers/fluentd-daemonset-update.yaml
+content/hi/examples/controllers/fluentd-daemonset.yaml
+content/hi/examples/controllers/frontend.yaml
 content/hi/includes/index.md
 content/hi/includes/task-tutorial-prereqs.md
 content/hi/releases/_index.md
