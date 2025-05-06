@@ -17,6 +17,7 @@ content/pl/docs/concepts/overview/kubernetes-api.md
 content/pl/docs/concepts/storage/_index.md
 content/pl/docs/concepts/windows/_index.md
 content/pl/docs/contribute/_index.md
+content/pl/docs/contribute/analytics.md
 content/pl/docs/contribute/generate-ref-docs/_index.md
 content/pl/docs/contribute/generate-ref-docs/kubectl.md
 content/pl/docs/contribute/generate-ref-docs/kubernetes-components.md

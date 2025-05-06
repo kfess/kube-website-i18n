@@ -2077,6 +2077,12 @@
           "date": "Mon Feb 14 07:31:31 2022 -0800",
           "message": "Merge pull request #31630 from tengqm/fix-links",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d08348cb42c10a23a0e74893e445809cbf51bad5",
+          "date": "Mon May 5 15:45:58 2025 +0530",
+          "message": "[hi] Update the menu front matter for minikube Hindi localisation pages (#50768)",
+          "author": "Ankur Singh"
         }
       ]
     },

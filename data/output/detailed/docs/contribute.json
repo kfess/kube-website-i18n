@@ -6567,6 +6567,17 @@
           "author": "edsoncelio"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/analytics.md",
+      "commits": [
+        {
+          "hash": "d329c7f68adf9da0df5459994f757b61c4f888a0",
+          "date": "Tue Feb 4 15:42:26 2025 +0100",
+          "message": "[pl] docs/contribute/analytics.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/generate-ref-docs/metrics-reference.md": {

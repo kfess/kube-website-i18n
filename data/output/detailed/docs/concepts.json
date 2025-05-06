@@ -21232,6 +21232,12 @@
           "date": "Tue Apr 8 07:38:40 2025 -0700",
           "message": "Merge pull request #49904 from marosset/5100-winsdr-winoverlay-beta-website-updates",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "b3e0ed26ebf800ca041a10d0cb7ce27e23cc56f0",
+          "date": "Mon May 5 11:01:58 2025 -0700",
+          "message": "Merge pull request #50777 from shurup/ru-kubecon2025-april",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
