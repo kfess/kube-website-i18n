@@ -376,6 +376,12 @@
           "date": "Thu Mar 14 13:14:30 2024 -0700",
           "message": "Merge pull request #45529 from matte21/fix_path_of_kubelet_systemd_unit_file",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "4eaf0343989494b87146022eb13c0ed64409c167",
+          "date": "Mon May 5 00:25:18 2025 +0300",
+          "message": "[bn] Remove link to Release Engineering teams page on GitHub in Release Managers docs",
+          "author": "Arhell"
         }
       ]
     },

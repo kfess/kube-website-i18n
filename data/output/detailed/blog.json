@@ -187,6 +187,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-28-hpa-configurable-tolerance.md",
+      "commits": [
+        {
+          "hash": "03a06251c5dd062696e86010d01dffd5428753b4",
+          "date": "Tue May 6 11:09:50 2025 +0800",
+          "message": "Update 2025-04-29-hpa-configurable-tolerance.md",
+          "author": "Kagaya"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {
@@ -265,6 +276,43 @@
           "date": "Sat Apr 26 19:05:23 2025 +0900",
           "message": "[ja] Translate \"Kubernetes v1.33: Octarine\" into Japanese (#50658)",
           "author": "Taisuke Okamoto"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md",
+      "commits": [
+        {
+          "hash": "c1bc7b9cbde2dff066b89eeab684980e3076dc12",
+          "date": "Tue May 6 16:21:14 2025 -0700",
+          "message": "Merge pull request #50782 from tengqm/fix-fg-removed",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "9a1d83e2ee7bfd557d7ae2906db9b4117bc4be5c",
+          "date": "Mon May 5 09:08:35 2025 +0200",
+          "message": "Review remarks 3",
+          "author": "Michał Woźniak"
+        },
+        {
+          "hash": "beed432a80b3daa019f9d46d8e41bfc82712874e",
+          "date": "Wed Apr 16 14:44:59 2025 +0200",
+          "message": "Review remarks 2",
+          "author": "Michał Woźniak"
+        },
+        {
+          "hash": "8acfef3ec1ba78f0c27a631cf7c5073e9b2145b3",
+          "date": "Tue Apr 8 18:03:38 2025 +0200",
+          "message": "Review remarks",
+          "author": "Michał Woźniak"
+        },
+        {
+          "hash": "5ceb27eda5de5e266adc1ef4d2cac1757e91f1c9",
+          "date": "Mon Mar 3 10:40:17 2025 +0100",
+          "message": "BlogPost: Jobs Backoff Limit Per Index goes GA in 1.33",
+          "author": "Michal Wozniak"
         }
       ]
     }
@@ -590,6 +638,19 @@
           "date": "Fri Jan 17 07:24:36 2025 -0800",
           "message": "Merge pull request #47902 from fsmunoz/sig-arch-enhancements-spotlight",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-01-14-devices-failure-handling/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-01-14-devices-failure-handling/index.md",
+      "commits": [
+        {
+          "hash": "8f325240b07642e1a95b2a6dd5d9f555cac67a0b",
+          "date": "Tue Jan 7 19:52:34 2025 +0000",
+          "message": "The blog post: device failures handling",
+          "author": "Sergey Kanzhelev"
         }
       ]
     }
@@ -25435,6 +25496,12 @@
           "date": "Sat Mar 22 00:29:07 2025 +0900",
           "message": "blog post for KEP-3619: Fine-grained SupplementalGroups control graduates to beta",
           "author": "Shingo Omura"
+        },
+        {
+          "hash": "c8aa6b2a527859071b168f6a6eed96ff69dbf787",
+          "date": "Mon May 5 17:14:19 2025 +0300",
+          "message": "Update blog date, title, and slug",
+          "author": "Udi Hofesh"
         }
       ]
     }

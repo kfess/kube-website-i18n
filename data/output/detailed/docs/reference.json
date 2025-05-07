@@ -11661,6 +11661,12 @@
           "date": "Wed Apr 5 22:04:22 2023 +0800",
           "message": "[zh] translate page validating-admission-policy",
           "author": "朱正浩,Zhu Zhenghao"
+        },
+        {
+          "hash": "d3fa0edba64bded3f44d18438c06a542b85ab5cd",
+          "date": "Tue May 6 01:21:14 2025 -0700",
+          "message": "Merge pull request #50792 from Udi-Hofesh/main",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -16846,6 +16852,12 @@
           "date": "Wed Dec 8 15:46:50 2021 +0800",
           "message": "Configuration API for v1.23",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -19353,6 +19365,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -19407,6 +19425,12 @@
           "date": "Mon Apr 7 03:06:39 2025 -0700",
           "message": "Merge pull request #50287 from atiratree/pod-replacement-policy-docs",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -19574,6 +19598,12 @@
           "hash": "c8f36598b2c36f14d1e814640f1c4c61967372bd",
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
           "author": "Qiming Teng"
         }
       ]
@@ -23162,6 +23192,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -26604,6 +26640,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28104,6 +28146,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28518,6 +28566,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28662,6 +28716,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28733,6 +28793,12 @@
           "hash": "c8f36598b2c36f14d1e814640f1c4c61967372bd",
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "912378c766f9d9be91a1a1e8c42c66111942a73a",
+          "date": "Mon May 5 22:04:26 2025 +0800",
+          "message": "Update removed feature gates in v1.33/1.32",
           "author": "Qiming Teng"
         }
       ]
@@ -32538,6 +32604,12 @@
           "date": "Tue Feb 28 07:49:49 2023 +0800",
           "message": "Add config API for kube-controller-manager configuration",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -32903,6 +32975,12 @@
           "date": "Wed Mar 31 17:41:21 2021 -0700",
           "message": "Merge pull request #27289 from SataQiu/update-create-cluster-kubeadm-20210329",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -33065,6 +33143,12 @@
           "date": "Sun Dec 19 22:19:25 2021 -0800",
           "message": "Merge pull request #31028 from didicodes/telepresence",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -33202,6 +33286,12 @@
           "hash": "b28250b68f4f0e87b8f77031a8f399af68aa417e",
           "date": "Thu Feb 18 16:42:27 2021 +0800",
           "message": "Add reference for client-authentication v1beta1",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -34408,6 +34498,12 @@
           "hash": "3362aa9701174216dec38c7de49f62137aa150c4",
           "date": "Sat Dec 17 16:27:38 2022 +0800",
           "message": "Add admission.k8s.io/v1 API and fix references to it",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -35658,6 +35754,12 @@
           "date": "Tue Jul 27 12:51:37 2021 +0800",
           "message": "Add API server config API v1alpha1",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -36036,6 +36138,12 @@
           "date": "Sat Jul 3 21:57:19 2021 +0800",
           "message": "Add reference doc for kubeadm config",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -36383,6 +36491,12 @@
           "hash": "79845b0c4aa0bba3752496c5e2a394b7929564ce",
           "date": "Wed Feb 17 16:50:15 2021 +0800",
           "message": "Add kubelet config reference",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -36816,6 +36930,12 @@
           "date": "Thu Feb 18 15:58:36 2021 +0800",
           "message": "Add reference for audit API group",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     },
@@ -37001,6 +37121,12 @@
           "date": "Tue Aug 2 23:43:52 2022 -0700",
           "message": "Merge pull request #35639 from windsonsea/conenv",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -39595,6 +39721,12 @@
           "hash": "a9a4591618665b460dd1196ac4de6347cf50cac9",
           "date": "Thu Apr 10 13:15:54 2025 +0800",
           "message": "Update the kubeadm config v1beta4 for readability",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -47122,6 +47254,12 @@
           "hash": "c992c4c04f912008ab5cbbcc6a0f546053b67a07",
           "date": "Wed May 18 14:20:20 2022 +0800",
           "message": "Add imagepolicy.v1alpha1 API",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -58949,6 +59087,12 @@
           "date": "Tue Dec 13 10:12:08 2022 +0800",
           "message": "Config API update for 1.26",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     },
@@ -59038,6 +59182,12 @@
           "hash": "6989fc3c5b6f5a4049d91792ccb184212d2663b4",
           "date": "Tue Dec 13 10:12:08 2022 +0800",
           "message": "Config API update for 1.26",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -68160,6 +68310,12 @@
           "date": "Tue Dec 14 12:32:34 2021 +0100",
           "message": "Merge pull request #1 from jhrozek/spo-release",
           "author": "Sascha Grunert"
+        },
+        {
+          "hash": "2bdd42a2f3d485f2957f6d3987f44762161f13f6",
+          "date": "Thu Apr 24 08:56:44 2025 +0800",
+          "message": "Update config API for v1.33",
+          "author": "Qiming Teng"
         }
       ]
     },
@@ -73218,19 +73374,6 @@
       ]
     }
   },
-  "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md": {
-    "en": {
-      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md",
-      "commits": [
-        {
-          "hash": "5a1b532179cda2c16f7d1a2e8ef3dbb82f77d28a",
-          "date": "Mon Feb 24 17:40:16 2025 -0600",
-          "message": "add documentation for 2535 Co-authored-by: Standa Láznička <stlaz@users.noreply.github.com>",
-          "author": "Daniel Shebib"
-        }
-      ]
-    }
-  },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md": {
     "en": {
       "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md",
@@ -73251,25 +73394,6 @@
           "date": "Thu Apr 24 14:38:19 2025 +0800",
           "message": "[zh] Sync feature-gates/N*.md to P*.md",
           "author": "windsonsea"
-        }
-      ]
-    }
-  },
-  "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md": {
-    "en": {
-      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md",
-      "commits": [
-        {
-          "hash": "e5bc848393bef4d69956c3b874c1f9aafa15eb13",
-          "date": "Sat Mar 29 03:24:39 2025 -0700",
-          "message": "Merge pull request #49578 from vinayakankugoyal/kep2862beta",
-          "author": "Kubernetes Prow Robot"
-        },
-        {
-          "hash": "def6c590adb8d0a880c028315172fd2ac0ceee41",
-          "date": "Tue Mar 25 14:45:51 2025 +0100",
-          "message": "Document .status.terminatingReplicas enabled by DeploymentPodReplacementPolicy feature",
-          "author": "Filip Křepinský"
         }
       ]
     }
@@ -73618,6 +73742,32 @@
           "date": "Wed Apr 23 19:00:31 2025 -0700",
           "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md",
+      "commits": [
+        {
+          "hash": "e5688442a0fdfdbac39ec1a5f0c34937dc7fbf07",
+          "date": "Tue May 6 11:34:04 2025 +0800",
+          "message": "Rename two feature gates to follow current name-style",
+          "author": "windsonsea"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md",
+      "commits": [
+        {
+          "hash": "e5688442a0fdfdbac39ec1a5f0c34937dc7fbf07",
+          "date": "Tue May 6 11:34:04 2025 +0800",
+          "message": "Rename two feature gates to follow current name-style",
+          "author": "windsonsea"
         }
       ]
     }

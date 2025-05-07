@@ -5994,6 +5994,12 @@
           "date": "Thu Jul 2 10:39:21 2020 -0700",
           "message": "Add page for PR wranglers",
           "author": "Celeste Horgan"
+        },
+        {
+          "hash": "7ab9c85fc0066b66c863119b8fd8a239a8d4780c",
+          "date": "Mon May 5 19:21:13 2025 -0700",
+          "message": "Merge pull request #50785 from jayeshmahajan/jm/debug",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

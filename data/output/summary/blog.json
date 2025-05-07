@@ -52,7 +52,8 @@
   },
   "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {
@@ -69,6 +70,11 @@
     "langs": [
       "en",
       "ja"
+    ]
+  },
+  "content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md": {
+    "langs": [
+      "en"
     ]
   },
   "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
@@ -139,6 +145,11 @@
   "content/en/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md": {
     "langs": [
       "zh-cn",
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-01-14-devices-failure-handling/index.md": {
+    "langs": [
       "en"
     ]
   },

@@ -760,6 +760,10 @@ content/en/blog/_posts/2024-12-16-cpumanager-strict-cpu-reservation.md
 content/en/blog/_posts/2024-12-17-api-streaming/index.md
 content/en/blog/_posts/2024-12-17-api-streaming/kube-apiserver-memory_usage.png
 content/en/blog/_posts/2024-12-18-volume-group-snapshot-beta.md
+content/en/blog/_posts/2025-01-14-devices-failure-handling/index.md
+content/en/blog/_posts/2025-01-14-devices-failure-handling/inplace-pod-restarts.svg
+content/en/blog/_posts/2025-01-14-devices-failure-handling/k8s-infra-devices.svg
+content/en/blog/_posts/2025-01-14-devices-failure-handling/k8s-infra-failures.svg
 content/en/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md
 content/en/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/ccm-chicken-egg-problem-sequence-diagram.svg
 content/en/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/index.md
@@ -782,6 +786,7 @@ content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/k8s-1.33.png
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/k8s-1.33.svg
+content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md
 content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md
 content/en/blog/_posts/2025-04-24-endpoints-deprecation.md
 content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md
@@ -1358,6 +1363,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/Declarative
 content/en/docs/reference/command-line-tools-reference/feature-gates/DefaultHostNetworkHostPortsInPodTemplates.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DefaultPodTopologySpread.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DelegateFSGroupToCSIDriver.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DevicePluginCDIDevices.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DevicePlugins.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/DisableAcceleratorUsageMetrics.md
@@ -1440,6 +1446,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletCgro
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletConfigFile.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletCrashLoopBackOffMax.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletCredentialProviders.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletFineGrainedAuthz.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletInUserNamespace.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md
@@ -1645,9 +1652,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/WindowsHost
 content/en/docs/reference/command-line-tools-reference/feature-gates/WindowsHostProcessContainers.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/WindowsRunAsUserName.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ZeroLimitedNominalConcurrencyShares.md
-content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/index.md
-content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md
 content/en/docs/reference/command-line-tools-reference/kube-apiserver.md
 content/en/docs/reference/command-line-tools-reference/kube-controller-manager.md
 content/en/docs/reference/command-line-tools-reference/kube-proxy.md
