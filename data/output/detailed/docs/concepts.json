@@ -4999,6 +4999,12 @@
           "date": "Sun Mar 30 16:41:53 2025 +0800",
           "message": "[zh-cn]sync assign-pod-node topology-spread-constraints user-namespaces",
           "author": "xin.li"
+        },
+        {
+          "hash": "d932e33d582d568b4b120234c407058944b5996c",
+          "date": "Tue May 6 09:08:48 2025 +0700",
+          "message": "[zh-cn] Sync scheduling-framework.md and topology-spread-constraints.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -12477,6 +12483,12 @@
           "date": "Wed Mar 26 18:42:38 2025 -0700",
           "message": "Merge pull request #50242 from windsonsea/clpsvg",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "09f8d94c284a48eb2d4268dc0caff79b327797c5",
+          "date": "Tue May 6 10:06:35 2025 +0700",
+          "message": "[zh-cn] Sync self-healing.md node-pressure-eviction.md taint-and-toleration.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -19983,6 +19995,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "09f8d94c284a48eb2d4268dc0caff79b327797c5",
+          "date": "Tue May 6 10:06:35 2025 +0700",
+          "message": "[zh-cn] Sync self-healing.md node-pressure-eviction.md taint-and-toleration.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -44912,6 +44930,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d932e33d582d568b4b120234c407058944b5996c",
+          "date": "Tue May 6 09:08:48 2025 +0700",
+          "message": "[zh-cn] Sync scheduling-framework.md and topology-spread-constraints.md",
+          "author": "Eason1118"
         }
       ]
     },
@@ -51761,6 +51785,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "09f8d94c284a48eb2d4268dc0caff79b327797c5",
+          "date": "Tue May 6 10:06:35 2025 +0700",
+          "message": "[zh-cn] Sync self-healing.md node-pressure-eviction.md taint-and-toleration.md",
+          "author": "Eason1118"
         }
       ]
     },

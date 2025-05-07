@@ -31860,6 +31860,12 @@
           "date": "Fri Sep 9 06:19:22 2022 -0700",
           "message": "Merge pull request #36679 from windsonsea/mrcyhf",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "7ccdda1fc47e94b6eeec8cfdb23ff56447e18ee8",
+          "date": "Tue May 6 10:05:13 2025 -0700",
+          "message": "Merge pull request #49333 from SergeyKanzhelev/deviceFailures",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

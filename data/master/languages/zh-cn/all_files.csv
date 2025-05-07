@@ -332,7 +332,7 @@ content/zh-cn/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
 content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
 content/zh-cn/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md
 content/zh-cn/blog/_posts/2025-04-23-storage-capacity-scoring.md
-content/zh-cn/blog/_posts/2025-04-29-hpa-configurable-tolerance.md
+content/zh-cn/blog/_posts/2025-04-28-hpa-configurable-tolerance.md
 content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/zh-cn/case-studies/_index.html
@@ -2184,6 +2184,7 @@ content/zh-cn/examples/controllers/fluentd-daemonset.yaml
 content/zh-cn/examples/controllers/frontend.yaml
 content/zh-cn/examples/controllers/hpa-rs.yaml
 content/zh-cn/examples/controllers/job-backoff-limit-per-index-example.yaml
+content/zh-cn/examples/controllers/job-backoff-limit-per-index-failindex.yaml
 content/zh-cn/examples/controllers/job-pod-failure-policy-config-issue.yaml
 content/zh-cn/examples/controllers/job-pod-failure-policy-example.yaml
 content/zh-cn/examples/controllers/job-pod-failure-policy-failjob.yaml

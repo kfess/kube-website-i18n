@@ -6754,20 +6754,10 @@
       "zh-cn"
     ]
   },
-  "content/en/docs/reference/command-line-tools-reference/feature-gates/kubelet-ensure-secret-pulled-images.md": {
-    "langs": [
-      "en"
-    ]
-  },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/PodObservedGenerationTracking.md": {
     "langs": [
       "en",
       "zh-cn"
-    ]
-  },
-  "content/en/docs/reference/command-line-tools-reference/feature-gates/deployment-pod-replacement-policy.md": {
-    "langs": [
-      "en"
     ]
   },
   "content/en/docs/reference/using-api/declarative-validation.md": {
@@ -6862,6 +6852,16 @@
     ]
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta2.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md": {
     "langs": [
       "en"
     ]
