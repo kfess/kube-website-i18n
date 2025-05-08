@@ -42,6 +42,19 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md",
+      "commits": [
+        {
+          "hash": "e84da204a8f191986b86bdc2ad9691baef885d3d",
+          "date": "Wed May 7 12:49:16 2025 -0700",
+          "message": "Merge pull request #50818 from tengqm/fg-allowparse",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md",
@@ -391,6 +404,31 @@
           "date": "Sat May 3 03:39:58 2025 -0700",
           "message": "Merge pull request #50756 from aramase/aramase/d/kep_4412_alpha_blog_update",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md",
+      "commits": [
+        {
+          "hash": "d444df95e4b3d217e6ec598d15b1ba0d4856d88b",
+          "date": "Tue Apr 8 08:40:09 2025 -0700",
+          "message": "Resolve feedback from sftim",
+          "author": "Daneyon Hansen"
+        },
+        {
+          "hash": "83ac8329f19b58ea9ec05f3d7bed733b73a94029",
+          "date": "Mon Mar 31 22:41:45 2025 +0100",
+          "message": "Resolves kfswain review feedback",
+          "author": "Daneyon Hansen"
+        },
+        {
+          "hash": "89bc1a658fd3a2d322acaf8019a527868d3f9028",
+          "date": "Mon Mar 31 15:03:41 2025 +0100",
+          "message": "Updates release date and minor content update",
+          "author": "Daneyon Hansen"
         }
       ]
     }

@@ -13646,6 +13646,12 @@
           "date": "Thu Mar 26 00:30:25 2020 +0530",
           "message": "Official 1.18 Release Docs (#19116)",
           "author": "Vineeth Pothulapati"
+        },
+        {
+          "hash": "190b3ab758a386ba3d23a28b48e914686b2aabe9",
+          "date": "Wed May 7 16:30:39 2025 +0200",
+          "message": "cluster trust bundles: use correct version/feature maturity stage",
+          "author": "Stanislav Láznička"
         }
       ]
     }
@@ -13814,6 +13820,12 @@
           "hash": "6755efa79dde38480ebd947ee6a6d6778941cdfe",
           "date": "Wed Jan 8 20:47:11 2025 +0800",
           "message": "Add feature gate BtreeWatchCache for v1.32.",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -19077,6 +19089,12 @@
           "date": "Mon Apr 7 21:16:39 2025 +0100",
           "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
           "author": "Dan Winship"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -19653,6 +19671,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -19856,6 +19880,12 @@
           "hash": "c8f36598b2c36f14d1e814640f1c4c61967372bd",
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -20570,6 +20600,12 @@
           "date": "Mon Jan 13 11:07:28 2025 -0500",
           "message": "KEP-4193: 1.33 updates for ServiceAccountTokenNodeBinding GA",
           "author": "Jordan Liggitt"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -20870,6 +20906,12 @@
           "date": "Mon Apr 7 21:16:39 2025 +0100",
           "message": "KEP-3015 PreferSameNode TrafficDistribution 1.33 (#49943)",
           "author": "Dan Winship"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -20930,6 +20972,12 @@
           "date": "Sat Apr 5 09:32:37 2025 +0100",
           "message": "update SidecarContainers to stable in v1.33 (#49685)",
           "author": "Paco Xu"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -21122,6 +21170,12 @@
           "date": "Wed Jan 8 07:32:31 2025 -0800",
           "message": "Merge pull request #49322 from my-git9/np-30312",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -21590,6 +21644,12 @@
           "date": "Thu Feb 27 15:06:03 2025 +0900",
           "message": "KEP-3633: graduate MatchLabelKeys (PodAffinity) to GA",
           "author": "Kensei Nakada"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -21866,6 +21926,12 @@
           "date": "Fri Apr 4 23:54:44 2025 -0700",
           "message": "Merge pull request #49749 from AkihiroSuda/userns-65536",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -21926,6 +21992,12 @@
           "date": "Wed Jan 15 16:10:39 2025 -0500",
           "message": "KEP-3866 nftables kube-proxy to GA",
           "author": "Dan Winship"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -22082,6 +22154,12 @@
           "date": "Sat Apr 5 17:24:37 2025 -0700",
           "message": "Merge pull request #49897 from ffromani/node-cpumanager-full-pcpus-only-GA",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -23096,6 +23174,12 @@
           "date": "Mon Feb 24 16:02:23 2025 +0530",
           "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
           "author": "Urvashi0109"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -24810,6 +24894,12 @@
           "hash": "c8f36598b2c36f14d1e814640f1c4c61967372bd",
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -27312,6 +27402,12 @@
           "date": "Mon Jan 13 16:52:24 2025 +0800",
           "message": "mark HonorPVReclaimPolicy as stable",
           "author": "carlory"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -27599,6 +27695,12 @@
           "hash": "faa257bfbc966d803d029abb38038bf1868e66ff",
           "date": "Wed Jan 8 20:49:34 2025 +0800",
           "message": "Add feature gate InPlacePodVerticalScalingAllocatedStatus v1.32",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -27900,6 +28002,12 @@
           "date": "Thu Mar 27 14:06:35 2025 +0100",
           "message": "Docs update as we promote JobBackoffLimitPerIndex to stable (#49811)",
           "author": "Michał Woźniak"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28074,6 +28182,12 @@
           "date": "Mon Feb 17 19:46:59 2025 +0900",
           "message": "KEP-3998: Graduate JobSuccessPolicy to Stable",
           "author": "Yuki Iwai"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28511,6 +28625,12 @@
           "hash": "3e427915a984bbcec057d391de5e5ad5612249ad",
           "date": "Wed Jan 8 21:03:36 2025 +0800",
           "message": "Add feature gate SeparateCacheWatchRPC v1.32",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -29363,6 +29483,12 @@
           "hash": "c8f36598b2c36f14d1e814640f1c4c61967372bd",
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "ef3afba28e911ef5a6e1ef823c636499f538cb70",
+          "date": "Mon May 5 22:20:32 2025 +0800",
+          "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
         }
       ]
@@ -37434,6 +37560,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f75b99b67dce801c52c15142ef785e06c610d71f",
+          "date": "Tue May 6 23:01:35 2025 +0800",
+          "message": "[zh-cn]sync kubeadm-init.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -38499,6 +38631,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f4aacafd17a25bc1808fc6d4cf60adabb2dfa5ec",
+          "date": "Tue May 6 23:05:46 2025 +0800",
+          "message": "[zh-cn]sync kubelet.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -60941,6 +61079,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "b4f6102f303f1a8eed46b70034721551f8bb0422",
+          "date": "Tue May 6 22:44:20 2025 +0800",
+          "message": "[zh-cn]sync scheduling/config.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -73768,6 +73912,32 @@
           "date": "Tue May 6 11:34:04 2025 +0800",
           "message": "Rename two feature gates to follow current name-style",
           "author": "windsonsea"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md",
+      "commits": [
+        {
+          "hash": "feee93a57a99899ee31717728c0e43e60dbcd122",
+          "date": "Wed May 7 18:25:41 2025 +0800",
+          "message": "Add feature gate ListFromCacheSnapshot",
+          "author": "Qiming Teng"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md",
+      "commits": [
+        {
+          "hash": "16cf851bc7abd87526d60376bc6cc4620438e51d",
+          "date": "Wed May 7 18:22:59 2025 +0800",
+          "message": "Add feature gate AllowParsingUserUIDFromCertAuth",
+          "author": "Qiming Teng"
         }
       ]
     }

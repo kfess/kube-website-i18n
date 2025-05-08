@@ -5863,6 +5863,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "198b306ae6c0503296bba403ff7b7fa25de37aa7",
+          "date": "Wed May 7 16:35:51 2025 +0800",
+          "message": "sync pr-wranglers assign-cpu-resource translate-compose-kubernetes",
+          "author": "xin gu"
         }
       ]
     },

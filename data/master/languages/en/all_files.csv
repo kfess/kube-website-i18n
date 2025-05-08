@@ -781,6 +781,11 @@ content/en/blog/_posts/2025-03-23-introducing-jobset/jobset_diagram.svg
 content/en/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/en/blog/_posts/2025-03-25-swap-fresh-improvements.md
 content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
+content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md
+content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-benchmark.png
+content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-epp-scheduling.png
+content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-request-flow.png
+content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-resource-model.png
 content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
 content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md
@@ -801,6 +806,8 @@ content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md
 content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/results.png
+content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/ensure_secret_image_pulls.svg
+content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md
 content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md
 content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md
@@ -1276,6 +1283,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/AllowDNSOnl
 content/en/docs/reference/command-line-tools-reference/feature-gates/AllowExtTrafficLocalEndpoints.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/AllowInsecureBackendProxy.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/AllowInsecureKubeletCertificateSigningRequests.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/AllowServiceLBStatusOnNonLB.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/AllowUnsafeMalformedObjectDeletion.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/AnonymousAuthConfigurableEndpoints.md
@@ -1462,6 +1470,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/LegacyNodeR
 content/en/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenCleanUp.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenNoAutoGeneration.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenTracking.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LoadBalancerIPMode.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LocalStorageCapacityIsolation.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/LocalStorageCapacityIsolationFSQuotaMonitoring.md

@@ -10,6 +10,11 @@
       "en"
     ]
   },
+  "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
     "langs": [
       "en"
@@ -93,6 +98,11 @@
       "en",
       "zh-cn",
       "ja"
+    ]
+  },
+  "content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md": {
+    "langs": [
+      "en"
     ]
   },
   "content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md": {

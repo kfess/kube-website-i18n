@@ -4302,6 +4302,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "198b306ae6c0503296bba403ff7b7fa25de37aa7",
+          "date": "Wed May 7 16:35:51 2025 +0800",
+          "message": "sync pr-wranglers assign-cpu-resource translate-compose-kubernetes",
+          "author": "xin gu"
         }
       ]
     },
@@ -4505,6 +4511,12 @@
           "date": "Sat May 19 21:43:52 2018 -0700",
           "message": "Improve left nav for Tasks. (#8582)",
           "author": "Steve Perry"
+        },
+        {
+          "hash": "37c29df70e2a29d4fee069b6d5dae40ee9cb892d",
+          "date": "Wed May 7 00:43:14 2025 -0700",
+          "message": "Merge pull request #50812 from Arhell/en-link",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -20106,6 +20118,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "198b306ae6c0503296bba403ff7b7fa25de37aa7",
+          "date": "Wed May 7 16:35:51 2025 +0800",
+          "message": "sync pr-wranglers assign-cpu-resource translate-compose-kubernetes",
+          "author": "xin gu"
         }
       ]
     },
