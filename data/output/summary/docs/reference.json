@@ -6865,5 +6865,15 @@
     "langs": [
       "en"
     ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md": {
+    "langs": [
+      "en"
+    ]
   }
 }
