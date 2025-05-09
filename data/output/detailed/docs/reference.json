@@ -19761,6 +19761,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "457ba3929d0aa9aaadbf866f78d05dcdc46fd028",
+          "date": "Wed May 7 22:19:57 2025 +0800",
+          "message": "Fix feature gate WinDSR",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -28632,6 +28638,12 @@
           "date": "Mon May 5 22:20:32 2025 +0800",
           "message": "Update graduated/deprecated features in v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a77bb2da0537a9e1b5f808074ab422c4668c486c",
+          "date": "Thu May 8 06:53:20 2025 -0700",
+          "message": "Merge pull request #50829 from tengqm/fg-separate",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -35778,6 +35790,18 @@
           "date": "Wed Mar 13 09:45:33 2019 +0100",
           "message": "docs-fr | Reference | kubectl (#13059)",
           "author": "Philippe MARTIN"
+        },
+        {
+          "hash": "61a4152aac910c4fd4b8593b9e8c0846c47c3280",
+          "date": "Fri Mar 28 20:17:04 2025 +0530",
+          "message": "feat: sync with en",
+          "author": "Sayak Mukhopadhyay"
+        },
+        {
+          "hash": "eb367ee47cd6e048905b927cb7bd9b890452f4fc",
+          "date": "Fri Mar 28 18:39:24 2025 +0530",
+          "message": "feat: remove the notitle param that is not used anywhere else",
+          "author": "Sayak Mukhopadhyay"
         }
       ]
     }
@@ -73937,6 +73961,19 @@
           "hash": "16cf851bc7abd87526d60376bc6cc4620438e51d",
           "date": "Wed May 7 18:22:59 2025 +0800",
           "message": "Add feature gate AllowParsingUserUIDFromCertAuth",
+          "author": "Qiming Teng"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md",
+      "commits": [
+        {
+          "hash": "9626ee04a0e76eefe2d17b4f42c38d9bb392cdd6",
+          "date": "Wed May 7 22:22:26 2025 +0800",
+          "message": "Add missing feature gate ServiceAccountNodeAudienceRestriction",
           "author": "Qiming Teng"
         }
       ]

@@ -1578,6 +1578,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/SeparateTai
 content/en/docs/reference/command-line-tools-reference/feature-gates/ServerSideApply.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ServerSideFieldValidation.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountIssuerDiscovery.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountTokenJTI.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountTokenNodeBinding.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountTokenNodeBindingValidation.md

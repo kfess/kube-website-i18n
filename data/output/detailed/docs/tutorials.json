@@ -5653,6 +5653,12 @@
           "date": "Fri Nov 1 23:05:46 2024 -0700",
           "message": "Add expose-your-app-publicly tutorial",
           "author": "Marcelo Giles"
+        },
+        {
+          "hash": "894a84131b80d3315297bb259d236472cb45eb6e",
+          "date": "Thu May 8 09:59:16 2025 -0400",
+          "message": "Update expose command in expose-intro.md (#50570)",
+          "author": "Jayesh Mahajan"
         }
       ]
     },

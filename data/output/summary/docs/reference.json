@@ -6875,5 +6875,10 @@
     "langs": [
       "en"
     ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md": {
+    "langs": [
+      "en"
+    ]
   }
 }
