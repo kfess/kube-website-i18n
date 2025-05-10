@@ -1493,7 +1493,8 @@
       "id",
       "fr",
       "es",
-      "ko"
+      "ko",
+      "pt-br"
     ]
   },
   "content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md": {
@@ -1611,7 +1612,8 @@
       "es",
       "de",
       "id",
-      "ko"
+      "ko",
+      "pt-br"
     ]
   },
   "content/en/docs/tasks/administer-cluster/network-policy-provider/calico-network-policy.md": {

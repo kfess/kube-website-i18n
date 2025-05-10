@@ -524,6 +524,12 @@
           "date": "Mon Mar 16 13:22:35 2020 +0700",
           "message": "Add Vietnamese code of conduct (#19020)",
           "author": "Nguyen Quang Huy"
+        },
+        {
+          "hash": "fbae77deec3908ad5718c2b5ab32e6d3a68aa7e8",
+          "date": "Fri Mar 14 17:44:10 2025 +0100",
+          "message": "change code of conduct button link to vietnamese ver",
+          "author": "The Anh Nguyen"
         }
       ]
     }

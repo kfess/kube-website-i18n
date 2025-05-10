@@ -31,7 +31,8 @@
       "en",
       "ja",
       "fr",
-      "id"
+      "id",
+      "vi"
     ]
   },
   "content/en/docs/setup/production-environment/tools/kubeadm/create-cluster-kubeadm.md": {
@@ -137,7 +138,8 @@
       "en",
       "ko",
       "fr",
-      "ja"
+      "ja",
+      "vi"
     ]
   },
   "content/en/docs/setup/production-environment/tools/kubeadm/setup-ha-etcd-with-kubeadm.md": {
