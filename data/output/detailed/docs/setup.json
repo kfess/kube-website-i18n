@@ -1621,6 +1621,12 @@
           "date": "Wed Apr 23 00:12:33 2025 +0530",
           "message": "Merge remote-tracking branch 'upstream/main' into dev-1.33",
           "author": "Rayan Das"
+        },
+        {
+          "hash": "c46bfb37ebddf8c2a50590bd90f018b55edbcf6f",
+          "date": "Tue May 6 09:53:04 2025 +0000",
+          "message": "[vi] fix typo in install-kubeadm",
+          "author": "cyanwind23"
         }
       ]
     }
@@ -2600,6 +2606,17 @@
           "date": "Wed Jul 22 20:30:51 2020 +0700",
           "message": "Translate high-availability into Bahasa Indonesia",
           "author": "Evan Adi"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/kubeadm/high-availability.md",
+      "commits": [
+        {
+          "hash": "2c1d5c34515655ead8662b8a62081ba73e33cf1c",
+          "date": "Tue May 6 09:53:32 2025 +0000",
+          "message": "[vi] add ha-topology and high-availability pages",
+          "author": "cyanwind23"
         }
       ]
     }
@@ -7498,6 +7515,23 @@
           "date": "Wed Nov 20 14:25:19 2019 -0800",
           "message": "First Japanese l10n work for release-1.15. (#17693)",
           "author": "inductor"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/setup/production-environment/tools/kubeadm/ha-topology.md",
+      "commits": [
+        {
+          "hash": "0e82ce37acf4687a1b2bf3f340bc31e700ba92af",
+          "date": "Wed May 7 16:23:32 2025 +0000",
+          "message": "[vi] update ha-topology page",
+          "author": "cyanwind23"
+        },
+        {
+          "hash": "2c1d5c34515655ead8662b8a62081ba73e33cf1c",
+          "date": "Tue May 6 09:53:32 2025 +0000",
+          "message": "[vi] add ha-topology and high-availability pages",
+          "author": "cyanwind23"
         }
       ]
     }

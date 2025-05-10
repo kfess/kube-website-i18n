@@ -5670,6 +5670,12 @@
           "date": "Sun Apr 6 12:17:22 2025 +0800",
           "message": "[zh-cn]sync expose/expose-intro",
           "author": "xin.li"
+        },
+        {
+          "hash": "5a753599ec9c1c83c34d2c3b7ecfeee8baf8c32c",
+          "date": "Fri May 9 09:26:16 2025 +0800",
+          "message": "[zh] Sync expose/expose-intro.md",
+          "author": "windsonsea"
         }
       ]
     }

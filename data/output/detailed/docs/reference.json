@@ -16222,6 +16222,17 @@
           "author": "George Jenkins"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/api-resource.md",
+      "commits": [
+        {
+          "hash": "c5de75cae78048f926c0b0a8c94bc56f94161aac",
+          "date": "Sat Apr 19 11:38:34 2025 +0200",
+          "message": "[vi] Add translation for Glossary API resource",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/infrastructure-resource.md": {
@@ -16384,6 +16395,23 @@
           "date": "Fri Jan 12 19:50:16 2024 +0100",
           "message": "[de] German localization of further glossary files",
           "author": "hschneid66"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/object.md",
+      "commits": [
+        {
+          "hash": "f4def706a09b224195b59284f42207a0840a77ef",
+          "date": "Sat Apr 26 18:21:42 2025 +0200",
+          "message": "Update content/vi/docs/reference/glossary/object.md",
+          "author": "The Anh Nguyen"
+        },
+        {
+          "hash": "36fb6a7cf2079cffe3141469df3e4483342f023c",
+          "date": "Sat Apr 19 12:50:06 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary Kubernetes API & Object",
+          "author": "The Anh Nguyen"
         }
       ]
     }
@@ -16870,6 +16898,12 @@
           "date": "Thu Apr 24 08:56:44 2025 +0800",
           "message": "Update config API for v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "68719fc5b212b87ba9f24dede4ce8ec0c167da47",
+          "date": "Fri May 9 08:21:14 2025 -0700",
+          "message": "Merge pull request #50498 from ntheanh201/case-studies",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -19335,6 +19369,12 @@
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "82d66c90d5ef6faefb49845f880d562789a5ba4a",
+          "date": "Wed May 7 16:22:48 2025 +0000",
+          "message": "Merge remote-tracking branch 'upstream/main' into production-environment",
+          "author": "cyanwind23"
         }
       ]
     }
@@ -26327,6 +26367,12 @@
           "hash": "485518468b167dffddc695c3c82fd726a446ea8c",
           "date": "Sun Dec 19 22:19:25 2021 -0800",
           "message": "Merge pull request #31028 from didicodes/telepresence",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "68719fc5b212b87ba9f24dede4ce8ec0c167da47",
+          "date": "Fri May 9 08:21:14 2025 -0700",
+          "message": "Merge pull request #50498 from ntheanh201/case-studies",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -35910,6 +35956,12 @@
           "date": "Thu Apr 24 08:56:44 2025 +0800",
           "message": "Update config API for v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "68719fc5b212b87ba9f24dede4ce8ec0c167da47",
+          "date": "Fri May 9 08:21:14 2025 -0700",
+          "message": "Merge pull request #50498 from ntheanh201/case-studies",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -36648,6 +36700,12 @@
           "date": "Thu Apr 24 08:56:44 2025 +0800",
           "message": "Update config API for v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "68719fc5b212b87ba9f24dede4ce8ec0c167da47",
+          "date": "Fri May 9 08:21:14 2025 -0700",
+          "message": "Merge pull request #50498 from ntheanh201/case-studies",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -39977,6 +40035,17 @@
           "date": "Thu Jan 18 20:01:41 2024 +0000",
           "message": "Improve docs for Pods",
           "author": "Tim Bannister"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/sidecar-container.md",
+      "commits": [
+        {
+          "hash": "9964b1dc73a9f34ee31544fbf5732045b858ffa4",
+          "date": "Sat Apr 19 12:15:17 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary Init container / Sidecar container",
+          "author": "The Anh Nguyen"
         }
       ]
     }
@@ -52488,6 +52557,23 @@
           "author": "Bjørn Erik Pedersen"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/kubernetes-api.md",
+      "commits": [
+        {
+          "hash": "cb6d4381b81eae352902f107b32171bef4280623",
+          "date": "Sat Apr 26 18:21:32 2025 +0200",
+          "message": "Update content/vi/docs/reference/glossary/kubernetes-api.md",
+          "author": "The Anh Nguyen"
+        },
+        {
+          "hash": "36fb6a7cf2079cffe3141469df3e4483342f023c",
+          "date": "Sat Apr 19 12:50:06 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary Kubernetes API & Object",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/horizontal-pod-autoscaler.md": {
@@ -59255,6 +59341,12 @@
           "date": "Thu Apr 24 08:56:44 2025 +0800",
           "message": "Update config API for v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "68719fc5b212b87ba9f24dede4ce8ec0c167da47",
+          "date": "Fri May 9 08:21:14 2025 -0700",
+          "message": "Merge pull request #50498 from ntheanh201/case-studies",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -59351,6 +59443,12 @@
           "date": "Thu Apr 24 08:56:44 2025 +0800",
           "message": "Update config API for v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "68719fc5b212b87ba9f24dede4ce8ec0c167da47",
+          "date": "Fri May 9 08:21:14 2025 -0700",
+          "message": "Merge pull request #50498 from ntheanh201/case-studies",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -62511,6 +62609,17 @@
           "author": "Enrique Medina Montenegro"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/statefulset.md",
+      "commits": [
+        {
+          "hash": "c602136bfeb68fe8827a9586e8899efb4028fb29",
+          "date": "Sat Apr 19 11:38:49 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary StatefulSet",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/ephemeral-container.md": {
@@ -63104,6 +63213,17 @@
           "author": "June Yi"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/workload.md",
+      "commits": [
+        {
+          "hash": "e3381b68b9d6ca56e31bd6e8b9be0a07ee314833",
+          "date": "Sat Apr 19 12:14:59 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary Workload",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/mirror-pod.md": {
@@ -63580,6 +63700,17 @@
           "date": "Thu Mar 7 17:07:01 2019 +0000",
           "message": "Add “app container” to glossary (#12611)",
           "author": "Tim Bannister"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/app-container.md",
+      "commits": [
+        {
+          "hash": "c602136bfeb68fe8827a9586e8899efb4028fb29",
+          "date": "Sat Apr 19 11:38:49 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary StatefulSet",
+          "author": "The Anh Nguyen"
         }
       ]
     }
@@ -64694,6 +64825,17 @@
           "date": "Thu Oct 8 04:08:15 2020 -0700",
           "message": "Merge pull request #24428 from habibrosyad/k/w-glo-7",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/init-container.md",
+      "commits": [
+        {
+          "hash": "9964b1dc73a9f34ee31544fbf5732045b858ffa4",
+          "date": "Sat Apr 19 12:15:17 2025 +0200",
+          "message": "[vi] Add Vietnamese translation for glossary Init container / Sidecar container",
+          "author": "The Anh Nguyen"
         }
       ]
     }
@@ -68963,6 +69105,17 @@
           "author": "June Yi"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/contributor.md",
+      "commits": [
+        {
+          "hash": "af1172e2e59ab5a7e6e1a89414dc882b6e7d2888",
+          "date": "Mon May 5 17:38:22 2025 +0700",
+          "message": "[vi] add translation for glossary member, contributor, sig",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/pod-security-policy.md": {
@@ -71541,6 +71694,17 @@
           "author": "Bjørn Erik Pedersen"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/member.md",
+      "commits": [
+        {
+          "hash": "af1172e2e59ab5a7e6e1a89414dc882b6e7d2888",
+          "date": "Mon May 5 17:38:22 2025 +0700",
+          "message": "[vi] add translation for glossary member, contributor, sig",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/instrumentation/_index.md": {
@@ -71975,6 +72139,17 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/sig.md",
+      "commits": [
+        {
+          "hash": "af1172e2e59ab5a7e6e1a89414dc882b6e7d2888",
+          "date": "Mon May 5 17:38:22 2025 +0700",
+          "message": "[vi] add translation for glossary member, contributor, sig",
+          "author": "The Anh Nguyen"
         }
       ]
     }
@@ -72742,6 +72917,17 @@
           "date": "Fri Dec 13 14:02:54 2019 +0700",
           "message": "Translate Service Catalog to ID Localization (#17990)",
           "author": "Gede Wahyu Adi Pramana"
+        }
+      ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/managed-service.md",
+      "commits": [
+        {
+          "hash": "c2fb1282723cf1cea689c83eec51031eb9ffa5e6",
+          "date": "Fri Apr 25 07:33:14 2025 +0200",
+          "message": "[vi] add Vietnamese translation for glossary Managed Service",
+          "author": "The Anh Nguyen"
         }
       ]
     }

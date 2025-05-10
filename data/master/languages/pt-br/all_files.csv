@@ -309,6 +309,8 @@ content/pt-br/docs/tasks/debug/debug-application/debug-statefulset.md
 content/pt-br/docs/tasks/debug/debug-application/determine-reason-pod-failure.md
 content/pt-br/docs/tasks/debug/debug-application/get-shell-running-container.md
 content/pt-br/docs/tasks/job/automated-tasks-with-cron-jobs.md
+content/pt-br/docs/tasks/run-application/_index.md
+content/pt-br/docs/tasks/run-application/run-stateless-application-deployment.md
 content/pt-br/docs/tasks/tools/_index.md
 content/pt-br/docs/tasks/tools/included/kubectl-convert-overview.md
 content/pt-br/docs/tasks/tools/included/kubectl-whats-next.md
@@ -348,6 +350,8 @@ content/pt-br/examples/admin/logging/fluentd-sidecar-config.yaml
 content/pt-br/examples/admin/logging/two-files-counter-pod-agent-sidecar.yaml
 content/pt-br/examples/admin/logging/two-files-counter-pod-streaming-sidecar.yaml
 content/pt-br/examples/admin/logging/two-files-counter-pod.yaml
+content/pt-br/examples/application/deployment-scale.yaml
+content/pt-br/examples/application/deployment-update.yaml
 content/pt-br/examples/application/deployment.yaml
 content/pt-br/examples/application/job/cronjob.yaml
 content/pt-br/examples/application/nginx-with-request.yaml

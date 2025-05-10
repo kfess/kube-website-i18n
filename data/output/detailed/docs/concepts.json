@@ -4860,6 +4860,12 @@
           "date": "Fri May 29 21:17:53 2020 -0700",
           "message": "Merge pull request #21310 from kubernetes/dev-1.18-ko.4",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "e8170b09495e625640aab5aba262bb29fe176a6b",
+          "date": "Fri Apr 25 00:37:27 2025 +0300",
+          "message": "[ko] Update API version",
+          "author": "Arhell"
         }
       ]
     }
@@ -5296,6 +5302,12 @@
           "date": "Tue Sep 6 07:22:54 2022 -0700",
           "message": "Merge pull request #36630 from windsonsea/stocap",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "e8170b09495e625640aab5aba262bb29fe176a6b",
+          "date": "Fri Apr 25 00:37:27 2025 +0300",
+          "message": "[ko] Update API version",
+          "author": "Arhell"
         }
       ]
     }
@@ -27709,6 +27721,36 @@
           "date": "Wed Dec 11 13:46:05 2019 +0700",
           "message": "Adding container-lifecycle-hooks in Vietnamese (#18013)",
           "author": "Nguyen Hai Truong"
+        },
+        {
+          "hash": "85a297d85a0ea50c7594eaad51a9610eba0a1762",
+          "date": "Wed Apr 30 18:38:28 2025 +0700",
+          "message": "docs(vi): update container-lifecycle-hooks implementations note",
+          "author": "cuongvd23"
+        },
+        {
+          "hash": "d237b915abc9e34eacd6af94df22bfb13a9f8da7",
+          "date": "Sun Apr 27 16:37:49 2025 +0700",
+          "message": "docs(vi): update container-lifecycle-hooks execution",
+          "author": "cuongvd23"
+        },
+        {
+          "hash": "e0ffd6c10ee9fb55cb570ac58cb2f6141dac3b9d",
+          "date": "Sun Apr 27 00:01:48 2025 +0700",
+          "message": "docs(vi): update container-lifecycle-hooks implementations",
+          "author": "cuongvd23"
+        },
+        {
+          "hash": "d48fd73d6ed264f279a948e2f327f24c94827317",
+          "date": "Sat Apr 26 23:59:05 2025 +0700",
+          "message": "docs(vi): update container-lifecycle-hooks hooks",
+          "author": "cuongvd23"
+        },
+        {
+          "hash": "7e314fdca5a14565ecff0137be7864e5bad73e64",
+          "date": "Sat Apr 26 23:58:29 2025 +0700",
+          "message": "docs(vi): update container-lifecycle-hooks debugging",
+          "author": "cuongvd23"
         }
       ]
     },

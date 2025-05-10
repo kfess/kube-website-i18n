@@ -4557,6 +4557,12 @@
           "date": "Sun Dec 25 22:53:34 2022 +0900",
           "message": "[ko] Translate tasks-translate-compose-kubernetes.md into Korean",
           "author": "Kevin Park"
+        },
+        {
+          "hash": "3cffd95f3c08ed9d9bafa422639259600f604ff3",
+          "date": "Fri May 9 01:51:03 2025 +0300",
+          "message": "[ko] update kompose link",
+          "author": "Arhell"
         }
       ]
     }
@@ -46290,6 +46296,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "pt-br": {
+      "path": "content/pt-br/docs/tasks/run-application/run-stateless-application-deployment.md",
+      "commits": [
+        {
+          "hash": "940e63bdf7ee2a37db207196e99922530d09b791",
+          "date": "Fri May 9 11:03:15 2025 -0700",
+          "message": "Merge pull request #50661 from Arhell/ko-api",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md": {
@@ -49158,6 +49175,17 @@
           "date": "Mon Dec 3 19:21:11 2018 -0600",
           "message": "Official 1.13 Release Docs (#11401)",
           "author": "Jim Angel"
+        }
+      ]
+    },
+    "pt-br": {
+      "path": "content/pt-br/docs/tasks/run-application/_index.md",
+      "commits": [
+        {
+          "hash": "940e63bdf7ee2a37db207196e99922530d09b791",
+          "date": "Fri May 9 11:03:15 2025 -0700",
+          "message": "Merge pull request #50661 from Arhell/ko-api",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

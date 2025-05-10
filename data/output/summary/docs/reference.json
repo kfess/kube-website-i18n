@@ -643,7 +643,8 @@
   "content/en/docs/reference/glossary/api-resource.md": {
     "langs": [
       "zh-cn",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/infrastructure-resource.md": {
@@ -659,7 +660,8 @@
       "ko",
       "ru",
       "bn",
-      "de"
+      "de",
+      "vi"
     ]
   },
   "content/en/docs/reference/kubectl/generated/kubectl_apply/_index.md": {
@@ -3682,7 +3684,8 @@
       "ja",
       "zh-cn",
       "bn",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/userns.md": {
@@ -4493,7 +4496,8 @@
       "fr",
       "zh-cn",
       "ko",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/horizontal-pod-autoscaler.md": {
@@ -5774,7 +5778,8 @@
       "fr",
       "ko",
       "id",
-      "es"
+      "es",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/ephemeral-container.md": {
@@ -5817,7 +5822,8 @@
       "es",
       "ja",
       "fr",
-      "ko"
+      "ko",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/mirror-pod.md": {
@@ -5855,7 +5861,8 @@
       "zh-cn",
       "fr",
       "ko",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/access-authn-authz/abac.md": {
@@ -5923,7 +5930,8 @@
       "en",
       "fr",
       "ko",
-      "id"
+      "id",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/job.md": {
@@ -6318,7 +6326,8 @@
       "fr",
       "en",
       "id",
-      "ko"
+      "ko",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/pod-security-policy.md": {
@@ -6500,7 +6509,8 @@
       "ko",
       "zh-cn",
       "ja",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/instrumentation/_index.md": {
@@ -6532,7 +6542,8 @@
       "zh-cn",
       "ja",
       "es",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/upstream.md": {
@@ -6617,7 +6628,8 @@
       "ko",
       "zh-cn",
       "en",
-      "id"
+      "id",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/pod-priority.md": {
