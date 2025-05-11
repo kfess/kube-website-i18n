@@ -6751,7 +6751,8 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md": {
@@ -6880,12 +6881,14 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md": {

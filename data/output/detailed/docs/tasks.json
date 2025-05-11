@@ -10954,6 +10954,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "4e42436cf987204f4eba0f5b321f1ae9218a9dea",
+          "date": "Fri May 9 12:28:29 2025 -0700",
+          "message": "Sync encryption docs reviewers with kubernetes sig-auth-encryption-at-rest-reviewers",
+          "author": "Anish Ramasekar"
         }
       ]
     }
@@ -31162,6 +31168,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "4e42436cf987204f4eba0f5b321f1ae9218a9dea",
+          "date": "Fri May 9 12:28:29 2025 -0700",
+          "message": "Sync encryption docs reviewers with kubernetes sig-auth-encryption-at-rest-reviewers",
+          "author": "Anish Ramasekar"
         }
       ]
     }

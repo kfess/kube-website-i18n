@@ -51,6 +51,12 @@
           "date": "Wed May 7 12:49:16 2025 -0700",
           "message": "Merge pull request #50818 from tengqm/fg-allowparse",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "85e25759042964f0d67c27976cc07ac0ad9824f5",
+          "date": "Fri May 9 18:07:14 2025 -0700",
+          "message": "Merge pull request #50839 from windsonsea/allfea",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

@@ -13257,6 +13257,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "eb4d3f5344b2d29b7466c851bd52aef675216279",
+          "date": "Sat May 10 10:47:15 2025 -0700",
+          "message": "Merge pull request #50695 from ianatha/patch-1",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -19106,6 +19112,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -19412,6 +19424,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -19466,6 +19484,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -19646,6 +19670,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -19790,6 +19820,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -23311,6 +23347,12 @@
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -26771,6 +26813,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28301,6 +28349,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28733,6 +28787,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28883,6 +28943,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -28961,6 +29027,12 @@
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     },
@@ -36191,6 +36263,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c4e450b751fe3ac791b36a8e8bffcb74d7f2d579",
+          "date": "Sat May 10 09:14:32 2025 +0800",
+          "message": "[zh-cn]sync kubeadm-config.v1beta3 kube-scheduler-config.v1",
+          "author": "xin.li"
         }
       ]
     },
@@ -37258,6 +37336,12 @@
           "date": "Thu Sep 1 17:26:21 2022 +0800",
           "message": "[zh-cn] Add kube-scheduler-config.v1.md chinese version",
           "author": "zhangxiaoyang"
+        },
+        {
+          "hash": "c4e450b751fe3ac791b36a8e8bffcb74d7f2d579",
+          "date": "Sat May 10 09:14:32 2025 +0800",
+          "message": "[zh-cn]sync kubeadm-config.v1beta3 kube-scheduler-config.v1",
+          "author": "xin.li"
         }
       ]
     },
@@ -73678,6 +73762,17 @@
           "author": "Dan Winship"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md",
+      "commits": [
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/StorageCapacityScoring.md": {
@@ -74137,6 +74232,17 @@
           "author": "Qiming Teng"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md",
+      "commits": [
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md": {
@@ -74148,6 +74254,17 @@
           "date": "Wed May 7 18:22:59 2025 +0800",
           "message": "Add feature gate AllowParsingUserUIDFromCertAuth",
           "author": "Qiming Teng"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md",
+      "commits": [
+        {
+          "hash": "118b38bc10d9f3cf091fba9f0496af0e4c93a966",
+          "date": "Thu May 8 09:07:30 2025 +0800",
+          "message": "[zh] Sync several feature gates",
+          "author": "windsonsea"
         }
       ]
     }

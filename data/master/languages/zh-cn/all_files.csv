@@ -802,6 +802,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowDNS
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowExtTrafficLocalEndpoints.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowInsecureBackendProxy.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowInsecureKubeletCertificateSigningRequests.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowParsingUserUIDFromCertAuth.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowServiceLBStatusOnNonLB.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AllowUnsafeMalformedObjectDeletion.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/AnonymousAuthConfigurableEndpoints.md
@@ -981,6 +982,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LegacyNo
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenCleanUp.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenNoAutoGeneration.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LegacyServiceAccountTokenTracking.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LoadBalancerIPMode.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LocalStorageCapacityIsolation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/LocalStorageCapacityIsolationFSQuotaMonitoring.md
@@ -1120,6 +1122,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StorageV
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StreamingProxyRedirects.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StrictCostEnforcementForVAP.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StrictCostEnforcementForWebhooks.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StrictIPCIDRValidation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StructuredAuthenticationConfiguration.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/StructuredAuthorizationConfiguration.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/SupplementalGroupsPolicy.md
