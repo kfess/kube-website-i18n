@@ -37097,6 +37097,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "583a832c477d5e36c43613ae954b1515fec21644",
+          "date": "Sun May 11 00:23:16 2025 -0700",
+          "message": "Merge pull request #50853 from my-git9/npa-26337",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -59562,6 +59568,12 @@
           "date": "Wed Mar 29 10:24:52 2023 +0800",
           "message": "[zh] sync kubelet-credentialprovider.v1.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "583a832c477d5e36c43613ae954b1515fec21644",
+          "date": "Sun May 11 00:23:16 2025 -0700",
+          "message": "Merge pull request #50853 from my-git9/npa-26337",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

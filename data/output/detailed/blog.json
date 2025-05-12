@@ -204,6 +204,12 @@
           "date": "Mon Apr 28 06:51:56 2025 -0700",
           "message": "Merge pull request #50714 from rytswd/update-slug-for-unpublished-blog",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "26b1e6d02729c4b1c131584fdbe5596198d87a83",
+          "date": "Thu May 8 19:08:36 2025 +0900",
+          "message": "Use HorizontalPodAutoscaler when referring to the API object in 2024-04-28 HPA blog post",
+          "author": "kita456"
         }
       ]
     },
@@ -25546,6 +25552,19 @@
           "date": "Mon May 5 17:14:19 2025 +0300",
           "message": "Update blog date, title, and slug",
           "author": "Udi Hofesh"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md": {
+    "en": {
+      "path": "content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md",
+      "commits": [
+        {
+          "hash": "160446cc443aa74b272578c3d116c9dbdfa754f9",
+          "date": "Fri May 9 15:37:59 2025 -0400",
+          "message": "Update Kubernetes Event Management blog post with custom aggregation",
+          "author": "Rez Moss"
         }
       ]
     }
