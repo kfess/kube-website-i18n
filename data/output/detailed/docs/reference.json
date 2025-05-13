@@ -18740,6 +18740,12 @@
           "date": "Sat Oct 22 01:33:09 2022 +0100",
           "message": "Move ports and protocols page into network reference",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "87cc62f6e4ef56f91e86abd2fe81d5d9d9379cef",
+          "date": "Wed Sep 18 22:34:59 2024 +0530",
+          "message": "Update ports-and-protocols.md",
+          "author": "HITMAN"
         }
       ]
     },
@@ -36617,6 +36623,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "6c192d509c3e3e86e3dc0589954844063b568f42",
+          "date": "Wed May 7 10:01:30 2025 +0800",
+          "message": "[zh] Sync config-api/kubelet-config.v1beta1.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -73972,6 +73984,17 @@
           "author": "Aaron Prindle"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md",
+      "commits": [
+        {
+          "hash": "ab09c07c6ed8de441c91c52168af4fd54a8007a8",
+          "date": "Tue May 6 14:23:06 2025 +0800",
+          "message": "[zh] Add four feature gates",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md": {
@@ -73983,6 +74006,17 @@
           "date": "Wed Feb 12 20:57:13 2025 +0000",
           "message": "docs: add necessary feature gate information for KEP-5073 - Declarative Validation of K8s Native Types With validation-gen",
           "author": "Aaron Prindle"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md",
+      "commits": [
+        {
+          "hash": "ab09c07c6ed8de441c91c52168af4fd54a8007a8",
+          "date": "Tue May 6 14:23:06 2025 +0800",
+          "message": "[zh] Add four feature gates",
+          "author": "windsonsea"
         }
       ]
     }
@@ -74218,6 +74252,17 @@
           "author": "windsonsea"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md",
+      "commits": [
+        {
+          "hash": "ab09c07c6ed8de441c91c52168af4fd54a8007a8",
+          "date": "Tue May 6 14:23:06 2025 +0800",
+          "message": "[zh] Add four feature gates",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md": {
@@ -74228,6 +74273,17 @@
           "hash": "e5688442a0fdfdbac39ec1a5f0c34937dc7fbf07",
           "date": "Tue May 6 11:34:04 2025 +0800",
           "message": "Rename two feature gates to follow current name-style",
+          "author": "windsonsea"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md",
+      "commits": [
+        {
+          "hash": "ab09c07c6ed8de441c91c52168af4fd54a8007a8",
+          "date": "Tue May 6 14:23:06 2025 +0800",
+          "message": "[zh] Add four feature gates",
           "author": "windsonsea"
         }
       ]

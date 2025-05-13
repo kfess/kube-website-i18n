@@ -885,9 +885,12 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAParti
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAPrioritizedList.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DRAResourceClaimDeviceStatus.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DaemonSetUpdateSurge.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DefaultHostNetworkHostPortsInPodTemplates.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DefaultPodTopologySpread.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DelegateFSGroupToCSIDriver.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DevicePluginCDIDevices.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DevicePlugins.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/DisableAcceleratorUsageMetrics.md
@@ -967,6 +970,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletC
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletConfigFile.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletCrashLoopBackOffMax.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletCredentialProviders.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletFineGrainedAuthz.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletInUserNamespace.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/KubeletPSI.md
@@ -1966,6 +1970,7 @@ content/zh-cn/docs/tasks/manage-kubernetes-objects/update-api-object-kubectl-pat
 content/zh-cn/docs/tasks/network/_index.md
 content/zh-cn/docs/tasks/network/customize-hosts-file-for-pods.md
 content/zh-cn/docs/tasks/network/extend-service-ip-ranges.md
+content/zh-cn/docs/tasks/network/reconfigure-default-service-ip-ranges.md
 content/zh-cn/docs/tasks/network/validate-dual-stack.md
 content/zh-cn/docs/tasks/run-application/_index.md
 content/zh-cn/docs/tasks/run-application/access-api-from-pod.md

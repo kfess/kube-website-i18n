@@ -58,7 +58,8 @@
   "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md": {
     "langs": [
       "en",
-      "zh-cn"
+      "zh-cn",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {

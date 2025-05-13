@@ -223,6 +223,17 @@
           "author": "Kagaya"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-04-28-hpa-configurable-tolerance.md",
+      "commits": [
+        {
+          "hash": "68f24949aed4cdf906015b4d7793b1b1d7667147",
+          "date": "Mon May 12 08:55:16 2025 -0700",
+          "message": "Merge pull request #47991 from ayushpatil2122/patch-8",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-25-userns-enabled-by-default/index.md": {

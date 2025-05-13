@@ -1808,7 +1808,8 @@
   },
   "content/en/docs/tasks/network/reconfigure-default-service-ip-ranges.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   }
 }
