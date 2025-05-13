@@ -6799,12 +6799,14 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidation.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DeclarativeValidationTakeover.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/OrderedNamespaceDeletion.md": {
@@ -6871,12 +6873,14 @@
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/DeploymentReplicaSetTerminatingReplicas.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/KubeletEnsureSecretPulledImages.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/ListFromCacheSnapshot.md": {

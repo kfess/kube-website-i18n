@@ -21268,6 +21268,12 @@
           "date": "Mon May 5 11:01:58 2025 -0700",
           "message": "Merge pull request #50777 from shurup/ru-kubecon2025-april",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "5dad85e6d4e45911c5f130c13e657e4e68ead3f4",
+          "date": "Wed Apr 23 12:34:36 2025 -0700",
+          "message": "Document additional pod condition types",
+          "author": "Tim Allclair"
         }
       ]
     },

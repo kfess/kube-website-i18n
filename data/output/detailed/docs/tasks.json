@@ -12326,6 +12326,12 @@
           "date": "Thu Dec 14 09:46:04 2023 +0800",
           "message": "[zh] Localize extend-service-ip-ranges.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "f79811a1f8a8dd6dfe47c7a5d180473f3b06ccca",
+          "date": "Tue May 6 09:47:03 2025 +0800",
+          "message": "[zh] Sync extend-service-ip-ranges.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -25660,6 +25666,18 @@
           "date": "Mon Apr 25 22:06:51 2022 -0700",
           "message": "Merge pull request #33185 from my-git9/panic-kubernetes-and-docker",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "cc8fd8152a788971ab7dbceb477cc4a1a25733bc",
+          "date": "Sun Mar 16 17:03:11 2025 +0330",
+          "message": "use tabs to list flags specific to each backend in a separate tab.",
+          "author": "Mohammad Alavi"
+        },
+        {
+          "hash": "c8426e545d49310cc298905430db3e4d7b4c760e",
+          "date": "Sun Mar 16 15:13:03 2025 +0330",
+          "message": "Merge branch 'kubernetes:main' into patch-3",
+          "author": "Mohammad Alavi"
         }
       ]
     },
@@ -51835,6 +51853,17 @@
           "date": "Mon Mar 3 23:34:04 2025 +0000",
           "message": "ServiceCIDR documentation",
           "author": "Antonio Ojea"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/tasks/network/reconfigure-default-service-ip-ranges.md",
+      "commits": [
+        {
+          "hash": "9684eee67719792b4d5a7fcc3c185f7a0e0a8351",
+          "date": "Wed May 7 22:42:43 2025 +0800",
+          "message": "[zh] Add reconfigure-default-service-ip-ranges.md",
+          "author": "Michael"
         }
       ]
     }
