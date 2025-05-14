@@ -1,42 +1,57 @@
 {
-  "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md": {
+  "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md",
+      "path": "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md",
       "commits": [
         {
-          "hash": "9f706ad1fe8922c4a92808b24c94ef0dc379ea7d",
-          "date": "Fri Apr 25 01:12:16 2025 +0100",
-          "message": "Add v1.33 prefix",
-          "author": "Ryota"
+          "hash": "99b908220457d830088ad8acf66a4e79086d3d3e",
+          "date": "Tue May 13 10:51:16 2025 -0700",
+          "message": "Merge pull request #47451 from Ritikaa96/audit-annotation-etcd-decode-latency",
+          "author": "Kubernetes Prow Robot"
         },
         {
-          "hash": "26dbe1019166b562804d7b95debd771fd8bd6dbf",
-          "date": "Tue Apr 22 16:09:26 2025 +0100",
-          "message": "Schedule KEP-1287 blog for publication",
-          "author": "Ryota"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md",
-      "commits": [
-        {
-          "hash": "2c5c1db77ac1d45225d89b3c374a3c1e516d354a",
-          "date": "Tue Apr 29 01:53:56 2025 -0700",
-          "message": "Merge pull request #50697 from asa3311/sync-zh-178",
+          "hash": "fe0abbcb4b7886ea8ce25f31042037a331b1423b",
+          "date": "Tue May 13 03:01:16 2025 -0700",
+          "message": "Merge pull request #50890 from rytswd/update-feature-blog-schedule",
           "author": "Kubernetes Prow Robot"
         }
       ]
     }
   },
-  "content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md": {
+  "content/en/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md",
+      "path": "content/en/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md",
       "commits": [
         {
-          "hash": "4080daea5ac5d9aa5fea8828d7f157f402ff9b05",
-          "date": "Fri May 2 15:09:56 2025 -0700",
-          "message": "Merge pull request #49948 from deepakkinni/kep2644ga_blog",
+          "hash": "fe0abbcb4b7886ea8ce25f31042037a331b1423b",
+          "date": "Tue May 13 03:01:16 2025 -0700",
+          "message": "Merge pull request #50890 from rytswd/update-feature-blog-schedule",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-14-Container-Stop-Signals.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-14-Container-Stop-Signals.md",
+      "commits": [
+        {
+          "hash": "fe0abbcb4b7886ea8ce25f31042037a331b1423b",
+          "date": "Tue May 13 03:01:16 2025 -0700",
+          "message": "Merge pull request #50890 from rytswd/update-feature-blog-schedule",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md",
+      "commits": [
+        {
+          "hash": "fe0abbcb4b7886ea8ce25f31042037a331b1423b",
+          "date": "Tue May 13 03:01:16 2025 -0700",
+          "message": "Merge pull request #50890 from rytswd/update-feature-blog-schedule",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -126,6 +141,19 @@
           "date": "Thu May 1 10:05:10 2025 -0700",
           "message": "KEP-4412: update blog to add v1.33 prefix for title",
           "author": "Anish Ramasekar"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-06-fine-grained-supplementalgroups-control-beta/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-06-fine-grained-supplementalgroups-control-beta/index.md",
+      "commits": [
+        {
+          "hash": "3e43a629b5dc280963d730b544b31962b266172c",
+          "date": "Wed May 7 20:13:14 2025 +0900",
+          "message": "KEP-3619: Change the directory name for KEP-3619 beta blog post (XXXX-XX-XX to 2025-05-06(publish date))",
+          "author": "Shingo Omura"
         }
       ]
     }
@@ -312,67 +340,6 @@
           "date": "Sat Apr 26 19:05:23 2025 +0900",
           "message": "[ja] Translate \"Kubernetes v1.33: Octarine\" into Japanese (#50658)",
           "author": "Taisuke Okamoto"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md",
-      "commits": [
-        {
-          "hash": "c1bc7b9cbde2dff066b89eeab684980e3076dc12",
-          "date": "Tue May 6 16:21:14 2025 -0700",
-          "message": "Merge pull request #50782 from tengqm/fix-fg-removed",
-          "author": "Kubernetes Prow Robot"
-        },
-        {
-          "hash": "9a1d83e2ee7bfd557d7ae2906db9b4117bc4be5c",
-          "date": "Mon May 5 09:08:35 2025 +0200",
-          "message": "Review remarks 3",
-          "author": "Michał Woźniak"
-        },
-        {
-          "hash": "beed432a80b3daa019f9d46d8e41bfc82712874e",
-          "date": "Wed Apr 16 14:44:59 2025 +0200",
-          "message": "Review remarks 2",
-          "author": "Michał Woźniak"
-        },
-        {
-          "hash": "8acfef3ec1ba78f0c27a631cf7c5073e9b2145b3",
-          "date": "Tue Apr 8 18:03:38 2025 +0200",
-          "message": "Review remarks",
-          "author": "Michał Woźniak"
-        },
-        {
-          "hash": "5ceb27eda5de5e266adc1ef4d2cac1757e91f1c9",
-          "date": "Mon Mar 3 10:40:17 2025 +0100",
-          "message": "BlogPost: Jobs Backoff Limit Per Index goes GA in 1.33",
-          "author": "Michal Wozniak"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md",
-      "commits": [
-        {
-          "hash": "c6bc60a35c95663aafbe234d36ca5915a2c0156b",
-          "date": "Mon Apr 28 00:05:26 2025 -0700",
-          "message": "Merge pull request #50712 from windsonsea/virips",
-          "author": "Kubernetes Prow Robot"
-        }
-      ]
-    },
-    "zh-cn": {
-      "path": "content/zh-cn/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md",
-      "commits": [
-        {
-          "hash": "93381ea50da1f5e339d3cc7d1ef4b10937dbe0de",
-          "date": "Tue Apr 29 09:29:40 2025 +0800",
-          "message": "[zh] Add 2025-04-23-jobs-successpolicy-goes-ga.md",
-          "author": "windsonsea"
         }
       ]
     }
@@ -25490,79 +25457,6 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md": {
-    "en": {
-      "path": "content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md",
-      "commits": [
-        {
-          "hash": "c1e9be96ab1755a33dceb5f69e3b6f825422bd16",
-          "date": "Sat Apr 26 09:02:03 2025 +0900",
-          "message": "Apply suggestions from code review",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "f403e82b11d9e170122a4222cd4cb2be21bf3c8e",
-          "date": "Mon Apr 21 17:22:49 2025 +0900",
-          "message": "Update content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "f47045d83f746b10597c227fde430081b58c5c2a",
-          "date": "Mon Apr 21 12:01:00 2025 +0900",
-          "message": "Apply suggestions from code review",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "6f851d243c79fbce5f91e6fb08120fa91975a2c5",
-          "date": "Wed Apr 16 10:20:42 2025 +0900",
-          "message": "Update content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "62b992e19ad2efedbc3770bd1d2a76d3759d3f92",
-          "date": "Tue Apr 15 09:58:29 2025 +0900",
-          "message": "Don't use \"code_sample\" magic and \"kubectl apply\" in the article.",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "b6b6cd0db86c0e51ec03c17d6b0ca4124907a144",
-          "date": "Tue Apr 15 09:36:12 2025 +0900",
-          "message": "Apply suggestions from code review",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "0390749ca8db3d9c48fa42840f21408892c3f468",
-          "date": "Mon Apr 14 10:42:15 2025 +0900",
-          "message": "Apply suggestions from code review",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "1a307da81b31428d8da1d6071bcccf77ad84c175",
-          "date": "Mon Apr 14 10:03:43 2025 +0900",
-          "message": "Fixed grammatical typos",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "caff01322db36f60553e11d26aff2e78916f8ab9",
-          "date": "Mon Apr 14 10:02:51 2025 +0900",
-          "message": "Removed ambiguous \"popular\"",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "614e129e855ba1e262b8d22b4e9e33782e03d2f8",
-          "date": "Sat Mar 22 00:29:07 2025 +0900",
-          "message": "blog post for KEP-3619: Fine-grained SupplementalGroups control graduates to beta",
-          "author": "Shingo Omura"
-        },
-        {
-          "hash": "c8aa6b2a527859071b168f6a6eed96ff69dbf787",
-          "date": "Mon May 5 17:14:19 2025 +0300",
-          "message": "Update blog date, title, and slug",
-          "author": "Udi Hofesh"
         }
       ]
     }

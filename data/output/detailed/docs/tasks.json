@@ -22444,6 +22444,12 @@
           "date": "Sun Dec 18 16:01:19 2022 +0900",
           "message": "[ja] add tasks/configure-pod-container/security-context.md",
           "author": "FeLvi-zzz"
+        },
+        {
+          "hash": "ecafee71e465b60ebb1702318450557faff92e3d",
+          "date": "Mon May 12 23:30:08 2025 +0900",
+          "message": "[ja] added a note about pod rejection released on KEP-3619(Beta) in content/ja/docs/tasks/configure-pod-container/security-context.md",
+          "author": "Shingo Omura"
         }
       ]
     },
@@ -41989,6 +41995,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "7ca7eec4d4b59ddfed1d9de6fcfa74f0000f1dd0",
+          "date": "Tue May 13 02:35:16 2025 -0700",
+          "message": "Merge pull request #50887 from devarsh10/patch-1",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
