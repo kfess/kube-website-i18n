@@ -1,11 +1,20 @@
 {
-  "content/en/blog/_posts/2025-05-19-in-place-pod-resize-beta.md": {
+  "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "langs": [
-      "en",
-      "zh-cn"
+      "en"
     ]
   },
-  "content/en/blog/_posts/2025-05-15-Container-Stop-Signals.md": {
+  "content/en/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-14-Container-Stop-Signals.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md": {
     "langs": [
       "en"
     ]
@@ -26,6 +35,11 @@
     ]
   },
   "content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-06-fine-grained-supplementalgroups-control-beta/index.md": {
     "langs": [
       "en"
     ]
@@ -76,17 +90,6 @@
     "langs": [
       "en",
       "ja"
-    ]
-  },
-  "content/en/blog/_posts/2025-04-23-jobs-backofflimitperindex-goes-ga.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md": {
-    "langs": [
-      "en",
-      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
@@ -3554,11 +3557,6 @@
       "it",
       "vi",
       "de"
-    ]
-  },
-  "content/en/blog/_posts/XXXX-XX-XX-fine-grained-supplementalgroups-control-beta/index.md": {
-    "langs": [
-      "en"
     ]
   },
   "content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md": {

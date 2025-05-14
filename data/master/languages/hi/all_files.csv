@@ -249,6 +249,17 @@ content/hi/examples/pods/resource/pod-level-cpu-request-limit.yaml
 content/hi/examples/pods/resource/pod-level-memory-request-limit.yaml
 content/hi/examples/pods/resource/pod-level-resources.yaml
 content/hi/examples/pods/resource/pod-resize.yaml
+content/hi/examples/pods/security/seccomp/alpha/audit-pod.yaml
+content/hi/examples/pods/security/seccomp/alpha/default-pod.yaml
+content/hi/examples/pods/security/seccomp/alpha/fine-pod.yaml
+content/hi/examples/pods/security/seccomp/alpha/violation-pod.yaml
+content/hi/examples/pods/security/seccomp/ga/audit-pod.yaml
+content/hi/examples/pods/security/seccomp/ga/default-pod.yaml
+content/hi/examples/pods/security/seccomp/ga/fine-pod.yaml
+content/hi/examples/pods/security/seccomp/ga/violation-pod.yaml
+content/hi/examples/pods/security/seccomp/profiles/audit.json
+content/hi/examples/pods/security/seccomp/profiles/fine-grained.json
+content/hi/examples/pods/security/seccomp/profiles/violation.json
 content/hi/includes/index.md
 content/hi/includes/task-tutorial-prereqs.md
 content/hi/releases/_index.md
