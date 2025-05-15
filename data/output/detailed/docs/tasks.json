@@ -4241,6 +4241,12 @@
           "date": "Tue Apr 1 08:19:07 2025 +0200",
           "message": "fix: escape pipe symbol in a table",
           "author": "Marcin Owsiany"
+        },
+        {
+          "hash": "28dd20bdd9ed4df215bd9ca4424d63e0b6bc34e9",
+          "date": "Wed May 14 06:55:19 2025 -0700",
+          "message": "Merge pull request #50903 from jayeshmahajan/pods-with",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -18849,6 +18855,12 @@
           "date": "Mon May 15 17:55:09 2023 +0800",
           "message": "[zh] sync resize-container-resources.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "a838239ed8b1c341a6751e93bea27b5203540d80",
+          "date": "Tue May 13 16:51:13 2025 +0700",
+          "message": "[zh-cn] sync pod-lifecycle.md and resize-container-resources.md",
+          "author": "Eason1118"
         }
       ]
     },

@@ -2285,6 +2285,7 @@ content/zh-cn/examples/pods/resource/memory-request-limit.yaml
 content/zh-cn/examples/pods/resource/pod-level-cpu-request-limit.yaml
 content/zh-cn/examples/pods/resource/pod-level-memory-request-limit.yaml
 content/zh-cn/examples/pods/resource/pod-level-resources.yaml
+content/zh-cn/examples/pods/resource/pod-resize.yaml
 content/zh-cn/examples/pods/security/hello-apparmor.yaml
 content/zh-cn/examples/pods/security/seccomp/alpha/audit-pod.yaml
 content/zh-cn/examples/pods/security/seccomp/alpha/default-pod.yaml
