@@ -18769,6 +18769,12 @@
           "date": "Thu Apr 24 11:01:47 2025 +0800",
           "message": "[zh-cn]sync images.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "b35220a7e63ece0c5a3e98e800fe78ea3cb76daf",
+          "date": "Wed May 14 15:00:07 2025 +0800",
+          "message": "[zh] Sync containers/images.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -19248,6 +19254,18 @@
           "date": "Mon Feb 24 17:40:16 2025 -0600",
           "message": "add documentation for 2535 Co-authored-by: Standa Láznička <stlaz@users.noreply.github.com>",
           "author": "Daniel Shebib"
+        },
+        {
+          "hash": "8a14b88f38604e2a5a93bc9614a637aae9468325",
+          "date": "Wed May 7 23:00:06 2025 -0400",
+          "message": "Apply changes from code review",
+          "author": "Mauren Berti"
+        },
+        {
+          "hash": "13d2c1474ee097aa74f145919cf51f1ca160595f",
+          "date": "Sun May 4 18:58:31 2025 -0400",
+          "message": "Update images.md to follow style guide recommendations",
+          "author": "Mauren Berti"
         }
       ]
     },
@@ -20614,6 +20632,12 @@
           "hash": "5812a5719a975386fff6bed9f28a09c7150a05cd",
           "date": "Sun Apr 27 10:30:44 2025 +0700",
           "message": "[zh-cn] sync pods/pod-lifecycle.md",
+          "author": "Eason1118"
+        },
+        {
+          "hash": "a838239ed8b1c341a6751e93bea27b5203540d80",
+          "date": "Tue May 13 16:51:13 2025 +0700",
+          "message": "[zh-cn] sync pod-lifecycle.md and resize-container-resources.md",
           "author": "Eason1118"
         }
       ]

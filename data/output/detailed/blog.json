@@ -40,6 +40,12 @@
           "date": "Tue May 13 03:01:16 2025 -0700",
           "message": "Merge pull request #50890 from rytswd/update-feature-blog-schedule",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "7ea8298e44a385e02e20319492eff219f46f07b6",
+          "date": "Wed May 14 13:12:12 2025 +0530",
+          "message": "Fixed the title for the v1.33 container lifecycle blog post",
+          "author": "sreeram-venkitesh"
         }
       ]
     }
