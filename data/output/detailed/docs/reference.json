@@ -10734,6 +10734,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "2905c5d5ed81903425a7211780f76f6950d2c657",
+          "date": "Thu May 15 16:51:13 2025 -0700",
+          "message": "Merge pull request #50914 from my-git9/npa-20990",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -15177,6 +15183,12 @@
           "hash": "68dd4803ae075939dd0feb02ebccf5832848bcf2",
           "date": "Thu Apr 24 11:25:01 2025 +0800",
           "message": "[zh] Sync labels-annotations-taints/_index.md",
+          "author": "windsonsea"
+        },
+        {
+          "hash": "f2c19cb078b8bcecf3e4c3d4c2c35b5f0392f11e",
+          "date": "Wed May 14 09:15:09 2025 +0800",
+          "message": "[zh] Sync audit-annotations.md and _index.md",
           "author": "windsonsea"
         }
       ]
@@ -51493,6 +51505,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "f2c19cb078b8bcecf3e4c3d4c2c35b5f0392f11e",
+          "date": "Wed May 14 09:15:09 2025 +0800",
+          "message": "[zh] Sync audit-annotations.md and _index.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -56179,6 +56197,12 @@
           "date": "Thu Jun 20 10:02:32 2024 +0800",
           "message": "[zh] Add kubectl_set_env.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "dd3b58a1f575f4e291f3c2d0f02e68487b6ed641",
+          "date": "Thu May 15 16:52:34 2025 +0800",
+          "message": "[zh-cn]sync kubectl_set_env.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -74369,6 +74393,19 @@
           "hash": "9626ee04a0e76eefe2d17b4f42c38d9bb392cdd6",
           "date": "Wed May 7 22:22:26 2025 +0800",
           "message": "Add missing feature gate ServiceAccountNodeAudienceRestriction",
+          "author": "Qiming Teng"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md",
+      "commits": [
+        {
+          "hash": "3082ef782e4e0fcdd65e52a02125877d6418522b",
+          "date": "Wed Jan 8 20:55:11 2025 +0800",
+          "message": "Add feature gate InformerResourceVersion v1.32",
           "author": "Qiming Teng"
         }
       ]

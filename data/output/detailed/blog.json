@@ -674,6 +674,23 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md",
+      "commits": [
+        {
+          "hash": "cc749da0e03fb4ef7d42c1cca73324770e3b88e3",
+          "date": "Thu May 8 21:32:02 2025 +0900",
+          "message": "reflect feedback",
+          "author": "kita456"
+        },
+        {
+          "hash": "0fd5ab2b8425cf99b6c38d288c4a7f5761e12231",
+          "date": "Sat Apr 19 21:10:36 2025 +0900",
+          "message": "[ja] Translate 2025-01-21-sig-arch-enhancements-spotlight.md into Japanese",
+          "author": "kita456"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-01-14-devices-failure-handling/index.md": {
