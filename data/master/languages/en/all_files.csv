@@ -1437,6 +1437,7 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/InTreePlugi
 content/en/docs/reference/command-line-tools-reference/feature-gates/InTreePluginRBDUnregister.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/InTreePluginvSphereUnregister.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/IndexedJob.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/IngressClassNamespacedParams.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/Initializers.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/JobBackoffLimitPerIndex.md

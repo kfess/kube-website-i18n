@@ -6899,5 +6899,10 @@
     "langs": [
       "en"
     ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md": {
+    "langs": [
+      "en"
+    ]
   }
 }

@@ -3864,6 +3864,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "09a6259242a9ac5fc14e40fd0268990f4357467a",
+          "date": "Thu May 15 00:49:14 2025 -0700",
+          "message": "Merge pull request #50904 from windsonsea/anntat",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
