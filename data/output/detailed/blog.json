@@ -1,4 +1,23 @@
 {
+  "content/en/blog/_posts/2025-05-19-announcing-etcd-3.6.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-19-announcing-etcd-3.6.md",
+      "commits": [
+        {
+          "hash": "538b937fd972624f373837396774ac06bcad9acd",
+          "date": "Fri May 16 09:01:15 2025 -0700",
+          "message": "Merge pull request #50910 from jberkus/etcdcarbon",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "51621715ccd4451eaa348c50019042d9f8dd19c0",
+          "date": "Thu May 15 18:21:13 2025 -0700",
+          "message": "Merge pull request #50648 from my-git9/npa-1564",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md",
