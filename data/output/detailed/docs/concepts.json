@@ -3739,6 +3739,12 @@
           "date": "Tue Apr 8 00:47:58 2025 +0300",
           "message": "[ja] Fix typo in autoscaling docs",
           "author": "Arhell"
+        },
+        {
+          "hash": "1061ecf9230e2d77d313c726719d18aea5213337",
+          "date": "Wed May 14 23:23:50 2025 +0900",
+          "message": "[ja] Update content/ja/docs/concepts/workloads/autoscaling.md",
+          "author": "inukai"
         }
       ]
     },
@@ -4151,6 +4157,12 @@
           "date": "Sun Mar 30 16:41:53 2025 +0800",
           "message": "[zh-cn]sync assign-pod-node topology-spread-constraints user-namespaces",
           "author": "xin.li"
+        },
+        {
+          "hash": "c32f52ffe6c636bba8f6bf7d468ab1b99e897edd",
+          "date": "Fri May 16 09:38:57 2025 +0800",
+          "message": "sync assign-pod-node job encrypt-data kms-provider",
+          "author": "xin gu"
         }
       ]
     },
@@ -22421,6 +22433,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "a562b558efed6fee3836042b9605e0d52ee8baf7",
+          "date": "Fri May 16 06:53:15 2025 -0700",
+          "message": "Merge pull request #50929 from jayeshmahajan/policy",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -42554,6 +42572,12 @@
           "date": "Tue Apr 29 17:17:54 2025 +0800",
           "message": "[zh-cn] sync job replicaset downward-api",
           "author": "xin.li"
+        },
+        {
+          "hash": "c32f52ffe6c636bba8f6bf7d468ab1b99e897edd",
+          "date": "Fri May 16 09:38:57 2025 +0800",
+          "message": "sync assign-pod-node job encrypt-data kms-provider",
+          "author": "xin gu"
         }
       ]
     },

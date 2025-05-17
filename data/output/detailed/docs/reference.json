@@ -4711,6 +4711,12 @@
           "date": "Sat Apr 12 17:10:36 2025 +0800",
           "message": "[zh-cn]sync service-resources/*",
           "author": "xin.li"
+        },
+        {
+          "hash": "925ea3a88e2996a66cf345b97a3a2058dae4ec48",
+          "date": "Thu Apr 24 21:54:47 2025 +0800",
+          "message": "[zh-cn]sync endpoint-slice-v1.md",
+          "author": "xin.li"
         }
       ]
     }

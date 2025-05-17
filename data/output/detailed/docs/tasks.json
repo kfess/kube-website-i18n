@@ -10571,6 +10571,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c32f52ffe6c636bba8f6bf7d468ab1b99e897edd",
+          "date": "Fri May 16 09:38:57 2025 +0800",
+          "message": "sync assign-pod-node job encrypt-data kms-provider",
+          "author": "xin gu"
         }
       ]
     },
@@ -25631,6 +25637,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d36b8954bd4a02e2eb7f350be9e40699311f6559",
+          "date": "Tue May 13 09:05:14 2025 +0800",
+          "message": "[zh] Sync debug-cluster/audit.md",
+          "author": "windsonsea"
         }
       ]
     },
@@ -31037,6 +31049,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c32f52ffe6c636bba8f6bf7d468ab1b99e897edd",
+          "date": "Fri May 16 09:38:57 2025 +0800",
+          "message": "sync assign-pod-node job encrypt-data kms-provider",
+          "author": "xin gu"
         }
       ]
     },
@@ -41792,6 +41810,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d2ff6a87993ee7401810b9daeee2faab18615118",
+          "date": "Thu May 15 18:59:05 2025 +0800",
+          "message": "[zh-cn]sync access-cluster-api.md",
+          "author": "xin.li"
         }
       ]
     },
