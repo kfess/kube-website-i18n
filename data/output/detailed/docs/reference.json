@@ -2291,6 +2291,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "fd58daf292e68df9b12c269393131e98f9a75ae5",
+          "date": "Thu May 15 20:57:38 2025 +0800",
+          "message": "[zh-cn]sync common-parameters volume-attachment-v1",
+          "author": "xin.li"
         }
       ]
     }
@@ -3341,6 +3347,12 @@
           "date": "Fri Apr 18 14:38:38 2025 +0800",
           "message": "[zh] Update storage-class-v1, volume-attachment-v1, volume-attributes-class-v1beta1",
           "author": "windsonsea"
+        },
+        {
+          "hash": "fd58daf292e68df9b12c269393131e98f9a75ae5",
+          "date": "Thu May 15 20:57:38 2025 +0800",
+          "message": "[zh-cn]sync common-parameters volume-attachment-v1",
+          "author": "xin.li"
         }
       ]
     }
@@ -21001,6 +21013,12 @@
           "date": "Thu Apr 24 15:40:08 2025 +0800",
           "message": "[zh] Sync feature-gates/R*.md to S*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "94e38c8badcdf3f6381a3dc64b553c94296ea1aa",
+          "date": "Fri May 16 21:26:44 2025 +0800",
+          "message": "[zh-cn]sync ServiceTrafficDistribution",
+          "author": "xin.li"
         }
       ]
     },
@@ -33952,6 +33970,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "391d6098ba54e1db332e0bc52a3f01ec1511e2ab",
+          "date": "Thu May 15 18:11:25 2025 +0800",
+          "message": "[zh-cn]sync api-concepts",
+          "author": "xin.li"
         }
       ]
     },
@@ -64328,6 +64352,12 @@
           "date": "Fri Feb 12 14:37:24 2021 -0500",
           "message": "Add page listing removed beta versions and notable changes",
           "author": "Jordan Liggitt"
+        },
+        {
+          "hash": "9f1af2971c32124bff0a1f42255ba5a2f3c8a16f",
+          "date": "Fri May 16 14:49:30 2025 +0530",
+          "message": "Updated deprecation guide for v1.32",
+          "author": "Anshuman"
         }
       ]
     }
