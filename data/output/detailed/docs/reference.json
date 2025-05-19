@@ -6643,6 +6643,12 @@
           "date": "Mon Apr 14 11:14:01 2025 +0800",
           "message": "[zh] Sync workload-resources/cron-job-v1, daemon-set-v1, replica-set-v1",
           "author": "windsonsea"
+        },
+        {
+          "hash": "1b76c2578a08de0e543c6a6c8516a71e8c0fa3dd",
+          "date": "Sat May 10 15:13:42 2025 +0800",
+          "message": "[zh-cn]sync replica-set-v1.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -26291,6 +26297,12 @@
           "date": "Sun Jun 30 16:49:45 2024 +0800",
           "message": "[zh-cn] Add kubectl_edit/_index.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "d93e913ea37a329abf79ecf3954b01530ed24d9b",
+          "date": "Fri May 16 21:46:08 2025 +0800",
+          "message": "[zh-cn]sync kubectl_describe kubectl_edit",
+          "author": "xin.li"
         }
       ]
     },
@@ -26351,6 +26363,12 @@
           "date": "Sun Jun 23 20:28:18 2024 +0800",
           "message": "[zh] Add kubectl_explain/_index.md",
           "author": "Michael"
+        },
+        {
+          "hash": "b77eaa2707835dc81423255d8d608a811fcefa3b",
+          "date": "Fri May 16 21:40:20 2025 +0800",
+          "message": "[zh-cn]sync kubectl_set kubectl_explain",
+          "author": "xin.li"
         }
       ]
     },
@@ -56041,6 +56059,12 @@
           "date": "Sun Jun 23 05:08:55 2024 -0700",
           "message": "Merge pull request #46924 from my-git9/pc-19214",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d93e913ea37a329abf79ecf3954b01530ed24d9b",
+          "date": "Fri May 16 21:46:08 2025 +0800",
+          "message": "[zh-cn]sync kubectl_describe kubectl_edit",
+          "author": "xin.li"
         }
       ]
     },
@@ -56281,6 +56305,12 @@
           "date": "Thu Jun 20 10:25:05 2024 +0800",
           "message": "[zh] Add kubectl_set_image.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "b77eaa2707835dc81423255d8d608a811fcefa3b",
+          "date": "Fri May 16 21:40:20 2025 +0800",
+          "message": "[zh-cn]sync kubectl_set kubectl_explain",
+          "author": "xin.li"
         }
       ]
     },
@@ -56329,6 +56359,12 @@
           "date": "Fri Jun 21 09:08:52 2024 +0800",
           "message": "[zh] Add kubectl_set_resources.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "b77eaa2707835dc81423255d8d608a811fcefa3b",
+          "date": "Fri May 16 21:40:20 2025 +0800",
+          "message": "[zh-cn]sync kubectl_set kubectl_explain",
+          "author": "xin.li"
         }
       ]
     },
@@ -56461,6 +56497,12 @@
           "date": "Fri Jun 21 17:19:31 2024 +0800",
           "message": "[zh] Add kubectl_set_subject.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "b77eaa2707835dc81423255d8d608a811fcefa3b",
+          "date": "Fri May 16 21:40:20 2025 +0800",
+          "message": "[zh-cn]sync kubectl_set kubectl_explain",
+          "author": "xin.li"
         }
       ]
     },
@@ -57067,6 +57109,12 @@
           "date": "Fri Jun 21 12:15:40 2024 +0800",
           "message": "kubectl_rollout_pause.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "e511e7442e4ede12916c6930e67045e37db75c96",
+          "date": "Fri May 16 21:55:23 2025 +0800",
+          "message": "[zh-cn]sync kubectl_rollout/* kubectl_apply",
+          "author": "xin.li"
         }
       ]
     },
@@ -57115,6 +57163,12 @@
           "date": "Sat Jun 22 03:32:54 2024 -0700",
           "message": "Merge pull request #46903 from windsonsea/resyhf",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "e511e7442e4ede12916c6930e67045e37db75c96",
+          "date": "Fri May 16 21:55:23 2025 +0800",
+          "message": "[zh-cn]sync kubectl_rollout/* kubectl_apply",
+          "author": "xin.li"
         }
       ]
     },
@@ -57162,6 +57216,12 @@
           "hash": "5472c935389afd4af8e5f031c59b151d9c5de72a",
           "date": "Sat Jun 22 11:22:07 2024 +0800",
           "message": "[zh-cn] Add kubectl_rollout_status.md",
+          "author": "xin.li"
+        },
+        {
+          "hash": "e511e7442e4ede12916c6930e67045e37db75c96",
+          "date": "Fri May 16 21:55:23 2025 +0800",
+          "message": "[zh-cn]sync kubectl_rollout/* kubectl_apply",
           "author": "xin.li"
         }
       ]
@@ -57606,6 +57666,12 @@
           "hash": "219c101b27a1308827107cd1b685e13cfbecf96f",
           "date": "Sat Jun 22 10:48:19 2024 +0800",
           "message": "[zh-cn] Add kubectl_rollout_restart.md",
+          "author": "xin.li"
+        },
+        {
+          "hash": "e511e7442e4ede12916c6930e67045e37db75c96",
+          "date": "Fri May 16 21:55:23 2025 +0800",
+          "message": "[zh-cn]sync kubectl_rollout/* kubectl_apply",
           "author": "xin.li"
         }
       ]
@@ -59233,6 +59299,12 @@
           "date": "Wed Jun 26 19:50:15 2024 +0800",
           "message": "[zh] Add kubectl_apply_view-last-applied.md",
           "author": "Michael"
+        },
+        {
+          "hash": "e511e7442e4ede12916c6930e67045e37db75c96",
+          "date": "Fri May 16 21:55:23 2025 +0800",
+          "message": "[zh-cn]sync kubectl_rollout/* kubectl_apply",
+          "author": "xin.li"
         }
       ]
     },
@@ -68835,6 +68907,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "9f77ed51dc3fd0b8816b0001066870e663c949d1",
+          "date": "Fri May 16 09:07:38 2025 +0800",
+          "message": "[zh-cn]sync kubelet-config.v1alpha1.md",
+          "author": "xin.li"
         }
       ]
     }
