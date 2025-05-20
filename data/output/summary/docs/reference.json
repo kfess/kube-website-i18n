@@ -5920,7 +5920,8 @@
       "zh-cn",
       "hi",
       "ko",
-      "en"
+      "en",
+      "vi"
     ]
   },
   "content/en/docs/reference/glossary/init-container.md": {
@@ -6901,6 +6902,11 @@
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/config-api/kuberc.v1alpha1.md": {
     "langs": [
       "en"
     ]

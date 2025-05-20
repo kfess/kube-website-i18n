@@ -2159,6 +2159,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "6997c937271778897cbf3b5921cd972878e2b996",
+          "date": "Sun May 18 16:12:20 2025 +0800",
+          "message": "[zh-cn]sync delete-options.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -9624,6 +9630,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "580457fec6232e5cb80ef192316acb4c1c5d6106",
+          "date": "Mon May 19 00:31:15 2025 -0700",
+          "message": "Merge pull request #50863 from kfess/issue-50834",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -32867,6 +32879,12 @@
           "date": "Tue Mar 12 16:00:41 2024 +0800",
           "message": "[zh-cn]localize content/en/docs/reference/config-api/kube-controller-manager-config.v1alpha1.md",
           "author": "howieyuen"
+        },
+        {
+          "hash": "cddba85553d18cb59eebfff5f621136f7f9afe8a",
+          "date": "Fri May 16 09:11:46 2025 +0800",
+          "message": "[zh-cn]sync kube-controller-manager-config.v1alpha1",
+          "author": "xin.li"
         }
       ]
     },
@@ -64945,6 +64963,29 @@
           "author": "Meha Bhalodiya"
         }
       ]
+    },
+    "vi": {
+      "path": "content/vi/docs/reference/glossary/affinity.md",
+      "commits": [
+        {
+          "hash": "b00017107e0f02a8202271991c4f569e6d3704a3",
+          "date": "Sat May 17 10:40:09 2025 +0200",
+          "message": "update word locates",
+          "author": "The Anh Nguyen"
+        },
+        {
+          "hash": "848d5a62e84fe3f4da8ee11e3c99cb789530160d",
+          "date": "Wed Apr 30 18:44:21 2025 +0200",
+          "message": "Update content/vi/docs/reference/glossary/affinity.md",
+          "author": "The Anh Nguyen"
+        },
+        {
+          "hash": "6ea2882cfaaad1949f86519a3cfea76197d3208c",
+          "date": "Sat Apr 19 11:37:37 2025 +0200",
+          "message": "[vi] Add translation for Glossary Affinity",
+          "author": "The Anh Nguyen"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/init-container.md": {
@@ -74521,6 +74562,19 @@
           "date": "Wed Jan 8 20:55:11 2025 +0800",
           "message": "Add feature gate InformerResourceVersion v1.32",
           "author": "Qiming Teng"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/config-api/kuberc.v1alpha1.md": {
+    "en": {
+      "path": "content/en/docs/reference/config-api/kuberc.v1alpha1.md",
+      "commits": [
+        {
+          "hash": "580457fec6232e5cb80ef192316acb4c1c5d6106",
+          "date": "Mon May 19 00:31:15 2025 -0700",
+          "message": "Merge pull request #50863 from kfess/issue-50834",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
