@@ -781,11 +781,6 @@ content/en/blog/_posts/2025-03-23-introducing-jobset/jobset_diagram.svg
 content/en/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/en/blog/_posts/2025-03-25-swap-fresh-improvements.md
 content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
-content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md
-content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-benchmark.png
-content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-epp-scheduling.png
-content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-request-flow.png
-content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/inference-extension-resource-model.png
 content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
 content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md
@@ -803,6 +798,7 @@ content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduat
 content/en/blog/_posts/2025-05-06-fine-grained-supplementalgroups-control-beta/index.md
 content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md
 content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md
+content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/results.png
 content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/ensure_secret_image_pulls.svg
@@ -817,7 +813,12 @@ content/en/blog/_posts/2025-05-15-announcing-etcd-3.6/figure-5.png
 content/en/blog/_posts/2025-05-15-announcing-etcd-3.6/index.md
 content/en/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md
 content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md
-content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md
+content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md
+content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-benchmark.png
+content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-epp-scheduling.png
+content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-request-flow.png
+content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-resource-model.png
+content/en/blog/_posts/2025-06-10-enhancing-kubernetes-event-management-custom-aggregation.md
 content/en/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/en/case-studies/_index.html
 content/en/case-studies/adform/adform_featured_logo.png
@@ -1697,6 +1698,7 @@ content/en/docs/reference/config-api/kubelet-config.v1.md
 content/en/docs/reference/config-api/kubelet-config.v1alpha1.md
 content/en/docs/reference/config-api/kubelet-config.v1beta1.md
 content/en/docs/reference/config-api/kubelet-credentialprovider.v1.md
+content/en/docs/reference/config-api/kuberc.v1alpha1.md
 content/en/docs/reference/debug-cluster/_index.md
 content/en/docs/reference/debug-cluster/flow-control.md
 content/en/docs/reference/external-api/_index.md

@@ -1,4 +1,14 @@
 {
+  "content/en/blog/_posts/2025-06-10-enhancing-kubernetes-event-management-custom-aggregation.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "langs": [
       "en"
@@ -25,6 +35,11 @@
     ]
   },
   "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md": {
     "langs": [
       "en"
     ]
@@ -107,11 +122,6 @@
       "en",
       "zh-cn",
       "ja"
-    ]
-  },
-  "content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md": {
-    "langs": [
-      "en"
     ]
   },
   "content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md": {
@@ -3563,11 +3573,6 @@
       "it",
       "vi",
       "de"
-    ]
-  },
-  "content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md": {
-    "langs": [
-      "en"
     ]
   },
   "content/en/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md": {

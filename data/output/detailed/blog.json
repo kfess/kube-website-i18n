@@ -1,4 +1,30 @@
 {
+  "content/en/blog/_posts/2025-06-10-enhancing-kubernetes-event-management-custom-aggregation.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-06-10-enhancing-kubernetes-event-management-custom-aggregation.md",
+      "commits": [
+        {
+          "hash": "512465537afefcd587ac9c689833865e82789752",
+          "date": "Thu May 15 21:18:23 2025 +0200",
+          "message": "removed draft and changed publication date",
+          "author": "Graziano Casto"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md",
+      "commits": [
+        {
+          "hash": "59a010a26e3ac2d4636f3749e1104ee4a1286d2a",
+          "date": "Thu May 15 20:50:13 2025 +0200",
+          "message": "removed draft and changed publication date",
+          "author": "Graziano Casto"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md",
@@ -91,6 +117,115 @@
           "date": "Fri May 9 18:07:14 2025 -0700",
           "message": "Merge pull request #50839 from windsonsea/allfea",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+      "commits": [
+        {
+          "hash": "2c5e0d77608b3a9641357c71795be0011f22543b",
+          "date": "Mon May 19 10:53:52 2025 +0200",
+          "message": "chore: add PR reviews suggestions",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "f36b6d20337cbc3547fce644f3cc5c6da2fdad76",
+          "date": "Mon May 19 10:47:49 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "1ef99a39e4cacba0c983b3637bb5fe29c1605519",
+          "date": "Mon May 19 10:47:13 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "9aeb6fedb3de7f3e6a5e3f4f211796ee4d88200f",
+          "date": "Mon May 19 10:46:49 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "a1f9564d12e5f25740bf41174bb2a6b9c0104bdf",
+          "date": "Mon May 19 10:46:29 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "91296e594a718d1705a9bdb5a317e5de240b22ab",
+          "date": "Mon May 19 10:46:17 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "40db2615e3f46dad9df206819b32387ded9da61a",
+          "date": "Mon May 19 10:45:52 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "4069665a94b6d651e72b0ed291a18553668ab610",
+          "date": "Sun May 18 22:37:51 2025 +0200",
+          "message": "chore: implement PR review suggestions",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "09c3398d10c4108af5241c36464e45dd9eaa4ee1",
+          "date": "Sun May 18 22:34:47 2025 +0200",
+          "message": "chore: implement PR review suggestions",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "19d5adf0fc76d3d99f308a345ab667075b2f626e",
+          "date": "Sun May 4 20:57:40 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "f2d4755845fc811f50f8dc28adad30ebe5b02bd5",
+          "date": "Sun May 4 20:57:16 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "f3ca9edb3cf0e346c5cd0eb9f913a2374a91712e",
+          "date": "Sun May 4 20:56:36 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "41b0d5715c26de5cb52d49c6ed51b3619dbf73d3",
+          "date": "Sun May 4 20:55:52 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "5008fa451c8ee6edbc1c3e6bfd590ac7b007c8db",
+          "date": "Sun May 4 20:55:38 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "1b22d00f540c9e441f3cbbb49a64e03dd96fef23",
+          "date": "Sun May 4 20:55:13 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "971e1210992db7c44b8afcdab45df83b8ee524a7",
+          "date": "Sun May 4 20:54:40 2025 +0200",
+          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
+          "author": "Agata Skorupka"
+        },
+        {
+          "hash": "6f7963f445f44e147db7811633cd5c8b52b112b9",
+          "date": "Fri Apr 25 17:24:40 2025 +0200",
+          "message": "blog: add Start sidecar first",
+          "author": "Agata Skorupka"
         }
       ]
     }
@@ -417,31 +552,6 @@
       ]
     }
   },
-  "content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-03-31-introducing-gateway-api-inference-extension/index.md",
-      "commits": [
-        {
-          "hash": "d444df95e4b3d217e6ec598d15b1ba0d4856d88b",
-          "date": "Tue Apr 8 08:40:09 2025 -0700",
-          "message": "Resolve feedback from sftim",
-          "author": "Daneyon Hansen"
-        },
-        {
-          "hash": "83ac8329f19b58ea9ec05f3d7bed733b73a94029",
-          "date": "Mon Mar 31 22:41:45 2025 +0100",
-          "message": "Resolves kfswain review feedback",
-          "author": "Daneyon Hansen"
-        },
-        {
-          "hash": "89bc1a658fd3a2d322acaf8019a527868d3f9028",
-          "date": "Mon Mar 31 15:03:41 2025 +0100",
-          "message": "Updates release date and minor content update",
-          "author": "Daneyon Hansen"
-        }
-      ]
-    }
-  },
   "content/en/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md": {
     "ja": {
       "path": "content/ja/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md",
@@ -539,6 +649,18 @@
           "date": "Mon Mar 24 11:28:20 2025 -0500",
           "message": "Add blog post about CVE-2025-1974 and friends",
           "author": "Tabitha Sable"
+        },
+        {
+          "hash": "84cd4b4d060498f79fab04f72b367a9ab55ef26b",
+          "date": "Sat May 17 22:55:53 2025 +0900",
+          "message": "Add revision note to indicate blog post update in May 2025",
+          "author": "kita456"
+        },
+        {
+          "hash": "aca1feb57d21630d52dccd81f2b5789e63fbb39e",
+          "date": "Mon May 12 00:19:58 2025 +0900",
+          "message": "Update ingress-nginx release links in 2024/03/24 security blog post for clarity",
+          "author": "kita456"
         }
       ]
     }
@@ -25493,19 +25615,6 @@
           "date": "Tue Apr 16 18:59:15 2019 +0200",
           "message": "Blog index (#13844)",
           "author": "Benedikt Rollik"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md": {
-    "en": {
-      "path": "content/en/blog/_posts/enhancing-kubernetes-event-management-custom-aggregation.md",
-      "commits": [
-        {
-          "hash": "160446cc443aa74b272578c3d116c9dbdfa754f9",
-          "date": "Fri May 9 15:37:59 2025 -0400",
-          "message": "Update Kubernetes Event Management blog post with custom aggregation",
-          "author": "Rez Moss"
         }
       ]
     }

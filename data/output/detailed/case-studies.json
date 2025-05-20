@@ -5344,6 +5344,17 @@
           "author": "Claudia J.Kang"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/case-studies/_index.html",
+      "commits": [
+        {
+          "hash": "8de4c037b5814f07bb539f16ff02a05a5a01df14",
+          "date": "Mon May 19 08:41:15 2025 -0700",
+          "message": "Merge pull request #50561 from ntheanh201/glossary/affinity",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   }
 }
