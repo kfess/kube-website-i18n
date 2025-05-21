@@ -100,6 +100,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md",
+      "commits": [
+        {
+          "hash": "8decc12ebd1ffc0116348a990a9b374be0888f31",
+          "date": "Tue May 20 01:05:15 2025 -0700",
+          "message": "Merge pull request #50440 from dkarczmarski/pl-sync-scale-intro-html",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
@@ -509,6 +520,23 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-04-22-multicontainer-patterns/index.md",
+      "commits": [
+        {
+          "hash": "96892c2e196ba45f32881b6b259f5ec7fe39bfd3",
+          "date": "Sun May 11 18:37:25 2025 +0900",
+          "message": "reflect feedback",
+          "author": "kita456"
+        },
+        {
+          "hash": "70e601360ad09abed100b97637529b1a8dbd5c44",
+          "date": "Sun May 4 16:21:54 2025 +0900",
+          "message": "[ja] Translate /content/ja/blog/_posts/2025-04-22-multicontainer-patterns/index.md into Japanese",
+          "author": "kita456"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
@@ -663,6 +691,17 @@
           "author": "kita456"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md",
+      "commits": [
+        {
+          "hash": "245d2a2db997e912b481c49597fb4990d54fe2ba",
+          "date": "Tue May 20 05:23:15 2025 -0700",
+          "message": "Merge pull request #50977 from windsonsea/bkoff",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-03-23-introducing-jobset/index.md": {
@@ -706,6 +745,17 @@
           "author": "Frederico Muñoz"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-03-12-sig-apps-spotlight.md",
+      "commits": [
+        {
+          "hash": "58e4365ffff7624ff05892681493eb017b91148a",
+          "date": "Wed May 21 02:41:16 2025 +0900",
+          "message": "[ja] Translate /content/en/blog/_posts/2025-03-12-sig-apps-spotlight into Japanese (#50409)",
+          "author": "kfess"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md": {
@@ -717,6 +767,17 @@
           "date": "Fri Feb 28 08:44:56 2025 -0800",
           "message": "Merge pull request #49609 from fsmunoz/sig-etcd-spotlight",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md",
+      "commits": [
+        {
+          "hash": "f4cc9ccc61d6faef60e2e162658d7ff02a42435b",
+          "date": "Wed May 21 02:45:15 2025 +0900",
+          "message": "[ja] Translate /content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/ into Japanese (#50435)",
+          "author": "kfess"
         }
       ]
     }

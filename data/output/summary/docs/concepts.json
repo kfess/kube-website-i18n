@@ -218,7 +218,8 @@
       "ko",
       "pt-br",
       "es",
-      "fr"
+      "fr",
+      "pl"
     ]
   },
   "content/en/docs/concepts/services-networking/gateway.md": {
@@ -243,7 +244,8 @@
       "it",
       "fr",
       "es",
-      "id"
+      "id",
+      "pl"
     ]
   },
   "content/en/docs/concepts/workloads/pods/ephemeral-containers.md": {
@@ -309,7 +311,8 @@
       "en",
       "es",
       "fr",
-      "id"
+      "id",
+      "pl"
     ]
   },
   "content/en/docs/concepts/services-networking/network-policies.md": {
@@ -655,7 +658,8 @@
       "fr",
       "es",
       "uk",
-      "id"
+      "id",
+      "pl"
     ]
   },
   "content/en/docs/concepts/scheduling-eviction/kube-scheduler.md": {
@@ -884,7 +888,8 @@
       "ja",
       "id",
       "es",
-      "fr"
+      "fr",
+      "pl"
     ]
   },
   "content/en/docs/concepts/architecture/cri.md": {
@@ -912,7 +917,8 @@
       "pt-br",
       "vi",
       "id",
-      "fr"
+      "fr",
+      "pl"
     ]
   },
   "content/en/docs/concepts/storage/storage-classes.md": {
@@ -987,7 +993,8 @@
       "it",
       "es",
       "ko",
-      "id"
+      "id",
+      "pl"
     ]
   },
   "content/en/docs/concepts/extend-kubernetes/_index.md": {
@@ -1002,7 +1009,8 @@
       "pt-br",
       "id",
       "fr",
-      "es"
+      "es",
+      "pl"
     ]
   },
   "content/en/docs/concepts/extend-kubernetes/operator.md": {
@@ -1025,7 +1033,8 @@
       "ja",
       "ko",
       "ru",
-      "id"
+      "id",
+      "pl"
     ]
   },
   "content/en/docs/concepts/workloads/controllers/ttlafterfinished.md": {
@@ -1169,7 +1178,8 @@
       "pt-br",
       "id",
       "fr",
-      "es"
+      "es",
+      "pl"
     ]
   },
   "content/en/docs/concepts/storage/ephemeral-volumes.md": {
@@ -1359,7 +1369,8 @@
       "fr",
       "uk",
       "id",
-      "es"
+      "es",
+      "pl"
     ]
   },
   "content/en/docs/concepts/workloads/controllers/_index.md": {
@@ -1374,7 +1385,8 @@
       "ko",
       "uk",
       "id",
-      "fr"
+      "fr",
+      "pl"
     ]
   },
   "content/en/docs/concepts/storage/dynamic-provisioning.md": {

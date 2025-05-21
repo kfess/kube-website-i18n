@@ -31,7 +31,8 @@
   },
   "content/en/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
@@ -114,7 +115,8 @@
   },
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
     "langs": [
-      "en"
+      "en",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
@@ -140,7 +142,8 @@
     "langs": [
       "id",
       "zh-cn",
-      "en"
+      "en",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-03-23-introducing-jobset/index.md": {
@@ -151,12 +154,14 @@
   "content/en/blog/_posts/2025-03-12-sig-apps-spotlight.md": {
     "langs": [
       "zh-cn",
-      "en"
+      "en",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md": {
     "langs": [
-      "en"
+      "en",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-02-28-nftables-kube-proxy/index.md": {

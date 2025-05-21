@@ -50,8 +50,14 @@ content/ja/blog/_posts/2024-10-28-k8s-upstream-training-japan-spotlight/ood-2022
 content/ja/blog/_posts/2024-12-11-Kubernetes-v1-32-Release/index.md
 content/ja/blog/_posts/2024-12-11-Kubernetes-v1-32-Release/k8s-1.32.png
 content/ja/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md
+content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md
+content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/stats.png
+content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/stats2.png
+content/ja/blog/_posts/2025-03-12-sig-apps-spotlight.md
+content/ja/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/ja/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
 content/ja/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
+content/ja/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/ja/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md
 content/ja/blog/_posts/2025-04-28-hpa-configurable-tolerance.md
 content/ja/case-studies/_index.html
@@ -298,6 +304,7 @@ content/ja/docs/reference/glossary/immutable-infrastructure.md
 content/ja/docs/reference/glossary/index.md
 content/ja/docs/reference/glossary/ingress.md
 content/ja/docs/reference/glossary/istio.md
+content/ja/docs/reference/glossary/job.md
 content/ja/docs/reference/glossary/jwt.md
 content/ja/docs/reference/glossary/kube-apiserver.md
 content/ja/docs/reference/glossary/kube-controller-manager.md

@@ -268,6 +268,12 @@
           "date": "Fri Mar 27 13:04:23 2020 +0100",
           "message": "Polish translation of Training main page (#19866)",
           "author": "Maciej Filocha"
+        },
+        {
+          "hash": "2c1146e4ca02ae21f6116955eb7c3d997b348832",
+          "date": "Sun May 18 21:49:40 2025 +0200",
+          "message": "[pl] sync with PR #49959 , #50056",
+          "author": "dkarczmarski"
         }
       ]
     },

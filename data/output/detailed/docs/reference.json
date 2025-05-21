@@ -5767,6 +5767,12 @@
           "date": "Tue Apr 15 09:37:35 2025 +0800",
           "message": "[zh] Sync workload-resources/deployment-v1, priority-class-v1",
           "author": "windsonsea"
+        },
+        {
+          "hash": "d327e4320b752b98e39d2aa6c37c781c30c2f77a",
+          "date": "Mon May 19 10:59:02 2025 +0800",
+          "message": "sync intro deployment-v1",
+          "author": "xin gu"
         }
       ]
     }
@@ -16976,6 +16982,12 @@
           "hash": "f9795abc0e233a51124ec21986215ada1abb51f6",
           "date": "Sun Feb 16 14:26:45 2025 +0100",
           "message": "[pl] docs/reference/glossary/pod-disruption.md",
+          "author": "dkarczmarski"
+        },
+        {
+          "hash": "258249602133a9aa3fe921b4b5abab5bc969d70c",
+          "date": "Sun Feb 16 13:55:28 2025 +0100",
+          "message": "[pl] docs/concepts/scheduling-eviction/_index.md",
           "author": "dkarczmarski"
         }
       ]
@@ -63500,6 +63512,23 @@
           "author": "The Anh Nguyen"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/reference/glossary/workload.md",
+      "commits": [
+        {
+          "hash": "04ac01d55adfad30067480e8e4bd4b4ebbebb9e1",
+          "date": "Tue May 20 12:17:15 2025 -0700",
+          "message": "Merge pull request #49797 from dkarczmarski/pl-docs-concepts-workloads-_index.md",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "1f7dea75ef6cb7c833409687f020faa6ae3a05ea",
+          "date": "Tue May 20 10:43:15 2025 -0700",
+          "message": "Merge pull request #50770 from kfess/issue-50748",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/reference/glossary/mirror-pod.md": {
@@ -65314,6 +65343,17 @@
           "date": "Thu Oct 8 04:08:15 2020 -0700",
           "message": "Merge pull request #24428 from habibrosyad/k/w-glo-7",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "ja": {
+      "path": "content/ja/docs/reference/glossary/job.md",
+      "commits": [
+        {
+          "hash": "26e9bb02e959ffb52b3609f7c794382339b47060",
+          "date": "Tue May 13 18:31:28 2025 +0900",
+          "message": "make_ja_job.md",
+          "author": "Yanai"
         }
       ]
     }

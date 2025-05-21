@@ -12825,6 +12825,17 @@
           "author": "Rémy Léone"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/security/_index.md",
+      "commits": [
+        {
+          "hash": "ab033ce1e1c00c1b72b90d57a14cccc35d46ade8",
+          "date": "Tue May 20 07:21:16 2025 -0700",
+          "message": "Merge pull request #50981 from t-inu/issue50979",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/services-networking/gateway.md": {
@@ -13416,6 +13427,17 @@
           "date": "Tue Apr 23 19:52:16 2019 +0530",
           "message": "Fix broken layout of kubernetes id concepts (#13972)",
           "author": "Giri Kuncoro"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/cluster-administration/_index.md",
+      "commits": [
+        {
+          "hash": "1c1183f4a9ad52b03389bc3a4e7109498e608177",
+          "date": "Sun Feb 16 10:02:38 2025 +0100",
+          "message": "[pl] docs/concepts/cluster-administration/_index.md",
+          "author": "dkarczmarski"
         }
       ]
     }
@@ -17448,6 +17470,17 @@
           "date": "Wed May 22 10:54:03 2019 +0700",
           "message": "Translate \"Pod Preset\" page to Bahasa Indonesia (#14394)",
           "author": "Kurnianto Trilaksono"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/workloads/pods/_index.md",
+      "commits": [
+        {
+          "hash": "205176cc0fc34c6aa7f2135dc6df76867db92b42",
+          "date": "Tue May 20 11:47:15 2025 -0700",
+          "message": "Merge pull request #49810 from dkarczmarski/pl-docs-concepts-workloads-pods_index.md",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -37660,6 +37693,17 @@
           "author": "Irvi Aini"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/services-networking/_index.md",
+      "commits": [
+        {
+          "hash": "0984eb3369e67196384861ba4f8c29754311d9e7",
+          "date": "Sun Feb 16 16:17:36 2025 +0100",
+          "message": "[pl] docs/concepts/services-networking/_index.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/scheduling-eviction/kube-scheduler.md": {
@@ -38188,6 +38232,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "d327e4320b752b98e39d2aa6c37c781c30c2f77a",
+          "date": "Mon May 19 10:59:02 2025 +0800",
+          "message": "sync intro deployment-v1",
+          "author": "xin gu"
         }
       ]
     },
@@ -49887,6 +49937,17 @@
           "author": "Rémy Léone"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/policy/_index.md",
+      "commits": [
+        {
+          "hash": "6d2e328be18ea05f8cc4ac51b0ab70dba3912cb4",
+          "date": "Sun Feb 16 13:32:38 2025 +0100",
+          "message": "[pl] docs/concepts/policy/_index.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/architecture/cri.md": {
@@ -50571,6 +50632,17 @@
           "date": "Thu Feb 21 16:57:51 2019 +0100",
           "message": "concepts container environment variable page (#12741)",
           "author": "Oussema CHERNI"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/containers/_index.md",
+      "commits": [
+        {
+          "hash": "6237f9f10a49859a2546cb329bd3f9302853712f",
+          "date": "Sun Feb 16 10:25:45 2025 +0100",
+          "message": "[pl] docs/concepts/containers/_index.md",
+          "author": "dkarczmarski"
         }
       ]
     }
@@ -53438,6 +53510,17 @@
           "author": "Giri Kuncoro"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/architecture/_index.md",
+      "commits": [
+        {
+          "hash": "77ed50249feee60103b7af76428ede5e688a4d68",
+          "date": "Sun Feb 16 08:51:59 2025 +0100",
+          "message": "[pl] docs/concepts/architecture/_index.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/extend-kubernetes/_index.md": {
@@ -54039,6 +54122,17 @@
           "date": "Tue Apr 16 13:13:05 2019 +0200",
           "message": "Add es/docs index tree (#13809)",
           "author": "Rael Garcia"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/extend-kubernetes/_index.md",
+      "commits": [
+        {
+          "hash": "76132cad694ee91051f2b0921ceff209082e48e4",
+          "date": "Tue May 20 10:39:15 2025 -0700",
+          "message": "Merge pull request #49633 from dkarczmarski/dkarczmarski/pl-docs-contribute-docs.md",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -55054,6 +55148,17 @@
           "date": "Tue Apr 13 17:55:48 2021 +0700",
           "message": "Rename ID Docs \"Scheduling: concept as \"Scheduling and Eviction\"",
           "author": "Danni Setiawan"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/scheduling-eviction/_index.md",
+      "commits": [
+        {
+          "hash": "258249602133a9aa3fe921b4b5abab5bc969d70c",
+          "date": "Sun Feb 16 13:55:28 2025 +0100",
+          "message": "[pl] docs/concepts/scheduling-eviction/_index.md",
+          "author": "dkarczmarski"
         }
       ]
     }
@@ -61692,6 +61797,17 @@
           "author": "Rael Garcia"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/extend-kubernetes/compute-storage-net/_index.md",
+      "commits": [
+        {
+          "hash": "918fe07c88b6bb6c7f81d29462f4f4d44a9eea97",
+          "date": "Sun Feb 16 12:17:32 2025 +0100",
+          "message": "[pl] docs/concepts/extend-kubernetes/compute-storage-net/_index.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/storage/ephemeral-volumes.md": {
@@ -66602,6 +66718,17 @@
           "author": "Rael Garcia"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/workloads/_index.md",
+      "commits": [
+        {
+          "hash": "04ac01d55adfad30067480e8e4bd4b4ebbebb9e1",
+          "date": "Tue May 20 12:17:15 2025 -0700",
+          "message": "Merge pull request #49797 from dkarczmarski/pl-docs-concepts-workloads-_index.md",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/workloads/controllers/_index.md": {
@@ -66831,6 +66958,17 @@
           "date": "Tue Jun 11 19:06:20 2019 +0200",
           "message": "Add all the _index files for the French translation (#14744)",
           "author": "Rémy Léone"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/concepts/workloads/controllers/_index.md",
+      "commits": [
+        {
+          "hash": "76343482be065f98bbc289ec1d37effbbb3d2bda",
+          "date": "Tue May 20 10:57:15 2025 -0700",
+          "message": "Merge pull request #49794 from dkarczmarski/pl-docs-reference-glossary-workload.md",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
