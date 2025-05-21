@@ -651,6 +651,17 @@
           "author": "Junya Okabe"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/docs.md",
+      "commits": [
+        {
+          "hash": "403b0eee7f6a2c1e5cd27c1daac236fefe966f8d",
+          "date": "Tue Feb 4 13:35:42 2025 +0100",
+          "message": "[pl] docs/contribute/docs.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/_index.md": {
@@ -2028,6 +2039,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/new-content/_index.md",
+      "commits": [
+        {
+          "hash": "6e8122a344877abca7fa99da4dace8df0596a4f3",
+          "date": "Tue May 20 10:01:17 2025 -0700",
+          "message": "Merge pull request #49634 from dkarczmarski/dkarczmarski/pl-docs-contribute-new-content-_index.md",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/new-content/case-studies.md": {
@@ -3205,6 +3227,17 @@
           "hash": "cb569771ed308573746774858a09819dd5d4f283",
           "date": "Thu Apr 30 05:40:18 2020 -0700",
           "message": "Merge pull request #20680 from huchengze/patch-9",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/localization.md",
+      "commits": [
+        {
+          "hash": "2396da315c86a12d4ddba6c601b7ec04d840994f",
+          "date": "Tue May 20 08:55:15 2025 -0700",
+          "message": "Merge pull request #49642 from dkarczmarski/dkarczmarski/pl-docs-contribute-localization.md",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -5495,6 +5528,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/participate/_index.md",
+      "commits": [
+        {
+          "hash": "9322f84bdaaf55cfa6f5c4e2b7b9118396b33617",
+          "date": "Tue May 20 08:21:16 2025 -0700",
+          "message": "Merge pull request #49652 from dkarczmarski/dkarczmarski/pl-docs-contribute-participate-_index.md",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/style/hugo-shortcodes/index.md": {
@@ -7108,6 +7152,17 @@
           "author": "Alexey Pyltsyn"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/generate-ref-docs/contribute-upstream.md",
+      "commits": [
+        {
+          "hash": "93fff2fb7b091db66dbf9173c5f67ccd10e9c0fe",
+          "date": "Wed Feb 12 20:37:27 2025 +0100",
+          "message": "[pl] docs/contribute/generate-ref-docs/contribute-upstream.md",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/contribute/generate-ref-docs/kubernetes-api.md": {
@@ -8209,6 +8264,17 @@
           "date": "Wed Feb 5 14:17:53 2020 +0200",
           "message": "Merge branch 'master' into master-and-uk.1",
           "author": "MaxymVlasov"
+        }
+      ]
+    },
+    "pl": {
+      "path": "content/pl/docs/contribute/advanced.md",
+      "commits": [
+        {
+          "hash": "a65abf8438de5d63da5ca5620a470272da8fb421",
+          "date": "Tue Feb 4 15:23:21 2025 +0100",
+          "message": "[pl] docs/contribute/advanced.md",
+          "author": "dkarczmarski"
         }
       ]
     }

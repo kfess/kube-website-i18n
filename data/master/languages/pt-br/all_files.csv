@@ -310,6 +310,7 @@ content/pt-br/docs/tasks/debug/debug-application/determine-reason-pod-failure.md
 content/pt-br/docs/tasks/debug/debug-application/get-shell-running-container.md
 content/pt-br/docs/tasks/job/automated-tasks-with-cron-jobs.md
 content/pt-br/docs/tasks/run-application/_index.md
+content/pt-br/docs/tasks/run-application/access-api-from-pod.md
 content/pt-br/docs/tasks/run-application/run-stateless-application-deployment.md
 content/pt-br/docs/tasks/tools/_index.md
 content/pt-br/docs/tasks/tools/included/kubectl-convert-overview.md

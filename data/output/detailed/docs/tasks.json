@@ -6854,6 +6854,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "pt-br": {
+      "path": "content/pt-br/docs/tasks/run-application/access-api-from-pod.md",
+      "commits": [
+        {
+          "hash": "f33ff8e4deffe0166b430994054b8dbc288ff117",
+          "date": "Sun May 11 15:52:16 2025 -0300",
+          "message": "[pt-br] Add /tasks/run-application/access-api-from-pod.md",
+          "author": "Paulo Ponciano"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/administer-cluster/migrating-from-dockershim/_index.md": {
@@ -35357,6 +35368,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "8d764b28e6d69d9487002466f49cdb30349e6449",
+          "date": "Mon May 19 17:11:17 2025 -0700",
+          "message": "Merge pull request #50865 from paulofponciano/issue-50137",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

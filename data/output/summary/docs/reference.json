@@ -5823,7 +5823,8 @@
       "ja",
       "fr",
       "ko",
-      "vi"
+      "vi",
+      "pl"
     ]
   },
   "content/en/docs/reference/glossary/mirror-pod.md": {
@@ -5945,7 +5946,8 @@
       "it",
       "es",
       "en",
-      "id"
+      "id",
+      "ja"
     ]
   },
   "content/en/docs/reference/glossary/namespace.md": {

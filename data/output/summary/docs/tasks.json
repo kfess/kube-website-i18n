@@ -231,7 +231,8 @@
       "fr",
       "zh-cn",
       "en",
-      "ko"
+      "ko",
+      "pt-br"
     ]
   },
   "content/en/docs/tasks/administer-cluster/migrating-from-dockershim/_index.md": {
