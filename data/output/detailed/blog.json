@@ -68,6 +68,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md",
+      "commits": [
+        {
+          "hash": "baf7b3b9145fac9ce000cc889d97cb685baaedc0",
+          "date": "Mon May 19 09:39:43 2025 +0800",
+          "message": "[zh] Add 2025-05-15-jobs-successpolicy-goes-ga.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-14-Container-Stop-Signals.md": {
@@ -332,6 +343,17 @@
           "date": "Fri May 2 23:14:07 2025 +0000",
           "message": "Schedule KEP-2644 blog for publication",
           "author": "Agustina Barbetta"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md",
+      "commits": [
+        {
+          "hash": "ded64365f173c7e41b1d500fc598a2787c9c3b9a",
+          "date": "Tue May 6 19:05:49 2025 +0800",
+          "message": "[zh-cn] Add blog: 2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md",
+          "author": "xin.li"
         }
       ]
     }

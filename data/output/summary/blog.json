@@ -21,7 +21,8 @@
   },
   "content/en/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-14-Container-Stop-Signals.md": {
@@ -67,7 +68,8 @@
   },
   "content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-02-mutable-csi-node-allocatable.md": {
