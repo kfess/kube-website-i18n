@@ -13864,6 +13864,12 @@
           "date": "Mon Mar 10 19:55:46 2025 -0700",
           "message": "Merge pull request #50055 from windsonsea/btrwca",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -19442,6 +19448,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -19802,6 +19814,12 @@
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -20023,6 +20041,12 @@
           "hash": "14c76baa4af49c4d03859ac9d7e5ae58f3652c2e",
           "date": "Fri Jan 24 17:05:24 2025 -0800",
           "message": "Merge pull request #48390 from aryasoni98/issue-48322",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -20737,6 +20761,12 @@
           "date": "Thu Apr 24 15:40:08 2025 +0800",
           "message": "[zh] Sync feature-gates/R*.md to S*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -21115,6 +21145,12 @@
           "date": "Thu Apr 24 15:40:08 2025 +0800",
           "message": "[zh] Sync feature-gates/R*.md to S*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -21318,6 +21354,12 @@
           "hash": "e86e7262c0e8f19879b4b4305cb46e1f4c88fa0b",
           "date": "Wed Jan 22 21:40:37 2025 -0800",
           "message": "Merge pull request #49481 from windsonsea/resgers",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -21781,6 +21823,12 @@
           "date": "Thu Apr 24 14:19:59 2025 +0800",
           "message": "[zh] Sync feature-gates/H*.md to M*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -22069,6 +22117,12 @@
           "date": "Thu Apr 24 14:19:59 2025 +0800",
           "message": "[zh] Sync feature-gates/H*.md to M*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -22135,6 +22189,12 @@
           "date": "Thu Apr 24 14:38:19 2025 +0800",
           "message": "[zh] Sync feature-gates/N*.md to P*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -22297,6 +22357,12 @@
           "date": "Thu Apr 24 14:38:19 2025 +0800",
           "message": "[zh] Sync feature-gates/N*.md to P*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -23317,6 +23383,12 @@
           "date": "Thu Apr 24 15:40:08 2025 +0800",
           "message": "[zh] Sync feature-gates/R*.md to S*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -25043,6 +25115,12 @@
           "hash": "ea651f24bacc62f083ccae7bca769d75c7b6a3f5",
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -27575,6 +27653,12 @@
           "date": "Thu Apr 24 14:19:59 2025 +0800",
           "message": "[zh] Sync feature-gates/H*.md to M*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -27874,6 +27958,12 @@
           "hash": "234f9b415fdd344578b7c58790606e1892dc6c8f",
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -28175,6 +28265,12 @@
           "date": "Thu Apr 24 14:19:59 2025 +0800",
           "message": "[zh] Sync feature-gates/H*.md to M*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -28355,6 +28451,12 @@
           "date": "Thu Apr 24 14:19:59 2025 +0800",
           "message": "[zh] Sync feature-gates/H*.md to M*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -28811,6 +28913,12 @@
           "date": "Mon Jan 13 02:40:34 2025 -0800",
           "message": "Merge pull request #49088 from rsalmond/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -28883,6 +28991,12 @@
           "date": "Thu May 8 09:07:30 2025 +0800",
           "message": "[zh] Sync several feature gates",
           "author": "windsonsea"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -28960,6 +29074,12 @@
           "hash": "ea651f24bacc62f083ccae7bca769d75c7b6a3f5",
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -29068,6 +29188,12 @@
           "hash": "ea651f24bacc62f083ccae7bca769d75c7b6a3f5",
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -29248,6 +29374,12 @@
           "hash": "ea651f24bacc62f083ccae7bca769d75c7b6a3f5",
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -29692,6 +29824,12 @@
           "hash": "ea651f24bacc62f083ccae7bca769d75c7b6a3f5",
           "date": "Tue Jan 7 23:00:30 2025 -0800",
           "message": "Merge pull request #49336 from windsonsea/feanam",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -34660,6 +34798,12 @@
           "date": "Mon Aug 19 20:13:27 2024 -0700",
           "message": "Merge pull request #47583 from windsonsea/initph",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ad7570dea5f207bba7ccd0d024ccc0de38bc8e0d",
+          "date": "Tue May 20 20:18:51 2025 +0800",
+          "message": "[zh-cn]sync kubeadm_init_phase_addon_coredns",
+          "author": "xin.li"
         }
       ]
     },
@@ -34798,6 +34942,12 @@
           "date": "Sat Nov 18 12:37:18 2023 +0100",
           "message": "Merge pull request #43980 from windsonsea/authny",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "25f9f1c593298f0537ad88311dd095f4fe34b365",
+          "date": "Tue May 20 20:14:34 2025 +0800",
+          "message": "[zh-cn]sync apiserver-admission.v1.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -74591,6 +74741,17 @@
           "author": "Qiming Teng"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md",
+      "commits": [
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md": {
@@ -74602,6 +74763,17 @@
           "date": "Wed Jan 8 20:55:11 2025 +0800",
           "message": "Add feature gate InformerResourceVersion v1.32",
           "author": "Qiming Teng"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md",
+      "commits": [
+        {
+          "hash": "153c2eb022a6ffea8aa5ab7b04cf733c7c9b61a2",
+          "date": "Wed May 21 05:32:34 2025 -0700",
+          "message": "Merge pull request #50993 from Arhell/bn-replace",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

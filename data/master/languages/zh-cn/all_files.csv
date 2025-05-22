@@ -334,7 +334,9 @@ content/zh-cn/blog/_posts/2025-04-11-multicontainer-patterns/index.md
 content/zh-cn/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md
 content/zh-cn/blog/_posts/2025-04-23-storage-capacity-scoring.md
 content/zh-cn/blog/_posts/2025-04-28-hpa-configurable-tolerance.md
+content/zh-cn/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md
 content/zh-cn/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md
+content/zh-cn/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md
 content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
 content/zh-cn/case-studies/_index.html
@@ -956,6 +958,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/InTreePl
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/InTreePluginRBDUnregister.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/InTreePluginvSphereUnregister.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/IndexedJob.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/InformerResourceVersion.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/IngressClassNamespacedParams.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/JobBackoffLimitPerIndex.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/JobManagedBy.md
@@ -1095,6 +1098,7 @@ content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/Separate
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServerSideApply.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServerSideFieldValidation.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountIssuerDiscovery.md
+content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountNodeAudienceRestriction.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountTokenJTI.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountTokenNodeBinding.md
 content/zh-cn/docs/reference/command-line-tools-reference/feature-gates/ServiceAccountTokenNodeBindingValidation.md
