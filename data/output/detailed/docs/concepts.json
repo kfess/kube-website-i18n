@@ -19311,6 +19311,18 @@
           "date": "Sun May 4 18:58:31 2025 -0400",
           "message": "Update images.md to follow style guide recommendations",
           "author": "Mauren Berti"
+        },
+        {
+          "hash": "32e235b2817cbf34615bd8171d3489fff0949378",
+          "date": "Tue May 20 11:03:42 2025 +0530",
+          "message": "Update content/en/docs/concepts/containers/images.md",
+          "author": "Shashank vimal"
+        },
+        {
+          "hash": "20e942b0f87fff501a15e45f643f1ccd706a9a20",
+          "date": "Mon May 19 19:47:50 2025 +0530",
+          "message": "Update images.md",
+          "author": "Shashank vimal"
         }
       ]
     },
@@ -22948,6 +22960,12 @@
           "date": "Fri Dec 1 13:06:26 2023 +0100",
           "message": "Merge pull request #44167 from dipesh-rawat/fix-tab-layout",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "2ec6de853c06387be3342a8839bd3ed6ed9b84d1",
+          "date": "Wed May 21 16:45:22 2025 +0200",
+          "message": "fixes - sidecar containers graduated to stable  in 1.33",
+          "author": "Benjamin Einaudi"
         }
       ]
     },
@@ -52883,6 +52901,12 @@
           "date": "Fri Apr 18 15:26:25 2025 -0400",
           "message": "Remove references to archived HNC project",
           "author": "Jordan Liggitt"
+        },
+        {
+          "hash": "fbf85e5071e40783ceb913aebdfb1ab23fea4a78",
+          "date": "Thu May 22 15:52:34 2025 -0700",
+          "message": "Merge pull request #51007 from antechrestos/fixes/sidecar-containers",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
