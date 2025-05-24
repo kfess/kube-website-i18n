@@ -45918,6 +45918,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "483cfcbb6b814ba69e7c72ac215e25b386d86dff",
+          "date": "Wed May 7 11:35:23 2025 +0200",
+          "message": "[zh-cn] Upgrade mysql image version used by Single-Instance Stateful tutorial",
+          "author": "lmieulet"
         }
       ]
     },
@@ -45959,6 +45965,12 @@
           "date": "Wed Aug 28 15:05:11 2019 +0900",
           "message": "First Japanese l10n work for release-1.14 (#16115)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "6b90d4fa91777bbf36e75a909f1d7fa52c681c7b",
+          "date": "Wed May 7 11:35:23 2025 +0200",
+          "message": "[ja] Upgrade mysql image version used by Single-Instance Stateful tutorial",
+          "author": "lmieulet"
         }
       ]
     },
@@ -46042,6 +46054,12 @@
           "date": "Sat May 5 18:00:51 2018 +0200",
           "message": "Convert site to Hugo (#8316)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "1ea9ecf3ad63bbc5c90eecc3e0d65eee379d743e",
+          "date": "Wed May 7 11:35:23 2025 +0200",
+          "message": "Upgrade mysql image version used by Single-Instance Stateful tutorial fix yml",
+          "author": "lmieulet"
         }
       ]
     },
@@ -46058,6 +46076,12 @@
           "hash": "08e6ea2012e9b2eadaf321f5b7b3dd87b42d1654",
           "date": "Mon May 1 16:38:11 2023 -0700",
           "message": "Merge pull request #40919 from xing-yang/fix_blog_typo",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "7997e3f6b83a5e8492f175880679d130d2ed85b7",
+          "date": "Fri May 23 08:12:36 2025 -0700",
+          "message": "Merge pull request #50984 from Arhell/ko-replace",
           "author": "Kubernetes Prow Robot"
         }
       ]
