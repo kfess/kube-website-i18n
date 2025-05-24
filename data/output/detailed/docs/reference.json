@@ -74790,5 +74790,31 @@
         }
       ]
     }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToJSON.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToJSON.md",
+      "commits": [
+        {
+          "hash": "4dda2bbd58184925c5baf44c56307541c82e08b2",
+          "date": "Wed May 7 18:26:22 2025 +0800",
+          "message": "Add feature gates realted to streaming collections",
+          "author": "Qiming Teng"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToProtobuf.md": {
+    "en": {
+      "path": "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToProtobuf.md",
+      "commits": [
+        {
+          "hash": "4dda2bbd58184925c5baf44c56307541c82e08b2",
+          "date": "Wed May 7 18:26:22 2025 +0800",
+          "message": "Add feature gates realted to streaming collections",
+          "author": "Qiming Teng"
+        }
+      ]
+    }
   }
 }

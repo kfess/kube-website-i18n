@@ -9,6 +9,16 @@
       "en"
     ]
   },
+  "content/en/blog/_posts/2025-06-03-start-sidecar-first/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "langs": [
       "en"
@@ -37,11 +47,6 @@
     ]
   },
   "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
-    "langs": [
-      "en"
-    ]
-  },
-  "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md": {
     "langs": [
       "en"
     ]

@@ -273,10 +273,12 @@ content/hi/examples/pods/security/seccomp/alpha/audit-pod.yaml
 content/hi/examples/pods/security/seccomp/alpha/default-pod.yaml
 content/hi/examples/pods/security/seccomp/alpha/fine-pod.yaml
 content/hi/examples/pods/security/seccomp/alpha/violation-pod.yaml
+content/hi/examples/pods/security/seccomp/fields.yaml
 content/hi/examples/pods/security/seccomp/ga/audit-pod.yaml
 content/hi/examples/pods/security/seccomp/ga/default-pod.yaml
 content/hi/examples/pods/security/seccomp/ga/fine-pod.yaml
 content/hi/examples/pods/security/seccomp/ga/violation-pod.yaml
+content/hi/examples/pods/security/seccomp/kind.yaml
 content/hi/examples/pods/security/seccomp/profiles/audit.json
 content/hi/examples/pods/security/seccomp/profiles/fine-grained.json
 content/hi/examples/pods/security/seccomp/profiles/violation.json

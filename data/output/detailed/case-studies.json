@@ -630,6 +630,12 @@
           "date": "Mon Aug 20 21:07:54 2018 +0200",
           "message": "Convert case-studies to bundles (#9822)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "081410a3b8ed889c30c303f8f785168ad645a080",
+          "date": "Thu May 22 19:14:35 2025 -0700",
+          "message": "Merge pull request #50820 from tengqm/fg-streaming",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

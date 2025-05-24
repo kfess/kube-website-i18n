@@ -25,6 +25,32 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-06-03-start-sidecar-first/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-06-03-start-sidecar-first/index.md",
+      "commits": [
+        {
+          "hash": "93eea3da67eff58d18c7e560c4f16681dc7d0ca9",
+          "date": "Wed May 21 20:46:03 2025 +0200",
+          "message": "Removed draft and changed pub date",
+          "author": "Graziano Casto"
+        }
+      ]
+    }
+  },
+  "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md",
+      "commits": [
+        {
+          "hash": "6ac5ce7ffba5d4828fb61427c5b9c65a261e1715",
+          "date": "Wed May 21 16:06:59 2025 +0530",
+          "message": "Update and rename 2025-02-02-wg-policy-spotlight.md to 2025-05-22-wg-policy-spotlight.md",
+          "author": "Arujjwal Negi"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md",
@@ -139,115 +165,6 @@
           "date": "Fri May 9 18:07:14 2025 -0700",
           "message": "Merge pull request #50839 from windsonsea/allfea",
           "author": "Kubernetes Prow Robot"
-        }
-      ]
-    }
-  },
-  "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md": {
-    "en": {
-      "path": "content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-      "commits": [
-        {
-          "hash": "2c5e0d77608b3a9641357c71795be0011f22543b",
-          "date": "Mon May 19 10:53:52 2025 +0200",
-          "message": "chore: add PR reviews suggestions",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "f36b6d20337cbc3547fce644f3cc5c6da2fdad76",
-          "date": "Mon May 19 10:47:49 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "1ef99a39e4cacba0c983b3637bb5fe29c1605519",
-          "date": "Mon May 19 10:47:13 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "9aeb6fedb3de7f3e6a5e3f4f211796ee4d88200f",
-          "date": "Mon May 19 10:46:49 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "a1f9564d12e5f25740bf41174bb2a6b9c0104bdf",
-          "date": "Mon May 19 10:46:29 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "91296e594a718d1705a9bdb5a317e5de240b22ab",
-          "date": "Mon May 19 10:46:17 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "40db2615e3f46dad9df206819b32387ded9da61a",
-          "date": "Mon May 19 10:45:52 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "4069665a94b6d651e72b0ed291a18553668ab610",
-          "date": "Sun May 18 22:37:51 2025 +0200",
-          "message": "chore: implement PR review suggestions",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "09c3398d10c4108af5241c36464e45dd9eaa4ee1",
-          "date": "Sun May 18 22:34:47 2025 +0200",
-          "message": "chore: implement PR review suggestions",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "19d5adf0fc76d3d99f308a345ab667075b2f626e",
-          "date": "Sun May 4 20:57:40 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "f2d4755845fc811f50f8dc28adad30ebe5b02bd5",
-          "date": "Sun May 4 20:57:16 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "f3ca9edb3cf0e346c5cd0eb9f913a2374a91712e",
-          "date": "Sun May 4 20:56:36 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "41b0d5715c26de5cb52d49c6ed51b3619dbf73d3",
-          "date": "Sun May 4 20:55:52 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "5008fa451c8ee6edbc1c3e6bfd590ac7b007c8db",
-          "date": "Sun May 4 20:55:38 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "1b22d00f540c9e441f3cbbb49a64e03dd96fef23",
-          "date": "Sun May 4 20:55:13 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "971e1210992db7c44b8afcdab45df83b8ee524a7",
-          "date": "Sun May 4 20:54:40 2025 +0200",
-          "message": "Update content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md",
-          "author": "Agata Skorupka"
-        },
-        {
-          "hash": "6f7963f445f44e147db7811633cd5c8b52b112b9",
-          "date": "Fri Apr 25 17:24:40 2025 +0200",
-          "message": "blog: add Start sidecar first",
-          "author": "Agata Skorupka"
         }
       ]
     }

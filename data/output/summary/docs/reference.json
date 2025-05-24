@@ -6914,5 +6914,15 @@
     "langs": [
       "en"
     ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToJSON.md": {
+    "langs": [
+      "en"
+    ]
+  },
+  "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToProtobuf.md": {
+    "langs": [
+      "en"
+    ]
   }
 }

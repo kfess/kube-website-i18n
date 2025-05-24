@@ -798,7 +798,6 @@ content/en/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduat
 content/en/blog/_posts/2025-05-06-fine-grained-supplementalgroups-control-beta/index.md
 content/en/blog/_posts/2025-05-07-kubernetes-1-33-wi-for-image-pulls.md
 content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md
-content/en/blog/_posts/2025-05-09-start-sidecar-first/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md
 content/en/blog/_posts/2025-05-09-streaming-list-responses/results.png
 content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/ensure_secret_image_pulls.svg
@@ -813,6 +812,8 @@ content/en/blog/_posts/2025-05-15-announcing-etcd-3.6/figure-5.png
 content/en/blog/_posts/2025-05-15-announcing-etcd-3.6/index.md
 content/en/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md
 content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md
+content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md
+content/en/blog/_posts/2025-06-03-start-sidecar-first/index.md
 content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md
 content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-benchmark.png
 content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-epp-scheduling.png
@@ -1617,6 +1618,8 @@ content/en/docs/reference/command-line-tools-reference/feature-gates/StorageObje
 content/en/docs/reference/command-line-tools-reference/feature-gates/StorageVersionAPI.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StorageVersionHash.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StorageVersionMigrator.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToJSON.md
+content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToProtobuf.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingProxyRedirects.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StrictCostEnforcementForVAP.md
 content/en/docs/reference/command-line-tools-reference/feature-gates/StrictCostEnforcementForWebhooks.md
