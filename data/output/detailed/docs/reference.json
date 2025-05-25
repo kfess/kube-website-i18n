@@ -8138,6 +8138,12 @@
           "date": "Wed May 23 13:58:32 2018 -0400",
           "message": "move access/auth content to reference folder, add TOC (#8624)",
           "author": "Jennifer Rondeau"
+        },
+        {
+          "hash": "929a877bc48b0486d55eb581169fd5a56d8ab123",
+          "date": "Fri May 23 13:25:16 2025 -0400",
+          "message": "update openid oidc-signing-algs allowed values in authentication.md",
+          "author": "Jayesh Mahajan"
         }
       ]
     },
@@ -9182,6 +9188,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "61589375cf621a05fdd14ded45d32df4d1f8fe3e",
+          "date": "Sat May 24 02:16:35 2025 -0700",
+          "message": "Merge pull request #51033 from my-git9/npa-13660",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -12003,6 +12015,12 @@
           "date": "Mon Jun 24 19:33:40 2024 -0700",
           "message": "Merge pull request #46727 from windsonsea/quotay",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d014401904d7cb93f58a05efcb1a6c270fd51e50",
+          "date": "Sat May 24 11:39:01 2025 +0800",
+          "message": "[zh-cn]sync kubectl_patch kubectl_replace",
+          "author": "xin.li"
         }
       ]
     },
@@ -13912,6 +13930,12 @@
           "date": "Wed Jun 26 18:13:57 2024 -0700",
           "message": "Merge pull request #46975 from Arhell/ja-kudo",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d014401904d7cb93f58a05efcb1a6c270fd51e50",
+          "date": "Sat May 24 11:39:01 2025 +0800",
+          "message": "[zh-cn]sync kubectl_patch kubectl_replace",
+          "author": "xin.li"
         }
       ]
     },
@@ -20191,6 +20215,12 @@
           "date": "Mon Aug 26 14:46:51 2024 +0800",
           "message": "[zh] Sync kubeadm-config.md and its dependent files",
           "author": "windsonsea"
+        },
+        {
+          "hash": "0a6f82cb004a0d9bce5d184870accbf897baae3e",
+          "date": "Fri May 23 19:53:56 2025 +0800",
+          "message": "[zh-cn]sync kubeadm_config_images_list.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -23243,6 +23273,12 @@
           "hash": "c8f36598b2c36f14d1e814640f1c4c61967372bd",
           "date": "Sun Dec 22 12:16:27 2024 +0800",
           "message": "Rename feature gate files to use gate names",
+          "author": "Qiming Teng"
+        },
+        {
+          "hash": "b98817dbfc364e6e41c3f578495fccc3356b9c81",
+          "date": "Wed May 7 22:08:55 2025 +0800",
+          "message": "Fix feature gate ProcMountType",
           "author": "Qiming Teng"
         }
       ]
@@ -33982,6 +34018,12 @@
           "date": "Tue Jun 4 09:35:58 2024 +0800",
           "message": "[zh] Add kubectl/generated/kubectl_logs/",
           "author": "windsonsea"
+        },
+        {
+          "hash": "6a80969d1f57c3f7fecca8e9a4175dfa8178d8f9",
+          "date": "Fri May 23 23:42:54 2025 +0800",
+          "message": "[zh-cn]sync kubectl_annotate kubectl_logs",
+          "author": "xin.li"
         }
       ]
     },
@@ -59587,6 +59629,12 @@
           "date": "Thu Feb 22 21:47:42 2024 -0800",
           "message": "Merge pull request #44881 from asa3311/sync-zh-97",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "6a80969d1f57c3f7fecca8e9a4175dfa8178d8f9",
+          "date": "Fri May 23 23:42:54 2025 +0800",
+          "message": "[zh-cn]sync kubectl_annotate kubectl_logs",
+          "author": "xin.li"
         }
       ]
     },
@@ -59802,6 +59850,12 @@
           "date": "Thu Aug 3 10:07:56 2023 +0800",
           "message": "[zh] Translate kubelet config v1 reference",
           "author": "helen"
+        },
+        {
+          "hash": "3e487619f1890c04f6112ea235f8b03057602700",
+          "date": "Wed May 7 09:22:33 2025 +0800",
+          "message": "[zh] Sync config-api/kubelet-config.v1.md",
+          "author": "windsonsea"
         }
       ]
     }
