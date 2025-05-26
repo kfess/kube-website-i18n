@@ -18820,6 +18820,12 @@
           "date": "Wed May 14 15:00:07 2025 +0800",
           "message": "[zh] Sync containers/images.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "720efb5922d1b2941704ab8f646f75729ef3c955",
+          "date": "Sat May 24 21:53:12 2025 +0800",
+          "message": "[zh-cn]sync images sidecar-containers",
+          "author": "xin.li"
         }
       ]
     },
@@ -22853,6 +22859,12 @@
           "date": "Tue Dec 12 09:58:59 2023 +0800",
           "message": "[zh] Localize /pods/sidecar-containers.md into Chinese",
           "author": "windsonsea"
+        },
+        {
+          "hash": "720efb5922d1b2941704ab8f646f75729ef3c955",
+          "date": "Sat May 24 21:53:12 2025 +0800",
+          "message": "[zh-cn]sync images sidecar-containers",
+          "author": "xin.li"
         }
       ]
     },
@@ -31733,6 +31745,12 @@
           "date": "Fri Mar 8 03:17:41 2019 +0900",
           "message": "First Japanese l10n work for release-1.13 (#12998)",
           "author": "Takuya Tokuda"
+        },
+        {
+          "hash": "41a1caa41a293b6d693e9c7d149e15152153ee30",
+          "date": "Thu May 22 23:19:50 2025 +0900",
+          "message": "[ja] Update content/ja/docs/concepts/overview/_index.md",
+          "author": "inukai"
         }
       ]
     },
@@ -52794,6 +52812,12 @@
           "date": "Fri Apr 18 22:33:03 2025 -0700",
           "message": "Merge pull request #50531 from windsonsea/mapkeys",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "3e119b3de9ab63bdaba06eb2e8d50a4c76fdc117",
+          "date": "Fri May 23 09:14:09 2025 +0800",
+          "message": "[zh] Sync security/multi-tenancy.md",
+          "author": "windsonsea"
         }
       ]
     },

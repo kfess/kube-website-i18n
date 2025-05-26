@@ -46118,6 +46118,12 @@
           "date": "Fri Jun 12 00:00:46 2020 +0900",
           "message": "Fifth Korean l10n work for release 1.18",
           "author": "June Yi"
+        },
+        {
+          "hash": "d5add27b0c3e4b9f611d82f8bf27310000f9df20",
+          "date": "Wed May 7 11:35:23 2025 +0200",
+          "message": "[ko] Upgrade mysql image version used by Single-Instance Stateful tutorial",
+          "author": "lmieulet"
         }
       ]
     }

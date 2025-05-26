@@ -2048,6 +2048,12 @@
           "date": "Tue May 20 10:01:17 2025 -0700",
           "message": "Merge pull request #49634 from dkarczmarski/dkarczmarski/pl-docs-contribute-new-content-_index.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "fdf65c8a6be04ac8946395cb806822e30260b309",
+          "date": "Sun May 25 08:34:36 2025 -0700",
+          "message": "Merge pull request #51017 from windsonsea/mutena",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -3239,6 +3245,12 @@
           "date": "Tue May 20 08:55:15 2025 -0700",
           "message": "Merge pull request #49642 from dkarczmarski/dkarczmarski/pl-docs-contribute-localization.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "1b63103313eb31327c25da3944fff217e7a2e6b5",
+          "date": "Fri May 23 22:01:49 2025 +0200",
+          "message": "[pl] sync with PRs 49643 and 50049",
+          "author": "dkarczmarski"
         }
       ]
     }
@@ -3420,6 +3432,17 @@
           "date": "Thu Mar 13 10:41:00 2025 +0000",
           "message": "Add guide to blog contributions",
           "author": "Tim Bannister"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/contribute/blog/submission.md",
+      "commits": [
+        {
+          "hash": "0cff440caa62fe7ad1bce51fc6753a3559047065",
+          "date": "Fri May 23 16:55:58 2025 +0800",
+          "message": "[zh] Add blog/submission.md",
+          "author": "windsonsea"
         }
       ]
     }
