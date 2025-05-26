@@ -584,6 +584,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "8a8229f5b70e9e89d64d8ccc7dc1f55977adf27a",
+          "date": "Sat May 24 00:22:08 2025 +0300",
+          "message": "[zh] update link",
+          "author": "Arhell"
         }
       ]
     },

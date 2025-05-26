@@ -124,6 +124,17 @@
           "author": "sreeram-venkitesh"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-14-Container-Stop-Signals.md",
+      "commits": [
+        {
+          "hash": "f196edd1c3fd4a340a24556735f4ed84368fe907",
+          "date": "Sat May 24 00:00:49 2025 +0800",
+          "message": "[zh-cn] Add blog: 2025-05-14-Container-Stop-Signals.md",
+          "author": "xin.li"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md": {

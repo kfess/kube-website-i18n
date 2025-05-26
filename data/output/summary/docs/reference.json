@@ -6861,12 +6861,14 @@
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta2.md": {

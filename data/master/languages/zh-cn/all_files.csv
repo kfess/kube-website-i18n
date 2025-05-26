@@ -336,6 +336,7 @@ content/zh-cn/blog/_posts/2025-04-23-storage-capacity-scoring.md
 content/zh-cn/blog/_posts/2025-04-28-hpa-configurable-tolerance.md
 content/zh-cn/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md
 content/zh-cn/blog/_posts/2025-05-13-jobs-backofflimitperindex-goes-ga.md
+content/zh-cn/blog/_posts/2025-05-14-Container-Stop-Signals.md
 content/zh-cn/blog/_posts/2025-05-15-jobs-successpolicy-goes-ga.md
 content/zh-cn/blog/_posts/2025-05-19-in-place-pod-resize-beta.md
 content/zh-cn/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
@@ -713,6 +714,7 @@ content/zh-cn/docs/contribute/blog/buddying.md
 content/zh-cn/docs/contribute/blog/guidelines.md
 content/zh-cn/docs/contribute/blog/mirroring.md
 content/zh-cn/docs/contribute/blog/release-comms.md
+content/zh-cn/docs/contribute/blog/submission.md
 content/zh-cn/docs/contribute/docs.md
 content/zh-cn/docs/contribute/generate-ref-docs/_index.md
 content/zh-cn/docs/contribute/generate-ref-docs/contribute-upstream.md
@@ -1585,8 +1587,9 @@ content/zh-cn/docs/reference/kubernetes-api/workload-resources/pod-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/priority-class-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/replica-set-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/replication-controller-v1.md
-content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1alpha3.md
+content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-v1alpha3.md
+content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-slice-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/stateful-set-v1.md

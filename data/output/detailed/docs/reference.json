@@ -7527,6 +7527,12 @@
           "date": "Tue Apr 1 10:06:09 2025 +0800",
           "message": "sync authentication kubelet-authn-authz validating-admission-policy",
           "author": "xin gu"
+        },
+        {
+          "hash": "64a99efc61d506bd98d96ec07f152ca69f9e5590",
+          "date": "Sat May 24 21:46:17 2025 +0800",
+          "message": "[zh-cn]sync authentication.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -16923,6 +16929,12 @@
           "date": "Tue May 16 16:05:24 2023 +0800",
           "message": "[zh] sync docs/reference/config-api/apiserver-config.v1beta1.md",
           "author": "huangminjie"
+        },
+        {
+          "hash": "21f8f1871d103266180f7fdf0532d4e283e2c203",
+          "date": "Sun May 25 01:22:35 2025 -0700",
+          "message": "Merge pull request #51013 from t-inu/issue50997",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -33406,6 +33418,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "21f8f1871d103266180f7fdf0532d4e283e2c203",
+          "date": "Sun May 25 01:22:35 2025 -0700",
+          "message": "Merge pull request #51013 from t-inu/issue50997",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -33730,6 +33748,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "620c70e8004148e8586e1907859273afd84382c3",
+          "date": "Sun May 25 00:08:35 2025 -0700",
+          "message": "Merge pull request #51028 from my-git9/npa-11677",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -74660,6 +74684,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md",
+      "commits": [
+        {
+          "hash": "2c929112fc020f7303fd70fe1bd7eccaa555895b",
+          "date": "Sun May 25 06:10:35 2025 -0700",
+          "message": "Merge pull request #51045 from my-git9/npa-31966",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md": {
@@ -74670,6 +74705,17 @@
           "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
           "date": "Wed Apr 23 19:00:31 2025 -0700",
           "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md",
+      "commits": [
+        {
+          "hash": "b8ea998fd8a099ffc6cfb40e5a306293adad4380",
+          "date": "Sat May 24 18:58:34 2025 -0700",
+          "message": "Merge pull request #51036 from my-git9/npa-22444",
           "author": "Kubernetes Prow Robot"
         }
       ]
