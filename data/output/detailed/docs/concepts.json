@@ -4528,6 +4528,48 @@
           "date": "Thu May 1 07:09:55 2025 -0700",
           "message": "Merge pull request #50752 from royalsflush/update-docs",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "f39d3972eae3715120b085d2b09a04e1b49632fd",
+          "date": "Mon Apr 14 04:30:13 2025 +0530",
+          "message": "fix: remove duplicate section and improve content organization in assign-pod-node.md",
+          "author": "Arya Soni"
+        },
+        {
+          "hash": "db4a4a5d64923e534817a11df4562fd3da693473",
+          "date": "Sat Dec 14 14:42:06 2024 +0530",
+          "message": "Updated the podAffinity concept documentation",
+          "author": "Arya Soni"
+        },
+        {
+          "hash": "020646fa057776539a3b80b598fda1946406c6f4",
+          "date": "Sat Dec 14 14:31:41 2024 +0530",
+          "message": "Merge branch 'main' of github.com:aryasoni98/website-kubernetes into issue-47922",
+          "author": "Arya Soni"
+        },
+        {
+          "hash": "c2dc8eb6a9084d341208970c0f15e8ac54624098",
+          "date": "Thu Nov 28 10:06:25 2024 +0530",
+          "message": "Update content/en/docs/concepts/scheduling-eviction/assign-pod-node.md",
+          "author": "Arya Soni"
+        },
+        {
+          "hash": "317feadb7608cc4d70e7a97827dc95f65ae1071f",
+          "date": "Thu Nov 28 09:57:30 2024 +0530",
+          "message": "Merge branch 'main' of github.com:aryasoni98/website-kubernetes into issue-47922",
+          "author": "Arya Soni"
+        },
+        {
+          "hash": "b59930cac19b03c4bda89fca086ce5af17b2cd67",
+          "date": "Wed Oct 30 10:47:36 2024 +0530",
+          "message": "Merge branch 'main' of github.com:aryasoni98/website-kubernetes into issue-47922",
+          "author": "Arya Soni"
+        },
+        {
+          "hash": "1880648947b85caa0e18065a26cf256e1eb3c859",
+          "date": "Thu Sep 26 00:18:49 2024 +0530",
+          "message": "Updated the podAffinity concept documentation",
+          "author": "Arya Soni"
         }
       ]
     },
@@ -64403,6 +64445,18 @@
           "date": "Thu Jul 8 21:41:31 2021 +0000",
           "message": "Create garbage collection docs",
           "author": "Shannon Kularathna"
+        },
+        {
+          "hash": "bbd9b901035ca6cc8756abc6aa972c1c440b3e49",
+          "date": "Sun Apr 27 23:02:37 2025 +0100",
+          "message": "Clarify that custom finalizers names must be publicly qualified finalizer names",
+          "author": "Ramal-Abeysekera"
+        },
+        {
+          "hash": "aaa4d958fb69f077dbe470bfe34c3c17b2cef382",
+          "date": "Sun Apr 27 22:55:50 2025 +0100",
+          "message": "Merge branch 'kubernetes:main' into finalizers-docs-add-fqdn-requirement",
+          "author": "Ramal Abeysekera"
         }
       ]
     },

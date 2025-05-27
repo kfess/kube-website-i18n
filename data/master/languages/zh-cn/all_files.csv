@@ -1588,7 +1588,6 @@ content/zh-cn/docs/reference/kubernetes-api/workload-resources/priority-class-v1
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/replica-set-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/replication-controller-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md
-content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-claim-v1beta2.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-slice-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/resource-slice-v1beta1.md

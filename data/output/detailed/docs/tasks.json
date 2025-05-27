@@ -310,6 +310,12 @@
           "date": "Thu Jul 23 18:04:22 2020 -0700",
           "message": "Merge pull request #22679 from kubernetes/dev-1.18-ko.8",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "773e8c5c1cd448e9d0383c826bd5dee4f180d8dc",
+          "date": "Wed Apr 30 02:15:07 2025 +0300",
+          "message": "[ko] Update busybox image",
+          "author": "Arhell"
         }
       ]
     }
@@ -7713,6 +7719,12 @@
           "date": "Tue Mar 25 13:20:29 2025 -0400",
           "message": "Add documentation for configurable autoscaling tolerance.",
           "author": "Jean-Marc François"
+        },
+        {
+          "hash": "b1af1252a3c0e12a0e6a4e0379b3fdc39f47721a",
+          "date": "Sat Apr 19 16:57:27 2025 -0400",
+          "message": "Update horizontal-pod-autoscale.md with horizontal-pod-autoscaler-cpu-initialization-period",
+          "author": "Jayesh Mahajan"
         }
       ]
     },
@@ -42149,6 +42161,12 @@
           "date": "Thu Jul 9 21:28:48 2020 -0700",
           "message": "Merge pull request #22449 from kubernetes/dev-1.18-ko.7",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "cdd7ad4dbf76877326fccbbde2c2ff54eeee26fd",
+          "date": "Sun May 18 14:46:46 2025 +0300",
+          "message": "[ko] use latest API syntax in JavaScript client example",
+          "author": "Arhell"
         }
       ]
     }

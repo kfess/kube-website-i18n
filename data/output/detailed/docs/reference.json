@@ -4585,6 +4585,12 @@
           "date": "Tue Mar 4 07:13:44 2025 -0800",
           "message": "Merge pull request #49965 from nate-double-u/update-nokia-logo",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "cb49a8e7790ef6820e95a7692268976032759299",
+          "date": "Sun May 18 15:43:38 2025 +0800",
+          "message": "[zh-cn]sync validating-admission-policy-v1.md",
+          "author": "xin.li"
         }
       ]
     }
@@ -10667,6 +10673,12 @@
           "date": "Mon Oct 12 18:11:22 2020 -0700",
           "message": "Merge pull request #24076 from neolit123/1.20-add-link-in-kubeadm-config",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "0f89a2b19468a66a4301be361cd3279e0a9524ff",
+          "date": "Fri Apr 11 12:07:35 2025 -0700",
+          "message": "fix grammar error in server-side-apply",
+          "author": "Benjamin Elder"
         }
       ]
     }
@@ -23275,6 +23287,12 @@
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "f2e8630a7086bc9c785e40bb60babcd4bb1670fc",
+          "date": "Mon May 26 16:12:20 2025 -0700",
+          "message": "Merge pull request #51084 from Arhell/zh-gate",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -25265,6 +25283,12 @@
           "hash": "a0dd39bb14b35713d12e4e2662151d4672759bad",
           "date": "Mon Aug 19 20:13:27 2024 -0700",
           "message": "Merge pull request #47583 from windsonsea/initph",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "26525a33ba4ec65dc28b06da18b53a2435b4eea6",
+          "date": "Mon May 26 09:14:16 2025 -0700",
+          "message": "Merge pull request #50469 from BenTheElder/typo-fix",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -35864,6 +35888,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "4202dcf7aef789028a38f95cc57d0c276fb8bd5e",
+          "date": "Mon May 26 01:13:01 2025 -0700",
+          "message": "Merge pull request #51046 from my-git9/npa-1180",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -36275,6 +36305,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c8f641bb4630a260ece49f59d1f5f319be21fca9",
+          "date": "Sun May 25 17:06:35 2025 -0700",
+          "message": "Merge pull request #50956 from Arhell/ko-api",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -57517,6 +57553,12 @@
           "date": "Sat Jun 22 12:12:25 2024 +0800",
           "message": "[zh-cn] Add kubectl_rollout_undo.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "26525a33ba4ec65dc28b06da18b53a2435b4eea6",
+          "date": "Mon May 26 09:14:16 2025 -0700",
+          "message": "Merge pull request #50469 from BenTheElder/typo-fix",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -58188,6 +58230,12 @@
           "hash": "13d8fb8af67c2377251b9a87f8e228f0738c87af",
           "date": "Mon Jun 3 18:41:59 2024 -0700",
           "message": "Merge pull request #46630 from windsonsea/cpyhf",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "26525a33ba4ec65dc28b06da18b53a2435b4eea6",
+          "date": "Mon May 26 09:14:16 2025 -0700",
+          "message": "Merge pull request #50469 from BenTheElder/typo-fix",
           "author": "Kubernetes Prow Robot"
         }
       ]
@@ -74004,6 +74052,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "c1ba109d02be949e13f322174aa8cf23f7bca49e",
+          "date": "Sun May 25 21:34:36 2025 -0700",
+          "message": "Merge pull request #50007 from yuto-kimura-g/fix/49908",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

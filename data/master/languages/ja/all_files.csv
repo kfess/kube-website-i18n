@@ -378,8 +378,6 @@ content/ja/docs/setup/best-practices/enforcing-pod-security-standards.md
 content/ja/docs/setup/best-practices/multiple-zones.md
 content/ja/docs/setup/best-practices/node-conformance.md
 content/ja/docs/setup/learning-environment/_index.md
-content/ja/docs/setup/learning-environment/kind.md
-content/ja/docs/setup/learning-environment/minikube.md
 content/ja/docs/setup/production-environment/_index.md
 content/ja/docs/setup/production-environment/container-runtimes.md
 content/ja/docs/setup/production-environment/tools/_index.md
