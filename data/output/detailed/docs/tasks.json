@@ -7180,6 +7180,12 @@
           "date": "Sun Apr 27 10:41:22 2025 +0800",
           "message": "sync horizontal-pod-autoscale",
           "author": "xin gu"
+        },
+        {
+          "hash": "c578d06f02e2b4361bcde7960d7959f883460025",
+          "date": "Mon May 26 21:06:16 2025 -0700",
+          "message": "Merge pull request #50909 from Arhell/id-port",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -50612,6 +50618,17 @@
           "date": "Tue Apr 16 13:13:05 2019 +0200",
           "message": "Add es/docs index tree (#13809)",
           "author": "Rael Garcia"
+        }
+      ]
+    },
+    "hi": {
+      "path": "content/hi/docs/tasks/administer-cluster/network-policy-provider/_index.md",
+      "commits": [
+        {
+          "hash": "9ca7e4f144776e971b679007feffe562431111d5",
+          "date": "Sun May 25 18:12:11 2025 -0400",
+          "message": "[hi] Tranlate Hindi tasks/administer-cluster/network-policy-provider/ _index.md",
+          "author": "Jayesh Mahajan"
         }
       ]
     }

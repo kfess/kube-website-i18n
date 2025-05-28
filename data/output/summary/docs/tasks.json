@@ -1717,7 +1717,8 @@
       "en",
       "ko",
       "fr",
-      "es"
+      "es",
+      "hi"
     ]
   },
   "content/en/docs/tasks/administer-cluster/network-policy-provider/kube-router-network-policy.md": {

@@ -18814,6 +18814,12 @@
           "date": "Sun Feb 9 19:53:56 2025 -0800",
           "message": "Merge pull request #49703 from Arhell/ru-link",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d0f0686d5f0f5f806b9511a58cf0ce001aaa147c",
+          "date": "Thu May 15 01:05:13 2025 +0300",
+          "message": "[id] Update ports-and-protocols.md",
+          "author": "Arhell"
         }
       ]
     },
@@ -23491,6 +23497,12 @@
           "date": "Wed Jan 22 09:11:56 2025 +0800",
           "message": "[zh] Rename and sync feature-gates/M*.md to R*.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "0cfe707fb6ee98ce6021eb1ca3a3cc1ce2bcbb46",
+          "date": "Tue May 27 15:24:25 2025 -0700",
+          "message": "Merge pull request #51087 from windsonsea/trainyh",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -23502,6 +23514,12 @@
           "date": "Fri Jan 10 08:02:31 2025 -0800",
           "message": "Merge pull request #49377 from stmcginnis/es-java-tutorial-removal",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "feb2bf69a61ebd58473d1986cd0860a368c85863",
+          "date": "Wed May 7 22:09:35 2025 +0800",
+          "message": "Fix feature gate RelaxedDNSSearchValidation",
+          "author": "Qiming Teng"
         }
       ]
     }
@@ -25236,6 +25254,12 @@
           "date": "Mon Aug 19 20:13:27 2024 -0700",
           "message": "Merge pull request #47583 from windsonsea/initph",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "8cc6d7c71620ce3cbe2fd805412b5ead14630e67",
+          "date": "Mon May 26 22:10:14 2025 +0800",
+          "message": "[zh-cn]sync kubeadm_init/_index.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -33640,6 +33664,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "e9296cd6897f58986104f9c951e0f78c98878e3c",
+          "date": "Tue May 27 22:48:45 2025 +0800",
+          "message": "[zh-cn]sync client-authentication.v1",
+          "author": "xin.li"
         }
       ]
     },
@@ -47883,6 +47913,12 @@
           "date": "Sat Jun 11 15:01:46 2022 +0800",
           "message": "[zh] Translate imagepolicy configuration API",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "8a41bde540b9f363834111c0a92f3d52dc83c0b8",
+          "date": "Tue May 27 09:08:19 2025 -0700",
+          "message": "Merge pull request #51072 from yktakaha4/fix-version-skew-policy-ja",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -74941,6 +74977,17 @@
           "date": "Mon May 19 00:31:15 2025 -0700",
           "message": "Merge pull request #50863 from kfess/issue-50834",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/config-api/kuberc.v1alpha1.md",
+      "commits": [
+        {
+          "hash": "284df1f621cfe20e88921c94e7ee6aa169b56f7b",
+          "date": "Mon May 26 22:24:18 2025 +0800",
+          "message": "[zh-cn] Add config-api/kuberc.v1alpha1",
+          "author": "xin.li"
         }
       ]
     }

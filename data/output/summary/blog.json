@@ -21,7 +21,8 @@
   },
   "content/en/blog/_posts/2025-05-16-in-place-pod-resize-beta.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-15-announcing-etcd-3.6/index.md": {
@@ -95,7 +96,8 @@
   },
   "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-04-28-hpa-configurable-tolerance.md": {
