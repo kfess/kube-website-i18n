@@ -12876,6 +12876,12 @@
           "date": "Tue May 20 07:21:16 2025 -0700",
           "message": "Merge pull request #50981 from t-inu/issue50979",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "68f533e731fc3945b6ade17700513dc9859fc33a",
+          "date": "Mon May 26 09:30:41 2025 +0200",
+          "message": "[pl] sync with PRs 49626 and 49923",
+          "author": "dkarczmarski"
         }
       ]
     }
@@ -17523,6 +17529,12 @@
           "date": "Tue May 20 11:47:15 2025 -0700",
           "message": "Merge pull request #49810 from dkarczmarski/pl-docs-concepts-workloads-pods_index.md",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ce798985d0531a28587fa8768d99ce219afbe098",
+          "date": "Mon May 26 20:06:17 2025 +0200",
+          "message": "[pl] sync with PR 50589",
+          "author": "dkarczmarski"
         }
       ]
     }

@@ -928,6 +928,12 @@
           "date": "Sun Feb 18 16:42:12 2024 +0900",
           "message": "[ja] move `version-skew-policy.md` from `content/ja/docs/setup/release/` to `content/ja/releases/` (#44995)",
           "author": "Junya Okabe"
+        },
+        {
+          "hash": "39de80ae965da609e66e5181f75a667422cc3f72",
+          "date": "Mon May 26 19:50:47 2025 +0900",
+          "message": "[ja] specify the version using the shortcode",
+          "author": "Yuuki Takahashi"
         }
       ]
     },

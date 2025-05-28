@@ -660,6 +660,12 @@
           "date": "Tue Feb 4 13:35:42 2025 +0100",
           "message": "[pl] docs/contribute/docs.md",
           "author": "dkarczmarski"
+        },
+        {
+          "hash": "473c62f406e96de833170954fa0bdb0d3311b56b",
+          "date": "Mon May 26 17:54:20 2025 -0700",
+          "message": "Merge pull request #51075 from my-git9/npa-22130",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

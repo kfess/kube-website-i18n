@@ -92,6 +92,12 @@
           "date": "Wed Mar 4 11:01:48 2020 -0800",
           "message": "Training page in the top nav (#19214)",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "4141185fd3a8e377063489a88969b7e92c3b9e28",
+          "date": "Tue May 27 03:08:17 2025 -0700",
+          "message": "Merge pull request #51079 from my-git9/npa-15846",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -127,6 +133,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "26f35d0d14dffa03980640ebca6d567e8d115c17",
+          "date": "Tue May 27 04:08:22 2025 -0700",
+          "message": "Merge pull request #51053 from jayeshmahajan/patch-14",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

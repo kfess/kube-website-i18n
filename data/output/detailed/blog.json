@@ -68,6 +68,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-16-in-place-pod-resize-beta.md",
+      "commits": [
+        {
+          "hash": "43a0cd81214ecf94e7d4ce6f06e6225f287825d7",
+          "date": "Tue May 27 09:23:08 2025 +0800",
+          "message": "[zh] Update 2025-05-16-in-place-pod-resize-beta.md",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-15-announcing-etcd-3.6/index.md": {
@@ -334,6 +345,17 @@
           "date": "Tue Apr 29 13:11:06 2025 +0100",
           "message": "Schedule image volume blog on 29th instead of 30th",
           "author": "Ryota"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-29-image-volume-beta/index.md",
+      "commits": [
+        {
+          "hash": "e0b132d6ea2bdb60667d2a2f7048fa4315ccb999",
+          "date": "Tue May 27 09:53:31 2025 +0800",
+          "message": "[zh] Add 2025-04-29-image-volume-beta/",
+          "author": "windsonsea"
         }
       ]
     }

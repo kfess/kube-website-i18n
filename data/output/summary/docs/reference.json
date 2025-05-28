@@ -6914,7 +6914,8 @@
   },
   "content/en/docs/reference/config-api/kuberc.v1alpha1.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/command-line-tools-reference/feature-gates/StreamingCollectionEncodingToJSON.md": {
