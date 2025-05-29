@@ -286,6 +286,12 @@
           "date": "Sun May 18 21:49:40 2025 +0200",
           "message": "[pl] sync with PR #49959 , #50056",
           "author": "dkarczmarski"
+        },
+        {
+          "hash": "343fc58c9d50fc1a6cd91688aa28ba227b64bd88",
+          "date": "Tue May 27 23:12:17 2025 -0700",
+          "message": "Merge pull request #51094 from dkarczmarski/pl-sync-51035",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

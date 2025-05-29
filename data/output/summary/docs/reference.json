@@ -6856,7 +6856,8 @@
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/docs/reference/kubernetes-api/workload-resources/resource-claim-template-v1beta2.md": {

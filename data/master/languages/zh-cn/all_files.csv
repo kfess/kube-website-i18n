@@ -1581,6 +1581,7 @@ content/zh-cn/docs/reference/kubernetes-api/workload-resources/controller-revisi
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/cron-job-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/daemon-set-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/deployment-v1.md
+content/zh-cn/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v1.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/horizontal-pod-autoscaler-v2.md
 content/zh-cn/docs/reference/kubernetes-api/workload-resources/job-v1.md

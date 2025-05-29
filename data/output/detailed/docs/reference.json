@@ -33922,6 +33922,12 @@
           "date": "Wed Jun 5 22:50:14 2024 -0700",
           "message": "Merge pull request #46690 from windsonsea/bindrole",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "dad1c585d32b1ff41616125c2de3d1938bba4da3",
+          "date": "Tue May 27 22:36:04 2025 +0800",
+          "message": "[zh-cn]sync kubectl_create/_index.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -74758,6 +74764,17 @@
           "hash": "bfce28e2ebdd89e9af8e4613071ce221b5182188",
           "date": "Wed Apr 23 19:00:31 2025 -0700",
           "message": "Merge pull request #50583 from rytswd/publish-kep-4974-blog",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/docs/reference/kubernetes-api/workload-resources/device-taint-rule-v1alpha3.md",
+      "commits": [
+        {
+          "hash": "fafbfa0a26d247b7f81e519efc879930ea68a691",
+          "date": "Tue May 27 18:00:21 2025 -0700",
+          "message": "Merge pull request #51076 from my-git9/npa-32082",
           "author": "Kubernetes Prow Robot"
         }
       ]

@@ -4163,6 +4163,12 @@
           "date": "Fri May 16 09:38:57 2025 +0800",
           "message": "sync assign-pod-node job encrypt-data kms-provider",
           "author": "xin gu"
+        },
+        {
+          "hash": "096f4edf8ec4a91dd912c3fb645c21887a60a2a6",
+          "date": "Mon May 26 23:15:18 2025 +0800",
+          "message": "[zh-cn]sync assign-pod-node.md",
+          "author": "xin.li"
         }
       ]
     },
@@ -13486,6 +13492,12 @@
           "date": "Sun Feb 16 10:02:38 2025 +0100",
           "message": "[pl] docs/concepts/cluster-administration/_index.md",
           "author": "dkarczmarski"
+        },
+        {
+          "hash": "3ec60d46d49cef0605491908f33f25bcddc5ff82",
+          "date": "Wed May 28 06:14:18 2025 -0700",
+          "message": "Merge pull request #50663 from lmktfy/20250424_improve_resource_quota_concept_head_tail",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -39010,6 +39022,18 @@
           "date": "Thu Mar 13 12:03:58 2025 +0800",
           "message": "Resource Quota Per VolumeAttributesClass",
           "author": "carlory"
+        },
+        {
+          "hash": "6fadfc833101597cdbaaae2bc160a8c71f30eedb",
+          "date": "Thu Apr 24 22:50:16 2025 +0100",
+          "message": "Improve What's Next section for ResourceQuota",
+          "author": "Tim Bannister"
+        },
+        {
+          "hash": "e68fba28f4fead9a40b01cb70b08d237dbd018c5",
+          "date": "Thu Apr 24 22:49:21 2025 +0100",
+          "message": "Improve introduction to ResourceQuota concept",
+          "author": "Tim Bannister"
         }
       ]
     },
