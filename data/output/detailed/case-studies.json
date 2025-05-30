@@ -556,6 +556,12 @@
           "date": "Thu Mar 6 08:25:46 2025 -0800",
           "message": "Merge pull request #50027 from khanhtc1202/update-landing-page-vi",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "ff445974376470edf77c467d6df5e3529330b786",
+          "date": "Mon May 26 00:37:25 2025 +0300",
+          "message": "[vi] update link",
+          "author": "Arhell"
         }
       ]
     },
