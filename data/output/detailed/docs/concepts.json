@@ -38603,6 +38603,12 @@
           "date": "Thu Apr 24 10:39:13 2025 +0800",
           "message": "[zh] Sync policy/resource-quotas.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "7efee9aed5bf970fdcd0683e047a49fffb7c7719",
+          "date": "Thu May 29 08:52:18 2025 -0700",
+          "message": "Merge pull request #51051 from Arhell/vi-link",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -46199,6 +46205,12 @@
           "date": "Tue Dec 27 04:58:20 2022 +0000",
           "message": "add dynamic resource allocation",
           "author": "ktKongTong"
+        },
+        {
+          "hash": "520e21cbda28bd6e97da27d5fd7720ea6865bd87",
+          "date": "Wed May 28 17:54:16 2025 -0700",
+          "message": "Merge pull request #50976 from Eason1118/patch-1",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
