@@ -9005,6 +9005,12 @@
           "date": "Sun Mar 30 23:28:29 2025 +0200",
           "message": "[pl] sync with PR #45916,#44349",
           "author": "dkarczmarski"
+        },
+        {
+          "hash": "62cb92b1217133f1edd1c261202b65177a4c01f5",
+          "date": "Thu May 29 05:24:21 2025 +0200",
+          "message": "[pl] sync with PR 50961",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -51283,6 +51289,12 @@
           "date": "Tue Mar 14 23:44:14 2023 -0700",
           "message": "Merge pull request #40009 from howieyuen/configure-pod-container-4",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "110d8e3100cc93721e424034707308d6f6e5b520",
+          "date": "Wed May 28 17:59:18 2025 +0800",
+          "message": "[zh] Sync using-api/cel.md",
+          "author": "windsonsea"
         }
       ]
     },

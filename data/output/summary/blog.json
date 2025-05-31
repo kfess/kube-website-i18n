@@ -14,6 +14,11 @@
       "en"
     ]
   },
+  "content/en/blog/_posts/2025-05-28-gateway-api-v1.3/index.md": {
+    "langs": [
+      "en"
+    ]
+  },
   "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md": {
     "langs": [
       "en"
@@ -55,7 +60,8 @@
   },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-08-volume-populators-ga/index.md": {

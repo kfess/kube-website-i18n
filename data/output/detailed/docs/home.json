@@ -308,6 +308,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "b5be9030b719cead34b94cb82ac16fcc2cbb733c",
+          "date": "Thu May 29 11:11:28 2025 +0800",
+          "message": "[zh] Update docs/home/_index.md",
+          "author": "windsonsea"
         }
       ]
     },
