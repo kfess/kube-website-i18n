@@ -38,6 +38,19 @@
       ]
     }
   },
+  "content/en/blog/_posts/2025-05-28-gateway-api-v1.3/index.md": {
+    "en": {
+      "path": "content/en/blog/_posts/2025-05-28-gateway-api-v1.3/index.md",
+      "commits": [
+        {
+          "hash": "f62450cf063af3024c3254edf899cff4b13d002a",
+          "date": "Thu May 29 18:56:20 2025 -0700",
+          "message": "Merge pull request #51104 from windsonsea/homind",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
   "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md": {
     "en": {
       "path": "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md",
@@ -212,6 +225,17 @@
           "date": "Tue Apr 29 17:43:54 2025 +0100",
           "message": "Correct file name",
           "author": "Ryota"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-09-streaming-list-responses/index.md",
+      "commits": [
+        {
+          "hash": "db6fea1adf0702ea0b80ad87f28ae35ee7506240",
+          "date": "Mon May 26 09:33:58 2025 +0800",
+          "message": "[zh] Add 2025-05-09-streaming-list-responses/",
+          "author": "windsonsea"
         }
       ]
     }
