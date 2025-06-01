@@ -1758,6 +1758,12 @@
           "date": "Tue Jan 14 14:51:24 2020 +0000",
           "message": "Init Polish localization (#18419) (#18659)",
           "author": "Maciej Filocha"
+        },
+        {
+          "hash": "eb7a9c4b1ad7e6eff4ce77875563e23b3d206b0a",
+          "date": "Sat May 31 11:30:11 2025 -0700",
+          "message": "Merge pull request #51124 from dkarczmarski/pl-sync-49338_49337_49291_49025_47826_47083_45166_44710_43983",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },

@@ -56221,6 +56221,12 @@
           "date": "Sun Jun 23 18:45:30 2024 +0800",
           "message": "[zh-cn] Add kubectl_autoscale/_index.md",
           "author": "xin.li"
+        },
+        {
+          "hash": "4a2b89214591b03f121909b1e28241f9b936eb87",
+          "date": "Fri May 30 23:45:20 2025 +0800",
+          "message": "[zh-cn]sync kubectl_autoscale/_index.md",
+          "author": "xin.li"
         }
       ]
     },
