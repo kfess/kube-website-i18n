@@ -78,6 +78,7 @@ content/hi/docs/setup/production-environment/turnkey-solutions.md
 content/hi/docs/setup/production-environment/windows/_index.md
 content/hi/docs/tasks/_index.md
 content/hi/docs/tasks/administer-cluster/network-policy-provider/_index.md
+content/hi/docs/tasks/administer-cluster/network-policy-provider/antrea-network-policy.md
 content/hi/docs/tasks/tls/_index.md
 content/hi/docs/tasks/tls/certificate-rotation.md
 content/hi/docs/tasks/tools/_index.md
