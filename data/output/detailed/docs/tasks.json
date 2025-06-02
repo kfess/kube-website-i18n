@@ -51780,6 +51780,17 @@
           "author": "Luo Lan"
         }
       ]
+    },
+    "hi": {
+      "path": "content/hi/docs/tasks/administer-cluster/network-policy-provider/antrea-network-policy.md",
+      "commits": [
+        {
+          "hash": "78e3e1ebdb368165e31dcbfa84020b728f50a405",
+          "date": "Sun May 25 18:16:39 2025 -0400",
+          "message": "[hi] Translate Hindi network-policy-provider/antrea-network-policy",
+          "author": "Jayesh Mahajan"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/administer-cluster/_index.md": {

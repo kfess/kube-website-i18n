@@ -1787,7 +1787,8 @@
   "content/en/docs/tasks/administer-cluster/network-policy-provider/antrea-network-policy.md": {
     "langs": [
       "zh-cn",
-      "en"
+      "en",
+      "hi"
     ]
   },
   "content/en/docs/tasks/administer-cluster/_index.md": {
