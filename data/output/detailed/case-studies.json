@@ -794,6 +794,12 @@
           "date": "Mon Mar 25 18:36:17 2019 -0400",
           "message": "add AppDirect case study (#13338)",
           "author": "Alex Contini"
+        },
+        {
+          "hash": "03902ad3b6b7f452847916cd4cd0ba1abd911e58",
+          "date": "Thu May 29 00:22:36 2025 +0300",
+          "message": "[en] update spring.io link",
+          "author": "Arhell"
         }
       ]
     },
@@ -1010,6 +1016,12 @@
           "date": "Mon Aug 20 21:07:54 2018 +0200",
           "message": "Convert case-studies to bundles (#9822)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "c27efed5578cbf0e150b7971313c1897d5be3597",
+          "date": "Sun Jun 1 18:38:36 2025 -0700",
+          "message": "Merge pull request #51130 from Arhell/en-kube",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

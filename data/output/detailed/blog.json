@@ -38,14 +38,14 @@
       ]
     }
   },
-  "content/en/blog/_posts/2025-05-28-gateway-api-v1.3/index.md": {
+  "content/en/blog/_posts/2025-06-02-gateway-api-v1.3/index.md": {
     "en": {
-      "path": "content/en/blog/_posts/2025-05-28-gateway-api-v1.3/index.md",
+      "path": "content/en/blog/_posts/2025-06-02-gateway-api-v1.3/index.md",
       "commits": [
         {
-          "hash": "f62450cf063af3024c3254edf899cff4b13d002a",
-          "date": "Thu May 29 18:56:20 2025 -0700",
-          "message": "Merge pull request #51104 from windsonsea/homind",
+          "hash": "e63b9601c55b3eec0110d8ba217ec08560c93b82",
+          "date": "Mon Jun 2 13:18:41 2025 -0700",
+          "message": "Merge pull request #51118 from candita/gateway-api-sig-v1-3-blog",
           "author": "Kubernetes Prow Robot"
         }
       ]
