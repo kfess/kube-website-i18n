@@ -217,10 +217,12 @@ content/es/docs/tasks/tools/included/kubectl-whats-next.md
 content/es/docs/tasks/tools/included/optional-kubectl-configs-bash-linux.md
 content/es/docs/tasks/tools/included/optional-kubectl-configs-bash-mac.md
 content/es/docs/tasks/tools/included/optional-kubectl-configs-fish.md
+content/es/docs/tasks/tools/included/optional-kubectl-configs-pwsh.md
 content/es/docs/tasks/tools/included/optional-kubectl-configs-zsh.md
 content/es/docs/tasks/tools/included/verify-kubectl.md
 content/es/docs/tasks/tools/install-kubectl-linux.md
 content/es/docs/tasks/tools/install-kubectl-macos.md
+content/es/docs/tasks/tools/install-kubectl-windows.md
 content/es/docs/templates/feature-state-alpha.txt
 content/es/docs/templates/feature-state-beta.txt
 content/es/docs/templates/feature-state-deprecated.txt

@@ -127,6 +127,12 @@
           "date": "Mon May 19 09:39:43 2025 +0800",
           "message": "[zh] Add 2025-05-15-jobs-successpolicy-goes-ga.md",
           "author": "windsonsea"
+        },
+        {
+          "hash": "a5aab799b7bef3f69f360bbb905950a05347b5e0",
+          "date": "Tue Jun 3 14:59:33 2025 +0800",
+          "message": "[zh] Remove a repeated blog about jobs-successpolicy-goes-ga",
+          "author": "windsonsea"
         }
       ]
     }
@@ -358,6 +364,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-30-storage-capacity-scoring.md",
+      "commits": [
+        {
+          "hash": "039446407baf1c8a0f8d2a05275aea5cd2916b79",
+          "date": "Tue Jun 3 09:32:39 2025 -0700",
+          "message": "Merge pull request #50703 from Javviviii2/main",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
@@ -531,6 +548,17 @@
           "date": "Sun May 4 16:21:54 2025 +0900",
           "message": "[ja] Translate /content/ja/blog/_posts/2025-04-22-multicontainer-patterns/index.md into Japanese",
           "author": "kita456"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-04-22-multicontainer-patterns/index.md",
+      "commits": [
+        {
+          "hash": "039446407baf1c8a0f8d2a05275aea5cd2916b79",
+          "date": "Tue Jun 3 09:32:39 2025 -0700",
+          "message": "Merge pull request #50703 from Javviviii2/main",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
@@ -709,6 +737,17 @@
           "date": "Wed Mar 5 13:45:09 2025 +0200",
           "message": "Set a release date",
           "author": "Itamar Holder"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-03-23-introducing-jobset/index.md",
+      "commits": [
+        {
+          "hash": "039446407baf1c8a0f8d2a05275aea5cd2916b79",
+          "date": "Tue Jun 3 09:32:39 2025 -0700",
+          "message": "Merge pull request #50703 from Javviviii2/main",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

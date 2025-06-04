@@ -145,6 +145,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "53ef1f148fc41673d8181afadc0faaa803c9eff6",
+          "date": "Mon Jun 2 09:48:05 2025 +0800",
+          "message": "[zh] overview/components.md",
+          "author": "Michael"
         }
       ]
     },
@@ -46395,6 +46401,23 @@
           "date": "Sat Sep 7 10:57:19 2024 +0100",
           "message": "Merge pull request #47537 from kohbis/rbac-good-practices",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/scheduling-eviction/dynamic-resource-allocation.md",
+      "commits": [
+        {
+          "hash": "c75fdea64193bc8ea635abe13f62701d1feba5ce",
+          "date": "Fri May 30 14:56:43 2025 +1000",
+          "message": "fix: Address feedback from reviewers on styling and choice of words",
+          "author": "Giri Kuncoro"
+        },
+        {
+          "hash": "6e8001854aab1d419808ced5627356fca1330371",
+          "date": "Fri May 2 12:09:40 2025 +1000",
+          "message": "Translate dynamic-resource-allocation page into Bahasa Indonesia",
+          "author": "Giri Kuncoro"
         }
       ]
     }

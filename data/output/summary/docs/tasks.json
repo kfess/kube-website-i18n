@@ -641,7 +641,8 @@
       "bn",
       "zh-cn",
       "en",
-      "ko"
+      "ko",
+      "es"
     ]
   },
   "content/en/docs/tasks/tools/install-kubectl-windows.md": {
@@ -652,7 +653,8 @@
       "bn",
       "ja",
       "ko",
-      "hi"
+      "hi",
+      "es"
     ]
   },
   "content/en/docs/tasks/administer-cluster/node-overprovisioning.md": {
