@@ -22932,6 +22932,23 @@
           "author": "Jihoon Seo"
         }
       ]
+    },
+    "es": {
+      "path": "content/es/docs/tasks/tools/included/optional-kubectl-configs-pwsh.md",
+      "commits": [
+        {
+          "hash": "6a3d9d3812158065012a13e0034470e5b4b72e4c",
+          "date": "Sun Jun 1 13:16:26 2025 +0200",
+          "message": "fix: errores tipográficos, gramaticales y formas verbales",
+          "author": "Javviviii2"
+        },
+        {
+          "hash": "0903fc7fb8756368d1947ea7a8bf50ed9f805775",
+          "date": "Fri May 9 20:11:00 2025 +0200",
+          "message": "feat(docs): Crear archivo optional-kubectl-configs-pwsh.md",
+          "author": "Javviviii2"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/tools/install-kubectl-windows.md": {
@@ -23429,6 +23446,47 @@
           "date": "Wed Oct 6 22:42:41 2021 +0530",
           "message": "[hi] Add content/hi/docs/tasks/tools/install-kubectl-windows.md (#29465)",
           "author": "Vedant Kakde"
+        }
+      ]
+    },
+    "es": {
+      "path": "content/es/docs/tasks/tools/install-kubectl-windows.md",
+      "commits": [
+        {
+          "hash": "6a3d9d3812158065012a13e0034470e5b4b72e4c",
+          "date": "Sun Jun 1 13:16:26 2025 +0200",
+          "message": "fix: errores tipográficos, gramaticales y formas verbales",
+          "author": "Javviviii2"
+        },
+        {
+          "hash": "9a4b0a3760768798e0c9c769dcf8e7dcc9133143",
+          "date": "Fri May 9 20:20:22 2025 +0200",
+          "message": "fix(docs): Fix path del included para kubectl-whats-next.md",
+          "author": "Javviviii2"
+        },
+        {
+          "hash": "86cb17e26780606c46910ee2c15405ecfde3578e",
+          "date": "Sun Apr 27 11:42:59 2025 +0200",
+          "message": "fix(docs): Corrección de sintaxis",
+          "author": "Javviviii2"
+        },
+        {
+          "hash": "c69b4c8fead094b63e09e20447018c8318d127cf",
+          "date": "Tue Apr 15 19:39:04 2025 +0200",
+          "message": "feat(content): change spanish translation",
+          "author": "Javviviii2"
+        },
+        {
+          "hash": "5bd0ad5b86017433d0c5621aff062be62f98c4ef",
+          "date": "Wed Apr 9 20:42:58 2025 +0200",
+          "message": "Traducción de install-kubectl-windows.md",
+          "author": "Javier Rodríguez Fernández"
+        },
+        {
+          "hash": "8fa7ecbd478f40e729b58a63db0b88a91aff3d75",
+          "date": "Tue Apr 8 18:24:38 2025 +0200",
+          "message": "feat(docs/es): Añadir primeras traducciones con descarga del binario kubectl",
+          "author": "Javier Rodríguez Fernández"
         }
       ]
     }

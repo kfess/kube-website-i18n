@@ -317,8 +317,6 @@ content/zh-cn/blog/_posts/2024-12-16-cpumanager-strict-cpu-reservation.md
 content/zh-cn/blog/_posts/2024-12-17-api-streaming/index.md
 content/zh-cn/blog/_posts/2024-12-17-api-streaming/kube-apiserver-memory_usage.png
 content/zh-cn/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md
-content/zh-cn/blog/_posts/2025-02-03-introducing-jobset/index.md
-content/zh-cn/blog/_posts/2025-02-03-introducing-jobset/jobset_diagram.svg
 content/zh-cn/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/ccm-chicken-egg-problem-sequence-diagram.svg
 content/zh-cn/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/index.md
 content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/index.md
@@ -327,14 +325,15 @@ content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/iptables-vs-nftables.sv
 content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/ipvs-vs-nftables.svg
 content/zh-cn/blog/_posts/2025-02-28-nftables-kube-proxy/nftables-only.svg
 content/zh-cn/blog/_posts/2025-03-12-sig-apps-spotlight.md
+content/zh-cn/blog/_posts/2025-03-23-introducing-jobset/index.md
+content/zh-cn/blog/_posts/2025-03-23-introducing-jobset/jobset_diagram.svg
 content/zh-cn/blog/_posts/2025-03-24-ingress-nginx-CVE-2025-1974.md
 content/zh-cn/blog/_posts/2025-03-26-kubernetes-1.33-sneak-peek.md
 content/zh-cn/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md
-content/zh-cn/blog/_posts/2025-04-11-multicontainer-patterns/index.md
-content/zh-cn/blog/_posts/2025-04-23-jobs-successpolicy-goes-ga.md
-content/zh-cn/blog/_posts/2025-04-23-storage-capacity-scoring.md
+content/zh-cn/blog/_posts/2025-04-22-multicontainer-patterns/index.md
 content/zh-cn/blog/_posts/2025-04-28-hpa-configurable-tolerance.md
 content/zh-cn/blog/_posts/2025-04-29-image-volume-beta/index.md
+content/zh-cn/blog/_posts/2025-04-30-storage-capacity-scoring.md
 content/zh-cn/blog/_posts/2025-05-05-Honor-Persistent-Volume-Reclaim-Policy-Graduate-to-GA.md
 content/zh-cn/blog/_posts/2025-05-09-streaming-list-responses/index.md
 content/zh-cn/blog/_posts/2025-05-09-streaming-list-responses/results.png

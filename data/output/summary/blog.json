@@ -97,7 +97,8 @@
   },
   "content/en/blog/_posts/2025-04-30-storage-capacity-scoring.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-04-29-image-volume-beta/index.md": {
@@ -132,7 +133,8 @@
   "content/en/blog/_posts/2025-04-22-multicontainer-patterns/index.md": {
     "langs": [
       "en",
-      "ja"
+      "ja",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-04-07-kube-scheduler-simulator/index.md": {
@@ -164,7 +166,8 @@
   },
   "content/en/blog/_posts/2025-03-23-introducing-jobset/index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-03-12-sig-apps-spotlight.md": {

@@ -810,7 +810,8 @@
     "langs": [
       "zh-cn",
       "en",
-      "ja"
+      "ja",
+      "id"
     ]
   },
   "content/en/docs/concepts/workloads/controllers/cron-jobs.md": {

@@ -759,6 +759,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "801cb82fce9bcba94c16272a5c5f9c8df99b45c4",
+          "date": "Mon Jun 2 18:00:37 2025 -0700",
+          "message": "Merge pull request #51154 from windsonsea/ovecom",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
