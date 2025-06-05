@@ -9362,6 +9362,29 @@
           "author": "Samuel Roth"
         }
       ]
+    },
+    "id": {
+      "path": "content/id/docs/setup/best-practices/enforcing-pod-security-standards.md",
+      "commits": [
+        {
+          "hash": "d02f185b5b340f87e094a1c3926def1b333a55ba",
+          "date": "Tue Jun 3 22:10:39 2025 -0700",
+          "message": "Merge pull request #51116 from stanleydv12/main",
+          "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "26afb25de343af27113870437fda07172e9eb876",
+          "date": "Sat May 31 15:39:18 2025 +0700",
+          "message": "docs: fix minor styling and phrasing",
+          "author": "stanleydv12"
+        },
+        {
+          "hash": "bc465ee941ab2f4d777fc234b4d779e2e82b75ec",
+          "date": "Fri May 30 22:22:07 2025 +0700",
+          "message": "feat: initial commit for Enforcing Pod Security Standards in Bahasa Indonesia",
+          "author": "stanleydv12"
+        }
+      ]
     }
   },
   "content/en/docs/setup/production-environment/tools/kubeadm/_index.md": {
