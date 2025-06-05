@@ -207,7 +207,8 @@
       "ja",
       "ko",
       "zh-cn",
-      "en"
+      "en",
+      "id"
     ]
   },
   "content/en/docs/setup/production-environment/tools/kubeadm/_index.md": {

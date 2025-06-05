@@ -5533,6 +5533,12 @@
           "date": "Tue Oct 29 21:39:09 2024 -0700",
           "message": "Add deploy-an-app tutorial",
           "author": "Marcelo Giles"
+        },
+        {
+          "hash": "db5a6c358ac22ee981e5dad2ac24ec6d5b8f156c",
+          "date": "Wed Jun 4 10:10:20 2025 +0200",
+          "message": "docs: remove duplicate words with anchor text",
+          "author": "Valentin"
         }
       ]
     },
