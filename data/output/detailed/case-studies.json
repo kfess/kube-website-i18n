@@ -841,6 +841,12 @@
           "date": "Wed Nov 13 12:22:11 2019 +0900",
           "message": "ja-trans: content/ja/case-studies/appdirect (#16639)",
           "author": "Masa Taniguchi"
+        },
+        {
+          "hash": "ad48ccc2e48b47816e158510d92bba034433f733",
+          "date": "Thu Jun 5 08:30:39 2025 -0700",
+          "message": "Merge pull request #51181 from Arhell/ja-link",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

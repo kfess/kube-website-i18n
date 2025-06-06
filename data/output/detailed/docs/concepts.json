@@ -783,6 +783,12 @@
           "date": "Thu May 29 23:22:17 2025 -0700",
           "message": "Merge pull request #51111 from dkarczmarski/pl-sync-47674_47677_46260_44963_41584",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "2041585c25246b244f65cfaf7ba844b381b4acbc",
+          "date": "Wed Jun 4 08:02:01 2025 +0200",
+          "message": "[pl] sync with PR 51125",
+          "author": "dkarczmarski"
         }
       ]
     },
@@ -36669,6 +36675,12 @@
           "date": "Mon Jul 26 10:40:34 2021 -0700",
           "message": "Merge pull request #29104 from mfilocha/pl-add-release-index",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "dbdbda9c26fe3c1f4d3a5e15aed7ebca5f13a20f",
+          "date": "Mon Apr 28 14:19:47 2025 +0300",
+          "message": "Update system-traces.md to use the Otel debug exporter",
+          "author": "Christos Markou"
         }
       ]
     },
@@ -73182,6 +73194,19 @@
           "date": "Thu Feb 24 18:05:55 2022 -0800",
           "message": "Merge pull request #31889 from FOWind/fix/zh-translations-error",
           "author": "Kubernetes Prow Robot"
+        }
+      ]
+    }
+  },
+  "content/en/docs/concepts/security/hardening-guide/scheduler.md": {
+    "en": {
+      "path": "content/en/docs/concepts/security/hardening-guide/scheduler.md",
+      "commits": [
+        {
+          "hash": "b0d8a8c0270fbc11baea112de7ecd4cfca5394ed",
+          "date": "Fri Feb 9 23:57:19 2024 -0800",
+          "message": "Security hardening guide for scheduler configuration",
+          "author": "Anshuman Tripathi"
         }
       ]
     }

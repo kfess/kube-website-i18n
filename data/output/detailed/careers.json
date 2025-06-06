@@ -1,0 +1,15 @@
+{
+  "content/en/careers/_index.html": {
+    "en": {
+      "path": "content/en/careers/_index.html",
+      "commits": [
+        {
+          "hash": "c76ae67158eda760896bdcbcb325038c71504e02",
+          "date": "Thu May 15 18:13:16 2025 -0500",
+          "message": "add gitjobs embed with kubernetes jobs",
+          "author": "Jeffrey Sica"
+        }
+      ]
+    }
+  }
+}
