@@ -244,6 +244,12 @@
           "date": "Fri Jan 31 14:32:07 2025 +0700",
           "message": "Change X/Twitter links to Bluesky",
           "author": "Dmitry Shurupov"
+        },
+        {
+          "hash": "c76ae67158eda760896bdcbcb325038c71504e02",
+          "date": "Thu May 15 18:13:16 2025 -0500",
+          "message": "add gitjobs embed with kubernetes jobs",
+          "author": "Jeffrey Sica"
         }
       ]
     },

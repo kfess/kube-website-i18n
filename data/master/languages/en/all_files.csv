@@ -823,6 +823,7 @@ content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/in
 content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/inference-extension-resource-model.png
 content/en/blog/_posts/2025-06-10-enhancing-kubernetes-event-management-custom-aggregation.md
 content/en/blog/_posts/free-katacoda-kubernetes-tutorials-are-shutting-down.md
+content/en/careers/_index.html
 content/en/case-studies/_index.html
 content/en/case-studies/adform/adform_featured_logo.png
 content/en/case-studies/adform/adform_featured_logo.svg
@@ -1139,6 +1140,7 @@ content/en/docs/concepts/security/application-security-checklist.md
 content/en/docs/concepts/security/cloud-native-security.md
 content/en/docs/concepts/security/controlling-access.md
 content/en/docs/concepts/security/hardening-guide/authentication-mechanisms.md
+content/en/docs/concepts/security/hardening-guide/scheduler.md
 content/en/docs/concepts/security/linux-kernel-security-constraints.md
 content/en/docs/concepts/security/multi-tenancy.md
 content/en/docs/concepts/security/pod-security-admission.md

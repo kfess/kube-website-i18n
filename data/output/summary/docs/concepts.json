@@ -1583,5 +1583,10 @@
       "ko",
       "en"
     ]
+  },
+  "content/en/docs/concepts/security/hardening-guide/scheduler.md": {
+    "langs": [
+      "en"
+    ]
   }
 }
