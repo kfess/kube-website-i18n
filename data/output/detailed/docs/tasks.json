@@ -1686,6 +1686,12 @@
           "date": "Sat Jul 25 19:51:53 2020 +0700",
           "message": "ID localization for administer cluster - configure upgrade etcd",
           "author": "Miftahun Najat"
+        },
+        {
+          "hash": "f6af3078c6bf1161feee07f03214315250cc1542",
+          "date": "Sun Jan 26 00:39:46 2025 +0200",
+          "message": "[id] update semver link",
+          "author": "Arhell"
         }
       ]
     },

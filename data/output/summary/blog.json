@@ -6,7 +6,8 @@
   },
   "content/en/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-06-03-start-sidecar-first/index.md": {
@@ -55,7 +56,8 @@
   },
   "content/en/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md": {
     "langs": [
-      "en"
+      "en",
+      "zh-cn"
     ]
   },
   "content/en/blog/_posts/2025-05-09-streaming-list-responses/index.md": {
