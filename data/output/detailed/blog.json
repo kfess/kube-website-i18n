@@ -23,6 +23,17 @@
           "author": "Graziano Casto"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-06-05-introducing-gateway-api-inference-extension/index.md",
+      "commits": [
+        {
+          "hash": "12b4f44b36b2330a3b4083531d6e10d502c50458",
+          "date": "Fri May 30 10:26:02 2025 +0800",
+          "message": "[zh] Add 2025-06-05-introducing-gateway-api-inference-extension/",
+          "author": "windsonsea"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-06-03-start-sidecar-first/index.md": {
@@ -205,6 +216,17 @@
           "hash": "85e25759042964f0d67c27976cc07ac0ad9824f5",
           "date": "Fri May 9 18:07:14 2025 -0700",
           "message": "Merge pull request #50839 from windsonsea/allfea",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-05-12-ensure-secret-pulled-images/index.md",
+      "commits": [
+        {
+          "hash": "c505877b4449a6969ab359174df0358bc6a5a409",
+          "date": "Fri Jun 6 03:32:38 2025 -0700",
+          "message": "Merge pull request #49554 from Arhell/id-semver",
           "author": "Kubernetes Prow Robot"
         }
       ]

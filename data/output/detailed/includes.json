@@ -176,6 +176,17 @@
           "author": "Bjørn Erik Pedersen"
         }
       ]
+    },
+    "uk": {
+      "path": "content/uk/includes/index.md",
+      "commits": [
+        {
+          "hash": "64dc0899eecaa8b9069e30b9b833baa8e741f361",
+          "date": "Sun Jun 1 14:13:19 2025 +0100",
+          "message": "[uk] Localize community section",
+          "author": "Tim Bannister"
+        }
+      ]
     }
   },
   "content/en/includes/task-tutorial-prereqs.md": {

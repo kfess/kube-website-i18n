@@ -5,6 +5,9 @@ content/uk/_index.html
 content/uk/blog/_index.md
 content/uk/blog/_posts/2024-03-12-mid-cycle-1.30.md
 content/uk/case-studies/_index.html
+content/uk/community/_index.html
+content/uk/community/code-of-conduct.md
+content/uk/community/static/cncf-code-of-conduct.md
 content/uk/docs/_index.md
 content/uk/docs/concepts/_index.md
 content/uk/docs/concepts/configuration/_index.md
@@ -78,4 +81,5 @@ content/uk/examples/service/networking/dual-stack-default-svc.yaml
 content/uk/examples/service/networking/dual-stack-ipv4-svc.yaml
 content/uk/examples/service/networking/dual-stack-ipv6-lb-svc.yaml
 content/uk/examples/service/networking/dual-stack-ipv6-svc.yaml
+content/uk/includes/index.md
 content/uk/includes/task-tutorial-prereqs.md

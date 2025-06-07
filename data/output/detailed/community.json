@@ -538,6 +538,17 @@
           "author": "The Anh Nguyen"
         }
       ]
+    },
+    "uk": {
+      "path": "content/uk/community/_index.html",
+      "commits": [
+        {
+          "hash": "64dc0899eecaa8b9069e30b9b833baa8e741f361",
+          "date": "Sun Jun 1 14:13:19 2025 +0100",
+          "message": "[uk] Localize community section",
+          "author": "Tim Bannister"
+        }
+      ]
     }
   },
   "content/en/community/code-of-conduct.md": {
@@ -861,6 +872,17 @@
           "date": "Thu Apr 4 21:11:20 2019 +0100",
           "message": "Init Spanish translation (#13543)",
           "author": "Rael Garcia"
+        }
+      ]
+    },
+    "uk": {
+      "path": "content/uk/community/code-of-conduct.md",
+      "commits": [
+        {
+          "hash": "64dc0899eecaa8b9069e30b9b833baa8e741f361",
+          "date": "Sun Jun 1 14:13:19 2025 +0100",
+          "message": "[uk] Localize community section",
+          "author": "Tim Bannister"
         }
       ]
     }
@@ -1228,6 +1250,17 @@
           "date": "Thu Sep 24 23:19:20 2020 +0300",
           "message": "docs: add russian version community and CoC pages",
           "author": "madetara"
+        }
+      ]
+    },
+    "uk": {
+      "path": "content/uk/community/static/cncf-code-of-conduct.md",
+      "commits": [
+        {
+          "hash": "64dc0899eecaa8b9069e30b9b833baa8e741f361",
+          "date": "Sun Jun 1 14:13:19 2025 +0100",
+          "message": "[uk] Localize community section",
+          "author": "Tim Bannister"
         }
       ]
     }

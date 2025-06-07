@@ -53340,6 +53340,29 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "id": {
+      "path": "content/id/docs/concepts/services-networking/cluster-ip-allocation.md",
+      "commits": [
+        {
+          "hash": "fe8a990c51185ba338ec9060405bb5a7ef20ce84",
+          "date": "Wed Jun 4 00:09:35 2025 +0700",
+          "message": "fix: Address feedback from reviewer on choice of word",
+          "author": "Thaddeus Cleo"
+        },
+        {
+          "hash": "2bf12527455cbf23e4c1290e5f1bab3d93f803ff",
+          "date": "Tue Jun 3 09:55:17 2025 +0700",
+          "message": "fix: Address feedback from reviewer on styling",
+          "author": "Thaddeus Cleo"
+        },
+        {
+          "hash": "71439bd91f96c3bd7ebf366ac710ff0395e6216b",
+          "date": "Mon Jun 2 09:50:03 2025 +0700",
+          "message": "Translate cluster-ip-allocation page to Bahasa Indonesia",
+          "author": "Thaddeus Cleo"
+        }
+      ]
     }
   },
   "content/en/docs/concepts/architecture/_index.md": {
