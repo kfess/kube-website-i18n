@@ -40440,6 +40440,12 @@
           "date": "Thu Apr 24 08:56:44 2025 +0800",
           "message": "Update config API for v1.33",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "654ca19b6f7727a954e03938947e56b3c307ffbe",
+          "date": "Sat Jun 7 11:24:19 2025 +0900",
+          "message": "docs: correct `advertiseAddress` typo",
+          "author": "J3m3"
         }
       ]
     },

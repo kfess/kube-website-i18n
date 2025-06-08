@@ -5550,6 +5550,12 @@
           "date": "Sun Apr 6 11:30:23 2025 +0800",
           "message": "[zh-cn]sync deploy-app/deploy-intro",
           "author": "xin.li"
+        },
+        {
+          "hash": "e2616e18c8764391aa8258ce7c7d1642dac2026b",
+          "date": "Fri Jun 6 17:14:39 2025 -0700",
+          "message": "Merge pull request #51189 from asa3311/sync-zh-184",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }
