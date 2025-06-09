@@ -50,6 +50,8 @@ content/ja/blog/_posts/2024-10-28-k8s-upstream-training-japan-spotlight/ood-2022
 content/ja/blog/_posts/2024-12-11-Kubernetes-v1-32-Release/index.md
 content/ja/blog/_posts/2024-12-11-Kubernetes-v1-32-Release/k8s-1.32.png
 content/ja/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md
+content/ja/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/ccm-chicken-egg-problem-sequence-diagram.svg
+content/ja/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/index.md
 content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/index.md
 content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/stats.png
 content/ja/blog/_posts/2025-03-04-sig-etcd-spotlight/stats2.png

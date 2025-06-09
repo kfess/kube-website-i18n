@@ -1990,6 +1990,7 @@ content/en/docs/reference/kubectl/introduction.md
 content/en/docs/reference/kubectl/jsonpath.md
 content/en/docs/reference/kubectl/kubectl-cmds.md
 content/en/docs/reference/kubectl/kubectl.md
+content/en/docs/reference/kubectl/kuberc.md
 content/en/docs/reference/kubectl/quick-reference.md
 content/en/docs/reference/kubernetes-api/_index.md
 content/en/docs/reference/kubernetes-api/authentication-resources/_index.md
