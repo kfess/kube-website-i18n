@@ -6650,6 +6650,18 @@
           "date": "Sat Jul 17 13:57:43 2021 -0300",
           "message": "feat: add analytics page translation",
           "author": "edsoncelio"
+        },
+        {
+          "hash": "5a5c15619c39e67349d360f513efad12fd04a3a8",
+          "date": "Tue Jan 14 17:41:04 2025 -0300",
+          "message": "Update analytics.md",
+          "author": "Tarcisio Oliveira"
+        },
+        {
+          "hash": "48a3ae8ffee77abefaa281861297824bdfcf20ba",
+          "date": "Sun Dec 15 13:45:33 2024 -0300",
+          "message": "Update analytics.md",
+          "author": "Tarcisio Oliveira"
         }
       ]
     },

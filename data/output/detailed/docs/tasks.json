@@ -15738,6 +15738,12 @@
           "date": "Thu Mar 4 19:30:21 2021 -0800",
           "message": "Merge pull request #26833 from njuptlzf/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "edac5dbf0e2cf8c1ab7b8a3ee9daec7c54db7fab",
+          "date": "Thu May 15 09:23:35 2025 +0300",
+          "message": "Add kuberc dedicated page",
+          "author": "Arda Güçlü"
         }
       ]
     },
@@ -23306,6 +23312,12 @@
           "date": "Thu Mar 4 19:30:21 2021 -0800",
           "message": "Merge pull request #26833 from njuptlzf/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "edac5dbf0e2cf8c1ab7b8a3ee9daec7c54db7fab",
+          "date": "Thu May 15 09:23:35 2025 +0300",
+          "message": "Add kuberc dedicated page",
+          "author": "Arda Güçlü"
         }
       ]
     },
@@ -24751,6 +24763,12 @@
           "date": "Thu Mar 4 19:30:21 2021 -0800",
           "message": "Merge pull request #26833 from njuptlzf/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "edac5dbf0e2cf8c1ab7b8a3ee9daec7c54db7fab",
+          "date": "Thu May 15 09:23:35 2025 +0300",
+          "message": "Add kuberc dedicated page",
+          "author": "Arda Güçlü"
         }
       ]
     },

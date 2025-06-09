@@ -33411,6 +33411,12 @@
           "date": "Thu Dec 21 03:25:47 2023 +0100",
           "message": "Merge pull request #44364 from windsonsea/conacc",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "edac5dbf0e2cf8c1ab7b8a3ee9daec7c54db7fab",
+          "date": "Thu May 15 09:23:35 2025 +0300",
+          "message": "Add kuberc dedicated page",
+          "author": "Arda Güçlü"
         }
       ]
     }
@@ -75055,6 +75061,25 @@
           "date": "Wed May 7 18:26:22 2025 +0800",
           "message": "Add feature gates realted to streaming collections",
           "author": "Qiming Teng"
+        }
+      ]
+    }
+  },
+  "content/en/docs/reference/kubectl/kuberc.md": {
+    "en": {
+      "path": "content/en/docs/reference/kubectl/kuberc.md",
+      "commits": [
+        {
+          "hash": "d41a8c7375e443aafa1d066d23c315cbc86d2f3b",
+          "date": "Wed Jun 4 10:07:12 2025 +0300",
+          "message": "Apply more suggested changes",
+          "author": "Arda Güçlü"
+        },
+        {
+          "hash": "edac5dbf0e2cf8c1ab7b8a3ee9daec7c54db7fab",
+          "date": "Thu May 15 09:23:35 2025 +0300",
+          "message": "Add kuberc dedicated page",
+          "author": "Arda Güçlü"
         }
       ]
     }

@@ -6928,5 +6928,10 @@
     "langs": [
       "en"
     ]
+  },
+  "content/en/docs/reference/kubectl/kuberc.md": {
+    "langs": [
+      "en"
+    ]
   }
 }

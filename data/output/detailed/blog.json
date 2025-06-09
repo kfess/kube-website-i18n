@@ -903,6 +903,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-02-14-cloud-controller-manager-chicken-egg-problem/index.md",
+      "commits": [
+        {
+          "hash": "ee05e9ee12be01ec75f506494ce27402ab40a203",
+          "date": "Sun Jun 8 14:24:22 2025 -0700",
+          "message": "Merge pull request #50913 from ardaguclu/kuberc-docs",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-01-21-sig-arch-enhancements-spotlight.md": {
