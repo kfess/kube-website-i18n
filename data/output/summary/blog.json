@@ -123,7 +123,8 @@
   },
   "content/en/blog/_posts/2025-04-24-endpoints-deprecation.md": {
     "langs": [
-      "en"
+      "en",
+      "ja"
     ]
   },
   "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {

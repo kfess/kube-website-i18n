@@ -500,6 +500,17 @@
           "author": "Ryota"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/blog/_posts/2025-04-24-endpoints-deprecation.md",
+      "commits": [
+        {
+          "hash": "e31cbdcb97b8449ddbc89cdd54b3d51a0864944d",
+          "date": "Tue Jun 10 07:42:26 2025 +0900",
+          "message": "[ja] Translate \"Continuing the transition from Endpoints to EndpointSlices\" into Japanese (#50743)",
+          "author": "logica / Takuto Nagami"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-04-23-Kubernetes-v1-33-Release/index.md": {
