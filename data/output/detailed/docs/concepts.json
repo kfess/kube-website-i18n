@@ -64504,6 +64504,12 @@
           "date": "Fri Jun 6 17:14:39 2025 -0700",
           "message": "Merge pull request #51189 from asa3311/sync-zh-184",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "d172d8e1b68b3c796c9b4bebe54e05ea5434d2cd",
+          "date": "Thu May 29 09:17:21 2025 +0800",
+          "message": "[zh] Sync working-with-objects/finalizers.md",
+          "author": "windsonsea"
         }
       ]
     },

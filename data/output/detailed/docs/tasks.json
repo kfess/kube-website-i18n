@@ -24224,6 +24224,12 @@
           "date": "Thu Mar 4 19:30:21 2021 -0800",
           "message": "Merge pull request #26833 from njuptlzf/patch-2",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "4db4b43816fcf2738f1b34cfa4c5e73056e178a7",
+          "date": "Sun Jun 1 23:09:17 2025 +0530",
+          "message": "Fix link to be followed bash upgrade for macos",
+          "author": "Mujib Ahasan"
         }
       ]
     },
