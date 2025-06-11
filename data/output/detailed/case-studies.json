@@ -988,6 +988,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a2b1c1a2e00862fc8fd0c40c2c93cd9d790ccfc2",
+          "date": "Mon Jun 9 17:48:29 2025 -0700",
+          "message": "Merge pull request #51215 from Arhell/zh-kub",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -5232,6 +5238,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a9603f94291b2d11a2e15968fe8863d7b1156180",
+          "date": "Fri Jun 6 15:31:37 2025 +0800",
+          "message": "[zh] Update index file for careers, community, and case-studies",
+          "author": "windsonsea"
         }
       ]
     },

@@ -75080,6 +75080,12 @@
           "date": "Thu May 15 09:23:35 2025 +0300",
           "message": "Add kuberc dedicated page",
           "author": "Arda Güçlü"
+        },
+        {
+          "hash": "795aea6c6662943e065962f7abedacf6868d117f",
+          "date": "Mon Jun 9 11:01:56 2025 +0800",
+          "message": "Fix a note for kuberc reference page",
+          "author": "windsonsea"
         }
       ]
     }

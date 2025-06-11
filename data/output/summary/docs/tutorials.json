@@ -28,7 +28,8 @@
     "langs": [
       "zh-cn",
       "en",
-      "es"
+      "es",
+      "pl"
     ]
   },
   "content/en/docs/tutorials/kubernetes-basics/update/update-intro.md": {

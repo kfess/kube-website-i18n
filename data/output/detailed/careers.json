@@ -10,6 +10,17 @@
           "author": "Jeffrey Sica"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/careers/_index.html",
+      "commits": [
+        {
+          "hash": "a9603f94291b2d11a2e15968fe8863d7b1156180",
+          "date": "Fri Jun 6 15:31:37 2025 +0800",
+          "message": "[zh] Update index file for careers, community, and case-studies",
+          "author": "windsonsea"
+        }
+      ]
     }
   }
 }

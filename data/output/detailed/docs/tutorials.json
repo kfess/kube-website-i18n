@@ -607,6 +607,17 @@
           "author": "Rael Garcia"
         }
       ]
+    },
+    "pl": {
+      "path": "content/pl/docs/tutorials/kubernetes-basics/_index.md",
+      "commits": [
+        {
+          "hash": "ea4e85d082cbb555ce51994b5949907d42981c91",
+          "date": "Tue Jun 10 09:26:02 2025 +0200",
+          "message": "[pl] sync tutorials/kubernetes-basics/_index with PR 48592",
+          "author": "dkarczmarski"
+        }
+      ]
     }
   },
   "content/en/docs/tutorials/kubernetes-basics/update/update-intro.md": {

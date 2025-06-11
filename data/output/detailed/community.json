@@ -32,6 +32,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "a9603f94291b2d11a2e15968fe8863d7b1156180",
+          "date": "Fri Jun 6 15:31:37 2025 +0800",
+          "message": "[zh] Update index file for careers, community, and case-studies",
+          "author": "windsonsea"
         }
       ]
     },
