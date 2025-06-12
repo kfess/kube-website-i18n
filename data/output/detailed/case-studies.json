@@ -2127,6 +2127,12 @@
           "date": "Mon Aug 20 21:07:54 2018 +0200",
           "message": "Convert case-studies to bundles (#9822)",
           "author": "Bjørn Erik Pedersen"
+        },
+        {
+          "hash": "58c5aa582175ca3be2728c86c911b411f403c142",
+          "date": "Wed Jun 11 16:00:55 2025 -0700",
+          "message": "Merge pull request #49909 from ahmetb/KubeletSeparateDiskGC",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     }

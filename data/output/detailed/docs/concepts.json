@@ -24736,6 +24736,18 @@
           "date": "Tue Mar 25 14:45:51 2025 +0100",
           "message": "Document .status.terminatingReplicas enabled by DeploymentPodReplacementPolicy feature",
           "author": "Filip Křepinský"
+        },
+        {
+          "hash": "c6f91061b7a8fde93c5373de19fd115fd8e57a5a",
+          "date": "Wed Jun 11 15:35:44 2025 +0200",
+          "message": "Update deployment.md",
+          "author": "Arvin Ebrahimpour"
+        },
+        {
+          "hash": "4d83be26c77a3a873f8d749e30112e2c5fedc339",
+          "date": "Wed Jun 11 11:09:11 2025 +0200",
+          "message": "Fix a typo in deployment.md",
+          "author": "Arvin Ebrahimpour"
         }
       ]
     },
@@ -44339,6 +44351,12 @@
           "date": "Tue Apr 15 17:54:30 2025 +0100",
           "message": "Move where landing page self-healing refers to",
           "author": "Tim Bannister"
+        },
+        {
+          "hash": "eeb36c7a1027f6b5fb6d33bfae6f228438001369",
+          "date": "Wed Jun 11 15:37:37 2025 +0200",
+          "message": "Update replicaset.md",
+          "author": "Arvin Ebrahimpour"
         }
       ]
     },
@@ -52305,6 +52323,12 @@
           "date": "Sun Feb 16 09:20:23 2025 -0800",
           "message": "Merge pull request #49512 from chrischdi/pr-kubeadm-ControlPlaneKubeletLocalMode-beta",
           "author": "Kubernetes Prow Robot"
+        },
+        {
+          "hash": "56750d7ec36f8c6f426a2cb43862732f93c55fab",
+          "date": "Tue Feb 25 16:20:42 2025 -0800",
+          "message": "fix: move KubeletSeparateDiskGC feature notice inside note",
+          "author": "Ahmet Alp Balkan"
         }
       ]
     },
