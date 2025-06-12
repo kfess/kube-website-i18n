@@ -15373,6 +15373,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "e542e8f81aae976e60daa2603b7c49ce609de902",
+          "date": "Tue Jun 10 18:14:57 2025 -0700",
+          "message": "Merge pull request #51221 from asa3311/sync-zh-185",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -23079,6 +23085,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "e542e8f81aae976e60daa2603b7c49ce609de902",
+          "date": "Tue Jun 10 18:14:57 2025 -0700",
+          "message": "Merge pull request #51221 from asa3311/sync-zh-185",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
@@ -24524,6 +24536,12 @@
           "date": "Fri Jun 10 20:25:27 2022 +0800",
           "message": "Switch language name 'zh' to 'zh-cn'",
           "author": "Qiming Teng"
+        },
+        {
+          "hash": "e542e8f81aae976e60daa2603b7c49ce609de902",
+          "date": "Tue Jun 10 18:14:57 2025 -0700",
+          "message": "Merge pull request #51221 from asa3311/sync-zh-185",
+          "author": "Kubernetes Prow Robot"
         }
       ]
     },
