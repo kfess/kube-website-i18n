@@ -43967,6 +43967,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "ja": {
+      "path": "content/ja/docs/tasks/inject-data-application/define-interdependent-environment-variables.md",
+      "commits": [
+        {
+          "hash": "91b9af19ec0ae485ec631f4ed874c2977daa0c59",
+          "date": "Sat May 31 12:32:49 2025 +0900",
+          "message": "[ja] Translated /content/en/docs/tasks/inject-data-application/define-interdependent-environment-variables.md into Japanese",
+          "author": "kita456"
+        }
+      ]
     }
   },
   "content/en/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md": {
