@@ -484,6 +484,7 @@ content/ja/docs/tasks/extend-kubernetes/configure-multiple-schedulers.md
 content/ja/docs/tasks/inject-data-application/_index.md
 content/ja/docs/tasks/inject-data-application/define-command-argument-container.md
 content/ja/docs/tasks/inject-data-application/define-environment-variable-container.md
+content/ja/docs/tasks/inject-data-application/define-interdependent-environment-variables.md
 content/ja/docs/tasks/inject-data-application/distribute-credentials-secure.md
 content/ja/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md
 content/ja/docs/tasks/job/_index.md
@@ -703,6 +704,7 @@ content/ja/examples/pods/inject/dapi-envars-container.yaml
 content/ja/examples/pods/inject/dapi-envars-pod.yaml
 content/ja/examples/pods/inject/dapi-volume-resources.yaml
 content/ja/examples/pods/inject/dapi-volume.yaml
+content/ja/examples/pods/inject/dependent-envars.yaml
 content/ja/examples/pods/inject/envars.yaml
 content/ja/examples/pods/inject/pod-multiple-secret-env-variable.yaml
 content/ja/examples/pods/inject/pod-secret-envFrom.yaml

@@ -60,6 +60,17 @@
           "author": "Kubernetes Prow Robot"
         }
       ]
+    },
+    "zh-cn": {
+      "path": "content/zh-cn/blog/_posts/2025-06-02-gateway-api-v1.3/index.md",
+      "commits": [
+        {
+          "hash": "cfec002f9c3c9ad19229e84457b984bae5899e5f",
+          "date": "Fri Jun 13 08:04:57 2025 -0700",
+          "message": "Merge pull request #51122 from kfess/issue-51121",
+          "author": "Kubernetes Prow Robot"
+        }
+      ]
     }
   },
   "content/en/blog/_posts/2025-05-22-wg-policy-spotlight.md": {

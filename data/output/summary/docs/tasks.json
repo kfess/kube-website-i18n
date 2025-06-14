@@ -1398,7 +1398,8 @@
       "zh-cn",
       "en",
       "fr",
-      "ko"
+      "ko",
+      "ja"
     ]
   },
   "content/en/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md": {
