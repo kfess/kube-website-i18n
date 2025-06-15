@@ -18,6 +18,19 @@ class GitFileRevision(TypedDict):
     old_path: NotRequired[str]
 
 
+class RenameEvent:
+    """A class representing a rename event in Git history."""
+
+    def __init__(
+        self, commit_hash: str, date: str, old_path: str, new_path: str
+    ) -> None:
+        """Initialize a RenameEvent."""
+        self.commit_hash = commit_hash
+        self.date = date
+        self.old_path = old_path
+        self.new_path = new_path
+
+
 class GitFileHistoryTracker:
     """A class to track the history of a file in a Git repository.
 
@@ -41,7 +54,7 @@ class GitFileHistoryTracker:
 
         """
         self.file_changes: dict[str, list[GitFileRevision]] = defaultdict(list)
-        self.renamed_from: dict[str, str] = {}  # current_path -> old_path
+        self.rename_events: list[RenameEvent] = []  # 時系列順のリネームイベント
         self.current_files = current_files
         self._build_from_commits(commits)
 
@@ -53,14 +66,22 @@ class GitFileHistoryTracker:
             commits (list[GitCommitDict]): A list of Git commit dictionaries.
 
         """
-        # Pass 1: リネーム関係構築
-        for commit in commits:
+        sorted_commits = sorted(commits, key=lambda x: x["date"])
+
+        # Pass 1: リネームイベントを時系列で収集
+        for commit in sorted_commits:
             for file_change in commit.get("files", []):
                 if "old_path" in file_change:
-                    self.renamed_from[file_change["path"]] = file_change["old_path"]
+                    rename_event = RenameEvent(
+                        commit["hash"],
+                        commit["date"],
+                        file_change["old_path"],
+                        file_change["path"],
+                    )
+                    self.rename_events.append(rename_event)
 
-        # Pass 2: operation判定 + 履歴構築
-        for commit in commits:
+        # Pass 2: ファイル変更履歴を構築
+        for commit in sorted_commits:
             for file_change in commit.get("files", []):
                 path = file_change["path"]
                 old_path = file_change.get("old_path")
@@ -94,6 +115,51 @@ class GitFileHistoryTracker:
                     if entry["operation"] == "modified":
                         entry["operation"] = "deleted"
 
+    def _get_path_at_date(self, current_path: str, target_date: str) -> str:
+        """Get the file path at a specific date, considering renames.
+
+        Args:
+        ----
+            current_path (str): The current file path.
+            target_date (str): The date to check for the file path.
+
+        Returns:
+        -------
+            str: The file path at the specified date, considering renames.
+
+        """
+        path = current_path
+
+        for rename_event in reversed(self.rename_events):
+            if rename_event.date <= target_date:
+                break
+            if rename_event.new_path == path:
+                path = rename_event.old_path
+
+        return path
+
+    def _get_all_historical_paths(self, current_path: str) -> list[str]:
+        """Get all historical paths for a file, considering renames.
+
+        Args:
+        ----
+            current_path (str): The current file path.
+
+        Returns:
+        -------
+            list[str]: A list of all historical paths for the file, from new to old.
+
+        """
+        paths = [current_path]
+        path = current_path
+
+        for rename_event in reversed(self.rename_events):
+            if rename_event.new_path == path:
+                path = rename_event.old_path
+                paths.append(path)
+
+        return paths
+
     def get_history(self, path: str) -> list[GitFileRevision]:
         """Get the history of a specific file by its path.
 
@@ -107,15 +173,13 @@ class GitFileHistoryTracker:
 
         """
         history = []
-        current = path
+        historical_paths = self._get_all_historical_paths(path)
 
-        while current:
-            if current in self.file_changes:
-                history.extend(self.file_changes[current])
-            current = self.renamed_from.get(current, "")
+        for historical_path in historical_paths:
+            if historical_path in self.file_changes:
+                history.extend(self.file_changes[historical_path])
 
         history.sort(key=lambda x: x["date"], reverse=True)
-
         return history
 
     def get_rename_history(self, path: str) -> list[str]:
@@ -130,14 +194,7 @@ class GitFileHistoryTracker:
             List of paths from newest to oldest
 
         """
-        history = [path]
-        current = path
-
-        while current in self.renamed_from:
-            current = self.renamed_from[current]
-            history.append(current)
-
-        return history
+        return self._get_all_historical_paths(path)
 
     def get_file_stats(self, path: str) -> dict[str, int]:
         """Get statistics for a file across its entire history.
@@ -182,7 +239,6 @@ class GitFileHistoryTracker:
 
         """
         history = self.get_history(path)
-
         return history[0] if history else None
 
     def get_oldest_commit(self, path: str) -> GitFileRevision | None:
@@ -199,8 +255,23 @@ class GitFileHistoryTracker:
 
         """
         history = self.get_history(path)
-
         return history[-1] if history else None
+
+    def get_commits_since(self, path: str, since_date: str) -> list[GitFileRevision]:
+        """Get commits for a path since the specified date.
+
+        Args:
+        ----
+            path (str): The file path to check.
+            since_date (str): The date to filter commits from.
+
+        Returns:
+        -------
+            list[GitFileRevision]: List of commits after the specified date.
+
+        """
+        history = self.get_history(path)
+        return [commit for commit in history if commit["date"] > since_date]
 
     @property
     def all_paths(self) -> set[str]:

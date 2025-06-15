@@ -1,17 +1,16 @@
 import json
 import logging
 import re
-
 from pathlib import Path
 
+from exporter import process_translation_results
 from history import GitFileHistoryTracker
 from models import GitCommitDict
 from translation_status import TranslationStatusTracker
 
-
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 INPUT_FILE = ROOT_DIR / "data" / "master" / "git_history.jsonl"
-
+OUTPUT_DIR = ROOT_DIR / "data" / "output"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -91,7 +90,7 @@ def load_json_records(filepath: Path | str) -> list[GitCommitDict]:
 def load_existing_paths() -> set[str]:
     """Load existing file paths from text files.
 
-    Returns:
+    Returns
     -------
         set[str]: A set of existing file paths from the JSONL file.
 
@@ -102,7 +101,7 @@ def load_existing_paths() -> set[str]:
 
 
 def main() -> None:
-    """Load JSONL file and return formatted records."""
+    """Load JSONL file and save translation results to output directory."""
     try:
         records = load_json_records(INPUT_FILE)
     except FileNotFoundError:
@@ -112,14 +111,18 @@ def main() -> None:
         logger.exception("An unexpected error occurred: %s")
         return []
 
-    file_history_tracker = GitFileHistoryTracker.from_commits(records)
     existing_paths = load_existing_paths()
+    file_history_tracker = GitFileHistoryTracker(
+        commits=records, current_files=existing_paths
+    )
     translation_tracker = TranslationStatusTracker(
         file_history_tracker=file_history_tracker,
         existing_paths=existing_paths,
     )
-    status = translation_tracker.analyze()
-    print(status["content/ja/docs/concepts/containers/images.md"])
+    status_result = translation_tracker.analyze()
+    process_translation_results(status_result, output_dir=OUTPUT_DIR)
+
+    return None
 
 
 if __name__ == "__main__":

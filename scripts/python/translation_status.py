@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from enum import Enum
 from typing import Literal, TypedDict
 
-from history import GitFileRevision, GitFileHistoryTracker
+from history import GitFileHistoryTracker, GitFileRevision
 
 type LANGUAGE_CODE = Literal[
     "bn",
@@ -78,11 +78,13 @@ class TranslationStatusResult(TypedDict):
     english_path: str
     target_latest_date: datetime | None
     english_latest_date: datetime | None
+    language: LANGUAGE_CODE
+    category: str
     days_behind: int
     commits_behind: int
-    total_changes: int
-    insertions_behind: int
-    deletions_behind: int
+    total_change_lines: int
+    insertions_behind_lines: int
+    deletions_behind_lines: int
     status: TranslationStatus
     severity: OutdatedSeverity
     missing_commits: list[GitFileRevision]
@@ -212,11 +214,14 @@ class TranslationStatusTracker:
         """Analyze translation status for an English-translation file pair."""
         translated_latest = self.file_history_tracker.get_latest_commit(translated_path)
 
+        category = self._extract_category(translated_path)
+
         if not translated_latest:
             return self._create_missing_translation_result(
                 english_path,
                 english_latest,
                 translated_path,
+                category,
             )
 
         translated_date = self._parse_date(translated_latest["date"])
@@ -231,18 +236,20 @@ class TranslationStatusTracker:
             if days_behind <= 0
             else TranslationStatus.OUTDATED
         )
-        severity = self._calculate_severity(change_stats["total_changes"])
+        severity = self._calculate_severity(change_stats["total_change_lines"])
 
         return TranslationStatusResult(
             target_path=translated_path,
             english_path=english_path,
             target_latest_date=translated_date,
             english_latest_date=english_date,
+            language=LanguagePath.from_path(translated_path).language_code,
+            category=category,
             days_behind=max(0, days_behind),
             commits_behind=len(missing_commits),
-            total_changes=change_stats["total_changes"],
-            insertions_behind=change_stats["insertions"],
-            deletions_behind=change_stats["deletions"],
+            total_change_lines=change_stats["total_change_lines"],
+            insertions_behind_lines=change_stats["insertions"],
+            deletions_behind_lines=change_stats["deletions"],
             status=status,
             severity=severity,
             missing_commits=missing_commits,
@@ -253,6 +260,7 @@ class TranslationStatusTracker:
         english_path: str,
         english_latest: GitFileRevision,
         translated_path: str,
+        category: str,
     ) -> TranslationStatusResult:
         """Create result for missing translation files.
 
@@ -261,6 +269,7 @@ class TranslationStatusTracker:
             english_path (str): The path of the English file.
             english_latest (GitFileRevision): The latest commit for the English file.
             translated_path (str): The path of the translated file.
+            category (str): The category of the translation.
 
         Returns:
         -------
@@ -269,7 +278,7 @@ class TranslationStatusTracker:
         """
         english_date = self._parse_date(english_latest["date"])
 
-        file_history = self.file_history_tracker.get_file_history(english_path)
+        file_history = self.file_history_tracker.get_history(english_path)
         total_english_changes = sum(
             (commit.get("insertions", 0) or 0) + (commit.get("deletions", 0) or 0)
             for commit in file_history
@@ -280,11 +289,17 @@ class TranslationStatusTracker:
             english_path=english_path,
             target_latest_date=None,
             english_latest_date=english_date,
-            days_behind=(datetime.now(tz=timezone.utc) - english_date).days,
+            language=LanguagePath.from_path(translated_path).language_code,
+            category=category,
+            days_behind=(datetime.now(tz=timezone.utc) - english_date).days,  # noqa: UP017
             commits_behind=len(file_history),
-            total_changes=total_english_changes,
-            insertions_behind=sum(c.get("insertions", 0) or 0 for c in file_history),
-            deletions_behind=sum(c.get("deletions", 0) or 0 for c in file_history),
+            total_change_lines=total_english_changes,
+            insertions_behind_lines=sum(
+                c.get("insertions", 0) or 0 for c in file_history
+            ),
+            deletions_behind_lines=sum(
+                c.get("deletions", 0) or 0 for c in file_history
+            ),
             status=TranslationStatus.NOT_TRANSLATED,
             severity=self._calculate_severity(total_english_changes),
             missing_commits=file_history,
@@ -305,7 +320,7 @@ class TranslationStatusTracker:
             list[GitFileRevision]: List of commits after the specified date.
 
         """
-        file_history = self.file_history_tracker.get_file_history(path)
+        file_history = self.file_history_tracker.get_history(path)
         return [
             commit
             for commit in file_history
@@ -339,33 +354,55 @@ class TranslationStatusTracker:
                             deletions, and total changes.
 
         """
-        total_insertions = sum(c.get("insertions", 0) or 0 for c in commits)
-        total_deletions = sum(c.get("deletions", 0) or 0 for c in commits)
+        total_insertion_lines = sum(c.get("insertions", 0) or 0 for c in commits)
+        total_deletion_lines = sum(c.get("deletions", 0) or 0 for c in commits)
 
         return {
-            "insertions": total_insertions,
-            "deletions": total_deletions,
-            "total_changes": total_insertions + total_deletions,
+            "insertions": total_insertion_lines,
+            "deletions": total_deletion_lines,
+            "total_change_lines": total_insertion_lines + total_deletion_lines,
         }
 
-    def _calculate_severity(self, total_changes: int) -> OutdatedSeverity:
+    def _calculate_severity(self, total_change_lines: int) -> OutdatedSeverity:
         """Calculate outdated severity based on total changes.
 
         Args:
         ----
-            total_changes (int): The total number of changes in the translation file.
+            total_change_lines (int): The total number of change lines.
 
         Returns:
         -------
             OutdatedSeverity: The severity level of the outdated translation.
 
         """
-        if total_changes == 0:
+        if total_change_lines == 0:
             return OutdatedSeverity.CURRENT
-        elif total_changes <= 50:  # noqa: PLR2004, RET505
+        elif total_change_lines <= 50:
             return OutdatedSeverity.MINOR
-        elif total_changes <= 200:  # noqa: PLR2004
+        elif total_change_lines <= 200:
             return OutdatedSeverity.MODERATE
-        elif total_changes <= 500:  # noqa: PLR2004
+        elif total_change_lines <= 500:
             return OutdatedSeverity.SIGNIFICANT
         return OutdatedSeverity.CRITICAL
+
+    def _extract_category(self, path: str) -> str:
+        """Extract category from file path.
+
+        Args:
+        ----
+            path (str): The file path to extract category from.
+
+        Returns:
+        -------
+            str: The category extracted from the path, or 'unknown' if not found.
+
+        """
+        category_match = re.match(r"content/[a-z\-]+/([^/]+)/.+", path)
+        if category_match:
+            return category_match.group(1)
+
+        overall_match = re.match(r"content/[a-z\-]+/[^/]+$", path)
+        if overall_match:
+            return "overall"
+
+        return "unknown"
