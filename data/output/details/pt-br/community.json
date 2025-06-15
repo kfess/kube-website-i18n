@@ -1,4 +1,18 @@
 {
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "target_path": "content/pt-br/community/static/cncf-code-of-conduct.md",
+    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
+    "target_latest_date": "2024-11-05T20:19:30+00:00",
+    "english_latest_date": "2024-10-29T00:12:54+00:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
   "content/en/community/code-of-conduct.md": {
     "target_path": "content/pt-br/community/code-of-conduct.md",
     "english_path": "content/en/community/code-of-conduct.md",
@@ -44,19 +58,30 @@
       }
     ]
   },
-  "content/en/community/static/cncf-code-of-conduct.md": {
-    "target_path": "content/pt-br/community/static/cncf-code-of-conduct.md",
-    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
-    "target_latest_date": "2024-11-05T20:19:30+00:00",
-    "english_latest_date": "2024-10-29T00:12:54+00:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
+  "content/en/community/static/README.md": {
+    "target_path": "content/pt-br/community/static/README.md",
+    "english_path": "content/en/community/static/README.md",
+    "target_latest_date": "2021-04-19T21:10:33-03:00",
+    "english_latest_date": "2022-03-24T17:19:50-07:00",
+    "days_behind": 339,
+    "commits_behind": 1,
+    "total_change_lines": 5,
+    "insertions_behind_lines": 4,
+    "deletions_behind_lines": 1,
+    "status": "outdated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
+        "date": "2022-03-24 17:19:50 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
+        "path": "content/en/community/static/README.md",
+        "insertions": 4,
+        "deletions": 1,
+        "operation": "modified"
+      }
+    ]
   },
   "content/en/community/_index.html": {
     "target_path": "content/pt-br/community/_index.html",
@@ -89,31 +114,6 @@
         "path": "content/en/community/_index.html",
         "insertions": 14,
         "deletions": 5,
-        "operation": "modified"
-      }
-    ]
-  },
-  "content/en/community/static/README.md": {
-    "target_path": "content/pt-br/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": "2021-04-19T21:10:33-03:00",
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 339,
-    "commits_behind": 1,
-    "total_change_lines": 5,
-    "insertions_behind_lines": 4,
-    "deletions_behind_lines": 1,
-    "status": "outdated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "e7af510fde0990e32466230013f60e4ff7ec190f",
-        "date": "2022-03-24 17:19:50 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #31658 from sftim/20220207_revise_community_page_and_styles",
-        "path": "content/en/community/static/README.md",
-        "insertions": 4,
-        "deletions": 1,
         "operation": "modified"
       }
     ]

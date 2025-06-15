@@ -248,8 +248,8 @@ class TranslationStatusTracker:
             days_behind=max(0, days_behind),
             commits_behind=len(missing_commits),
             total_change_lines=change_stats["total_change_lines"],
-            insertions_behind_lines=change_stats["insertions"],
-            deletions_behind_lines=change_stats["deletions"],
+            insertions_behind_lines=change_stats["insertion_lines"],
+            deletions_behind_lines=change_stats["deletion_lines"],
             status=status,
             severity=severity,
             missing_commits=missing_commits,
@@ -358,8 +358,8 @@ class TranslationStatusTracker:
         total_deletion_lines = sum(c.get("deletions", 0) or 0 for c in commits)
 
         return {
-            "insertions": total_insertion_lines,
-            "deletions": total_deletion_lines,
+            "insertion_lines": total_insertion_lines,
+            "deletion_lines": total_deletion_lines,
             "total_change_lines": total_insertion_lines + total_deletion_lines,
         }
 

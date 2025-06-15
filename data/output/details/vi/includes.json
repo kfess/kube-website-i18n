@@ -24,6 +24,31 @@
       }
     ]
   },
+  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
+    "target_path": "content/vi/includes/task-tutorial-prereqs-node-upgrade.md",
+    "english_path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+    "target_latest_date": null,
+    "english_latest_date": "2024-04-22T15:34:40-07:00",
+    "days_behind": 418,
+    "commits_behind": 1,
+    "total_change_lines": 3,
+    "insertions_behind_lines": 3,
+    "deletions_behind_lines": 0,
+    "status": "not_translated",
+    "severity": "minor",
+    "missing_commits": [
+      {
+        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
+        "date": "2024-04-22 15:34:40 -0700",
+        "author": "Kubernetes Prow Robot",
+        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
+        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
+        "insertions": 3,
+        "deletions": 0,
+        "operation": "added"
+      }
+    ]
+  },
   "content/en/includes/default-storage-class-prereqs.md": {
     "target_path": "content/vi/includes/default-storage-class-prereqs.md",
     "english_path": "content/en/includes/default-storage-class-prereqs.md",
@@ -69,6 +94,20 @@
       }
     ]
   },
+  "content/en/includes/task-tutorial-prereqs.md": {
+    "target_path": "content/vi/includes/task-tutorial-prereqs.md",
+    "english_path": "content/en/includes/task-tutorial-prereqs.md",
+    "target_latest_date": "2025-04-18T08:11:08-07:00",
+    "english_latest_date": "2025-03-13T02:37:48-07:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
   "content/en/includes/index.md": {
     "target_path": "content/vi/includes/index.md",
     "english_path": "content/en/includes/index.md",
@@ -102,45 +141,6 @@
         "author": "Dani Comnea",
         "message": "Reorganize Federation tasks so we have it group and under one topic (#12900)",
         "path": "content/en/includes/federation-deprecation-warning-note.md",
-        "insertions": 3,
-        "deletions": 0,
-        "operation": "added"
-      }
-    ]
-  },
-  "content/en/includes/task-tutorial-prereqs.md": {
-    "target_path": "content/vi/includes/task-tutorial-prereqs.md",
-    "english_path": "content/en/includes/task-tutorial-prereqs.md",
-    "target_latest_date": "2025-04-18T08:11:08-07:00",
-    "english_latest_date": "2025-03-13T02:37:48-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
-  },
-  "content/en/includes/task-tutorial-prereqs-node-upgrade.md": {
-    "target_path": "content/vi/includes/task-tutorial-prereqs-node-upgrade.md",
-    "english_path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
-    "target_latest_date": null,
-    "english_latest_date": "2024-04-22T15:34:40-07:00",
-    "days_behind": 418,
-    "commits_behind": 1,
-    "total_change_lines": 3,
-    "insertions_behind_lines": 3,
-    "deletions_behind_lines": 0,
-    "status": "not_translated",
-    "severity": "minor",
-    "missing_commits": [
-      {
-        "hash": "305078d22edf10204c8607fe388ed41a7bd09bee",
-        "date": "2024-04-22 15:34:40 -0700",
-        "author": "Kubernetes Prow Robot",
-        "message": "Merge pull request #45778 from mrgiles/45539_shell_access_to_node_before_upgrade",
-        "path": "content/en/includes/task-tutorial-prereqs-node-upgrade.md",
         "insertions": 3,
         "deletions": 0,
         "operation": "added"

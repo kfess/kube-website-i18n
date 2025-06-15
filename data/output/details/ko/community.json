@@ -1,4 +1,18 @@
 {
+  "content/en/community/static/cncf-code-of-conduct.md": {
+    "target_path": "content/ko/community/static/cncf-code-of-conduct.md",
+    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
+    "target_latest_date": "2024-11-14T02:28:47+00:00",
+    "english_latest_date": "2024-10-29T00:12:54+00:00",
+    "days_behind": 0,
+    "commits_behind": 0,
+    "total_change_lines": 0,
+    "insertions_behind_lines": 0,
+    "deletions_behind_lines": 0,
+    "status": "up_to_date",
+    "severity": "current",
+    "missing_commits": []
+  },
   "content/en/community/code-of-conduct.md": {
     "target_path": "content/ko/community/code-of-conduct.md",
     "english_path": "content/en/community/code-of-conduct.md",
@@ -44,11 +58,11 @@
       }
     ]
   },
-  "content/en/community/static/cncf-code-of-conduct.md": {
-    "target_path": "content/ko/community/static/cncf-code-of-conduct.md",
-    "english_path": "content/en/community/static/cncf-code-of-conduct.md",
-    "target_latest_date": "2024-11-14T02:28:47+00:00",
-    "english_latest_date": "2024-10-29T00:12:54+00:00",
+  "content/en/community/static/README.md": {
+    "target_path": "content/ko/community/static/README.md",
+    "english_path": "content/en/community/static/README.md",
+    "target_latest_date": "2022-07-07T18:29:46-07:00",
+    "english_latest_date": "2022-03-24T17:19:50-07:00",
     "days_behind": 0,
     "commits_behind": 0,
     "total_change_lines": 0,
@@ -112,19 +126,5 @@
         "operation": "modified"
       }
     ]
-  },
-  "content/en/community/static/README.md": {
-    "target_path": "content/ko/community/static/README.md",
-    "english_path": "content/en/community/static/README.md",
-    "target_latest_date": "2022-07-07T18:29:46-07:00",
-    "english_latest_date": "2022-03-24T17:19:50-07:00",
-    "days_behind": 0,
-    "commits_behind": 0,
-    "total_change_lines": 0,
-    "insertions_behind_lines": 0,
-    "deletions_behind_lines": 0,
-    "status": "up_to_date",
-    "severity": "current",
-    "missing_commits": []
   }
 }
