@@ -1,6 +1,6 @@
 import json
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path, PurePosixPath
 from typing import Any
 
@@ -55,7 +55,10 @@ def create_matrix_data(
 ) -> dict[str, dict[str, Any]]:
     """Create matrix data grouped by category."""
     matrix_data = defaultdict(
-        lambda: {"last_updated": datetime.now().isoformat(), "articles": []}
+        lambda: {
+            "last_updated": datetime.now(tz=timezone.utc).isoformat(),  # noqa: UP017
+            "articles": [],
+        }
     )
 
     articles_by_english_path = defaultdict(dict)
